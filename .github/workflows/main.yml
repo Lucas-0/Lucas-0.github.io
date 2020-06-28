@@ -18,6 +18,7 @@ jobs:
           extended: true
           
       - name: Checkout submodules
+        shell: bash
         run: |
           auth_header="$(git config --local --get http.https://github.com/.extraheader)"
           git submodule sync --recursive
