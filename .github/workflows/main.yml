@@ -1,47 +1,29 @@
-# author: lisez <mm4324@gmail.com>
-name: Auto publish to public site
+name: GitHub Page Deploy
 
-# 只有推送到 master 才自動化
 on:
   push:
-    branches: 
-    - blog
-
+    branches:
+      - develop
 jobs:
-  hugo-publish:
-     name: publish content to public site
-     runs-on: ubuntu-latest
-     steps:
-       # 使用當前的 repo
-      - name: checkout private repo
-        uses: actions/checkout@v2
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-       # 因為目前的 repo 有使用到 submodule，所以 submodule 也要一併同步
-       # 不然原本的 repo 是沒有 submodule 的內容
-      - name: checkout submodules
-        shell: bash
-        run: |
-          auth_header="$(git config --local --get http.https://github.com/.extraheader)"
-          git submodule sync --recursive
-          git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
-
-       # 使用別人做好的 Hugo Actions
-      - name: setup hugo
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: latest
-          extended: true
 
-
-       # 開始用 Hugo 產生檔案囉
-      - name: build content to public site
-        working-directory: ./
-        run: hugo --minify --gc
+      - name: Build
+        run: hugo --minify
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v2.5.1
-        env:
-          personal_token: ${{ secrets.ACTIONS_DEPLOY_KEY }} # personal_token 这里新建一个 https://github.com/settings/tokens
-          PUBLISH_BRANCH: master  # 推送到当前 gh-pages 分支
-          PUBLISH_DIR: ./public  # hugo 生成到 public 作为跟目录
-          commit_message: ${{ github.event.head_commit.message }}
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./public
+          publish_branch: master  # deploying branch
