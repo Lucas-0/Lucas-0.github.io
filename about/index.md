@@ -1,5 +1,4 @@
-# 关于 LoveIt
-
+# About LoveIt
 
 {{< style "img { height: 1.25rem; }" >}}
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/dillonzq/LoveIt?style=flat-square)](https://github.com/dillonzq/LoveIt/releases)
@@ -9,79 +8,79 @@
 [![GitHub forks](https://img.shields.io/github/forks/dillonzq/LoveIt?style=social)](https://github.com/dillonzq/LoveIt/fork)
 {{< /style >}}
 
-> [:(far fa-kiss-wink-heart fa-fw): LoveIt](https://github.com/dillonzq/LoveIt) 是一个由 [Dillon](https://dillonzq.com) 开发的**简洁**、**优雅**且**高效**的 [Hugo](https://gohugo.io/) 博客主题。
+> [:(far fa-kiss-wink-heart fa-fw): LoveIt](https://github.com/dillonzq/LoveIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Dillon](https://dillonzq.com).
 >
-> 它的原型基于 [LeaveIt 主题](https://github.com/liuzc/LeaveIt) 和 [KeepIt 主题](https://github.com/Fastbyte01/KeepIt)。
+> It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
 
-![Hugo 主题 LoveIt](/images/Apple-Devices-Preview.png "Hugo 主题 LoveIt")
+![Hugo Theme LoveIt](/images/Apple-Devices-Preview.png "Hugo Theme LoveIt")
 
-### 特性
+### Features
 
-#### 性能和 SEO
+#### Performance and SEO
 
-* :(fas fa-rocket fa-fw): **性能**优化：在 [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights) 中， [99]/[100] 的移动设备得分和 [100]/[100] 的桌面设备得分
-* :(fab fa-searchengin fa-fw): 使用基于 JSON-LD 格式 的 **SEO SCHEMA** 文件进行 SEO 优化
-* :(fab fa-google fa-fw): 支持 **[Google Analytics](https://analytics.google.com/analytics)**
-* :(far fa-chart-bar fa-fw): 支持 **[Fathom Analytics](https://usefathom.com/)**
-* :(fas fa-search fa-fw): 支持搜索引擎的**网站验证** (Google, Bind, Yandex and Baidu)
-* :(fas fa-tachometer-alt fa-fw): 支持所有第三方库的 **CDN**
-* :(fas fa-cloud-download-alt fa-fw): 基于 [lazysizes](https://github.com/aFarkas/lazysizes) 自动转换图片为**懒加载**
+* :(fas fa-rocket fa-fw): Optimized for **performance**: [99]/[100] on mobile and [100]/[100] on desktop in [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
+* :(fab fa-searchengin fa-fw): Optimized SEO performance with a correct **SEO SCHEMA** based on JSON-LD
+* :(fab fa-google fa-fw): **[Google Analytics](https://analytics.google.com/analytics)** supported
+* :(far fa-chart-bar fa-fw): **[Fathom Analytics](https://usefathom.com/)** supported
+* :(fas fa-search fa-fw): Search engine **verification** supported (Google, Bind, Yandex and Baidu)
+* :(fas fa-tachometer-alt fa-fw): **CDN** for third-party libraries supported
+* :(fas fa-cloud-download-alt fa-fw): Automatically converted images with **Lazy Load** by [lazysizes](https://github.com/aFarkas/lazysizes)
 
-#### 外观和布局
+#### Appearance and Layout
 
-* [:(fas fa-desktop):]/[:(fas fa-mobile):] **响应式**布局
-* [:(fas fa-sun):]/[:(fas fa-moon):] **[浅色]/[深色]** 主题模式
-* :(fas fa-layer-group fa-fw): 全局一致的**设计语言**
-* :(fas fa-ellipsis-h fa-fw): 支持**分页**
-* :(far fa-list-alt fa-fw): 易用和自动展开的**文章目录**
-* :(fas fa-language fa-fw): 支持**多语言**和国际化
-* :(fab fa-css3-alt fa-fw): 美观的 **CSS 动画**
+* [:(fas fa-desktop):]/[:(fas fa-mobile):] **Responsive** layout
+* [:(fas fa-sun):]/[:(fas fa-moon):] **[Light]/[Dark]** mode
+* :(fas fa-layer-group fa-fw): Globally consistent **design language**
+* :(fas fa-ellipsis-h fa-fw): **Pagination** supported
+* :(far fa-list-alt fa-fw): Easy-to-use and self-expanding **table of contents**
+* :(fas fa-language fa-fw): **Multilanguage** supported and i18n ready
+* :(fab fa-css3-alt fa-fw): Beautiful **CSS animation**
 
-#### 社交和评论系统
+#### Social and Comment Systems
 
-* :(far fa-user fa-fw): 支持 **[Gravatar](https://gravatar.com)** 头像
-* :(fas fa-user-circle fa-fw): 支持本地**头像**
-* :(far fa-id-card fa-fw): 支持多达 **64** 种社交链接
-* :(fas fa-share-square fa-fw): 支持多达 **28** 种网站分享
-* :(far fa-comment fa-fw): 支持 **[Disqus](https://disqus.com)** 评论系统
-* :(far fa-comment-dots fa-fw): 支持 **[Gitalk](https://github.com/gitalk/gitalk)** 评论系统
-* :(far fa-comment-alt fa-fw): 支持 **[Valine](https://valine.js.org/)** 评论系统
-* :(far fa-comments fa-fw): 支持 **[Facebook](https://developers.facebook.com/docs/plugins/comments/) 评论**系统
-* :(fas fa-comment fa-fw): 支持 **[Telegram comments](https://comments.app/) 评论**系统
-* :(fas fa-comment-dots fa-fw): 支持 **[Commento](https://commento.io/)** 评论系统
-* :(far fa-comment-alt fa-fw): 支持 **[Utterances](https://utteranc.es/)** 评论系统
+* :(far fa-user fa-fw): **Gravatar** supported by [Gravatar](https://gravatar.com)
+* :(fas fa-user-circle fa-fw): Local **Avatar** supported
+* :(far fa-id-card fa-fw): Up to **64** social links supported
+* :(fas fa-share-square fa-fw): Up to **28** share sites supported
+* :(far fa-comment fa-fw): **Disqus** comment system supported by [Disqus](https://disqus.com)
+* :(far fa-comment-dots fa-fw): **Gitalk** comment system supported by [Gitalk](https://github.com/gitalk/gitalk)
+* :(far fa-comment-alt fa-fw): **Valine** comment system supported by [Valine](https://valine.js.org/)
+* :(far fa-comments fa-fw): **Facebook comments** system supported by [Facebook](https://developers.facebook.com/docs/plugins/comments/)
+* :(fas fa-comment fa-fw): **Telegram comments** system supported by [Comments](https://comments.app/)
+* :(fas fa-comment-dots fa-fw): **Commento** comment system supported by [Commento](https://commento.io/)
+* :(fas fa-comment-alt fa-fw): **Utterances** comment system supported by [Utterances](https://utteranc.es/)
 
-#### 扩展功能
+#### Extended Features
 
-* :(fas fa-search fa-fw): 支持基于 [Lunr.js](https://lunrjs.com/) 或 [algolia](https://www.algolia.com/) 的**搜索**
-* :(far fa-grin-tongue-wink fa-fw): 支持 **Twemoji**
-* :(fas fa-code fa-fw): 支持**代码高亮**
-* :(far fa-copy fa-fw): 一键**复制代码**到剪贴板
-* :(far fa-images fa-fw): 支持基于 [lightgallery.js](https://github.com/sachinchoolur/lightgallery.js) 的**图片画廊**
-* :(fab fa-font-awesome fa-fw): 支持 **[Font Awesome](https://fontawesome.com/) 图标**的扩展 Markdown 语法
-* :(far fa-sticky-note fa-fw): 支持**上标注释**的扩展 Markdown 语法
-* :(fas fa-percentage fa-fw): 支持**分数**的扩展 Markdown 语法
-* :(fas fa-square-root-alt fa-fw): 支持基于 [$ \KaTeX $](https://katex.org/) 的**数学公式**
-* :(fas fa-project-diagram fa-fw): 支持基于 [mermaid](https://github.com/knsv/mermaid) 的**图表** shortcode
-* :(fas fa-chart-pie fa-fw): 支持基于 [ECharts](https://echarts.apache.org/) 的**交互式数据可视化** shortcode
-* :(fas fa-map-marked-alt fa-fw): 支持基于 [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js) 的 **Mapbox** shortcode
-* :(fas fa-music fa-fw): 支持基于 [APlayer](https://github.com/MoePlayer/APlayer) 和 [MetingJS](https://github.com/metowolf/MetingJS) 的**音乐播放器** shortcode
-* :(fas fa-video fa-fw): 支持 **Bilibili 视频** shortcode
-* :(far fa-bell fa-fw): 支持多种**注释**的 shortcode
-* :(fas fa-align-left fa-fw): 支持**自定义样式**的 shortcode
-* :(fab fa-js-square fa-fw): 支持**自定义脚本**的 shortcode
-* :(fas fa-i-cursor fa-fw): 支持基于 [TypeIt](https://typeitjs.com/) 的**打字动画** shortcode
-* :(fas fa-arrow-down fa-fw): 支持基于 [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll) 的**滚动动画**
-* :(fas fa-cookie-bite fa-fw): 支持基于 [cookieconsent](https://github.com/osano/cookieconsent) 的 **Cookie 许可横幅**
+* :(fas fa-search fa-fw): **Search** supported by [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/)
+* :(far fa-grin-tongue-wink fa-fw): **Twemoji** supported
+* :(fas fa-code fa-fw): Automatically **highlighting** code
+* :(far fa-copy fa-fw): **Copy code** to clipboard with one click
+* :(far fa-images fa-fw): **Images gallery** supported by [lightgallery.js](https://github.com/sachinchoolur/lightgallery.js)
+* :(fab fa-font-awesome fa-fw): Extended Markdown syntax for **[Font Awesome](https://fontawesome.com/) icons**
+* :(far fa-sticky-note fa-fw): Extended Markdown syntax for **ruby annotation**
+* :(fas fa-percentage fa-fw): Extended Markdown syntax for **fraction**
+* :(fas fa-square-root-alt fa-fw): **Mathematical formula** supported by [$ \KaTeX $](https://katex.org/)
+* :(fas fa-project-diagram fa-fw): **Diagrams** shortcode supported by [mermaid](https://github.com/knsv/mermaid)
+* :(fas fa-chart-pie fa-fw): **Interactive data visualization** shortcode supported by [ECharts](https://echarts.apache.org/)
+* :(fas fa-map-marked-alt fa-fw): **Mapbox** shortcode supported by [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js)
+* :(fas fa-music fa-fw): **Music player** shortcode supported by [APlayer](https://github.com/MoePlayer/APlayer) and [MetingJS](https://github.com/metowolf/MetingJS)
+* :(fas fa-video fa-fw): **Bilibili player** shortcode
+* :(far fa-bell fa-fw): Kinds of **admonitions** shortcode
+* :(fas fa-align-left fa-fw): **Custom style** shortcode
+* :(fab fa-js-square fa-fw): **Custom script** shortcode
+* :(fas fa-i-cursor fa-fw): **Animated typing** supported by [TypeIt](https://typeitjs.com/)
+* :(fas fa-arrow-down fa-fw): **Dynamic scroll** supported by [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
+* :(fas fa-cookie-bite fa-fw): **Cookie consent banner** supported by [cookieconsent](https://github.com/osano/cookieconsent)
 * ...
 
-### 许可协议
+### License
 
-LoveIt 根据 **MIT** 许可协议授权。
+LoveIt is licensed under the **MIT** license.
 
-更多信息请查看 [LICENSE 文件](https://github.com/dillonzq/LoveIt/blob/master/LICENSE)。
+Check the [LICENSE file](https://github.com/dillonzq/LoveIt/blob/master/LICENSE) for details.
 
-LoveIt 主题中用到了以下项目，感谢它们的作者：
+Thanks to the authors of following resources included in the theme:
 
 * [normalize.css](https://github.com/necolas/normalize.css)
 * [Font Awesome](https://fontawesome.com/)
