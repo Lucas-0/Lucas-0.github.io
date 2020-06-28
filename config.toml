@@ -1,13 +1,13 @@
 baseURL = "https://example.com"
 # [en, zh-cn, fr, pl, ...] determines default content language
 # [en, zh-cn, fr, pl, ...] 设置默认的语言
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh-cn"
 # theme
 # 主题
 theme = "LoveIt"
 # themes directory
 # 主题目录
-themesDir = "/themes"
+themesDir = "themes"
 
 # website title
 # 网站标题
