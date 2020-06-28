@@ -1,31 +1,43 @@
-name: Deploy Hugo # 任君喜欢
+# author: lisez <mm4324@gmail.com>
+name: Auto publish to public site
 
+# 只有推送到 master 才自動化
 on:
   push:
-    branches:
-      - blog   # master 更新触发
+    branches: 
+    - blog
 
 jobs:
-  build:
-    runs-on: ubuntu-latest # 镜像市场
-    steps:
-      - name: checkout # 步骤的名称
-        uses: actions/checkout@master #软件市场的名称
-        with: # 参数
-          submodules: true
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2.2.2
-        with:
-          hugo-version: '0.59.1'
-          extended: true
+  hugo-publish:
+     name: publish content to public site
+     runs-on: ubuntu-latest
+     steps:
+       # 使用當前的 repo
+      - name: checkout private repo
+        uses: actions/checkout@v2
+
+       # 因為目前的 repo 有使用到 submodule，所以 submodule 也要一併同步
+       # 不然原本的 repo 是沒有 submodule 的內容
       - name: checkout submodules
         shell: bash
         run: |
           auth_header="$(git config --local --get http.https://github.com/.extraheader)"
           git submodule sync --recursive
-          git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1      
-      - name: Build
-        run: hugo --minify
+          git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
+
+       # 使用別人做好的 Hugo Actions
+      - name: setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: latest
+          extended: true
+
+
+       # 開始用 Hugo 產生檔案囉
+      - name: build content to public site
+        working-directory: ./
+        run: hugo --minify --gc
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v2.5.1
         env:
