@@ -19,7 +19,7 @@ jobs:
           hugo-version: '0.59.1'
           extended: true
       - name: checkout submodules
-          shell: bash
+        shell: bash
           run: |
           auth_header="$(git config --local --get http.https://github.com/.extraheader)"
           git submodule sync --recursive
