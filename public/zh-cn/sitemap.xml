@@ -2,75 +2,10 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://example.com/zh-cn/theme-documentation-basics/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://example.com/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://example.com/theme-documentation-basics/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://example.com/fr/theme-documentation-basics/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://example.com/zh-cn/theme-documentation-basics/"
-                    /></url><url>
-            <loc>https://example.com/zh-cn/theme-documentation-content/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://example.com/theme-documentation-content/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://example.com/fr/theme-documentation-content/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://example.com/zh-cn/theme-documentation-content/"
-                    /></url><url>
-            <loc>https://example.com/zh-cn/theme-documentation-extended-shortcodes/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://example.com/theme-documentation-extended-shortcodes/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://example.com/fr/theme-documentation-extended-shortcodes/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://example.com/zh-cn/theme-documentation-extended-shortcodes/"
-                    /></url><url>
-            <loc>https://example.com/zh-cn/basic-markdown-syntax/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://example.com/basic-markdown-syntax/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://example.com/fr/basic-markdown-syntax/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://example.com/zh-cn/basic-markdown-syntax/"
-                    /></url><url>
-            <loc>https://example.com/zh-cn/emoji-support/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://example.com/emoji-support/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://example.com/fr/emoji-support/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://example.com/zh-cn/emoji-support/"
-                    /></url><url>
-            <loc>https://example.com/zh-cn/categories/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://example.com/categories/"
+                        href="https://example.com/en/categories/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="fr"
@@ -78,103 +13,12 @@
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://example.com/zh-cn/categories/"
+                    href="https://example.com/categories/"
                     /></url><url>
-            <loc>https://example.com/zh-cn/posts/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://example.com/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://example.com/posts/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://example.com/fr/posts/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://example.com/zh-cn/posts/"
-                    /></url><url>
-            <loc>https://example.com/zh-cn/tags/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://example.com/tags/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://example.com/fr/tags/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://example.com/zh-cn/tags/"
-                    /></url><url>
-            <loc>https://example.com/zh-cn/tags/markdown/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://example.com/tags/markdown/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://example.com/fr/tags/markdown/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://example.com/zh-cn/tags/markdown/"
-                    /></url><url>
-            <loc>https://example.com/zh-cn/tags/shortcodes/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://example.com/tags/shortcodes/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://example.com/fr/tags/shortcodes/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://example.com/zh-cn/tags/shortcodes/"
-                    /></url><url>
-            <loc>https://example.com/zh-cn/tags/html/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://example.com/tags/html/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://example.com/fr/tags/html/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://example.com/zh-cn/tags/html/"
-                    /></url><url>
-            <loc>https://example.com/zh-cn/categories/markdown/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://example.com/categories/markdown/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://example.com/fr/categories/markdown/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://example.com/zh-cn/categories/markdown/"
-                    /></url><url>
-            <loc>https://example.com/zh-cn/tags/emoji/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://example.com/tags/emoji/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://example.com/fr/tags/emoji/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://example.com/zh-cn/tags/emoji/"
-                    /></url><url>
-            <loc>https://example.com/zh-cn/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://example.com/"
+                        href="https://example.com/en/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="fr"
@@ -182,66 +26,18 @@
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://example.com/zh-cn/"
+                    href="https://example.com/"
                     /></url><url>
-            <loc>https://example.com/zh-cn/about/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://example.com/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://example.com/about/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://example.com/zh-cn/about/"
-                    /></url><url>
-            <loc>https://example.com/zh-cn/tags/content/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://example.com/tags/content/"
+                        href="https://example.com/en/tags/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="fr"
-                        href="https://example.com/fr/tags/content/"
+                        href="https://example.com/fr/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://example.com/zh-cn/tags/content/"
-                    /></url><url>
-            <loc>https://example.com/zh-cn/tags/installation/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://example.com/tags/installation/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://example.com/fr/tags/installation/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://example.com/zh-cn/tags/installation/"
-                    /></url><url>
-            <loc>https://example.com/zh-cn/categories/documentation/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://example.com/categories/documentation/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://example.com/fr/categories/documentation/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://example.com/zh-cn/categories/documentation/"
-                    /></url><url>
-            <loc>https://example.com/zh-cn/tags/configuration/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://example.com/tags/configuration/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://example.com/fr/tags/configuration/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://example.com/zh-cn/tags/configuration/"
+                    href="https://example.com/tags/"
                     /></url></urlset>
