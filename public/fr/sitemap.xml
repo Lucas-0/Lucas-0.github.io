@@ -106,6 +106,19 @@
                     hreflang="fr"
                     href="https://example.com/fr/tags/installation/"
                     /></url><url>
+            <loc>https://example.com/fr/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://example.com/"
+                        /><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://example.com/zh-cn/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="fr"
+                    href="https://example.com/fr/"
+                    /></url><url>
             <loc>https://example.com/fr/posts/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -196,32 +209,6 @@
                     rel="alternate"
                     hreflang="fr"
                     href="https://example.com/fr/tags/emoji/"
-                    /></url><url>
-            <loc>https://example.com/fr/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://example.com/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://example.com/zh-cn/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="fr"
-                    href="https://example.com/fr/"
-                    /></url><url>
-            <loc>https://example.com/fr/about/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://example.com/about/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://example.com/zh-cn/about/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="fr"
-                    href="https://example.com/fr/about/"
                     /></url><url>
             <loc>https://example.com/fr/tags/content/</loc><lastmod>2020-06-28T22:57:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"

@@ -189,10 +189,6 @@
                         hreflang="en"
                         href="https://example.com/about/"
                         /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://example.com/fr/about/"
-                        /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
                     href="https://example.com/zh-cn/about/"
