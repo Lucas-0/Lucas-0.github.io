@@ -14,7 +14,7 @@
 # 设置对齐和字体大小 #
 
 ```html
-<p style="text-align:center"><font size="5">
+<p style="text-align:center"><font >
 size可取1~6，3为默认
 </font></p>
 ```
