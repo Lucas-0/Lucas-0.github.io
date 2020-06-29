@@ -30,7 +30,7 @@
     <pubDate>Sat, 11 Apr 2020 21:06:32 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://lucas-0.github.io/2020-04-11-template-module/</guid>
-    <description><![CDATA[可能会用到的简易网页设计，在此记录一下。 设置对齐和字体大小 1 2 3 &lt;p style=&#34;text-align:center&#34;&gt;&lt;font size=&#34;5&#34;&gt; size可取1~6，3为默认 &lt;/font&gt;&lt;/p&gt; 提示块 (note) 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16]]></description>
+    <description><![CDATA[可能会用到的简易网页设计，在此记录一下。 设置对齐和字体大小 1 2 3 &lt;p style=&#34;text-align:center&#34;&gt;&lt;font &gt; size可取1~6，3为默认 &lt;/font&gt;&lt;/p&gt; 提示块 (note) 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16]]></description>
 </item><item>
     <title>Blog 施工日志</title>
     <link>https://lucas-0.github.io/2020-04-05-hello-world/</link>
