@@ -1,23 +1,17 @@
-# 被剥夺的语言和语言的剥夺——托妮·莫里森
+# 被剥夺的语言和语言的剥夺
 
 
 ---
-
-&nbsp;&nbsp;
 
 > 托妮·莫里森用“掌中之鸟”的隐喻讲述了语言的力量、其被剥夺的严重后果、以及重建的可能。虽然在这里托妮·莫里森主要探讨的是黑人文化、语言在白人文化殖民下的困境与出路，但其中种种用来观照我们如今的中文互联网环境出奇适用。
 
 一篇很好的文章，英文版来自 [www.nobelprize.org](https://www.nobelprize.org/prizes/literature/1993/morrison/lecture/) 。有耐心的读者可以配合翻译食用，权当练习阅读也不错。最下面有[中文版](#PageFooter)，仅供参考。
 
-&nbsp;&nbsp;
-
-
-&nbsp;&nbsp;
+</br>
 
 <div align="center">Toni Morrison Nobel Lecture<br>
   December 7, 1993</div>
-
-<br>
+</br>
 
 “Once upon a time there was an old woman. Blind but wise.” Or was it an old man? A guru, perhaps. Or a griot soothing restless children. I have heard this story, or one exactly like it, in the lore of several cultures.
 
@@ -102,8 +96,3 @@ It’s quiet again when the children finish speaking, until the woman breaks int
   <img src="https://cdn.jsdelivr.net/gh/Lucas-0/Img/20200418091052.jpg" width="100%">
   </div>
 </details>
-
-&nbsp;&nbsp;
-
-&nbsp;&nbsp;
-
