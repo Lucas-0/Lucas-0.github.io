@@ -1,3 +1,16 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>文学 - 分类 - NeverLand</title><link>https://lucas-0.github.io/categories/%E6%96%87%E5%AD%A6/</link><description>文学 - 分类 - NeverLand</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 18 Apr 2020 00:15:33 +0800</lastBuildDate><atom:link href="https://lucas-0.github.io/categories/%E6%96%87%E5%AD%A6/" rel="self" type="application/rss+xml"/><item><title>被剥夺的语言和语言的剥夺</title><link>https://lucas-0.github.io/2020-04-18-bird-in-the-hand/</link><pubDate>Sat, 18 Apr 2020 00:15:33 +0800</pubDate><author>作者</author><guid>https://lucas-0.github.io/2020-04-18-bird-in-the-hand/</guid><description>&lt;div class="featured-image">
-&lt;img src="https://cdn.jsdelivr.net/gh/Lucas-0/Img/20200418105244.jpg" referrerpolicy="no-referrer">
-&lt;/div>托妮·莫里森用“掌中之鸟”的隐喻讲述了语言的力量、其被剥夺的严重后果、以及重建的可能。虽然在这里托妮·莫里森主要探讨的是黑人文化、语言在白人文化殖民下的困境与出路，但其中种种用来观照我们如今的中文互联网环境出奇适用。</description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>文学 - 分类 - NeverLand</title>
+        <link>https://lucas-0.github.io/categories/%E6%96%87%E5%AD%A6/</link>
+        <description>文学 - 分类 - NeverLand</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 18 Apr 2020 00:15:33 &#43;0800</lastBuildDate><atom:link href="https://lucas-0.github.io/categories/%E6%96%87%E5%AD%A6/" rel="self" type="application/rss+xml" /><item>
+    <title>被剥夺的语言和语言的剥夺</title>
+    <link>https://lucas-0.github.io/2020-04-18-bird-in-the-hand/</link>
+    <pubDate>Sat, 18 Apr 2020 00:15:33 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://lucas-0.github.io/2020-04-18-bird-in-the-hand/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://cdn.jsdelivr.net/gh/Lucas-0/Img/20200418105244.jpg" referrerpolicy="no-referrer">
+            </div>托妮·莫里森用“掌中之鸟”的隐喻讲述了语言的力量、其被剥夺的严重后果、以及重建的可能。虽然在这里托妮·莫里森主要探讨的是黑人文化、语言在白人文化殖民下的困境与出路，但其中种种用来观照我们如今的中文互联网环境出奇适用。]]></description>
+</item></channel>
+</rss>
