@@ -46,7 +46,7 @@ enableEmoji = true
         pre = "<i class='far fa-folder-open'></i>"
         # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
         post = ""
-        name = "所有文章"
+        name = " 所有文章"
         url = "/posts/"
         title = "posts"
         weight = 1
@@ -54,7 +54,7 @@ enableEmoji = true
         identifier = "tags"
         pre = "<i class='fas fa-tags'></i>"
         post = ""
-        name = "标签"
+        name = " 标签"
         url = "/tags/"
         title = "tags"
         weight = 2
@@ -62,14 +62,14 @@ enableEmoji = true
         identifier = "categories"
         pre = "<i class='fas fa-grip-horizontal'></i>"
         post = ""
-        name = "分类"
+        name = " 分类"
         url = "/categories/"
         title = "categories"
         weight = 3
       [[languages.zh-cn.menu.main]]
         identifier = "documentation"
         pre = "<i class='fas fa-archive'></i>"
-        name = "文档"
+        name = " 文档"
         url = "/categories/documentation/"
         title = "documentation"
         weight = 4
@@ -77,7 +77,7 @@ enableEmoji = true
         identifier = "about"
         pre = "<i class='fas fa-portrait'></i>"
         post = ""
-        name = "关于"
+        name = " 关于"
         url = "/about/"
         title = "about"
         weight = 5
@@ -157,7 +157,7 @@ enableEmoji = true
           paginate = 6
       # 主页的社交信息设置
       [languages.zh-cn.params.social]
-        GitHub = "https://lucas-0.github.io"
+        GitHub = "lucas-0"
         Linkedin = ""
         Twitter = ""
         Instagram = ""
