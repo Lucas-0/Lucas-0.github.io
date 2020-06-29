@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>aria2 - 标签 - NeverLand</title>
+        <link>https://lucas-0.github.io/tags/aria2/</link>
+        <description>aria2 - 标签 - NeverLand</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 14 May 2020 15:19:15 &#43;0800</lastBuildDate><atom:link href="https://lucas-0.github.io/tags/aria2/" rel="self" type="application/rss+xml" /><item>
+    <title>linux 下安装 aria2 及自动上传到 OneDrive</title>
+    <link>https://lucas-0.github.io/2020-05-14-install-aria2/</link>
+    <pubDate>Thu, 14 May 2020 15:19:15 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://lucas-0.github.io/2020-05-14-install-aria2/</guid>
+    <description><![CDATA[更新：https://github.com/uselibrary/Aria2Drive 在 ECS 使用 aria2 下载与没有公网 IP 的 PC 相比有一定优势，但是 Lucas 所]]></description>
+</item></channel>
+</rss>
