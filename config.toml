@@ -66,13 +66,13 @@ enableEmoji = true
         url = "/categories/"
         title = "categories"
         weight = 3
-      #  [[languages.zh-cn.menu.main]]
-      #    identifier = "documentation"
-      #    pre = "<i class='fas fa-archive'></i>&nbsp;"
-      #    name = "文档"
-      #    url = "/categories/documentation/"
-      #    title = "documentation"
-      #    weight = 4 
+       [[languages.zh-cn.menu.main]]
+         identifier = "documentation"
+         pre = "<i class='fas fa-archive'></i>&nbsp;"
+         name = "展示"
+         url = "/links/"
+         title = "links"
+         weight = 4 
       [[languages.zh-cn.menu.main]]
         identifier = "about"
         pre = "<i class='fas fa-portrait'></i>&nbsp;"
