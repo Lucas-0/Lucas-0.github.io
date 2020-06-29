@@ -86,7 +86,7 @@
 
 </br>
 
-<p style="text-align:center">理解世界是一种乐趣。</p>
+<p style="text-align:right"><i>To be continued...</i></p>
 
 </br>
 
