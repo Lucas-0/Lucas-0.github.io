@@ -46,7 +46,7 @@ enableEmoji = true
         pre = "<i class='far fa-folder-open'></i>&nbsp;"
         # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
         post = ""
-        name = "所有文章"
+        name = "文章"
         url = "/posts/"
         title = "posts"
         weight = 1
