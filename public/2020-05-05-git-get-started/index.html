@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Git 入门及连接多个远程仓库 - NeverLand</title><meta name="Description" content="someone&#39;s blog"><meta property="og:title" content="Git 入门及连接多个远程仓库" />
+<meta property="og:description" content="最近遇到了如何在电脑上的不同位置连接不同的远程仓库的问题，很多中文的 git 教程并没有涉及到这个问题，故将查阅到的办法整理为此文。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lucas-0.github.io/2020-05-05-git-get-started/" />
+<meta property="og:image" content="https://lucas-0.github.io/images/island.svg"/>
+<meta property="article:published_time" content="2020-05-05T21:18:40+08:00" />
+<meta property="article:modified_time" content="2020-06-29T20:25:08+08:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://lucas-0.github.io/images/island.svg"/>
+
+<meta name="twitter:title" content="Git 入门及连接多个远程仓库"/>
+<meta name="twitter:description" content="最近遇到了如何在电脑上的不同位置连接不同的远程仓库的问题，很多中文的 git 教程并没有涉及到这个问题，故将查阅到的办法整理为此文。"/>
+<meta name="application-name" content="NeverLand">
+<meta name="apple-mobile-web-app-title" content="NeverLand"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="canonical" href="https://lucas-0.github.io/2020-05-05-git-get-started/" /><link rel="prev" href="https://lucas-0.github.io/2020-04-18-bird-in-the-hand/" /><link rel="next" href="https://lucas-0.github.io/2020-05-14-install-aria2/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.1e2694bed152fa2922dbe909a441838ed693d88b1330f97485bfa8ed78da42df.css" integrity="sha256-HiaUvtFS&#43;iki2&#43;kJpEGDjtaT2IsTMPl0hb&#43;o7XjaQt8="><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Git 入门及连接多个远程仓库",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/lucas-0.github.io\/2020-05-05-git-get-started\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/lucas-0.github.io\/images\/Apple-Devices-Preview.png",
+                            "width":  3200 ,
+                            "height":  2048 
+                        }],"genre": "posts","keywords": "git","wordcount":  768 ,
+        "url": "https:\/\/lucas-0.github.io\/2020-05-05-git-get-started\/","datePublished": "2020-05-05T21:18:40+08:00","dateModified": "2020-06-29T20:25:08+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "Lucas","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/lucas-0.github.io\/images\/avatar.png",
+                    "width":  925 ,
+                    "height":  925 
+                }},"author": {
+                "@type": "Person",
+                "name": "Lucas"
+            },"description": ""
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="NeverLand"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/island.svg"
+        data-srcset="/images/island.svg, /images/island.svg 1.5x, /images/island.svg 2x"
+        data-sizes="auto"
+        alt="/images/island.svg"
+        title="/images/island.svg" />NeverLand</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/" title="posts"><i class='far fa-folder-open'></i>&nbsp; 所有文章 </a><a class="menu-item" href="/tags/" title="tags"><i class='fas fa-tags'></i>&nbsp; 标签 </a><a class="menu-item" href="/categories/" title="categories"><i class='fas fa-grip-horizontal'></i>&nbsp; 分类 </a><a class="menu-item" href="/about/" title="about"><i class='fas fa-portrait'></i>&nbsp; 关于 </a><a class="menu-item" href="/" title="GitHub"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="找找好康的?" id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="NeverLand"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/island.svg"
+        data-srcset="/images/island.svg, /images/island.svg 1.5x, /images/island.svg 2x"
+        data-sizes="auto"
+        alt="/images/island.svg"
+        title="/images/island.svg" />NeverLand</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="找找好康的?" id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="posts"><i class='far fa-folder-open'></i>&nbsp;所有文章</a><a class="menu-item" href="/tags/" title="tags"><i class='fas fa-tags'></i>&nbsp;标签</a><a class="menu-item" href="/categories/" title="categories"><i class='fas fa-grip-horizontal'></i>&nbsp;分类</a><a class="menu-item" href="/about/" title="about"><i class='fas fa-portrait'></i>&nbsp;关于</a><a class="menu-item" href="/" title="GitHub"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Git 入门及连接多个远程仓库</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://lucas-0.github.io/about/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Lucas</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E6%8A%80%E6%9C%AF/"><i class="far fa-folder fa-fw"></i>技术</a>&nbsp;<a href="/categories/%E5%85%A5%E9%97%A8/"><i class="far fa-folder fa-fw"></i>入门</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-05-05">2020-05-05</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 768 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-创建本地仓库及配置git账号">1. 创建本地仓库及配置Git账号</a></li>
+    <li><a href="#2-生成ssh密钥对">2. 生成SSH密钥对</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#1-用名称区别不同仓库">1. 用名称区别不同仓库</a></li>
+    <li><a href="#2-修改本地仓库的设置">2. 修改本地仓库的设置</a></li>
+    <li><a href="#3-与远程仓库关联">3. 与远程仓库关联</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><hr>
+<p>  </p>
+<p>最近遇到了如何在电脑上的不同位置连接不同的远程仓库的问题，很多中文的 git 教程并没有涉及到这个问题，故将查阅到的办法整理为此文。</p>
+<p>  </p>
+<h1 id="git初始化">Git初始化</h1>
+<h2 id="1-创建本地仓库及配置git账号">1. 创建本地仓库及配置Git账号</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">git init <span class="c1">#在当前位置初始化git仓库</span>
+git config user.name <span class="s2">&#34;A&#34;</span> <span class="c1">#设置用户名为A</span>
+git config user.email <span class="s2">&#34;A@example.com&#34;</span> <span class="c1">#设置邮箱为A@example.com</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>可以使用 <code>git config --global</code> 命令设置全局的账号，则除非另外声明均使用此账号。</p>
+<h2 id="2-生成ssh密钥对">2. 生成SSH密钥对</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">ssh-keygen -t rsa -C <span class="s2">&#34;A@example.com&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>然后选择密钥对存储位置。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">Generating public/private rsa key pair.
+Enter file in which to save the key <span class="o">(</span>/c/Users/yourname/.ssh/id_rsa<span class="o">)</span>: <span class="o">[</span>Press enter<span class="o">]</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>设置密码（optional）。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">Enter passphrase <span class="o">(</span>empty <span class="k">for</span> no passphrase<span class="o">)</span>: 
+Enter same passphrase again:
+</code></pre></td></tr></table>
+</div>
+</div><p>  </p>
+<hr>
+<p>  </p>
+<h1 id="与github连接">与GitHub连接</h1>
+<p>这一部分并非本文的重点，请自行查阅。可参考下面的链接：</p>
+<p><a href="https://www.liaoxuefeng.com/wiki/896043488029600/898732864121440" target="_blank" rel="noopener noreffer">添加远程库 - 廖雪峰的官方网站</a></p>
+<p>  </p>
+<hr>
+<p>  </p>
+<h1 id="连接多个仓库">连接多个仓库</h1>
+<p>GitHub 不允许一个密钥对应用于多个仓库。所以如果我们有两个本地仓库 A 和 B 需要同步，必须生成两个密钥对，并且分别把公钥部署到 GitHub 。</p>
+<h2 id="1-用名称区别不同仓库">1. 用名称区别不同仓库</h2>
+<p>在 <code>~/.ssh</code> 目录下新建 <code>config</code> 文件。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">host A  <span class="c1">#自定义别名，用于之后配置地址</span>
+    Hostname github.com <span class="c1">#要连接的服务器</span>
+    User Lucas <span class="c1">#用户名</span>
+    IdentityFile ~/.ssh/id_rsa  <span class="c1">#密钥文件的地址，注意是私钥</span>
+
+host B <span class="c1">#自定义别名，用于之后配置地址</span>
+    Hostname github.com
+    User lucas
+    IdentityFile ~/.ssh/B_id_rsa
+</code></pre></td></tr></table>
+</div>
+</div><p>通过上面的设置，对不同的本地仓库我们可以使用不同的 host 的别名来指定使用哪一对密钥，类似于 CNAME 。</p>
+<h2 id="2-修改本地仓库的设置">2. 修改本地仓库的设置</h2>
+<p>修改本地仓库 A 的 <code>.git</code> 目录下， <code>config</code> 文件的内容：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="o">[</span>core<span class="o">]</span>
+    <span class="nv">repositoryformatversion</span> <span class="o">=</span> <span class="m">0</span>
+    <span class="nv">filemode</span> <span class="o">=</span> <span class="nb">true</span>
+    <span class="nv">bare</span> <span class="o">=</span> <span class="nb">false</span>
+    <span class="nv">logallrefupdates</span> <span class="o">=</span> <span class="nb">true</span>
+    <span class="nv">ignorecase</span> <span class="o">=</span> <span class="nb">true</span>
+    <span class="nv">precomposeunicode</span> <span class="o">=</span> <span class="nb">true</span>
+<span class="o">[</span>user<span class="o">]</span>
+    <span class="nv">email</span> <span class="o">=</span> A@example.com
+    <span class="nv">name</span> <span class="o">=</span> Lucas
+<span class="o">[</span>remote <span class="s2">&#34;origin&#34;</span><span class="o">]</span>
+    <span class="nv">url</span> <span class="o">=</span> git@A:Yourname/example.git <span class="c1">#使用host的别名A</span>
+    <span class="nv">fetch</span> <span class="o">=</span> +refs/heads/*:refs/remotes/origin/*
+<span class="o">[</span>branch <span class="s2">&#34;master&#34;</span><span class="o">]</span>
+    <span class="nv">remote</span> <span class="o">=</span> origin
+    <span class="nv">merge</span> <span class="o">=</span> refs/heads/master
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="3-与远程仓库关联">3. 与远程仓库关联</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">git remote add origin git@server-name:path/repo-name.git
+</code></pre></td></tr></table>
+</div>
+</div><p>初始化的仓库在推送之前先拉取远程仓库的文件否则会可能会出错。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">git pull origin master
+</code></pre></td></tr></table>
+</div>
+</div><p>添加当前目录下的文件。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">git add &lt;filename&gt;
+git add * <span class="c1">#使用缺省符则将当前目录下所有文件添加到git</span>
+git commit -m <span class="s2">&#34;first commit&#34;</span> <span class="c1">#将修改在本地保存并且注释“first commit”</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>推送到远程仓库。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">git push -u origin master
+</code></pre></td></tr></table>
+</div>
+</div><p>  </p>
+<hr>
+<p>  </p>
+<p>本文简单总结了 Git 的基本用法，更多的操作还需要在实践中解锁。</p>
+<p>  </p>
+<p>  </p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2020-06-29&nbsp;<a class="git-hash" href="https://github.com/Lucas-0/Lucas-0.github.io/commit/e25f8e904dfb2697477fa5eca741e450d6961b01" target="_blank" title="commit by Lucas(raisingsha@gmail.com) e25f8e904dfb2697477fa5eca741e450d6961b01: comment added">
+                                    <i class="fas fa-hashtag fa-fw"></i>e25f8e9</a></span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://lucas-0.github.io/2020-05-05-git-get-started/" data-title="Git 入门及连接多个远程仓库" data-hashtags="git"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://lucas-0.github.io/2020-05-05-git-get-started/" data-hashtag="git"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://lucas-0.github.io/2020-05-05-git-get-started/" data-title="Git 入门及连接多个远程仓库"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://lucas-0.github.io/2020-05-05-git-get-started/" data-title="Git 入门及连接多个远程仓库"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg"></i></a><a href="javascript:void(0);" title="分享到 Pocket" data-sharer="pocket" data-url="https://lucas-0.github.io/2020-05-05-git-get-started/"><i class="fab fa-get-pocket fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://lucas-0.github.io/2020-05-05-git-get-started/" data-title="Git 入门及连接多个远程仓库"><i class="fab fa-weibo fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/git/">git</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/2020-04-18-bird-in-the-hand/" class="prev" rel="prev" title="被剥夺的语言和语言的剥夺"><i class="fas fa-angle-left fa-fw"></i>被剥夺的语言和语言的剥夺</a>
+            <a href="/2020-05-14-install-aria2/" class="next" rel="next" title="linux 下安装 aria2 及自动上传到 OneDrive">linux 下安装 aria2 及自动上传到 OneDrive<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div id="comments"><div id="utterances"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://utteranc.es/">Utterances</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line"><i class='far fa-smile-wink'></i>&nbsp;有趣之事即是好事</div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://lucas-0.github.io/about/" target="_blank">Lucas</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span><span class="icp-splitter">&nbsp;|&nbsp;</span><br class="icp-br"/>
+                    <span class="icp">La vita è bella</span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.8/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.136b99bd32b0c00924d0a5f80a946f737c958dc96ed527db1d959c3d229bc4b5.js" integrity="sha256-E2uZvTKwwAkk0KX4CpRvc3yVjclu1SfbHZWcPSKbxLU="></script><script type="text/javascript" src="/lib/lunr/lunr.zh.min.099afa711c93c5f68c18abf5485def06649089efe383835258d0384d53dd1449.js" integrity="sha256-CZr6cRyTxfaMGKv1SF3vBmSQie/jg4NSWNA4TVPdFEk="></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":15},"comment":{"utterances":{"darkTheme":"github-dark","issueTerm":"title","label":"","lightTheme":"github-light","repo":"Lucas-0/comment"}},"cookieconsent":{"content":{"dismiss":"吼","link":"了解更多","message":"投喂小饼干?"},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"zh","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.09729ab43fbb7b49c065c597d41bb70983c7852ea77794a00b8f78099b049b43.js" integrity="sha256-CXKatD&#43;7e0nAZcWX1Bu3CYPHhS6nd5SgC494CZsEm0M="></script></body>
+</html>
