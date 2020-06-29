@@ -5,6 +5,8 @@ toc:
   enable: false
   auto: true
 date: 2020-04-05T19:22:59+08:00
+comment:
+  enable: true
 ---
 
 </br>

@@ -7,12 +7,9 @@ tags: ["reading"]
 featuredImage: "https://cdn.jsdelivr.net/gh/Lucas-0/Img/20200418105244.jpg"
 featuredImagePreview: "https://cdn.jsdelivr.net/gh/Lucas-0/Img/20200418105244.jpg"
 toc: false
-comment: true 
+comment:
+  enable: true
 summary: "托妮·莫里森用“掌中之鸟”的隐喻讲述了语言的力量、其被剥夺的严重后果、以及重建的可能。虽然在这里托妮·莫里森主要探讨的是黑人文化、语言在白人文化殖民下的困境与出路，但其中种种用来观照我们如今的中文互联网环境出奇适用。"
-#top_img: 文章顶栏,若无则cover，再无default，与page的不同
-#mathjax:
-#katex:
-#hide:
 ---
 
 ---

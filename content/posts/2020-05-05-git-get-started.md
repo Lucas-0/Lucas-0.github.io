@@ -1,7 +1,7 @@
 ---
 title: "Git 入门及连接多个远程仓库"
-comment: true
-copyright: true
+comment:
+  enable: true
 date: 2020-05-05T21:18:40+08:00
 categories: ["技术","入门"]
 tags: ["git"]

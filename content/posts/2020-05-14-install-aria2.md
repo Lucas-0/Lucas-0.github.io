@@ -1,6 +1,7 @@
 ---
 title: "linux 下安装 aria2 及自动上传到 OneDrive"
-comment: true
+comment:
+  enable: true
 date: 2020-05-14T15:19:15+08:00
 categories: ["技术"]
 tags: ["aria2","OneDrive"]
