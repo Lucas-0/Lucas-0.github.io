@@ -3,13 +3,15 @@
 
 ---
 
-&nbsp;&nbsp;
+</br>
 
 **更新：**[https://github.com/uselibrary/Aria2Drive](https://github.com/uselibrary/Aria2Drive)
 
+</br>
+
 ---
 
-在 ECS 使用 `aria2` 下载与没有公网 IP 的 PC 相比有一定优势，但是 Lucas 所用的阿里云的小水管下载有 100 MB ，上传只有 1 MB，取回下好的东西还要漫长的等待。本文即为解决这一问题而写。
+在 ECS 使用 aria2 下载与没有公网 IP 的 PC 相比有一定优势，但是 Lucas 所用的阿里云的小水管下载有 100 MB ，上传只有 1 MB，取回下好的东西还要漫长的等待。本文即为解决这一问题而写。
 
 需要：<mark> OneDrive 账号</mark>
 
@@ -28,11 +30,11 @@
 
 &nbsp;&nbsp;
 
-# 安装 aria2  #
+## 安装 aria2  ##
 
 推荐在宝塔下进行操作。[➡前往宝塔](https://www.bt.cn/)
 
-## 1. 下载解压 `aria2`  ##
+### 1. 下载解压  aria2  ###
 
 请检查链接是否为最新版，[GitHub项目地址](https://github.com/aria2/aria2)
 ```shell
@@ -49,7 +51,8 @@ rm -rf aria2-1.35.0
 
 阿里云的 ECS 连接 GitHub 很慢，推荐下载到电脑上，利用宝塔手动上传，到哪个文件夹不重要，最终都会删掉。
 
-## 2. 检查是否安装成功 ##
+### 2. 检查是否安装成功 ###
+
 ```shell
 command -v aria2c
 ```
@@ -62,7 +65,7 @@ command -v aria2c
 
   说明安装成功。
 
-## 3. 下载 `aria2` 配置 ##
+### 3. 下载 aria2 配置 ###
 
 ```shell
 mkdir "/root/.aria2" && mkdir /root/Download
@@ -76,7 +79,7 @@ chmod 777 /root/.aria2/aria2.session
 
   上面的链接可能会失效，届时配置文件也可按照其他教程设置。
 
-## 4. 配置 `aria2RPC` 密钥  ##
+### 4. 配置 aria2RPC 密钥  ###
 
 修改文件 `/root/.aria2/aria2.conf` ，找到 `rpc-secret` ，然后给 `rpc-secret` 设置密码，作为密钥。
 
@@ -88,7 +91,7 @@ chmod 777 /root/.aria2/aria2.session
 
 &nbsp;&nbsp;
 
-# 设置开机启动 #
+## 设置开机启动 ##
 
 创建 `/etc/systemd/system/aria2.service` ，不习惯 `vim` 可以直接在宝塔中新建文件，内容为：
 
@@ -115,7 +118,7 @@ systemctl enable aria2
 systemctl start aria2
 ```
 
-此时 `aria2` 已经启动。
+此时 aria2 已经启动。
 
 &nbsp;&nbsp;
 
@@ -123,13 +126,13 @@ systemctl start aria2
 
 &nbsp;&nbsp;
 
-# OneDrive上传控件 #
+## OneDrive上传控件 ##
 
 点击右侧 `URL` 登录 OneDrive 并授权，授权地址→【[国际版、个人版(家庭版)](https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=78d4dc35-7e46-42c6-9023-2d39314433a5&response_type=code&redirect_uri=http://localhost/onedrive-login&response_mode=query&scope=offline_access%20User.Read%20Files.ReadWrite.All)】、【[世纪互联](https://login.chinacloudapi.cn/common/oauth2/v2.0/authorize?client_id=dfe36e60-6133-48cf-869f-4d15b8354769&response_type=code&redirect_uri=http://localhost/onedrive-login&response_mode=query&scope=offline_access%20User.Read%20Files.ReadWrite.All)】。
 
 授权后会获取一个 `localhost` 开头打不开的链接，这里复制好整个链接地址，包括 `localhost` 。
 
-## 1. 安装OneDriveUploader ##
+### 1. 安装OneDriveUploader ###
 
 ```
 #64位系统下载
@@ -143,7 +146,7 @@ wget https://raw.githubusercontent.com/MoeClub/OneList/master/OneDriveUploader/a
 chmod +x /usr/local/bin/OneDriveUploader
 ```
 
-## 2. 初始化配置 ##
+### 2. 初始化配置 ###
 
 ```C
 #国际版，将url换成你上面复制的授权地址，包括http://loaclhost。
@@ -158,7 +161,7 @@ OneDriveUploader -cn -a "url"
 
 如果提示 `Init config file: /root/auth.json` 类似信息，则初始化成功。
 
-## 3. 使用命令 ##
+### 3. 使用命令 ###
 
 ```C
 Usage of OneDriveUploader:
@@ -202,7 +205,7 @@ Usage of OneDriveUploader:
         OneDrive by Microsoft.
 ```
 
-## 4. 命令示例 ##
+### 4. 命令示例 ###
 
 ```C
 #将当前目录下的mm00.jpg文件上传到OneDrive网盘根目录
@@ -230,9 +233,9 @@ OneDriveUploader -c /path/to/file/auth.json -t 15 -b 20 -s "Download" -r "Test"
 
 &nbsp;&nbsp;
 
-# aria2 自动上传 #
+## aria2 自动上传 ##
 
-## 1. `aria2` 自动上传脚本 ##
+### 1. aria2 自动上传脚本 ###
 
 上传脚本代码如下：
 
@@ -302,7 +305,7 @@ apt install dos2unix -y
 dos2unix /root/upload.sh
 ```
 
-## 2. 下载完成后执行 ##
+### 2. 下载完成后执行 ###
 
 设置下载完成自动上传，传输后删除服务器上的文件：
 
@@ -329,7 +332,7 @@ systemctl restart aria2
 
 &nbsp;&nbsp;
 
-至此，当 `aria2` 中的下载任务完成后会自动将文件上传到 OneDrive ，之后可以利用 IDM 下载到本地，实现吃灰小鸡再就业。
+至此，当 aria2 中的下载任务完成后会自动将文件上传到 OneDrive ，之后可以利用 IDM 下载到本地，实现吃灰小鸡再就业。
 
 PS：几个指令：
 

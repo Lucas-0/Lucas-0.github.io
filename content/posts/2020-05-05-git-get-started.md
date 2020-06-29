@@ -5,12 +5,12 @@ copyright: true
 date: 2020-05-05T21:18:40+08:00
 categories: ["技术","入门"]
 tags: ["git"]
-# cover: https://cdn.jsdelivr.net/gh/Lucas-0/Img/img/20200505212658.jpg
-keywords:
+summary: "最近遇到了如何在电脑上的不同位置连接不同的远程仓库的问题，很多中文的 git 教程并没有涉及到这个问题，故将查阅到的办法整理为此文。"
+featuredImagePreview: "https://cdn.jsdelivr.net/gh/Lucas-0/Img/img/20200505212658.jpg"
 toc:
+  enable: true
+  auto: true
 lastmod: 2020-04-09T11:22:40+08:00
-description:
-mathjax: false
 ---
 
 ---
@@ -18,9 +18,6 @@ mathjax: false
 &nbsp;&nbsp;
 
 最近遇到了如何在电脑上的不同位置连接不同的远程仓库的问题，很多中文的 git 教程并没有涉及到这个问题，故将查阅到的办法整理为此文。
-
-&nbsp;&nbsp;
-
 
 &nbsp;&nbsp;
 

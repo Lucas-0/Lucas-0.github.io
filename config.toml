@@ -33,7 +33,7 @@ enableEmoji = true
     # 是否包括中日韩文字
     hasCJKLanguage = true
     # 默认每页列表显示的文章数目
-    paginate = 12
+    paginate = 8
     # [UA-XXXXXXXX-X] 谷歌分析代号
     googleAnalytics = ""
     # 版权描述，仅仅用于 SEO
@@ -66,13 +66,13 @@ enableEmoji = true
         url = "/categories/"
         title = "categories"
         weight = 3
-      [[languages.zh-cn.menu.main]]
-        identifier = "documentation"
-        pre = "<i class='fas fa-archive'></i>&nbsp;"
-        name = "文档"
-        url = "/categories/documentation/"
-        title = "documentation"
-        weight = 4
+      #  [[languages.zh-cn.menu.main]]
+      #    identifier = "documentation"
+      #    pre = "<i class='fas fa-archive'></i>&nbsp;"
+      #    name = "文档"
+      #    url = "/categories/documentation/"
+      #    title = "documentation"
+      #    weight = 4 
       [[languages.zh-cn.menu.main]]
         identifier = "about"
         pre = "<i class='fas fa-portrait'></i>&nbsp;"
@@ -99,9 +99,9 @@ enableEmoji = true
         # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
         title = "NeverLand"
         # 是否隐藏网站图标资源链接
-        noFavicon = false
+        noFavicon = true
         # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
-        svgFavicon = ""
+        svgFavicon = "/images/island.svg"
         # Android 浏览器主题色
         themeColor = "#ffffff"
         # Safari 图标颜色
@@ -256,7 +256,7 @@ enableEmoji = true
     [params.header.title]
       # URL of the LOGO
       # LOGO 的 URL
-      logo = "/images/p2.svg"
+      logo = "/images/island.svg"
       # title name
       # 标题名称
       name = "NeverLand"
