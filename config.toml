@@ -43,41 +43,41 @@ enableEmoji = true
       [[languages.zh-cn.menu.main]]
         identifier = "posts"
         # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-        pre = "<i class='far fa-folder-open'></i>"
+        pre = "<i class='far fa-folder-open'></i>&nbsp;"
         # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
         post = ""
-        name = " 所有文章"
+        name = "所有文章"
         url = "/posts/"
         title = "posts"
         weight = 1
       [[languages.zh-cn.menu.main]]
         identifier = "tags"
-        pre = "<i class='fas fa-tags'></i>"
+        pre = "<i class='fas fa-tags'></i>&nbsp;"
         post = ""
-        name = " 标签"
+        name = "标签"
         url = "/tags/"
         title = "tags"
         weight = 2
       [[languages.zh-cn.menu.main]]
         identifier = "categories"
-        pre = "<i class='fas fa-grip-horizontal'></i>"
+        pre = "<i class='fas fa-grip-horizontal'></i>&nbsp;"
         post = ""
-        name = " 分类"
+        name = "分类"
         url = "/categories/"
         title = "categories"
         weight = 3
       [[languages.zh-cn.menu.main]]
         identifier = "documentation"
-        pre = "<i class='fas fa-archive'></i>"
-        name = " 文档"
+        pre = "<i class='fas fa-archive'></i>&nbsp;"
+        name = "文档"
         url = "/categories/documentation/"
         title = "documentation"
         weight = 4
       [[languages.zh-cn.menu.main]]
         identifier = "about"
-        pre = "<i class='fas fa-portrait'></i>"
+        pre = "<i class='fas fa-portrait'></i>&nbsp;"
         post = ""
-        name = " 关于"
+        name = "关于"
         url = "/about/"
         title = "about"
         weight = 5
