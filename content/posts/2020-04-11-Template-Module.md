@@ -21,14 +21,6 @@ toc:
 
 &nbsp;&nbsp;
 
-# 设置对齐和字体大小 #
-
-```html
-<p style="text-align:center"><font >
-size可取1~6，3为默认
-</font></p>
-```
-
 ---
 
 # 提示块 (note)  #
