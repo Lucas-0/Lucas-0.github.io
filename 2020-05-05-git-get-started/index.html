@@ -11,7 +11,7 @@
 <meta property="og:url" content="https://lucas-0.github.io/2020-05-05-git-get-started/" />
 <meta property="og:image" content="https://lucas-0.github.io/images/island.svg"/>
 <meta property="article:published_time" content="2020-05-05T21:18:40+08:00" />
-<meta property="article:modified_time" content="2020-06-29T22:40:04+08:00" />
+<meta property="article:modified_time" content="2020-07-01T01:17:59+08:00" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://lucas-0.github.io/images/island.svg"/>
 
@@ -32,8 +32,8 @@
                             "url": "https:\/\/lucas-0.github.io\/images\/Apple-Devices-Preview.png",
                             "width":  3200 ,
                             "height":  2048 
-                        }],"genre": "posts","keywords": "git","wordcount":  768 ,
-        "url": "https:\/\/lucas-0.github.io\/2020-05-05-git-get-started\/","datePublished": "2020-05-05T21:18:40+08:00","dateModified": "2020-06-29T22:40:04+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+                        }],"genre": "posts","keywords": "git","wordcount":  1030 ,
+        "url": "https:\/\/lucas-0.github.io\/2020-05-05-git-get-started\/","datePublished": "2020-05-05T21:18:40+08:00","dateModified": "2020-07-01T01:17:59+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "Lucas","logo": {
                     "@type": "ImageObject",
@@ -58,7 +58,7 @@
         data-srcset="/images/island.svg, /images/island.svg 1.5x, /images/island.svg 2x"
         data-sizes="auto"
         alt="/images/island.svg"
-        title="/images/island.svg" />NeverLand</a>
+        title="/images/island.svg" />NeverLand<span class="header-title-post"><i class='fas fa-palette'></i></span></a>
         </div>
         <div class="menu">
             <div class="menu-inner"><a class="menu-item" href="/posts/" title="posts"><i class='far fa-folder-open'></i>&nbsp; 文章 </a><a class="menu-item" href="/tags/" title="tags"><i class='fas fa-tags'></i>&nbsp; 标签 </a><a class="menu-item" href="/categories/" title="categories"><i class='fas fa-grip-horizontal'></i>&nbsp; 分类 </a><a class="menu-item" href="/links/" title="links"><i class='fas fa-archive'></i>&nbsp; 展示 </a><a class="menu-item" href="/about/" title="about"><i class='fas fa-portrait'></i>&nbsp; 关于 </a><a class="menu-item" href="https://github.com/Lucas-0" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
@@ -89,7 +89,7 @@
         data-srcset="/images/island.svg, /images/island.svg 1.5x, /images/island.svg 2x"
         data-sizes="auto"
         alt="/images/island.svg"
-        title="/images/island.svg" />NeverLand</a>
+        title="/images/island.svg" />NeverLand<span class="header-title-post"><i class='fas fa-palette'></i></span></a>
             </div>
             <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
@@ -128,8 +128,8 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">Git 入门及连接多个远程仓库</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://lucas-0.github.io/about/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Lucas</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E6%8A%80%E6%9C%AF/"><i class="far fa-folder fa-fw"></i>技术</a>&nbsp;<a href="/categories/%E5%85%A5%E9%97%A8/"><i class="far fa-folder fa-fw"></i>入门</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-05-05">2020-05-05</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 768 字&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-05-05">2020-05-05</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1030 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 3 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
                     <span>目录</span>
@@ -137,22 +137,27 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#1-创建本地仓库及配置git账号">1. 创建本地仓库及配置Git账号</a></li>
-    <li><a href="#2-生成ssh密钥对">2. 生成SSH密钥对</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#1-用名称区别不同仓库">1. 用名称区别不同仓库</a></li>
-    <li><a href="#2-修改本地仓库的设置">2. 修改本地仓库的设置</a></li>
-    <li><a href="#3-与远程仓库关联">3. 与远程仓库关联</a></li>
+    <li><a href="#git初始化">Git初始化</a>
+      <ul>
+        <li><a href="#1-创建本地仓库及配置git账号">1. 创建本地仓库及配置Git账号</a></li>
+        <li><a href="#2-生成ssh密钥对">2. 生成SSH密钥对</a></li>
+      </ul>
+    </li>
+    <li><a href="#与github连接">与GitHub连接</a></li>
+    <li><a href="#连接多个仓库">连接多个仓库</a>
+      <ul>
+        <li><a href="#1-用名称区别不同仓库">1. 用名称区别不同仓库</a></li>
+        <li><a href="#2-修改本地仓库的设置">2. 修改本地仓库的设置</a></li>
+        <li><a href="#3-与远程仓库关联">3. 与远程仓库关联</a></li>
+      </ul>
+    </li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><hr>
-<p>  </p>
+            </div><div class="content" id="content"><p>​</p>
 <p>最近遇到了如何在电脑上的不同位置连接不同的远程仓库的问题，很多中文的 git 教程并没有涉及到这个问题，故将查阅到的办法整理为此文。</p>
 <p>  </p>
-<h1 id="git初始化">Git初始化</h1>
-<h2 id="1-创建本地仓库及配置git账号">1. 创建本地仓库及配置Git账号</h2>
+<h2 id="git初始化">Git初始化</h2>
+<h3 id="1-创建本地仓库及配置git账号">1. 创建本地仓库及配置Git账号</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -160,19 +165,19 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">git init <span class="c1">#在当前位置初始化git仓库</span>
+<pre class="chroma"><code class="language-bash" data-lang="bash">git init <span class="c1">#在当前位置初始化git仓库</span>
 git config user.name <span class="s2">&#34;A&#34;</span> <span class="c1">#设置用户名为A</span>
 git config user.email <span class="s2">&#34;A@example.com&#34;</span> <span class="c1">#设置邮箱为A@example.com</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>可以使用 <code>git config --global</code> 命令设置全局的账号，则除非另外声明均使用此账号。</p>
-<h2 id="2-生成ssh密钥对">2. 生成SSH密钥对</h2>
+<h3 id="2-生成ssh密钥对">2. 生成SSH密钥对</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">ssh-keygen -t rsa -C <span class="s2">&#34;A@example.com&#34;</span>
+<pre class="chroma"><code class="language-bash" data-lang="bash">ssh-keygen -t rsa -C <span class="s2">&#34;A@example.com&#34;</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>然后选择密钥对存储位置。</p>
@@ -182,7 +187,7 @@ git config user.email <span class="s2">&#34;A@example.com&#34;</span> <span clas
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">Generating public/private rsa key pair.
+<pre class="chroma"><code class="language-bash" data-lang="bash">Generating public/private rsa key pair.
 Enter file in which to save the key <span class="o">(</span>/c/Users/yourname/.ssh/id_rsa<span class="o">)</span>: <span class="o">[</span>Press enter<span class="o">]</span>
 </code></pre></td></tr></table>
 </div>
@@ -193,22 +198,20 @@ Enter file in which to save the key <span class="o">(</span>/c/Users/yourname/.s
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">Enter passphrase <span class="o">(</span>empty <span class="k">for</span> no passphrase<span class="o">)</span>: 
+<pre class="chroma"><code class="language-bash" data-lang="bash">Enter passphrase <span class="o">(</span>empty <span class="k">for</span> no passphrase<span class="o">)</span>: 
 Enter same passphrase again:
 </code></pre></td></tr></table>
 </div>
-</div><p>  </p>
-<hr>
+</div><hr>
 <p>  </p>
-<h1 id="与github连接">与GitHub连接</h1>
+<h2 id="与github连接">与GitHub连接</h2>
 <p>这一部分并非本文的重点，请自行查阅。可参考下面的链接：</p>
 <p><a href="https://www.liaoxuefeng.com/wiki/896043488029600/898732864121440" target="_blank" rel="noopener noreffer">添加远程库 - 廖雪峰的官方网站</a></p>
-<p>  </p>
+<p>​</p>
 <hr>
-<p>  </p>
-<h1 id="连接多个仓库">连接多个仓库</h1>
+<h2 id="连接多个仓库">连接多个仓库</h2>
 <p>GitHub 不允许一个密钥对应用于多个仓库。所以如果我们有两个本地仓库 A 和 B 需要同步，必须生成两个密钥对，并且分别把公钥部署到 GitHub 。</p>
-<h2 id="1-用名称区别不同仓库">1. 用名称区别不同仓库</h2>
+<h3 id="1-用名称区别不同仓库">1. 用名称区别不同仓库</h3>
 <p>在 <code>~/.ssh</code> 目录下新建 <code>config</code> 文件。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -235,7 +238,7 @@ host B <span class="c1">#自定义别名，用于之后配置地址</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>通过上面的设置，对不同的本地仓库我们可以使用不同的 host 的别名来指定使用哪一对密钥，类似于 CNAME 。</p>
-<h2 id="2-修改本地仓库的设置">2. 修改本地仓库的设置</h2>
+<h3 id="2-修改本地仓库的设置">2. 修改本地仓库的设置</h3>
 <p>修改本地仓库 A 的 <code>.git</code> 目录下， <code>config</code> 文件的内容：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -257,31 +260,31 @@ host B <span class="c1">#自定义别名，用于之后配置地址</span>
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="o">[</span>core<span class="o">]</span>
-    <span class="nv">repositoryformatversion</span> <span class="o">=</span> <span class="m">0</span>
-    <span class="nv">filemode</span> <span class="o">=</span> <span class="nb">true</span>
-    <span class="nv">bare</span> <span class="o">=</span> <span class="nb">false</span>
-    <span class="nv">logallrefupdates</span> <span class="o">=</span> <span class="nb">true</span>
-    <span class="nv">ignorecase</span> <span class="o">=</span> <span class="nb">true</span>
-    <span class="nv">precomposeunicode</span> <span class="o">=</span> <span class="nb">true</span>
-<span class="o">[</span>user<span class="o">]</span>
-    <span class="nv">email</span> <span class="o">=</span> A@example.com
-    <span class="nv">name</span> <span class="o">=</span> Lucas
-<span class="o">[</span>remote <span class="s2">&#34;origin&#34;</span><span class="o">]</span>
-    <span class="nv">url</span> <span class="o">=</span> git@A:Yourname/example.git <span class="c1">#使用host的别名A</span>
-    <span class="nv">fetch</span> <span class="o">=</span> +refs/heads/*:refs/remotes/origin/*
-<span class="o">[</span>branch <span class="s2">&#34;master&#34;</span><span class="o">]</span>
-    <span class="nv">remote</span> <span class="o">=</span> origin
-    <span class="nv">merge</span> <span class="o">=</span> refs/heads/master
-</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="p">[</span>core<span class="p">]</span><span class="w">
+</span><span class="w">    </span>repositoryformatversion<span class="w"> </span>=<span class="w"> </span><span class="m">0</span><span class="w">
+</span><span class="w">    </span>filemode<span class="w"> </span>=<span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">    </span>bare<span class="w"> </span>=<span class="w"> </span><span class="kc">false</span><span class="w">
+</span><span class="w">    </span>logallrefupdates<span class="w"> </span>=<span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">    </span>ignorecase<span class="w"> </span>=<span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">    </span>precomposeunicode<span class="w"> </span>=<span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w"></span><span class="p">[</span>user<span class="p">]</span><span class="w">
+</span><span class="w">    </span>email<span class="w"> </span>=<span class="w"> </span>A@example.com<span class="w">
+</span><span class="w">    </span>name<span class="w"> </span>=<span class="w"> </span>Lucas<span class="w">
+</span><span class="w"></span><span class="p">[</span>remote<span class="w"> </span><span class="s2">&#34;origin&#34;</span><span class="p">]</span><span class="w">
+</span><span class="w">    </span>url<span class="w"> </span>=<span class="w"> </span>git@A<span class="p">:</span>Yourname/example.git<span class="w"> </span><span class="c">#使用host的别名A</span><span class="w">
+</span><span class="w">    </span>fetch<span class="w"> </span>=<span class="w"> </span>+refs/heads/<span class="cp">*:refs/remotes/origin/*</span><span class="w">
+</span><span class="w"></span><span class="p">[</span>branch<span class="w"> </span><span class="s2">&#34;master&#34;</span><span class="p">]</span><span class="w">
+</span><span class="w">    </span>remote<span class="w"> </span>=<span class="w"> </span>origin<span class="w">
+</span><span class="w">    </span>merge<span class="w"> </span>=<span class="w"> </span>refs/heads/master<span class="w">
+</span></code></pre></td></tr></table>
 </div>
-</div><h2 id="3-与远程仓库关联">3. 与远程仓库关联</h2>
+</div><h3 id="3-与远程仓库关联">3. 与远程仓库关联</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">git remote add origin git@server-name:path/repo-name.git
+<pre class="chroma"><code class="language-bash" data-lang="bash">git remote add origin git@server-name:path/repo-name.git
 </code></pre></td></tr></table>
 </div>
 </div><p>初始化的仓库在推送之前先拉取远程仓库的文件否则会可能会出错。</p>
@@ -290,7 +293,7 @@ host B <span class="c1">#自定义别名，用于之后配置地址</span>
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">git pull origin master
+<pre class="chroma"><code class="language-bash" data-lang="bash">git pull origin master
 </code></pre></td></tr></table>
 </div>
 </div><p>添加当前目录下的文件。</p>
@@ -301,7 +304,7 @@ host B <span class="c1">#自定义别名，用于之后配置地址</span>
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">git add &lt;filename&gt;
+<pre class="chroma"><code class="language-bash" data-lang="bash">git add &lt;filename&gt;
 git add * <span class="c1">#使用缺省符则将当前目录下所有文件添加到git</span>
 git commit -m <span class="s2">&#34;first commit&#34;</span> <span class="c1">#将修改在本地保存并且注释“first commit”</span>
 </code></pre></td></tr></table>
@@ -312,11 +315,10 @@ git commit -m <span class="s2">&#34;first commit&#34;</span> <span class="c1">#�
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">git push -u origin master
+<pre class="chroma"><code class="language-bash" data-lang="bash">git push -u origin master
 </code></pre></td></tr></table>
 </div>
-</div><p>  </p>
-<hr>
+</div><hr>
 <p>  </p>
 <p>本文简单总结了 Git 的基本用法，更多的操作还需要在实践中解锁。</p>
 <p>  </p>
@@ -325,8 +327,8 @@ git commit -m <span class="s2">&#34;first commit&#34;</span> <span class="c1">#�
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>更新于 2020-06-29&nbsp;<a class="git-hash" href="https://github.com/Lucas-0/Lucas-0.github.io/commit/11cb6274e920b16c96a08aa9d20960607aff46d7" target="_blank" title="commit by Lucas(raisingsha@gmail.com) 11cb6274e920b16c96a08aa9d20960607aff46d7: fix bugs">
-                                    <i class="fas fa-hashtag fa-fw"></i>11cb627</a></span>
+                <span>更新于 2020-07-01&nbsp;<a class="git-hash" href="https://github.com/Lucas-0/Lucas-0.github.io/commit/b849f50167882ced36432973d783393cf02fc497" target="_blank" title="commit by Lucas(raisingsha@gmail.com) b849f50167882ced36432973d783393cf02fc497: new post and style">
+                                    <i class="fas fa-hashtag fa-fw"></i>b849f50</a></span>
             </div>
             <div class="post-info-license"></div>
         </div>

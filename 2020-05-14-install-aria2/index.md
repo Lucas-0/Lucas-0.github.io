@@ -37,7 +37,7 @@
 ### 1. 下载解压  aria2  ###
 
 请检查链接是否为最新版，[GitHub项目地址](https://github.com/aria2/aria2)
-```shell
+```bash
 wget -N --no-check-certificate https://github.com/aria2/aria2/releases/download/release-1.35.0/aria2-1.35.0.tar.gz
 tar zxvf aria2-1.35.0.tar.gz
 rm -rf aria2-1.35.0.tar.gz
@@ -53,13 +53,13 @@ rm -rf aria2-1.35.0
 
 ### 2. 检查是否安装成功 ###
 
-```shell
+```bash
 command -v aria2c
 ```
 
 如果显示
 
-```shell
+```bash
 /usr/bin/aria2c
 ```
 
@@ -67,7 +67,7 @@ command -v aria2c
 
 ### 3. 下载 aria2 配置 ###
 
-```shell
+```bash
 mkdir "/root/.aria2" && mkdir /root/Download
 wget -N --no-check-certificate https://lucasdrive.imfast.io/Program/aria2/dht.dat -P '/root/.aria2/'
 wget -N --no-check-certificate https://lucasdrive.imfast.io/Program/aria2/aria2.conf -P '/root/.aria2/'
@@ -85,8 +85,6 @@ chmod 777 /root/.aria2/aria2.session
 
 ✅：注意要在宝塔面板中将 `aria2` 监听的端口放行，以及（如果有）安全组规则放行，否则 `aria2` 的速度会受到很大影响。
 
-&nbsp;&nbsp;
-
 ---
 
 &nbsp;&nbsp;
@@ -95,7 +93,7 @@ chmod 777 /root/.aria2/aria2.session
 
 创建 `/etc/systemd/system/aria2.service` ，不习惯 `vim` 可以直接在宝塔中新建文件，内容为：
 
-```C
+```bash
 [Unit]
 Description=Aria2 server
 After=network.target
@@ -113,14 +111,12 @@ WantedBy=multi-user.target
 
 然后 <kbd>esc</kbd> 、 <kbd>:wq</kbd> 退出保存，执行命令：
 
-```
+```bash
 systemctl enable aria2
 systemctl start aria2
 ```
 
 此时 aria2 已经启动。
-
-&nbsp;&nbsp;
 
 ---
 
@@ -134,7 +130,7 @@ systemctl start aria2
 
 ### 1. 安装OneDriveUploader ###
 
-```
+```bash
 #64位系统下载
 wget https://raw.githubusercontent.com/MoeClub/OneList/master/OneDriveUploader/amd64/linux/OneDriveUploader -P /usr/local/bin/
 #32位系统下载
@@ -148,7 +144,7 @@ chmod +x /usr/local/bin/OneDriveUploader
 
 ### 2. 初始化配置 ###
 
-```C
+```bash
 #国际版，将url换成你上面复制的授权地址，包括http://loaclhost。
 OneDriveUploader -a "url"
 
@@ -163,7 +159,7 @@ OneDriveUploader -cn -a "url"
 
 ### 3. 使用命令 ###
 
-```C
+```bash
 Usage of OneDriveUploader:
   -a string
         // 初始化授权
@@ -207,7 +203,7 @@ Usage of OneDriveUploader:
 
 ### 4. 命令示例 ###
 
-```C
+```bash
 #将当前目录下的mm00.jpg文件上传到OneDrive网盘根目录
 OneDriveUploader -c /path/to/file/auth.json -s "mm00.jpg"
 
@@ -226,8 +222,6 @@ OneDriveUploader -c /path/to/file/auth.json -t 10 -s "Download" -r "Test"
 #将同目录下的Download文件夹上传到OneDrive网盘Test目录中，使用15线程，并设置分块大小为20M
 OneDriveUploader -c /path/to/file/auth.json -t 15 -b 20 -s "Download" -r "Test"
 ```
-
-&nbsp;&nbsp;
 
 ---
 
@@ -282,7 +276,7 @@ LoadFile;
 
 编辑好上传脚本后，可以检测下脚本编码是否正确，比如我脚本路径为 `/root/upload.sh` ，使用命令：
 
-```
+```bash
 bash /root/upload.sh
 ```
 
@@ -290,7 +284,7 @@ bash /root/upload.sh
 
 先安装 `dos2unix` ：
 
-```
+```bash
 #CentOS系统
 yum install dos2unix -y
 
@@ -300,7 +294,7 @@ apt install dos2unix -y
 
 再转换编码：
 
-```
+```bash
 #后面为脚本路径
 dos2unix /root/upload.sh
 ```
@@ -309,7 +303,7 @@ dos2unix /root/upload.sh
 
 设置下载完成自动上传，传输后删除服务器上的文件：
 
-```
+```bash
 #授权
 chmod +x /root/upload.sh
 ```
@@ -322,11 +316,9 @@ chmod +x /root/upload.sh
 
 最后重启 `aria2` 生效。
 
-```
+```bash
 systemctl restart aria2
 ```
-
-&nbsp;&nbsp;
 
 ---
 
@@ -339,19 +331,19 @@ PS：几个指令：
 1. 使用 `clear` 命令或 `reset` 命令清空当前屏幕，or
 清空屏幕快捷键：
 
-```
+```bash
 ctrl + l
 ```
 
 2. 清空当前输入快捷键：
 
-```
+```bash
    ctrl + u
 ```
 
 3. 放弃当前输入快捷键：
 
-```
+```bash
    ctrl + z
 ```
 
