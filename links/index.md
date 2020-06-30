@@ -7,8 +7,8 @@
 
 |                            avatar                            | link                               |                                                          |
 | :----------------------------------------------------------: | ---------------------------------- | -------------------------------------------------------- |
-| ![Everness](http://q2.qlogo.cn/headimg_dl?dst_uin=1666287682&spec=100) | [Evergarden](https://everness.me/) | 阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴 |
-| ![](http://q2.qlogo.cn/headimg_dl?dst_uin=392959395&spec=100) | [Pims](https://phimos.github.io/)  | 打夺夺                                                   |
+| ![Everness](http://q.qlogo.cn/headimg_dl?dst_uin=1666287682&spec=100&img_type=jpg) | [Evergarden](https://everness.me/) | 阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴 |
+| ![Pims](http://q.qlogo.cn/headimg_dl?dst_uin=392959395&spec=100&img_type=jpg) | [Pims](https://phimos.github.io/)  | 打夺夺                                                   |
 
 ---
 
