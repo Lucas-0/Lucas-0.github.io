@@ -11,7 +11,7 @@ expiryDate:
 publishDate: 
 
 tags: ["Hugo","LoveIt","GitHub Pages","GitHub Action"]
-categories: ["技术"]
+categories: ["技术","Hugo"]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
