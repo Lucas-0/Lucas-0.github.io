@@ -7,11 +7,13 @@
 
 一篇很好的文章，英文版来自 [www.nobelprize.org](https://www.nobelprize.org/prizes/literature/1993/morrison/lecture/) 。有耐心的读者可以配合翻译食用，权当练习阅读也不错。最下面有[中文版](#PageFooter)，仅供参考。
 
-</br>
+---
+
+​    
 
 <div align="center">Toni Morrison Nobel Lecture<br>
   December 7, 1993</div>
-</br>
+​    
 
 “Once upon a time there was an old woman. Blind but wise.” Or was it an old man? A guru, perhaps. Or a griot soothing restless children. I have heard this story, or one exactly like it, in the lore of several cultures.
 

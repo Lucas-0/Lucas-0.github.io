@@ -4,7 +4,14 @@
         <link>https://lucas-0.github.io/categories/%E6%8A%80%E6%9C%AF/</link>
         <description>技术 - 分类 - NeverLand</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mailto:raisingsha@gmail.com (Lucas)</managingEditor>
-            <webMaster>mailto:raisingsha@gmail.com (Lucas)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 14 May 2020 15:19:15 &#43;0800</lastBuildDate><atom:link href="https://lucas-0.github.io/categories/%E6%8A%80%E6%9C%AF/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>mailto:raisingsha@gmail.com (Lucas)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 30 Jun 2020 18:00:00 &#43;0800</lastBuildDate><atom:link href="https://lucas-0.github.io/categories/%E6%8A%80%E6%9C%AF/" rel="self" type="application/rss+xml" /><item>
+    <title>Hugo 博客使用 LoveIt 主题</title>
+    <link>https://lucas-0.github.io/2020-06-30-hugo-and-loveit/</link>
+    <pubDate>Tue, 30 Jun 2020 18:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://lucas-0.github.io/2020-06-30-hugo-and-loveit/</guid>
+    <description><![CDATA[记录使用 Hugo 搭建博客和配置 LoveIt 主题的过程, 利用 GitHub Action 实现自动部署.]]></description>
+</item><item>
     <title>linux 下安装 aria2 及自动上传到 OneDrive</title>
     <link>https://lucas-0.github.io/2020-05-14-install-aria2/</link>
     <pubDate>Thu, 14 May 2020 15:19:15 &#43;0800</pubDate>
