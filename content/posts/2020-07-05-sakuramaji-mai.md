@@ -1,12 +1,12 @@
 ---
 title: "青春猪头少年不会梦到怀梦美少女"
 subtitle: "——旧文搬运"
-date: 2020-07-05T00:11:26+08:00
+date: 2020-07-05T00:50:26+08:00
 lastmod: 
 draft: false
 author: "Lucas"
 authorLink: "https://lucas-0.github.io"
-description: "「只要你还没变得幸福，无论多少次，我都会从各种不同的未来回来帮你。」「所以请你死心，让自己变得幸福吧。」"
+description: "「只要你还没变得幸福，无论多少次，我都会从各种不同的未来回来帮你。」</br>「所以请你死心，让自己变得幸福吧。」"
 summary: ""
 license: ""
 # 移动端网页链接的图片
