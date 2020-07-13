@@ -28,3 +28,14 @@ jobs:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           PUBLISH_BRANCH: master
           PUBLISH_DIR: ./public
+          
+      - name: Update Algolia Index
+        env:
+          ALGOLIA_APP_ID: RA4BOTUVZQ
+          ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+          ALGOLIA_INDEX_NAME: myBlog
+          ALGOLIA_INDEX_FILE: public/index.json
+        run: |
+          sudo apt-get -yqq install npm
+          sudo npm install atomic-algolia -g
+          atomic-algolia
