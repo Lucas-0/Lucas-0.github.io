@@ -112,6 +112,27 @@ git push origin blog
 
 然后 workflow 会自动生成 public 文件夹 push 到 master 分支.
 
+​    
+
+## 配置 Algolia ##
+
+hugo 使用 aligolia 搜索需要安装 atomic-algolia 生成 index.json, 然后上传到 Algolia, 过于麻烦, 而且我不想在 PC 上装 npm, 所以这部分的工作也交给 Github Action 完成 .
+
+```yml
+      - name: Update Algolia Index
+        env:
+          ALGOLIA_APP_ID: Your_APP_ID
+          ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+          ALGOLIA_INDEX_NAME: Your_INDEX_NAME
+          ALGOLIA_INDEX_FILE: public/index.json
+        run: |
+          sudo apt-get -yqq install npm
+          sudo npm install atomic-algolia -g
+          atomic-algolia
+```
+
+使用时到 Algolia 获取对应的 ID 和 key, 然后新建密钥 `ALGOLIA_ADMIN_KEY`.
+
 全文完.
 
 </br>
