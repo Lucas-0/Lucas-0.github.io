@@ -137,27 +137,27 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#安装-aria2--">安装 aria2 </a>
+    <li><a href="#安装-aria2">安装 aria2 </a>
       <ul>
-        <li><a href="#1-下载解压--aria2--">1. 下载解压  aria2 </a></li>
-        <li><a href="#2-检查是否安装成功-">2. 检查是否安装成功</a></li>
-        <li><a href="#3-下载-aria2-配置-">3. 下载 aria2 配置</a></li>
-        <li><a href="#4-配置-aria2rpc-密钥--">4. 配置 aria2RPC 密钥 </a></li>
+        <li><a href="#1-下载解压--aria2">1. 下载解压  aria2 </a></li>
+        <li><a href="#2-检查是否安装成功">2. 检查是否安装成功</a></li>
+        <li><a href="#3-下载-aria2-配置">3. 下载 aria2 配置</a></li>
+        <li><a href="#4-配置-aria2rpc-密钥">4. 配置 aria2RPC 密钥 </a></li>
       </ul>
     </li>
-    <li><a href="#设置开机启动-">设置开机启动</a></li>
-    <li><a href="#onedrive上传控件-">OneDrive上传控件</a>
+    <li><a href="#设置开机启动">设置开机启动</a></li>
+    <li><a href="#onedrive上传控件">OneDrive上传控件</a>
       <ul>
-        <li><a href="#1-安装onedriveuploader-">1. 安装OneDriveUploader</a></li>
-        <li><a href="#2-初始化配置-">2. 初始化配置</a></li>
-        <li><a href="#3-使用命令-">3. 使用命令</a></li>
-        <li><a href="#4-命令示例-">4. 命令示例</a></li>
+        <li><a href="#1-安装onedriveuploader">1. 安装OneDriveUploader</a></li>
+        <li><a href="#2-初始化配置">2. 初始化配置</a></li>
+        <li><a href="#3-使用命令">3. 使用命令</a></li>
+        <li><a href="#4-命令示例">4. 命令示例</a></li>
       </ul>
     </li>
-    <li><a href="#aria2-自动上传-">aria2 自动上传</a>
+    <li><a href="#aria2-自动上传">aria2 自动上传</a>
       <ul>
-        <li><a href="#1-aria2-自动上传脚本-">1. aria2 自动上传脚本</a></li>
-        <li><a href="#2-下载完成后执行-">2. 下载完成后执行</a></li>
+        <li><a href="#1-aria2-自动上传脚本">1. aria2 自动上传脚本</a></li>
+        <li><a href="#2-下载完成后执行">2. 下载完成后执行</a></li>
       </ul>
     </li>
   </ul>
@@ -176,9 +176,9 @@
 <p><a href="https://www.moerats.com/archives/482/" target="_blank" rel="noopener noreffer">使用Aira2下载文件后自动上传到Google Drive网盘</a></p>
 <p>  </p>
 <p>  </p>
-<h2 id="安装-aria2--">安装 aria2 </h2>
+<h2 id="安装-aria2">安装 aria2 </h2>
 <p>推荐在宝塔下进行操作。<a href="https://www.bt.cn/" target="_blank" rel="noopener noreffer">➡前往宝塔</a></p>
-<h3 id="1-下载解压--aria2--">1. 下载解压  aria2 </h3>
+<h3 id="1-下载解压--aria2">1. 下载解压  aria2 </h3>
 <p>请检查链接是否为最新版，<a href="https://github.com/aria2/aria2" target="_blank" rel="noopener noreffer">GitHub项目地址</a></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -202,7 +202,7 @@ rm -rf aria2-1.35.0
 </div>
 </div><p>上面做的事情：下载➡解压➡删除压缩包➡进入解压的文件夹➡运行安装➡回到上一层文件夹➡删除解压的文件夹。</p>
 <p>阿里云的 ECS 连接 GitHub 很慢，推荐下载到电脑上，利用宝塔手动上传，到哪个文件夹不重要，最终都会删掉。</p>
-<h3 id="2-检查是否安装成功-">2. 检查是否安装成功</h3>
+<h3 id="2-检查是否安装成功">2. 检查是否安装成功</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -221,7 +221,7 @@ rm -rf aria2-1.35.0
 </code></pre></td></tr></table>
 </div>
 </div><p>说明安装成功。</p>
-<h3 id="3-下载-aria2-配置-">3. 下载 aria2 配置</h3>
+<h3 id="3-下载-aria2-配置">3. 下载 aria2 配置</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -243,12 +243,12 @@ chmod <span class="m">777</span> /root/.aria2/aria2.session
 </code></pre></td></tr></table>
 </div>
 </div><p>上面的链接可能会失效，届时配置文件也可按照其他教程设置。</p>
-<h3 id="4-配置-aria2rpc-密钥--">4. 配置 aria2RPC 密钥 </h3>
+<h3 id="4-配置-aria2rpc-密钥">4. 配置 aria2RPC 密钥 </h3>
 <p>修改文件 <code>/root/.aria2/aria2.conf</code> ，找到 <code>rpc-secret</code> ，然后给 <code>rpc-secret</code> 设置密码，作为密钥。</p>
 <p>✅：注意要在宝塔面板中将 <code>aria2</code> 监听的端口放行，以及（如果有）安全组规则放行，否则 <code>aria2</code> 的速度会受到很大影响。</p>
 <hr>
 <p>  </p>
-<h2 id="设置开机启动-">设置开机启动</h2>
+<h2 id="设置开机启动">设置开机启动</h2>
 <p>创建 <code>/etc/systemd/system/aria2.service</code> ，不习惯 <code>vim</code> 可以直接在宝塔中新建文件，内容为：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -296,10 +296,10 @@ systemctl start aria2
 </div><p>此时 aria2 已经启动。</p>
 <hr>
 <p>  </p>
-<h2 id="onedrive上传控件-">OneDrive上传控件</h2>
+<h2 id="onedrive上传控件">OneDrive上传控件</h2>
 <p>点击右侧 <code>URL</code> 登录 OneDrive 并授权，授权地址→【<a href="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=78d4dc35-7e46-42c6-9023-2d39314433a5&amp;response_type=code&amp;redirect_uri=http://localhost/onedrive-login&amp;response_mode=query&amp;scope=offline_access%20User.Read%20Files.ReadWrite.All" target="_blank" rel="noopener noreffer">国际版、个人版(家庭版)</a>】、【<a href="https://login.chinacloudapi.cn/common/oauth2/v2.0/authorize?client_id=dfe36e60-6133-48cf-869f-4d15b8354769&amp;response_type=code&amp;redirect_uri=http://localhost/onedrive-login&amp;response_mode=query&amp;scope=offline_access%20User.Read%20Files.ReadWrite.All" target="_blank" rel="noopener noreffer">世纪互联</a>】。</p>
 <p>授权后会获取一个 <code>localhost</code> 开头打不开的链接，这里复制好整个链接地址，包括 <code>localhost</code> 。</p>
-<h3 id="1-安装onedriveuploader-">1. 安装OneDriveUploader</h3>
+<h3 id="1-安装onedriveuploader">1. 安装OneDriveUploader</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -324,7 +324,7 @@ wget https://raw.githubusercontent.com/MoeClub/OneList/master/OneDriveUploader/a
 chmod +x /usr/local/bin/OneDriveUploader
 </code></pre></td></tr></table>
 </div>
-</div><h3 id="2-初始化配置-">2. 初始化配置</h3>
+</div><h3 id="2-初始化配置">2. 初始化配置</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -348,7 +348,7 @@ OneDriveUploader -cn -a <span class="s2">&#34;url&#34;</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>如果提示 <code>Init config file: /root/auth.json</code> 类似信息，则初始化成功。</p>
-<h3 id="3-使用命令-">3. 使用命令</h3>
+<h3 id="3-使用命令">3. 使用命令</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -433,7 +433,7 @@ OneDriveUploader -cn -a <span class="s2">&#34;url&#34;</span>
         OneDrive by Microsoft.
 </code></pre></td></tr></table>
 </div>
-</div><h3 id="4-命令示例-">4. 命令示例</h3>
+</div><h3 id="4-命令示例">4. 命令示例</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -476,8 +476,8 @@ OneDriveUploader -c /path/to/file/auth.json -t <span class="m">15</span> -b <spa
 </div>
 </div><hr>
 <p>  </p>
-<h2 id="aria2-自动上传-">aria2 自动上传</h2>
-<h3 id="1-aria2-自动上传脚本-">1. aria2 自动上传脚本</h3>
+<h2 id="aria2-自动上传">aria2 自动上传</h2>
+<h3 id="1-aria2-自动上传脚本">1. aria2 自动上传脚本</h3>
 <p>上传脚本代码如下：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -599,7 +599,7 @@ apt install dos2unix -y
 dos2unix /root/upload.sh
 </code></pre></td></tr></table>
 </div>
-</div><h3 id="2-下载完成后执行-">2. 下载完成后执行</h3>
+</div><h3 id="2-下载完成后执行">2. 下载完成后执行</h3>
 <p>设置下载完成自动上传，传输后删除服务器上的文件：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
