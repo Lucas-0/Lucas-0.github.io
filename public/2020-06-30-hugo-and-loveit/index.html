@@ -137,9 +137,9 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#初始化和管理主题-">初始化和管理主题</a></li>
-    <li><a href="#github-pages-">GitHub Pages</a></li>
-    <li><a href="#github-action-">GitHub Action</a></li>
+    <li><a href="#初始化和管理主题">初始化和管理主题</a></li>
+    <li><a href="#github-pages">GitHub Pages</a></li>
+    <li><a href="#github-action">GitHub Action</a></li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"></br>
@@ -154,7 +154,7 @@
     </div>
 <hr>
 </br>
-<h2 id="初始化和管理主题-">初始化和管理主题</h2>
+<h2 id="初始化和管理主题">初始化和管理主题</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -193,7 +193,7 @@ git config --global --unset https.proxy
 </div>
 </div><p>配置一下博客的 config 文件, 注意 <code>themesDir = &quot;themes&quot;</code> 不要添加斜杠 <code>/</code>, 否则在下一步利用 GitHub Action自动部署会报找不到主题的错误.</p>
 </br>
-<h2 id="github-pages-">GitHub Pages</h2>
+<h2 id="github-pages">GitHub Pages</h2>
 <p>然后添加 GitHub Pages 仓库: blog 分支管理源码, master 中为 public 文件夹.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -217,7 +217,7 @@ git push origin blog
 </div>
 </div><p>到这一步, 已经完成了推送的步骤.</p>
 </br>
-<h2 id="github-action-">GitHub Action</h2>
+<h2 id="github-action">GitHub Action</h2>
 <p>在博客根目录新建 <code>.github/workflows/main.yml</code> 文件, 这是 GitHub Action 读取执行的文件夹, 其中 <code>main.yml</code> 文件名字可以任取.</p>
 <p>内容:</p>
 <div class="highlight"><div class="chroma">
