@@ -7,7 +7,7 @@ description: "Hugo 和 LoveIt 中的 Emoji 的用法指南."
 featuredImagePreview: "https://cdn.jsdelivr.net/gh/Lucas-0/Img/20200406213005.jpg"
 
 tags: ["emoji"]
-categories: ["Hugo"]
+categories: ["入门"]
 
 lightgallery: true
 ---
