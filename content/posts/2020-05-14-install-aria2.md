@@ -9,6 +9,7 @@ featuredImagePreview: "https://cdn.jsdelivr.net/gh/Lucas-0/Img/img/2020063018415
 toc: 
 lastmod: 2020-05-14T15:19:15+08:00
 summary: "在 ECS 使用 aria2 下载与没有公网 IP 的 PC 相比有一定优势，但是 Lucas 所用的阿里云的小水管下载有 100 MB ，上传只有 1 MB，取回下好的东西还要漫长的等待。本文即为解决这一问题而写。"
+hiddenFromHomePage: true
 ---
 
 ---
