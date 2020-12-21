@@ -32,7 +32,7 @@
                             "url": "https:\/\/lucas-0.github.io\/images\/Apple-Devices-Preview.png",
                             "width":  3200 ,
                             "height":  2048 
-                        }],"genre": "posts","keywords": "Hugo, LoveIt, GitHub Pages, GitHub Action","wordcount":  643 ,
+                        }],"genre": "posts","keywords": "Hugo, LoveIt, GitHub Pages, GitHub Action","wordcount":  630 ,
         "url": "https:\/\/lucas-0.github.io\/2020-06-30-hugo-and-loveit\/","datePublished": "2020-06-30T18:00:00+08:00","dateModified": "2020-08-15T23:55:57+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "Lucas","logo": {
@@ -128,7 +128,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">Hugo 博客使用 LoveIt 主题</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://lucas-0.github.io/about/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Lucas</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E6%8A%80%E6%9C%AF/"><i class="far fa-folder fa-fw"></i>技术</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-06-30">2020-06-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 643 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-06-30">2020-06-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 630 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
@@ -276,15 +276,15 @@ git push origin blog
 </span><span class="w">          </span><span class="nt">extended</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
 </span><span class="w">
 </span><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Build Hugo</span><span class="w">
-</span><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="sd">|
-</span><span class="sd">          hugo
-</span><span class="sd">
-</span><span class="sd">      - name: Deploy Hugo to gh-pages
-</span><span class="sd">        uses: peaceiris/actions-gh-pages@v2
-</span><span class="sd">        env:
-</span><span class="sd">          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-</span><span class="sd">          PUBLISH_BRANCH: master
-</span><span class="sd">          PUBLISH_DIR: ./public
+</span><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="p">|</span><span class="sd">
+</span><span class="sd">          </span><span class="w">          </span><span class="l">hugo</span><span class="w">
+</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy Hugo to gh-pages</span><span class="w">
+</span><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-gh-pages@v2</span><span class="w">
+</span><span class="w">        </span><span class="nt">env</span><span class="p">:</span><span class="w">
+</span><span class="w">          </span><span class="nt">ACTIONS_DEPLOY_KEY</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.ACTIONS_DEPLOY_KEY }}</span><span class="w">
+</span><span class="w">          </span><span class="nt">PUBLISH_BRANCH</span><span class="p">:</span><span class="w"> </span><span class="l">master</span><span class="w">
+</span><span class="w">          </span><span class="nt">PUBLISH_DIR</span><span class="p">:</span><span class="w"> </span><span class="l">./public</span><span class="w">
 </span></code></pre></td></tr></table>
 </div>
 </div><p>在仓库新建 <code>Secrets</code>, 名称自定, 可以和上面给定的模板一样叫做 ACTIONS_DEPLOY_KEY, 将 SSH 私钥复制进去.这样 workflow 就有权限对 master 分支进行写操作.</p>
@@ -325,10 +325,10 @@ git push origin blog
 </span><span class="w">          </span><span class="nt">ALGOLIA_ADMIN_KEY</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.ALGOLIA_ADMIN_KEY }}</span><span class="w">
 </span><span class="w">          </span><span class="nt">ALGOLIA_INDEX_NAME</span><span class="p">:</span><span class="w"> </span><span class="l">Your_INDEX_NAME</span><span class="w">
 </span><span class="w">          </span><span class="nt">ALGOLIA_INDEX_FILE</span><span class="p">:</span><span class="w"> </span><span class="l">public/index.json</span><span class="w">
-</span><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="sd">|
+</span><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="p">|</span><span class="sd">
 </span><span class="sd">          sudo apt-get -yqq install npm
 </span><span class="sd">          sudo npm install atomic-algolia -g
-</span><span class="sd">          atomic-algolia
+</span><span class="sd">          atomic-algolia</span><span class="w">          
 </span></code></pre></td></tr></table>
 </div>
 </div><p>使用时到 Algolia 获取对应的 ID 和 key, 然后新建密钥 <code>ALGOLIA_ADMIN_KEY</code>.</p>
