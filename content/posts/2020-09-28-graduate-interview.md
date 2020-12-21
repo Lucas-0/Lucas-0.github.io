@@ -1,12 +1,13 @@
 ---
-title: "推研"
+title: "牛顿第一定律与 The Road Not Taken"
 subtitle: ""
-date: # 2020-03-04T15:58:26+08:00
+date: 2020-12-21T23:22:26+08:00
+weight: 
 lastmod: # 2020-03-04T15:58:26+08:00
-draft: true
+draft: false
 author: "Lucas"
 authorLink: "https://lucas-0.github.io"
-description: ""
+description: "怀念过去。"
 summary: ""
 license: ""
 # 移动端网页链接的图片
@@ -21,7 +22,7 @@ categories: []
 # 文章顶部照片
 featuredImage: ""
 # 文章在首页的缩略图
-featuredImagePreview: ""
+featuredImagePreview: "https://cdn.jsdelivr.net/gh/Lucas-0/Img/img/20201221234624.jpg"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -69,9 +70,33 @@ seo:
 
 <!--more-->
 
+{{<admonition failure "Warning" >}}
+这其实是最后动笔于九月底的废稿，拖到现在已经没兴致写了，凑数发上来吧。
+{{</admonition>}}
+
+---
+
+​    
+
+​    
+
+我感到思想混乱。
+
+由内及外，许多问题被提出来，再花上三年，能否找到答案呢?
+
+---
+
+{{< admonition>}}
+{{< typeit >}}
+ **正文开始** 
+{{< /typeit >}}
+{{</admonition>}}
+
+
+
 报了三个志愿，精仪，深研院，自动化。
 
-贴下链接:link:：
+贴下一些用得到的链接:link:：
 
 1. [2021届本科毕业生推荐免试攻读博士/硕士学位工作办法](https://mp.weixin.qq.com/s?__biz=MzAxMDcwMDcwOQ==&mid=2655840146&idx=1&sn=8191a6411605e68c31ea5a2a1a3ff98f)
 2. [清华大学深圳国际研究生院](https://www.sigs.tsinghua.edu.cn)
@@ -79,6 +104,9 @@ seo:
 4. [学科方向-清华大学自动化系](http://www.au.tsinghua.edu.cn/kxyj/xkfx.htm)
 5. [学者列表 - 清华大学学者库](https://thurid.lib.tsinghua.edu.cn/scholar/?departmentsCode=6)
 6. [清华大学研究生招生网](http://yz.tsinghua.edu.cn/)
+7. [清华保研的流程是什么？ - 知乎](https://www.zhihu.com/question/29092915/answer/101719217)
+
+​    
 
 ## 精仪
 
@@ -88,7 +116,9 @@ seo:
 2. 2min读题目，四道题：材料力学，控工，电工电子，测试技术（今年题目为悬臂梁挠度、PID调节、D触发器、电容），8min作答
 3. 5min闲扯
 
-我抽到了下午第二个，进去的时候坐下展示PPT，在我对面的组长直接睡着了，后面是其他老师碰醒他。然后直接给一张A4纸，看2min之后回答问题。之后对PPT提问，问了我科研经历（其实基本为零），答做了开头的SRT、划水的电路设计和暑假生产实习的项目；问了我的未来规划，为什么英语这么好了研究生还要增强英语，答练习口语表达；问是否服从调剂，答是（虽然最后没有调）。
+我抽到了下午第二个，进去的时候坐下展示PPT，在我对面的组长直接睡着了，后面是其他老师碰醒他。然后直接给一张A4纸，看2min之后回答问题。之后对PPT提问，问了我科研经历（其实基本为零），答做了开头的SRT、划水的电路设计和暑假生产实习的项目；随口问了我的未来规划，忘了怎么回答的；问是否服从调剂，答是（虽然最后没有调）。
+
+​    
 
 ## 自动化
 
@@ -122,7 +152,20 @@ seo:
 1. 进入会议室口头自我介绍1~2min
 2. 读出一段英语，然后翻译（我抽到的是NASA制造毅力号火星车）
 3. 然后投影仪选题，七类中选择3道题目
+   * 自控原理
+   * 数据结构
+   * 电路
+   * 数学（主要是线代）
+   * ···
 
-* 
+4. 闲聊，交叉经典必问：你为什么要报我们系？还问了数学课学习情况、控工学习情况、高考排名？？，最后问是否服从调剂。
 
-4. 闲聊，交叉经典必问：你为什么要报我们系？还问了数学课学习情况、控工学习情况、高考排名？？，最后问是否服从调剂。如果去面试之前把前辈们的回忆题都做一遍，那么答题基本就不会出问题了，虽然我没做这件事。
+建议在去面试之前把前辈们的回忆题都做一遍，那么答题基本就不会出问题了（然而我没做这件事，so—— boom）。
+
+​    
+
+## 深研院 ##
+
+wasted。
+
+   
