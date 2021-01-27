@@ -82,7 +82,7 @@
      <td style="text-align:left">同样京都出品，出色的战斗画面</td>
    </tr>
      <tr>
-     <td  align="center">炎炎消防队</td>
+     <td  align="center">炎炎消防队(S1)</td>
      <td align="center">★★★★</td>
      <td style="text-align:left">OP神仙，故事套路，画面不错</td>
    </tr>
@@ -107,6 +107,7 @@
      <td style="text-align:left"></td>
    </tr>
 </table>
+
 <br/>
 
 ## 业界标杆赛区 ##
@@ -129,7 +130,7 @@
      <td style="text-align:left">百合番，情感极其自然细腻，剧情笑中有泪，完成度极高</td>
    </tr>
      <tr>
-     <td  align="center">一拳超人（第一季）</td>
+     <td  align="center">一拳超人(S1)</td>
      <td align="center">★★★★★</td>
      <td style="text-align:left">顶级的战斗画面，以及对于何为英雄的探讨</td>
    </tr>
@@ -139,12 +140,12 @@
      <td style="text-align:left">充满青春感的作品</td>
    </tr>
      <tr>
-     <td  align="center">有顶天家族（第一季&第二季）</td>
+     <td  align="center">有顶天家族(S1&S2)</td>
      <td align="center">★★★★☆</td>
      <td style="text-align:left">狸猫，人类与天狗的故事。展示了日式妖怪传说的魅力。</td>
    </tr>
      <tr>
-     <td  align="center">擅长捉弄的高木同学（第一季）</td>
+     <td  align="center">擅长捉弄的高木同学(S1)</td>
      <td align="center">★★★★★</td>
      <td style="text-align:left">表扬作者的想象力，能在两平方米的空间演绎精彩的故事，让人想起失落的纯真~</td>
    </tr>
@@ -159,12 +160,12 @@
      <td style="text-align:left">设定宏大奇妙，充满谜题的世界</td>
    </tr>
      <tr>
-     <td align="center">辉夜大小姐想让我告白（第一季）</td>
+     <td align="center">辉夜大小姐想让我告白(S1&S2)</td>
      <td align="center">★★★★☆</td>
      <td style="text-align:left">画面精美，故事有趣</td>
    </tr>
      <tr>
-     <td align="center">约定的梦幻岛</td>
+     <td align="center">约定的梦幻岛(S1)</td>
      <td align="center">★★★★★</td>
      <td style="text-align:left">少见的题材，对于人物的安排，情节的取舍都令人眼前一亮，世界观自洽，庞大而未展开，给续作留下充分的空间。故事性这么强的作品近年是越来越少了。</td>
    </tr>
@@ -179,7 +180,7 @@
      <td style="text-align:left">开播前曾被误解的作品，实际并不媚俗而是在认真探讨青春</td>
    </tr>
        <tr>
-     <td  align="center">Beastar</td>
+     <td  align="center">Beastar(S1)</td>
      <td align="center">★★★★★</td>
      <td style="text-align:left">开播前一度以为在模仿<i>Zootopia</i>,实际上是一部独立而卓越的作品，其深刻的隐喻并不逊于<i>Zootopia</i>。表现力极佳。</td>
    </tr>
@@ -209,7 +210,7 @@
      <td style="text-align:left">刷新了近年动画电影深度的作品</td>
    </tr>
         <tr>
-     <td align="center">进击的巨人</td>
+     <td align="center">进击的巨人(S1&S2&S3)</td>
      <td align="center">★★★★★☆</td>
      <td style="text-align:left">最可能接班钢炼的作品，不出意外完结后将升至六星。</td>
    </tr>
@@ -219,6 +220,7 @@
      <td style="text-align:left"></td>
    </tr>
 </table>
+
 <br/>
 
 ## 位列仙班赛区 ##
