@@ -49,19 +49,40 @@
         <td align="center">★★★★★</td>
         <td>小千代是目前认为最可爱的女主</td>
    </tr>
+         <tr>
+        <td align="center">拳愿阿修罗</td>
+        <td align="center">★★★★★</td>
+        <td>猛男打架，爽就完事了</td>
+   </tr>
+         <tr>
+     <td align="center">BNA</td>
+     <td align="center">★★★☆</td>
+     <td>故事很套路，但是美术风格不错</td>
+   </tr>
+         <tr>
+        <td align="center">齐木楠雄的灾难</td>
+        <td align="center">★★★★★</td>
+        <td>坚持看下去慢慢感觉角色的魅力</td>
+   </tr>
+         <tr>
+        <td align="center">女高中生的无所事事</td>
+        <td align="center">★★★★</td>
+        <td>后期略有下滑</td>
+   </tr>
        <tr>
         <td align="center">waiting···</td>
         <td align="center"></td>
         <td></td>
    </tr>
 </table>
+
 <br/>
 
 ## 中规中矩赛区 ##
 
 {{< admonition type=tip title="This is a tip">}}
 
-作品的主题深度达到中学生水平
+稳定发挥，差强人意。
 
 {{</admonition>}}
 
@@ -82,14 +103,14 @@
      <td style="text-align:left">同样京都出品，出色的战斗画面</td>
    </tr>
      <tr>
-     <td  align="center">炎炎消防队</td>
+     <td  align="center">炎炎消防队(S1)</td>
      <td align="center">★★★★</td>
      <td style="text-align:left">OP神仙，故事套路，画面不错</td>
    </tr>
      <tr>
      <td  align="center">鬼灭之刃</td>
      <td align="center">★★★★☆</td>
-     <td style="text-align:left">Lucas喜欢独具风格的战斗画面</td>
+     <td style="text-align:left">独具风格的战斗画面</td>
    </tr>
      <tr>
      <td  align="center">小林家的龙女仆</td>
@@ -102,11 +123,58 @@
      <td style="text-align:left">神曲,和不算糟的完成度，Lucas认为结尾并不拉胯</td>
    </tr>
      <tr>
+     <td align="center">玉子市场</td>
+     <td align="center">★★★★☆</td>
+     <td style="text-align:left">天然呆的元气少女，剧场版没有怪鸟观感更好</td>
+   </tr>
+       <tr>
+     <td align="center">命运石之门</td>
+     <td align="center">★★★★☆</td>
+     <td style="text-align:left">本质是日常恋爱番（PS：观看α+剧场版即可，β线表现很差）</td>
+   </tr>
+       <tr>
+     <td align="center">黄金神威(S1&S2)</td>
+     <td align="center">★★★★★</td>
+     <td style="text-align:left">不止是夺宝群像剧</td>
+   </tr>
+     <tr>
      <td align="center">waiting···</td>
      <td align="center"></td>
      <td style="text-align:left"></td>
    </tr>
 </table>
+
+<br/>
+
+## 见仁见智赛区 ##
+
+{{< admonition type=tip title="This is a tip">}}
+
+虽然主观评价高，但是不得不承认相对而言挑观众的作品。
+
+{{< /admonition>}}
+
+<table border="2" cellspacing="3%" frame="hsides" style="background-color:#d1eac157;opacity:0.9">
+   <tr>
+     <td width=25% align="center">来自风平浪静的明天</td>
+     <td width=25% align="center">异兽魔都</td>
+     <td width=25% align="center">我的三体之章北海传</td>
+     <td width=25% align="center">高分少女(S1&S2)</td>
+   </tr>
+   <tr>
+     <td width=25% align="center">人渣的本愿</td>
+     <td width=25% align="center"></td>
+     <td width=25% align="center"></td>
+     <td width=25% align="center"></td>
+   </tr>
+   <tr>
+     <td width=25% align="center"></td>
+     <td width=25% align="center"></td>
+     <td width=25% align="center"></td>
+     <td width=25% align="center"></td>
+   </tr>
+</table>
+
 <br/>
 
 ## 业界标杆赛区 ##
@@ -129,7 +197,7 @@
      <td style="text-align:left">百合番，情感极其自然细腻，剧情笑中有泪，完成度极高</td>
    </tr>
      <tr>
-     <td  align="center">一拳超人（第一季）</td>
+     <td  align="center">一拳超人(S1)</td>
      <td align="center">★★★★★</td>
      <td style="text-align:left">顶级的战斗画面，以及对于何为英雄的探讨</td>
    </tr>
@@ -139,12 +207,12 @@
      <td style="text-align:left">充满青春感的作品</td>
    </tr>
      <tr>
-     <td  align="center">有顶天家族（第一季&第二季）</td>
+     <td  align="center">有顶天家族(S1&S2)</td>
      <td align="center">★★★★☆</td>
      <td style="text-align:left">狸猫，人类与天狗的故事。展示了日式妖怪传说的魅力。</td>
    </tr>
      <tr>
-     <td  align="center">擅长捉弄的高木同学（第一季）</td>
+     <td  align="center">擅长捉弄的高木同学(S1)</td>
      <td align="center">★★★★★</td>
      <td style="text-align:left">表扬作者的想象力，能在两平方米的空间演绎精彩的故事，让人想起失落的纯真~</td>
    </tr>
@@ -156,15 +224,15 @@
      <tr>
      <td align="center">来自深渊</td>
      <td align="center">★★★★★</td>
-     <td style="text-align:left">设定宏大奇妙，充满谜题的世界</td>
+     <td style="text-align:left">设定宏大奇妙，充满谜题的世界。剧场版黎明表现同样出色</td>
    </tr>
      <tr>
-     <td align="center">辉夜大小姐想让我告白（第一季）</td>
+     <td align="center">辉夜大小姐想让我告白(S1&S2)</td>
      <td align="center">★★★★☆</td>
      <td style="text-align:left">画面精美，故事有趣</td>
    </tr>
      <tr>
-     <td align="center">约定的梦幻岛</td>
+     <td align="center">约定的梦幻岛(S1)</td>
      <td align="center">★★★★★</td>
      <td style="text-align:left">少见的题材，对于人物的安排，情节的取舍都令人眼前一亮，世界观自洽，庞大而未展开，给续作留下充分的空间。故事性这么强的作品近年是越来越少了。</td>
    </tr>
@@ -179,7 +247,7 @@
      <td style="text-align:left">开播前曾被误解的作品，实际并不媚俗而是在认真探讨青春</td>
    </tr>
        <tr>
-     <td  align="center">Beastar</td>
+     <td  align="center">Beastar(S1)</td>
      <td align="center">★★★★★</td>
      <td style="text-align:left">开播前一度以为在模仿<i>Zootopia</i>,实际上是一部独立而卓越的作品，其深刻的隐喻并不逊于<i>Zootopia</i>。表现力极佳。</td>
    </tr>
@@ -209,9 +277,29 @@
      <td style="text-align:left">刷新了近年动画电影深度的作品</td>
    </tr>
         <tr>
-     <td align="center">进击的巨人</td>
+     <td align="center">进击的巨人(S1&S2&S3)</td>
      <td align="center">★★★★★☆</td>
      <td style="text-align:left">最可能接班钢炼的作品，不出意外完结后将升至六星。</td>
+   </tr>
+         <tr>
+     <td align="center">战栗杀机</td>
+     <td align="center">★★★★★</td>
+     <td style="text-align:left">独角兽与处子</td>
+   </tr>
+         <tr>
+     <td align="center">Re：从零开始的异世界生活(S1&S2)</td>
+     <td align="center">★★★★★</td>
+     <td style="text-align:left">异世界题材的顶流</td>
+   </tr>
+           <tr>
+     <td align="center">魔法少女小圆&叛逆的物语</td>
+     <td align="center">★★★★★</td>
+     <td style="text-align:left">层层深入魔法少女残酷的世界</td>
+   </tr>
+         <tr>
+     <td align="center">强风吹拂</td>
+     <td align="center">★★★★★</td>
+     <td style="text-align:left">友情与汗水</td>
    </tr>
        <tr>
      <td align="center">waiting···</td>
@@ -219,6 +307,8 @@
      <td style="text-align:left"></td>
    </tr>
 </table>
+
+
 <br/>
 
 ## 位列仙班赛区 ##
