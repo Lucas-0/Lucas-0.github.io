@@ -49,19 +49,40 @@
         <td align="center">★★★★★</td>
         <td>小千代是目前认为最可爱的女主</td>
    </tr>
+         <tr>
+        <td align="center">拳愿阿修罗</td>
+        <td align="center">★★★★★</td>
+        <td>猛男打架，爽就完事了</td>
+   </tr>
+         <tr>
+     <td align="center">BNA</td>
+     <td align="center">★★★☆</td>
+     <td>故事很套路，但是美术风格不错</td>
+   </tr>
+         <tr>
+        <td align="center">齐木楠雄的灾难</td>
+        <td align="center">★★★★★</td>
+        <td>坚持看下去慢慢感觉角色的魅力</td>
+   </tr>
+         <tr>
+        <td align="center">女高中生的无所事事</td>
+        <td align="center">★★★★</td>
+        <td>后期略有下滑</td>
+   </tr>
        <tr>
         <td align="center">waiting···</td>
         <td align="center"></td>
         <td></td>
    </tr>
 </table>
+
 <br/>
 
 ## 中规中矩赛区 ##
 
 {{< admonition type=tip title="This is a tip">}}
 
-作品的主题深度达到中学生水平
+稳定发挥，差强人意。
 
 {{</admonition>}}
 
@@ -89,7 +110,7 @@
      <tr>
      <td  align="center">鬼灭之刃</td>
      <td align="center">★★★★☆</td>
-     <td style="text-align:left">Lucas喜欢独具风格的战斗画面</td>
+     <td style="text-align:left">独具风格的战斗画面</td>
    </tr>
      <tr>
      <td  align="center">小林家的龙女仆</td>
@@ -102,9 +123,55 @@
      <td style="text-align:left">神曲,和不算糟的完成度，Lucas认为结尾并不拉胯</td>
    </tr>
      <tr>
+     <td align="center">玉子市场</td>
+     <td align="center">★★★★☆</td>
+     <td style="text-align:left">天然呆的元气少女，剧场版没有怪鸟观感更好</td>
+   </tr>
+       <tr>
+     <td align="center">命运石之门</td>
+     <td align="center">★★★★☆</td>
+     <td style="text-align:left">本质是日常恋爱番（PS：观看α+剧场版即可，β线表现很差）</td>
+   </tr>
+       <tr>
+     <td align="center">黄金神威(S1&S2)</td>
+     <td align="center">★★★★★</td>
+     <td style="text-align:left">不止是夺宝群像剧</td>
+   </tr>
+     <tr>
      <td align="center">waiting···</td>
      <td align="center"></td>
      <td style="text-align:left"></td>
+   </tr>
+</table>
+
+<br/>
+
+## 见仁见智赛区 ##
+
+{{< admonition type=tip title="This is a tip">}}
+
+虽然主观评价高，但是不得不承认相对而言挑观众的作品。
+
+{{< /admonition>}}
+
+<table border="2" cellspacing="3%" frame="hsides" style="background-color:#d1eac157;opacity:0.9">
+   <tr>
+     <td width=25% align="center">来自风平浪静的明天</td>
+     <td width=25% align="center">异兽魔都</td>
+     <td width=25% align="center">我的三体之章北海传</td>
+     <td width=25% align="center">高分少女(S1&S2)</td>
+   </tr>
+   <tr>
+     <td width=25% align="center">人渣的本愿</td>
+     <td width=25% align="center"></td>
+     <td width=25% align="center"></td>
+     <td width=25% align="center"></td>
+   </tr>
+   <tr>
+     <td width=25% align="center"></td>
+     <td width=25% align="center"></td>
+     <td width=25% align="center"></td>
+     <td width=25% align="center"></td>
    </tr>
 </table>
 
@@ -157,7 +224,7 @@
      <tr>
      <td align="center">来自深渊</td>
      <td align="center">★★★★★</td>
-     <td style="text-align:left">设定宏大奇妙，充满谜题的世界</td>
+     <td style="text-align:left">设定宏大奇妙，充满谜题的世界。剧场版黎明表现同样出色</td>
    </tr>
      <tr>
      <td align="center">辉夜大小姐想让我告白(S1&S2)</td>
@@ -214,12 +281,33 @@
      <td align="center">★★★★★☆</td>
      <td style="text-align:left">最可能接班钢炼的作品，不出意外完结后将升至六星。</td>
    </tr>
+         <tr>
+     <td align="center">战栗杀机</td>
+     <td align="center">★★★★★</td>
+     <td style="text-align:left">独角兽与处子</td>
+   </tr>
+         <tr>
+     <td align="center">Re：从零开始的异世界生活(S1&S2)</td>
+     <td align="center">★★★★★</td>
+     <td style="text-align:left">异世界题材的顶流</td>
+   </tr>
+           <tr>
+     <td align="center">魔法少女小圆&叛逆的物语</td>
+     <td align="center">★★★★★</td>
+     <td style="text-align:left">层层深入魔法少女残酷的世界</td>
+   </tr>
+         <tr>
+     <td align="center">强风吹拂</td>
+     <td align="center">★★★★★</td>
+     <td style="text-align:left">友情与汗水</td>
+   </tr>
        <tr>
      <td align="center">waiting···</td>
      <td align="center"></td>
      <td style="text-align:left"></td>
    </tr>
 </table>
+
 
 <br/>
 
