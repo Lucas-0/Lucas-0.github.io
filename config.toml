@@ -139,7 +139,7 @@ enableEmoji = true
           # Gravatar 邮箱，用于优先在主页显示的头像
           gravatarEmail = ""
           # 主页显示头像的 URL
-          avatarURL = "/images/avatar.jpg"
+          avatarURL = "https://cdn.jsdelivr.net/gh/Lucas-0/Img/img/20210214152155.jpg" # "/images/avatar.jpg"
           # 主页显示的网站标题 (支持 HTML 格式)
           title = "Lucas"
           # 主页显示的网站副标题
