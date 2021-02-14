@@ -243,7 +243,7 @@ lastmod: 2020-04-06T12:31:20+08:00
      <tr>
      <td align="center">约定的梦幻岛(S1)</td>
      <td align="center">★★★★★</td>
-     <td style="text-align:left">少见的题材，对于人物的安排，情节的取舍都令人眼前一亮，世界观自洽，庞大而未展开，给续作留下充分的空间。故事性这么强的作品近年是越来越少了。</td>
+     <td style="text-align:left">少见的题材，对于人物的安排，情节的取舍都令人眼前一亮，世界观自洽，庞大而未展开，给续作留下充分的空间。故事性强，遗憾的是出道即巅峰，漫画之后的剧情和续作拉了。</td>
    </tr>
      <tr>
      <td align="center">青春猪头少年不会梦到兔女郎学姐</td>
@@ -288,7 +288,7 @@ lastmod: 2020-04-06T12:31:20+08:00
         <tr>
      <td align="center">进击的巨人(S1&S2&S3)</td>
      <td align="center">★★★★★☆</td>
-     <td style="text-align:left">最可能接班钢炼的作品，不出意外完结后将升至六星。</td>
+     <td style="text-align:left">把敌人都消灭，就能得到自由吗？</td>
    </tr>
          <tr>
      <td align="center">战栗杀机</td>
