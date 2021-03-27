@@ -4,9 +4,16 @@
         <link>https://lucas-0.github.io/</link>
         <description>someone&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mailto:raisingsha@gmail.com (Lucas)</managingEditor>
-            <webMaster>mailto:raisingsha@gmail.com (Lucas)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 21 Dec 2020 23:22:26 &#43;0800</lastBuildDate>
+            <webMaster>mailto:raisingsha@gmail.com (Lucas)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 27 Mar 2021 14:25:26 &#43;0800</lastBuildDate>
             <atom:link href="https://lucas-0.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>帕岛通讯</title>
+    <link>https://lucas-0.github.io/2021-03-27-communications-paradis/</link>
+    <pubDate>Sat, 27 Mar 2021 14:25:26 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://lucas-0.github.io/2021-03-27-communications-paradis/</guid>
+    <description><![CDATA[一孔之见]]></description>
+</item><item>
     <title>牛顿第一定律与 The Road Not Taken</title>
     <link>https://lucas-0.github.io/2020-09-28-graduate-interview/</link>
     <pubDate>Mon, 21 Dec 2020 23:22:26 &#43;0800</pubDate>
@@ -75,14 +82,5 @@
     <author>作者</author>
     <guid>https://lucas-0.github.io/2020-05-05-git-get-started/</guid>
     <description><![CDATA[最近遇到了如何在电脑上的不同位置连接不同的远程仓库的问题，很多中文的 git 教程并没有涉及到这个问题，故将查阅到的办法整理为此文。]]></description>
-</item><item>
-    <title>被剥夺的语言和语言的剥夺</title>
-    <link>https://lucas-0.github.io/2020-04-18-bird-in-the-hand/</link>
-    <pubDate>Sat, 18 Apr 2020 00:15:33 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://lucas-0.github.io/2020-04-18-bird-in-the-hand/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://cdn.jsdelivr.net/gh/Lucas-0/Img/20200418105244.jpg" referrerpolicy="no-referrer">
-            </div>托妮·莫里森用“掌中之鸟”的隐喻讲述了语言的力量、其被剥夺的严重后果、以及重建的可能。虽然在这里托妮·莫里森主要探讨的是黑人文化、语言在白人文化殖民下的困境与出路，但其中种种用来观照我们如今的中文互联网环境出奇适用。]]></description>
 </item></channel>
 </rss>
