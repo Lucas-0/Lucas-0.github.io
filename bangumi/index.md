@@ -74,6 +74,10 @@
         <td align="center">★★★★☆</td>
         <td>正片制作水准一流，但是故事一般般。反而特别篇出彩，与墨彩环分别是一处情感爆点，开始有了一丝丝仙凡有别的孤寂，弄得我心刺挠去补了小说</td>
    </tr>
+    <td align="center">堀与宫村</td>
+        <td align="center">★★★★☆</td>
+        <td>良好以上的流水线喜剧，基调轻松</td>
+   </tr>
        <tr>
         <td align="center">waiting···</td>
         <td align="center"></td>
