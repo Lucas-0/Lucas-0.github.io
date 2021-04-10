@@ -303,7 +303,7 @@ lastmod: 2020-04-06T12:31:20+08:00
         <tr>
      <td align="center">进击的巨人(S1&S2&S3)</td>
      <td align="center">★★★★★☆</td>
-     <td style="text-align:left">把敌人都消灭，就能得到自由吗？</td>
+     <td style="text-align:left">把敌人都消灭，就能得到自由吗？（PS:看海之后无巨人）</td>
    </tr>
          <tr>
      <td align="center">战栗杀机</td>
@@ -331,6 +331,7 @@ lastmod: 2020-04-06T12:31:20+08:00
      <td style="text-align:left"></td>
    </tr>
 </table>
+
 
 
 
