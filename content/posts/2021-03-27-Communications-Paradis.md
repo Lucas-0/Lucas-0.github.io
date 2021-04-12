@@ -16,8 +16,8 @@ expiryDate:
 # 发布时间可在未来
 publishDate: 
 
-tags: []
-categories: []
+tags: ["动漫","杂谈"]
+categories: ["文化"]
 # 文章顶部照片
 featuredImage: ""
 # 文章在首页的缩略图

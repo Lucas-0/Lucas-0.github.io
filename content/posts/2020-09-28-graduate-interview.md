@@ -17,8 +17,8 @@ expiryDate:
 # 发布时间可在未来
 publishDate: 
 
-tags: []
-categories: []
+tags: ["推研"]
+categories: ["生活"]
 # 文章顶部照片
 featuredImage: ""
 # 文章在首页的缩略图
