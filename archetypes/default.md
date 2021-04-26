@@ -12,7 +12,7 @@ summary: ""
 license: ""
 # 移动端网页链接的图片
 images: []
-# 过期时间
+# 过期时间 超过这个时间文章不会出现网站上
 expiryDate: 
 # 发布时间可在未来
 publishDate: 

@@ -3,11 +3,12 @@ title: "linux 下安装 aria2 及自动上传到 OneDrive"
 comment:
   enable: true
 date: 2020-05-14T15:19:15+08:00
-draft: true
+draft: 
 categories: ["技术"]
 tags: ["aria2","OneDrive"]
 featuredImagePreview: "https://cdn.jsdelivr.net/gh/Lucas-0/Img/img/20200630184152.jpg"
-toc: 
+toc: true
+expiryDate: 2021-04-26T09:47:26+08:00
 lastmod: 2020-05-14T15:19:15+08:00
 summary: "在 ECS 使用 aria2 下载与没有公网 IP 的 PC 相比有一定优势，但是 Lucas 所用的阿里云的小水管下载有 100 MB ，上传只有 1 MB，取回下好的东西还要漫长的等待。本文即为解决这一问题而写。"
 hiddenFromHomePage: true
