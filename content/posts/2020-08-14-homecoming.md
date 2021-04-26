@@ -5,7 +5,7 @@ date: 2020-08-14T16:06:26+08:00
 lastmod: # 2020-03-04T15:58:26+08:00
 draft: false
 author: "Lucas"
-authorLink: "https://lucas-0.github.io"
+authorLink: "https://github.com/Lucas-0"
 description: "似曾相识燕归来"
 summary: ""
 license: ""

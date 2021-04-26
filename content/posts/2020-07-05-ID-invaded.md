@@ -5,7 +5,7 @@ date: 2020-07-05T22:49:26+08:00
 lastmod: 
 draft: false
 author: "Lucas"
-authorLink: "https://lucas-0.github.io"
+authorLink: "https://github.com/Lucas-0"
 description: "情节梳理和分析."
 summary: ""
 license: ""

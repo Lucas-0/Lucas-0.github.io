@@ -5,7 +5,7 @@ date: 2020-07-05T00:50:26+08:00
 lastmod: 
 draft: false
 author: "Lucas"
-authorLink: "https://lucas-0.github.io"
+authorLink: "https://github.com/Lucas-0"
 description: "「只要你还没变得幸福，无论多少次，我都会从各种不同的未来回来帮你。」</br>「所以请你死心，让自己变得幸福吧。」"
 summary: ""
 license: ""
