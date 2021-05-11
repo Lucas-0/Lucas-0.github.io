@@ -2,23 +2,20 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://lucas-0.github.io/</loc><lastmod>2020-12-21T23:53:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lucas-0.github.io/posts/</loc><lastmod>2020-12-21T23:53:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lucas-0.github.io/2020-09-28-graduate-interview/</loc><lastmod>2020-12-21T23:53:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lucas-0.github.io/categories/</loc><lastmod>2020-09-24T12:54:16&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lucas-0.github.io/tags/</loc><lastmod>2020-09-24T12:54:16&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lucas-0.github.io/2020-08-14-homecoming/</loc><lastmod>2020-08-14T16:15:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lucas-0.github.io/tags/%E6%9D%82%E8%B0%88/</loc><lastmod>2020-08-14T16:15:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lucas-0.github.io/categories/%E7%94%9F%E6%B4%BB/</loc><lastmod>2020-08-14T16:15:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lucas-0.github.io/tags/colab/</loc><lastmod>2020-09-23T15:51:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lucas-0.github.io/tags/google-drive/</loc><lastmod>2020-09-23T15:51:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lucas-0.github.io/tags/rclone/</loc><lastmod>2020-09-23T15:51:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lucas-0.github.io/2020-07-09-colab-gd_utils/</loc><lastmod>2020-09-23T15:51:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lucas-0.github.io/categories/%E6%8A%80%E6%9C%AF/</loc><lastmod>2020-09-24T12:54:16&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lucas-0.github.io/tags/%E5%8A%A8%E6%BC%AB/</loc><lastmod>2020-07-09T17:20:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lucas-0.github.io/2020-07-05-id-invaded/</loc><lastmod>2020-07-09T17:20:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lucas-0.github.io/categories/%E6%96%87%E5%8C%96/</loc><lastmod>2020-07-09T17:20:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lucas-0.github.io/2020-07-05-sakuramaji-mai/</loc><lastmod>2020-07-05T01:01:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://lucas-0.github.io/categories/</loc><lastmod>2021-04-26T13:56:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://lucas-0.github.io/</loc><lastmod>2021-04-26T13:56:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://lucas-0.github.io/posts/</loc><lastmod>2021-04-26T13:56:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://lucas-0.github.io/tags/</loc><lastmod>2021-04-26T13:56:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://lucas-0.github.io/tags/%E5%8A%A8%E6%BC%AB/</loc><lastmod>2021-04-26T13:56:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://lucas-0.github.io/2021-03-27-communications-paradis/</loc><lastmod>2021-04-26T09:43:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://lucas-0.github.io/categories/%E6%96%87%E5%8C%96/</loc><lastmod>2021-04-26T13:56:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://lucas-0.github.io/tags/%E6%9D%82%E8%B0%88/</loc><lastmod>2021-04-26T13:56:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://lucas-0.github.io/tags/%E6%8E%A8%E7%A0%94/</loc><lastmod>2021-04-26T09:43:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://lucas-0.github.io/2020-09-28-graduate-interview/</loc><lastmod>2021-04-26T09:43:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://lucas-0.github.io/categories/%E7%94%9F%E6%B4%BB/</loc><lastmod>2021-04-26T13:56:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://lucas-0.github.io/2020-08-14-homecoming/</loc><lastmod>2021-04-26T13:56:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://lucas-0.github.io/2020-07-05-id-invaded/</loc><lastmod>2021-04-26T09:43:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://lucas-0.github.io/2020-07-05-sakuramaji-mai/</loc><lastmod>2021-04-26T13:56:42&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://lucas-0.github.io/tags/emoji/</loc><lastmod>2020-08-15T23:55:57&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://lucas-0.github.io/2020-07-03-emoji-support/</loc><lastmod>2020-08-15T23:55:57&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://lucas-0.github.io/categories/%E5%85%A5%E9%97%A8/</loc><lastmod>2020-08-15T23:55:57&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -27,15 +24,13 @@
             <loc>https://lucas-0.github.io/tags/hugo/</loc><lastmod>2020-08-15T23:55:57&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://lucas-0.github.io/2020-06-30-hugo-and-loveit/</loc><lastmod>2020-08-15T23:55:57&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://lucas-0.github.io/tags/loveit/</loc><lastmod>2020-08-15T23:55:57&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lucas-0.github.io/tags/aria2/</loc><lastmod>2020-09-24T12:54:16&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lucas-0.github.io/2020-05-14-install-aria2/</loc><lastmod>2020-09-24T12:54:16&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lucas-0.github.io/tags/onedrive/</loc><lastmod>2020-09-24T12:54:16&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://lucas-0.github.io/categories/%E6%8A%80%E6%9C%AF/</loc><lastmod>2020-08-15T23:55:57&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://lucas-0.github.io/tags/git/</loc><lastmod>2020-07-01T01:17:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://lucas-0.github.io/2020-05-05-git-get-started/</loc><lastmod>2020-07-01T01:17:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://lucas-0.github.io/2020-04-18-bird-in-the-hand/</loc><lastmod>2020-07-01T01:17:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://lucas-0.github.io/tags/%E8%AF%BA%E8%B4%9D%E5%B0%94%E6%96%87%E5%AD%A6%E5%A5%96/</loc><lastmod>2020-07-01T01:17:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://lucas-0.github.io/tags/%E9%98%85%E8%AF%BB/</loc><lastmod>2020-07-01T01:17:59&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lucas-0.github.io/movies/</loc><lastmod>2021-01-28T17:01:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://lucas-0.github.io/bangumi/</loc><lastmod>2021-02-14T15:06:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://lucas-0.github.io/movies/</loc><lastmod>2021-01-28T17:01:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://lucas-0.github.io/bangumi/</loc><lastmod>2021-04-10T20:11:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
             <loc>https://lucas-0.github.io/about/</loc><lastmod>2020-06-29T22:40:04&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lucas-0.github.io/links/</loc><lastmod>2021-01-28T17:01:20&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url></urlset>
+            <loc>https://lucas-0.github.io/links/</loc><lastmod>2021-04-26T09:43:47&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url></urlset>

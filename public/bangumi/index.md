@@ -69,12 +69,22 @@
         <td align="center">★★★★</td>
         <td>后期略有下滑</td>
    </tr>
+   <tr>
+        <td align="center">凡人修仙传</td>
+        <td align="center">★★★★☆</td>
+        <td>正片制作水准一流，但是故事一般般。反而特别篇出彩，与墨彩环分别是一处情感爆点，开始有了一丝丝仙凡有别的孤寂，弄得我心刺挠去补了小说</td>
+   </tr>
+    <td align="center">堀与宫村</td>
+        <td align="center">★★★★☆</td>
+        <td>良好以上的流水线喜剧，基调轻松</td>
+   </tr>
        <tr>
         <td align="center">waiting···</td>
         <td align="center"></td>
         <td></td>
    </tr>
 </table>
+
 
 <br/>
 
@@ -132,10 +142,15 @@
      <td align="center">★★★★☆</td>
      <td style="text-align:left">本质是日常恋爱番（PS：观看α+剧场版即可，β线表现很差）</td>
    </tr>
-       <tr>
+   <tr>
      <td align="center">黄金神威(S1&S2)</td>
      <td align="center">★★★★★</td>
      <td style="text-align:left">不止是夺宝群像剧</td>
+   </tr>
+     <tr>
+     <td align="center">咒术回战</td>
+     <td align="center">★★★★★</td>
+     <td style="text-align:left">一部精致的商业化作品，准确地投观众所好，作者已经掌握了财富密码</td>
    </tr>
      <tr>
      <td align="center">waiting···</td>
@@ -249,7 +264,7 @@
        <tr>
      <td  align="center">Beastar(S1)</td>
      <td align="center">★★★★★</td>
-     <td style="text-align:left">开播前一度以为在模仿<i>Zootopia</i>,实际上是一部独立而卓越的作品，其深刻的隐喻并不逊于<i>Zootopia</i>。表现力极佳。</td>
+     <td style="text-align:left">开播前一度以为在模仿<i>Zootopia</i>,实际上是一部独立而卓越的作品，其深刻的隐喻并不逊于<i>Zootopia</i>。表现力极佳。S2成色上佳，只是结局差点味道。</td>
    </tr>
        <tr>
      <td align="center">冰海战记</td>
@@ -279,7 +294,7 @@
         <tr>
      <td align="center">进击的巨人(S1&S2&S3)</td>
      <td align="center">★★★★★☆</td>
-     <td style="text-align:left">把敌人都消灭，就能得到自由吗？</td>
+     <td style="text-align:left">把敌人都消灭，就能得到自由吗？（PS:看海之后无巨人）</td>
    </tr>
          <tr>
      <td align="center">战栗杀机</td>
@@ -307,6 +322,8 @@
      <td style="text-align:left"></td>
    </tr>
 </table>
+
+
 
 
 <br/>
