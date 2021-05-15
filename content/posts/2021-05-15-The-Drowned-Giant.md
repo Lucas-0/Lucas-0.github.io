@@ -1,13 +1,13 @@
 ---
 title: "溺死的巨人"
 subtitle: ""
-date: 2020-03-04T15:58:26+08:00
-weight: 1 # 置顶，利于预览
-lastmod: 2020-03-04T15:58:26+08:00
+date: 2021-05-15T11:28:26+08:00
+weight: 
+lastmod: # 2020-03-04T15:58:26+08:00
 draft: false
 author: "Lucas"
 authorLink: "https://github.com/Lucas-0"
-description: ""
+description: "Love, Death & Robots Season 2 Episode 8"
 summary: ""
 license: ""
 # 移动端网页链接的图片
