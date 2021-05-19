@@ -17,8 +17,8 @@ expiryDate:
 # 发布时间可在未来
 publishDate: 
 
-tags: []
-categories: []
+tags: ["杂谈"]
+categories: ["文化"]
 # 文章顶部照片
 featuredImage: "https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210515111355.png"
 # 文章在首页的缩略图
