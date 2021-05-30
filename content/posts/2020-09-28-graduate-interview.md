@@ -22,7 +22,7 @@ categories: ["生活"]
 # 文章顶部照片
 featuredImage: ""
 # 文章在首页的缩略图
-featuredImagePreview: "https://cdn.jsdelivr.net/gh/Lucas-0/Img/img/20201221234624.jpg"
+featuredImagePreview: "https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210530225658.jpg"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

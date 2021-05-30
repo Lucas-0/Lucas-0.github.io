@@ -382,7 +382,7 @@ lastmod: 2020-04-06T12:31:20+08:00
 
 <table border="2" cellspacing="3%" frame="hsides" style="background-color:#d1eac157;">
    <tr>
-     <th align="center">四畳半神话大系</th>
+     <th align="center">四畳半神话大系<br/>The Tatami Galaxy</th>
      <th align="center">Comment</th>
   </tr>
    <tr>
