@@ -8,6 +8,7 @@ featuredImagePreview: "https://cdn.jsdelivr.net/gh/Lucas-0/Img/20200406213005.jp
 
 tags: ["emoji"]
 categories: ["入门"]
+hiddenFromHomePage: true
 
 lightgallery: true
 ---

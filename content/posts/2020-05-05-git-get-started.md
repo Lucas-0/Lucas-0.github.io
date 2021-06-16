@@ -7,6 +7,8 @@ categories: ["技术","入门"]
 tags: ["git"]
 summary: "最近遇到了如何在电脑上的不同位置连接不同的远程仓库的问题，很多中文的 git 教程并没有涉及到这个问题，故将查阅到的办法整理为此文。"
 featuredImagePreview: "https://cdn.jsdelivr.net/gh/Lucas-0/Img/img/20200505212658.jpg"
+
+hiddenFromHomePage: true
 toc:
   enable: true
   auto: true

@@ -13,7 +13,7 @@ publishDate:
 tags: ["Hugo","LoveIt","GitHub Pages","GitHub Action"]
 categories: ["技术"]
 
-hiddenFromHomePage: false
+hiddenFromHomePage: true
 hiddenFromSearch: false
 
 featuredImage: ""
