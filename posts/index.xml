@@ -4,7 +4,14 @@
         <link>https://lucas-0.github.io/posts/</link>
         <description>所有文章 | NeverLand</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mailto:raisingsha@gmail.com (Lucas)</managingEditor>
-            <webMaster>mailto:raisingsha@gmail.com (Lucas)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 30 May 2021 00:22:26 &#43;0800</lastBuildDate><atom:link href="https://lucas-0.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>mailto:raisingsha@gmail.com (Lucas)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 17 Jun 2021 20:28:30 &#43;0800</lastBuildDate><atom:link href="https://lucas-0.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>碰撞</title>
+    <link>https://lucas-0.github.io/1/</link>
+    <pubDate>Thu, 17 Jun 2021 20:28:30 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://lucas-0.github.io/1/</guid>
+    <description><![CDATA[发现了一个有意思的艺术家。]]></description>
+</item><item>
     <title>曲中有真意VOL 01</title>
     <link>https://lucas-0.github.io/2021-05-30-playlist-vol01/</link>
     <pubDate>Sun, 30 May 2021 00:22:26 &#43;0800</pubDate>
@@ -75,12 +82,5 @@
     <author>作者</author>
     <guid>https://lucas-0.github.io/2020-06-30-hugo-and-loveit/</guid>
     <description><![CDATA[记录使用 Hugo 搭建博客和配置 LoveIt 主题的过程, 利用 GitHub Action 实现自动部署.]]></description>
-</item><item>
-    <title>Git 入门及连接多个远程仓库</title>
-    <link>https://lucas-0.github.io/2020-05-05-git-get-started/</link>
-    <pubDate>Tue, 05 May 2020 21:18:40 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://lucas-0.github.io/2020-05-05-git-get-started/</guid>
-    <description><![CDATA[最近遇到了如何在电脑上的不同位置连接不同的远程仓库的问题，很多中文的 git 教程并没有涉及到这个问题，故将查阅到的办法整理为此文。]]></description>
 </item></channel>
 </rss>
