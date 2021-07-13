@@ -12,13 +12,6 @@
     <guid>https://lucas-0.github.io/2021-07-09-graduation-trip/</guid>
     <description><![CDATA[四人の旅出。]]></description>
 </item><item>
-    <title>名画缝合</title>
-    <link>https://lucas-0.github.io/2021-06-17-collision/</link>
-    <pubDate>Thu, 17 Jun 2021 20:28:30 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://lucas-0.github.io/2021-06-17-collision/</guid>
-    <description><![CDATA[发现了一个有意思的艺术家。]]></description>
-</item><item>
     <title>曲中有真意VOL 01</title>
     <link>https://lucas-0.github.io/2021-05-30-playlist-vol01/</link>
     <pubDate>Sun, 30 May 2021 00:22:26 &#43;0800</pubDate>
@@ -82,5 +75,12 @@
     <author>作者</author>
     <guid>https://lucas-0.github.io/2020-07-03-emoji-support/</guid>
     <description><![CDATA[Hugo 和 LoveIt 中的 Emoji 的用法指南.]]></description>
+</item><item>
+    <title>Hugo 博客使用 LoveIt 主题</title>
+    <link>https://lucas-0.github.io/2020-06-30-hugo-and-loveit/</link>
+    <pubDate>Tue, 30 Jun 2020 18:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://lucas-0.github.io/2020-06-30-hugo-and-loveit/</guid>
+    <description><![CDATA[记录使用 Hugo 搭建博客和配置 LoveIt 主题的过程, 利用 GitHub Action 实现自动部署.]]></description>
 </item></channel>
 </rss>
