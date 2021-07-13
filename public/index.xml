@@ -4,9 +4,39 @@
         <link>https://lucas-0.github.io/</link>
         <description>someone&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mailto:raisingsha@gmail.com (Lucas)</managingEditor>
-            <webMaster>mailto:raisingsha@gmail.com (Lucas)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 27 Mar 2021 14:25:26 &#43;0800</lastBuildDate>
+            <webMaster>mailto:raisingsha@gmail.com (Lucas)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 13 Jul 2021 17:29:39 &#43;0800</lastBuildDate>
             <atom:link href="https://lucas-0.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>毕业旅记</title>
+    <link>https://lucas-0.github.io/2021-07-09-graduation-trip/</link>
+    <pubDate>Tue, 13 Jul 2021 17:29:39 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://lucas-0.github.io/2021-07-09-graduation-trip/</guid>
+    <description><![CDATA[四人の旅出。]]></description>
+</item><item>
+    <title>名画缝合</title>
+    <link>https://lucas-0.github.io/2021-06-17-collision/</link>
+    <pubDate>Thu, 17 Jun 2021 20:28:30 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://lucas-0.github.io/2021-06-17-collision/</guid>
+    <description><![CDATA[发现了一个有意思的艺术家。]]></description>
+</item><item>
+    <title>曲中有真意VOL 01</title>
+    <link>https://lucas-0.github.io/2021-05-30-playlist-vol01/</link>
+    <pubDate>Sun, 30 May 2021 00:22:26 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://lucas-0.github.io/2021-05-30-playlist-vol01/</guid>
+    <description><![CDATA[摸鱼快乐。]]></description>
+</item><item>
+    <title>溺死的巨人</title>
+    <link>https://lucas-0.github.io/2021-05-15-the-drowned-giant/</link>
+    <pubDate>Sat, 15 May 2021 11:28:26 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://lucas-0.github.io/2021-05-15-the-drowned-giant/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210515111355.png" referrerpolicy="no-referrer">
+            </div>Love, Death & Robots Season 2 Episode 8]]></description>
+</item><item>
     <title>帕岛通讯</title>
     <link>https://lucas-0.github.io/2021-03-27-communications-paradis/</link>
     <pubDate>Sat, 27 Mar 2021 14:25:26 &#43;0800</pubDate>
@@ -36,7 +66,7 @@
     <author>作者</author>
     <guid>https://lucas-0.github.io/2020-07-05-id-invaded/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="https://cdn.jsdelivr.net/gh/Lucas-0/Img/img/20200705223935.png" referrerpolicy="no-referrer">
+                <img src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210713171933.png" referrerpolicy="no-referrer">
             </div>情节梳理和分析.]]></description>
 </item><item>
     <title>青春猪头少年不会梦到怀梦美少女</title>
@@ -54,28 +84,5 @@
     <author>作者</author>
     <guid>https://lucas-0.github.io/2020-07-03-emoji-support/</guid>
     <description><![CDATA[Hugo 和 LoveIt 中的 Emoji 的用法指南.]]></description>
-</item><item>
-    <title>Hugo 博客使用 LoveIt 主题</title>
-    <link>https://lucas-0.github.io/2020-06-30-hugo-and-loveit/</link>
-    <pubDate>Tue, 30 Jun 2020 18:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://lucas-0.github.io/2020-06-30-hugo-and-loveit/</guid>
-    <description><![CDATA[记录使用 Hugo 搭建博客和配置 LoveIt 主题的过程, 利用 GitHub Action 实现自动部署.]]></description>
-</item><item>
-    <title>Git 入门及连接多个远程仓库</title>
-    <link>https://lucas-0.github.io/2020-05-05-git-get-started/</link>
-    <pubDate>Tue, 05 May 2020 21:18:40 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://lucas-0.github.io/2020-05-05-git-get-started/</guid>
-    <description><![CDATA[最近遇到了如何在电脑上的不同位置连接不同的远程仓库的问题，很多中文的 git 教程并没有涉及到这个问题，故将查阅到的办法整理为此文。]]></description>
-</item><item>
-    <title>被剥夺的语言和语言的剥夺</title>
-    <link>https://lucas-0.github.io/2020-04-18-bird-in-the-hand/</link>
-    <pubDate>Sat, 18 Apr 2020 00:15:33 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://lucas-0.github.io/2020-04-18-bird-in-the-hand/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://cdn.jsdelivr.net/gh/Lucas-0/Img/20200418105244.jpg" referrerpolicy="no-referrer">
-            </div>托妮·莫里森用“掌中之鸟”的隐喻讲述了语言的力量、其被剥夺的严重后果、以及重建的可能。虽然在这里托妮·莫里森主要探讨的是黑人文化、语言在白人文化殖民下的困境与出路，但其中种种用来观照我们如今的中文互联网环境出奇适用。]]></description>
 </item></channel>
 </rss>

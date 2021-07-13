@@ -316,6 +316,11 @@
      <td align="center">★★★★★</td>
      <td style="text-align:left">友情与汗水</td>
    </tr>
+         <tr>
+     <td align="center">Odd Taxi</td>
+     <td align="center">★★★★★</td>
+     <td style="text-align:left">群像，悬疑</td>
+   </tr>
        <tr>
      <td align="center">waiting···</td>
      <td align="center"></td>
@@ -373,7 +378,7 @@
 
 <table border="2" cellspacing="3%" frame="hsides" style="background-color:#d1eac157;">
    <tr>
-     <th align="center">四畳半神话大系</th>
+     <th align="center">四畳半神话大系<br/>The Tatami Galaxy</th>
      <th align="center">Comment</th>
   </tr>
    <tr>
