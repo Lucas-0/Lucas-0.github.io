@@ -448,9 +448,9 @@ Emoji 可以通过多种方式在 Hugo 项目中启用.
 | :-: | - | :-: | - |
 | :snail: | `snail` | :butterfly: | `butterfly` |
 | :bug: | `bug` | :ant: | `ant` |
-| :bee: | `bee` <br /> `honeybee` | :beetle: | `beetle` |
-| :spider: | `spider` | :spider_web: | `spider_web` |
-| :scorpion: | `scorpion` | | |
+| :bee: | `bee` <br /> `honeybee` | :spider: | `spider` |
+| :spider_web: | `spider_web` | :scorpion: | `scorpion` |
+<!--| :beetle: | `beetle` |-->
 
 ### 花类植物
 

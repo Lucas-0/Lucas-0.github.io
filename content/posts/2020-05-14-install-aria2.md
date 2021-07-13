@@ -344,21 +344,21 @@ PS：几个指令：
 1. 使用 `clear` 命令或 `reset` 命令清空当前屏幕，or
 清空屏幕快捷键：
 
-```bash
-ctrl + l
-```
+    ```bash
+    ctrl + l
+   ```
 
 2. 清空当前输入快捷键：
 
-```bash
-   ctrl + u
-```
+      ```bash
+      ctrl + u
+      ```
 
 3. 放弃当前输入快捷键：
 
-```bash
-   ctrl + z
-```
+      ```bash
+      ctrl + z
+      ```
 
 &nbsp;&nbsp;
 

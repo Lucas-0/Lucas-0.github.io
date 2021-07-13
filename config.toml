@@ -398,11 +398,11 @@ enableEmoji = true
       # Mapbox GL JS 的 access token
       accessToken = "pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ"
       # style for the light theme
-      # 浅色主题的地图样式
-      lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
+      # 浅色主题的地图样式 mapbox://styles/mapbox/light-v10?optimize=true
+      lightStyle = "mapbox://styles/mapbox/light-v9"
       # style for the dark theme
-      # 深色主题的地图样式
-      darkStyle = "mapbox://styles/mapbox/dark-v10?optimize=true"
+      # 深色主题的地图样式 mapbox://styles/mapbox/dark-v10?optimize=true
+      darkStyle = "mapbox://styles/mapbox/dark-v9"
       # whether to add NavigationControl (https://docs.mapbox.com/mapbox-gl-js/api/#navigationcontrol)
       # 是否添加 NavigationControl (https://docs.mapbox.com/mapbox-gl-js/api/#navigationcontrol)
       navigation = true

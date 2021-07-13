@@ -81,75 +81,66 @@ PS：首页图来自[:(fab fa-youtube):](https://www.youtube.com/watch?v=ICxC5ek
 
 {{< /admonition >}}
 
-{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617194806.jpg" title="Matilda&星空" >}}
+{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617194806.jpg" caption="Matilda&星空" >}}
 
 ---
 
-{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617194827.jpg" title="Doctor Strange&自画像" >}}
+{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617194827.jpg" caption="Doctor Strange&自画像" >}}
 
 ---
 
-{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617194841.jpg" title="这幅画值得卖个关子" >}}
+{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617194841.jpg" caption="这幅画值得卖个关子" >}}
 
 <details>
 <summary>Click</summary>
 <div>
-  碧梨&戴珍珠耳环的少女
+{{< style "text-align:center; strong{color:#00b1ff;}" >}}
+**碧梨&戴珍珠耳环的少女**
+{{< /style >}}
   </div>
 </details>
 
 
 ---
 
-{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617194859.jpg" title="建造帝国大厦&最后的晚餐" >}}
+{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617194859.jpg" caption="Lunchtime Atop a Skyscraper&最后的晚餐" >}}
 
 ---
 
-{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617194918.jpg" title="这个呢" >}}
+{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617194918.jpg" caption="这个呢" >}}
 
 <details>
 <summary>Click</summary>
 <div>
-  胜利之吻&The Kiss' by Gustav Klimt
+{{< style "text-align:center; strong{color:#00b1ff;}" >}}
+**胜利之吻&The Kiss' by Gustav Klimt**
+{{< /style >}}
   </div>
 </details>
 
 
 ---
 
-{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617194937.jpg" title="Leon&曼达洛人" >}}
+{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617194937.jpg" caption="Leon&曼达洛人" >}}
 
 ---
 
-{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617194955.jpg" title="爱乐之城&星空" >}}
+{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617194955.jpg" caption="爱乐之城&星空" >}}
 
 ---
 
-{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617195011.jpg" title="龙妈&呐喊" >}}
+{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617195011.jpg" caption="龙妈&呐喊" >}}
 
 ---
 
-{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617195035.jpg" title="需要查一查" >}}
+{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617195035.jpg" caption="需要查一查" >}}
 
 <details>
 <summary>Click</summary>
 <div>
-  老白&王座上的拿破仑一世
-  </div>
-</details>
-
-
-
----
-
-{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617195056.jpg" title="来了来了" >}}
-
-<details>
-<summary>Click</summary>
-<div>
-  致敬名画怎么能没有《创造亚当》呢？还有昆汀这个足控。
-  <blockquote>and god created foot! Tag your foot loving friends like Tarantino! 👠</blockquote>
-  顺带@新海诚。
+{{< style "text-align:center; strong{color:#00b1ff;}" >}}
+**老白&王座上的拿破仑一世**
+{{< /style >}}
   </div>
 </details>
 
@@ -157,12 +148,14 @@ PS：首页图来自[:(fab fa-youtube):](https://www.youtube.com/watch?v=ICxC5ek
 
 ---
 
-{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617195116.jpg" title="触及到我的知识盲区了" >}}
+{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617195056.jpg" caption="来了来了" >}}
 
 <details>
 <summary>Click</summary>
 <div>
-  <i>Meeting of thirty-five heads of expression</i>
+致敬名画怎么能没有《创造亚当》呢？还有昆汀这个足控。
+<blockquote>and god created foot! Tag your foot loving friends like Tarantino! 👠</blockquote>
+顺带@新海诚。
   </div>
 </details>
 
@@ -170,14 +163,31 @@ PS：首页图来自[:(fab fa-youtube):](https://www.youtube.com/watch?v=ICxC5ek
 
 ---
 
-{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617195134.jpg" title="嘿嘿小李子" >}}
+{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617195116.jpg" caption="触及到我的知识盲区了" >}}
+
+<details>
+<summary>Click</summary>
+<div>
+{{< style "text-align:center; strong{color:#00b1ff;}" >}}
+**<i>Meeting of thirty-five heads of expression</i>**
+{{< /style >}}
+  </div>
+</details>
+
+
+
+---
+
+{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210617195134.jpg" caption="嘿嘿小李子" >}}
 
 
 
 <details>
 <summary>Click</summary>
 <div>
-  <i>The Wolf of Wall Street</i> & <i>The quiet pet</i>
+{{< style "text-align:center; strong{color:#00b1ff;}" >}}
+**<i>The Wolf of Wall Street</i> & <i>The quiet pet</i>**
+{{< /style >}}
   </div>
 </details>
 
