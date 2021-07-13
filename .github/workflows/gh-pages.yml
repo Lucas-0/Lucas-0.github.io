@@ -35,7 +35,7 @@ jobs:
           ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
           ALGOLIA_INDEX_NAME: myBlog
           ALGOLIA_INDEX_FILE: public/index.json
-        run: |
+        run:
           sudo apt-get -yqq install npm
           sudo npm install atomic-algolia -g
           atomic-algolia
