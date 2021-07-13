@@ -67,9 +67,11 @@
 
    其实光看这首曲子的名字就值得一听了，对吧？
 </br></br>
-10. City of Stars ——  刘欢 / 袁娅维</br>
-   {{< music netease song 1358244782 >}}</br>
-   网抑云没版权的话去阿B看吧。 
+10. City of Stars ——  刘欢 / 袁娅维
 
-   {{< bilibili id=BV1g4411m7eE >}}
+    {{< music netease song 1358244782 >}}
+
+    网抑云没版权的话去阿B看吧。 
+
+    {{< bilibili id=BV1g4411m7eE >}}
 
