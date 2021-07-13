@@ -73,7 +73,7 @@ seo:
 ### day0 出发 追太阳的孩子
 坐地铁到大兴机场。飞机在雾中起飞，窗外除了机翼什么也看不见。不久飞机冲破云层，蓝天重新出现。身侧有金色的夕照相伴，旅行的精神终于振作起来。
 
-{{< image src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210712214124.jpg" caption="gogogo" title=" ">}}
+{{< image src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210712214124.jpg" caption="gogogo" title=" " >}}
 
 
 临落地西宁，天低地远，大地千沟万壑，起伏不定。在机场出口，一行四人会合。在停车场的时候，骤然下起豆大的雨来，这天气的脾气和南方颇为相似。
