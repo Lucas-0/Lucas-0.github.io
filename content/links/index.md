@@ -66,7 +66,7 @@ seo:
 
 |                            avatar                            | link                               |                |
 | :----------------------------------------------------------: | ---------------------------------- | -------------- |
-| ![Everness](https://q.qlogo.cn/headimg_dl?dst_uin=1666287682&spec=100&img_type=jpg) | [Evergarden](https://everness.me/) | Friend of mine |
+| ![Everness](https://q.qlogo.cn/headimg_dl?dst_uin=1666287682&spec=100&img_type=jpg) | Under Maintenance | Friend of mine |
 | ![Pims](https://q.qlogo.cn/headimg_dl?dst_uin=392959395&spec=100&img_type=jpg) | [Pims](https://phimos.github.io/)  | Friend of mine |
 
 ---

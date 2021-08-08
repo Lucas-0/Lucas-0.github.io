@@ -3,7 +3,7 @@ title: "使用 colab 安装 rclone 以及搭建 gd_utils"
 subtitle: ""
 date: 2020-07-09T00:40:26+08:00
 lastmod: 
-draft: 
+draft: true
 author: "Lucas"
 authorLink: "https://github.com/Lucas-0"
 description: "无需服务器转存谷歌硬盘的分享文件."

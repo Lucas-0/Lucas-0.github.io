@@ -3,7 +3,7 @@ title: ""
 subtitle: ""
 date: 2021-03-04T15:58:26+08:00
 weight: 1 # 置顶，利于预览
-lastmod: 2021-03-04T15:58:26+08:00
+lastmod: 
 draft: true
 author: "Lucas"
 authorLink: "https://github.com/Lucas-0"
@@ -21,7 +21,7 @@ tags: []
 categories: []
 # 文章顶部照片
 featuredImage: ""
-# 文章在首页的缩略图
+# 文章在首页的缩略图 550*164px
 featuredImagePreview: ""
 
 hiddenFromHomePage: false
