@@ -4,9 +4,18 @@
         <link>https://lucas-0.github.io/</link>
         <description>someone&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mailto:raisingsha@gmail.com (Lucas)</managingEditor>
-            <webMaster>mailto:raisingsha@gmail.com (Lucas)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 13 Jul 2021 17:29:39 &#43;0800</lastBuildDate>
+            <webMaster>mailto:raisingsha@gmail.com (Lucas)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 08 Aug 2021 19:16:46 &#43;0800</lastBuildDate>
             <atom:link href="https://lucas-0.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>长夏与事事幽</title>
+    <link>https://lucas-0.github.io/2021-08-08-tomihiko-morimi/</link>
+    <pubDate>Sun, 08 Aug 2021 19:16:46 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://lucas-0.github.io/2021-08-08-tomihiko-morimi/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/202108081730446.PNG" referrerpolicy="no-referrer">
+            </div><p>最近读的几本森见登美彦的小说。</p>]]></description>
+</item><item>
     <title>毕业旅记</title>
     <link>https://lucas-0.github.io/2021-07-09-graduation-trip/</link>
     <pubDate>Tue, 13 Jul 2021 17:29:39 &#43;0800</pubDate>
@@ -77,12 +86,5 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="https://cdn.jsdelivr.net/gh/Lucas-0/Img/img/20200705002307.jpg" referrerpolicy="no-referrer">
             </div>「只要你还没变得幸福，无论多少次，我都会从各种不同的未来回来帮你。」</br>「所以请你死心，让自己变得幸福吧。」]]></description>
-</item><item>
-    <title>Emoji 支持</title>
-    <link>https://lucas-0.github.io/2020-07-03-emoji-support/</link>
-    <pubDate>Fri, 03 Jul 2020 08:55:28 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://lucas-0.github.io/2020-07-03-emoji-support/</guid>
-    <description><![CDATA[Hugo 和 LoveIt 中的 Emoji 的用法指南.]]></description>
 </item></channel>
 </rss>

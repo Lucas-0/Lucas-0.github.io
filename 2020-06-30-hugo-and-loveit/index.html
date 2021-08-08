@@ -158,13 +158,13 @@
 <h2 id="初始化和管理主题">初始化和管理主题</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">hugo new site BLOG
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">hugo new site BLOG
 <span class="nb">cd</span>  BLOG
 git init
 git submodule add https://github.com/dillonzq/LoveIt themes/LoveIt
@@ -174,7 +174,7 @@ git submodule add https://github.com/dillonzq/LoveIt themes/LoveIt
 <p>如果下载很慢可以考虑设置代理🏄‍♂️或者转换链接🔗.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -183,7 +183,7 @@ git submodule add https://github.com/dillonzq/LoveIt themes/LoveIt
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">git config --global http.proxy <span class="s1">&#39;socks5://127.0.0.1:1080&#39;</span>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">git config --global http.proxy <span class="s1">&#39;socks5://127.0.0.1:1080&#39;</span>
 
 git config --global https.proxy <span class="s1">&#39;socks5://127.0.0.1:1080&#39;</span>
 
@@ -198,7 +198,7 @@ git config --global --unset https.proxy
 <p>然后添加 GitHub Pages 仓库: blog 分支管理源码, master 中为 public 文件夹.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -207,7 +207,7 @@ git config --global --unset https.proxy
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">git remote add origin https://github.com/Lucas-0/Lucas-0.github.io.git
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">git remote add origin https://github.com/Lucas-0/Lucas-0.github.io.git
 <span class="c1"># 新建 branch 分支, 也可以使用 checkout</span>
 git branch -b blog
 
@@ -223,7 +223,7 @@ git push origin blog
 <p>内容:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -255,7 +255,7 @@ git push origin blog
 </span><span class="lnt">30
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">GitHub Page Deploy</span><span class="w">
+<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">GitHub Page Deploy</span><span class="w">
 </span><span class="w">
 </span><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w">
 </span><span class="w">  </span><span class="nt">push</span><span class="p">:</span><span class="w">
@@ -291,12 +291,12 @@ git push origin blog
 <p>例如某一次 push 的过程:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">git add .
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">git add .
 git commit -m <span class="s2">&#34;message&#34;</span>
 git push origin blog
 </code></pre></td></tr></table>
@@ -307,7 +307,7 @@ git push origin blog
 <p>hugo 使用 aligolia 搜索需要安装 atomic-algolia 生成 index.json, 然后上传到 Algolia, 过于麻烦, 而且我不想在 PC 上装 npm, 所以这部分的工作也交给 Github Action 完成 .</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -319,7 +319,7 @@ git push origin blog
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-yml" data-lang="yml"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Update Algolia Index</span><span class="w">
+<pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Update Algolia Index</span><span class="w">
 </span><span class="w">        </span><span class="nt">env</span><span class="p">:</span><span class="w">
 </span><span class="w">          </span><span class="nt">ALGOLIA_APP_ID</span><span class="p">:</span><span class="w"> </span><span class="l">Your_APP_ID</span><span class="w">
 </span><span class="w">          </span><span class="nt">ALGOLIA_ADMIN_KEY</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.ALGOLIA_ADMIN_KEY }}</span><span class="w">
@@ -345,7 +345,7 @@ git push origin blog
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://lucas-0.github.io/2020-06-30-hugo-and-loveit/" data-title="Hugo 博客使用 LoveIt 主题" data-hashtags="Hugo,LoveIt,GitHub Pages,GitHub Action"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://lucas-0.github.io/2020-06-30-hugo-and-loveit/" data-hashtag="Hugo"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://lucas-0.github.io/2020-06-30-hugo-and-loveit/" data-title="Hugo 博客使用 LoveIt 主题"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://lucas-0.github.io/2020-06-30-hugo-and-loveit/" data-title="Hugo 博客使用 LoveIt 主题"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg"></i></a><a href="javascript:void(0);" title="分享到 Pocket" data-sharer="pocket" data-url="https://lucas-0.github.io/2020-06-30-hugo-and-loveit/"><i class="fab fa-get-pocket fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://lucas-0.github.io/2020-06-30-hugo-and-loveit/" data-title="Hugo 博客使用 LoveIt 主题"><i class="fab fa-weibo fa-fw"></i></a></span>
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://lucas-0.github.io/2020-06-30-hugo-and-loveit/" data-title="Hugo 博客使用 LoveIt 主题" data-hashtags="Hugo,LoveIt,GitHub Pages,GitHub Action"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://lucas-0.github.io/2020-06-30-hugo-and-loveit/" data-hashtag="Hugo"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://lucas-0.github.io/2020-06-30-hugo-and-loveit/" data-title="Hugo 博客使用 LoveIt 主题"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://lucas-0.github.io/2020-06-30-hugo-and-loveit/" data-title="Hugo 博客使用 LoveIt 主题"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg"></i></a><a href="javascript:void(0);" title="分享到 Pocket" data-sharer="pocket" data-url="https://lucas-0.github.io/2020-06-30-hugo-and-loveit/"><i class="fab fa-get-pocket fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://lucas-0.github.io/2020-06-30-hugo-and-loveit/" data-title="Hugo 博客使用 LoveIt 主题"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://lucas-0.github.io/2020-06-30-hugo-and-loveit/" data-title="Hugo 博客使用 LoveIt 主题"><i class="fab fa-evernote fa-fw"></i></a></span>
             </div>
         </div>
     </div>

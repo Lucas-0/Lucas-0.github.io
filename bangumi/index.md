@@ -395,7 +395,7 @@
 </table>
 <blockquote>
   <p>
-    <strong>PS：</strong>配合<font color="#FF0FFF"><i>春宵苦短，少女前进吧</i></font> 观看(森见登美彦和汤浅政明联手无敌）
+    <strong>PS：</strong>配合<font color="#FF0FFF"><i>春宵苦短，少女前进吧</i></font>&nbsp;观看体验更佳，有兴趣还可以去看森见登美彦的原作小说。
   </p>
 </blockquote>
 

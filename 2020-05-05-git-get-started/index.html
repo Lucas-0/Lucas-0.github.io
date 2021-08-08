@@ -160,12 +160,12 @@
 <h3 id="1-创建本地仓库及配置git账号">1. 创建本地仓库及配置Git账号</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">git init <span class="c1">#在当前位置初始化git仓库</span>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">git init <span class="c1">#在当前位置初始化git仓库</span>
 git config user.name <span class="s2">&#34;A&#34;</span> <span class="c1">#设置用户名为A</span>
 git config user.email <span class="s2">&#34;A@example.com&#34;</span> <span class="c1">#设置邮箱为A@example.com</span>
 </code></pre></td></tr></table>
@@ -174,31 +174,31 @@ git config user.email <span class="s2">&#34;A@example.com&#34;</span> <span clas
 <h3 id="2-生成ssh密钥对">2. 生成SSH密钥对</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">ssh-keygen -t rsa -C <span class="s2">&#34;A@example.com&#34;</span>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">ssh-keygen -t rsa -C <span class="s2">&#34;A@example.com&#34;</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>然后选择密钥对存储位置。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">Generating public/private rsa key pair.
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">Generating public/private rsa key pair.
 Enter file in which to save the key <span class="o">(</span>/c/Users/yourname/.ssh/id_rsa<span class="o">)</span>: <span class="o">[</span>Press enter<span class="o">]</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>设置密码（optional）。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">Enter passphrase <span class="o">(</span>empty <span class="k">for</span> no passphrase<span class="o">)</span>: 
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">Enter passphrase <span class="o">(</span>empty <span class="k">for</span> no passphrase<span class="o">)</span>: 
 Enter same passphrase again:
 </code></pre></td></tr></table>
 </div>
@@ -215,7 +215,7 @@ Enter same passphrase again:
 <p>在 <code>~/.ssh</code> 目录下新建 <code>config</code> 文件。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -226,7 +226,7 @@ Enter same passphrase again:
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">host A  <span class="c1">#自定义别名，用于之后配置地址</span>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">host A  <span class="c1">#自定义别名，用于之后配置地址</span>
     Hostname github.com <span class="c1">#要连接的服务器</span>
     User Lucas <span class="c1">#用户名</span>
     IdentityFile ~/.ssh/id_rsa  <span class="c1">#密钥文件的地址，注意是私钥</span>
@@ -242,7 +242,7 @@ host B <span class="c1">#自定义别名，用于之后配置地址</span>
 <p>修改本地仓库 A 的 <code>.git</code> 目录下， <code>config</code> 文件的内容：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -260,7 +260,7 @@ host B <span class="c1">#自定义别名，用于之后配置地址</span>
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="p">[</span><span class="l">core]</span><span class="w">
+<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="p">[</span><span class="l">core]</span><span class="w">
 </span><span class="w">    </span><span class="l">repositoryformatversion = 0</span><span class="w">
 </span><span class="w">    </span><span class="l">filemode = true</span><span class="w">
 </span><span class="w">    </span><span class="l">bare = false</span><span class="w">
@@ -281,30 +281,30 @@ host B <span class="c1">#自定义别名，用于之后配置地址</span>
 </div><h3 id="3-与远程仓库关联">3. 与远程仓库关联</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">git remote add origin git@server-name:path/repo-name.git
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">git remote add origin git@server-name:path/repo-name.git
 </code></pre></td></tr></table>
 </div>
 </div><p>初始化的仓库在推送之前先拉取远程仓库的文件否则会可能会出错。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">git pull origin master
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">git pull origin master
 </code></pre></td></tr></table>
 </div>
 </div><p>添加当前目录下的文件。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">git add &lt;filename&gt;
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">git add &lt;filename&gt;
 git add * <span class="c1">#使用缺省符则将当前目录下所有文件添加到git</span>
 git commit -m <span class="s2">&#34;first commit&#34;</span> <span class="c1">#将修改在本地保存并且注释“first commit”</span>
 </code></pre></td></tr></table>
@@ -312,10 +312,10 @@ git commit -m <span class="s2">&#34;first commit&#34;</span> <span class="c1">#�
 </div><p>推送到远程仓库。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">git push -u origin master
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">git push -u origin master
 </code></pre></td></tr></table>
 </div>
 </div><hr>
@@ -335,7 +335,7 @@ git commit -m <span class="s2">&#34;first commit&#34;</span> <span class="c1">#�
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://lucas-0.github.io/2020-05-05-git-get-started/" data-title="Git 入门及连接多个远程仓库" data-hashtags="git"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://lucas-0.github.io/2020-05-05-git-get-started/" data-hashtag="git"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://lucas-0.github.io/2020-05-05-git-get-started/" data-title="Git 入门及连接多个远程仓库"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://lucas-0.github.io/2020-05-05-git-get-started/" data-title="Git 入门及连接多个远程仓库"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg"></i></a><a href="javascript:void(0);" title="分享到 Pocket" data-sharer="pocket" data-url="https://lucas-0.github.io/2020-05-05-git-get-started/"><i class="fab fa-get-pocket fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://lucas-0.github.io/2020-05-05-git-get-started/" data-title="Git 入门及连接多个远程仓库"><i class="fab fa-weibo fa-fw"></i></a></span>
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://lucas-0.github.io/2020-05-05-git-get-started/" data-title="Git 入门及连接多个远程仓库" data-hashtags="git"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://lucas-0.github.io/2020-05-05-git-get-started/" data-hashtag="git"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://lucas-0.github.io/2020-05-05-git-get-started/" data-title="Git 入门及连接多个远程仓库"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://lucas-0.github.io/2020-05-05-git-get-started/" data-title="Git 入门及连接多个远程仓库"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg"></i></a><a href="javascript:void(0);" title="分享到 Pocket" data-sharer="pocket" data-url="https://lucas-0.github.io/2020-05-05-git-get-started/"><i class="fab fa-get-pocket fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://lucas-0.github.io/2020-05-05-git-get-started/" data-title="Git 入门及连接多个远程仓库"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://lucas-0.github.io/2020-05-05-git-get-started/" data-title="Git 入门及连接多个远程仓库"><i class="fab fa-evernote fa-fw"></i></a></span>
             </div>
         </div>
     </div>
