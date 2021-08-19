@@ -26,9 +26,8 @@ PS：首页图来自[:(fab fa-youtube):](https://www.youtube.com/watch?v=ICxC5ek
 
 <details>
 <summary>Click</summary>
-<div>
-{{< style "text-align:center; strong{color:#00b1ff;}" >}}**碧梨&戴珍珠耳环的少女**{{< /style >}}
-  </div>
+<p style="color:#00b1ff;text-align:center;"><b>
+碧梨&戴珍珠耳环的少女</b></p>
 </details>
 
 
@@ -42,9 +41,8 @@ PS：首页图来自[:(fab fa-youtube):](https://www.youtube.com/watch?v=ICxC5ek
 
 <details>
 <summary>Click</summary>
-<div>
-{{< style "text-align:center; strong{color:#00b1ff;}" >}}**胜利之吻&The Kiss' by Gustav Klimt**{{< /style >}}
-  </div>
+<p style="color:#00b1ff;text-align:center;"><b>
+胜利之吻&The Kiss' by Gustav Klimt</b></p>
 </details>
 
 
@@ -66,9 +64,7 @@ PS：首页图来自[:(fab fa-youtube):](https://www.youtube.com/watch?v=ICxC5ek
 
 <details>
 <summary>Click</summary>
-<div>
-{{< style "text-align:center; strong{color:#00b1ff;}" >}}**老白&王座上的拿破仑一世**{{< /style >}}
-  </div>
+<p style="color:#00b1ff;text-align:center;"><b>老白&王座上的拿破仑一世</b></p>
 </details>
 
 
@@ -94,9 +90,7 @@ PS：首页图来自[:(fab fa-youtube):](https://www.youtube.com/watch?v=ICxC5ek
 
 <details>
 <summary>Click</summary>
-<div>
-{{< style "text-align:center; strong{color:#00b1ff;}" >}}<i>**Meeting of thirty-five heads of expression**</i>{{< /style >}}
-  </div>
+<p style="color:#00b1ff;text-align:center;"><b><i>Meeting of thirty-five heads of expression</i></b></p>
 </details>
 
 
@@ -109,9 +103,7 @@ PS：首页图来自[:(fab fa-youtube):](https://www.youtube.com/watch?v=ICxC5ek
 
 <details>
 <summary>Click</summary>
-<div>
-{{< style "text-align:center; strong{color:#00b1ff;}" >}}<i>**The Wolf of Wall Street</i> & <i>The quiet pet</i>**{{< /style >}}
-  </div>
+<p style="color:#00b1ff;text-align:center;"><b><i>The Wolf of Wall Street</i> & <i>The quiet pet</i></b></p>
 </details>
 
 
