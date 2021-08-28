@@ -37,5 +37,5 @@ jobs:
           ALGOLIA_INDEX_FILE: public/index.json
         run: 
           sudo apt-get -yqq install npm
-          sudo npm install atomic-algolia -g
+          sudo npm install atomic-algolia --save
           atomic-algolia
