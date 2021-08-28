@@ -28,18 +28,11 @@ jobs:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           PUBLISH_BRANCH: master
           PUBLISH_DIR: ./public
-          
-      - name: Use Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: '12.x'
 
       - name: Update Algolia Index
+        uses: iChochy/Algolia-Upload-Records@main
         env:
-          ALGOLIA_APP_ID: RA4BOTUVZQ
-          ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
-          ALGOLIA_INDEX_NAME: myBlog
-          ALGOLIA_INDEX_FILE: public/index.json
-        run:  | 
-          npm install atomic-algolia
-          npm run algolia
+          APPLICATION_ID: RA4BOTUVZQ
+          ADMIN_API_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
+          INDEX_NAME: myBlog
+          FILE_PATH: public/index.json
