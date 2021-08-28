@@ -36,8 +36,6 @@ jobs:
           ALGOLIA_INDEX_NAME: myBlog
           ALGOLIA_INDEX_FILE: public/index.json
         run:  
-          sudo apt-get -yqq install npm
-
+          sudo apt-get -yqq install npm --fix-missing
           sudo npm install atomic-algolia --save
-          
           atomic-algolia
