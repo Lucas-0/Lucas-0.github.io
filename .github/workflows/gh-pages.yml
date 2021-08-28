@@ -29,13 +29,17 @@ jobs:
           PUBLISH_BRANCH: master
           PUBLISH_DIR: ./public
           
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+
       - name: Update Algolia Index
         env:
           ALGOLIA_APP_ID: RA4BOTUVZQ
           ALGOLIA_ADMIN_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
           ALGOLIA_INDEX_NAME: myBlog
           ALGOLIA_INDEX_FILE: public/index.json
-        run:  
-          sudo apt-get -yqq install npm --fix-missing
-          sudo npm install atomic-algolia -g
-          atomic-algolia
+        run:  | 
+          npm install atomic-algolia
+          npm run algolia
