@@ -32,7 +32,7 @@ jobs:
       - name: Update Algolia Index
         uses: iChochy/Algolia-Upload-Records@main
         env:
-          APPLICATION_ID: RA4BOTUVZQ
+          APPLICATION_ID: ${{secrets.APPLICATION_ID}}
           ADMIN_API_KEY: ${{ secrets.ALGOLIA_ADMIN_KEY }}
-          INDEX_NAME: myBlog
-          FILE_PATH: public/index.json
+          INDEX_NAME: ${{secrets.INDEX_NAME}}
+          FILE_PATH: ${{secrets.FILE_PATH}}
