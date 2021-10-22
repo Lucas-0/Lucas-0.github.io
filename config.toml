@@ -101,7 +101,7 @@ enableEmoji = true
         # 是否隐藏网站图标资源链接
         noFavicon = true
         # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
-        svgFavicon = "/images/myicon.svg"
+        svgFavicon = "/images/icon.svg"
         # Android 浏览器主题色
         themeColor = "#ffffff"
         # Safari 图标颜色
@@ -256,7 +256,7 @@ enableEmoji = true
     [params.header.title]
       # URL of the LOGO
       # LOGO 的 URL
-      logo = "/images/myicon.svg"
+      logo = "/images/icon.svg"
       # title name
       # 标题名称
       name = "NeverLand"
