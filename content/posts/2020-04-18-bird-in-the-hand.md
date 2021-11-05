@@ -3,7 +3,7 @@ title: "被剥夺的语言和语言的剥夺"
 subtitle: "——托妮·莫里森"
 date: 2020-04-18T00:15:33+08:00
 categories: ["文化"]
-tags: ["阅读","诺贝尔文学奖"]
+tags: ["阅读","Nobel Prize"]
 featuredImage: "https://cdn.jsdelivr.net/gh/Lucas-0/Img/20200418105244.jpg"
 featuredImagePreview: "https://cdn.jsdelivr.net/gh/Lucas-0/Img/20200418105244.jpg"
 toc: false

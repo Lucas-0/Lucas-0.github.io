@@ -21,7 +21,7 @@ categories: ["文化"]
 # 文章顶部照片
 featuredImage: "https://cdn.jsdelivr.net/gh/Lucas-0/Img/img/20200705002307.jpg"
 # 文章在首页的缩略图
-featuredImagePreview: "https://cdn.jsdelivr.net/gh/Lucas-0/Img/img/20200705002830.jpg"
+featuredImagePreview: "https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/202111051709550.jpg"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
