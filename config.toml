@@ -573,7 +573,7 @@ enableEmoji = true
   # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
   # 网站验证代码，用于 Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
-    google = ""
+    google = "9OM5mHkN7Rwc3nrCDLMNROsxhw5Cm4Wqj8N2hM_zKcc"
     bing = ""
     yandex = ""
     pinterest = ""
