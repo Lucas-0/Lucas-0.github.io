@@ -3,8 +3,10 @@
 // ==============================
 
 // ========== Global ========== //
+@import url('https://fonts.lug.ustc.edu.cn/css2?family=Noto+Serif+SC:wght@400;600;700&family=Roboto+Slab:wght@400;600;700&display=swap'); //使用中科大加速
+
 // Font and Line Height
-$global-font-family: "Roboto Slab", source-han-serif-sc, -apple-system, BlinkMacSystemFont, ui-serif, Georgia, Cambria, "Times New Roman", SimSun, "PingFang SC", "Microsoft YaHei UI", serif;
+$global-font-family: "Roboto Slab", "Noto Serif SC", source-han-serif-sc, -apple-system, BlinkMacSystemFont, ui-serif, Georgia, Cambria, "Times New Roman", SimSun, "PingFang SC", "Microsoft YaHei UI", serif;
 $global-font-size: 18px;
 $global-font-weight: 400; //粗细
 $global-line-height: 1.5rem; //文本行的基线间的距离
