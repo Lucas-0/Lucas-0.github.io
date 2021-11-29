@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Hugo 博客使用 LoveIt 主题 - NeverLand</title><meta name="Description" content="记录使用 Hugo 搭建博客和配置 LoveIt 主题的过程, 利用 GitHub Action 实现自动部署."><meta property="og:title" content="Hugo 博客使用 LoveIt 主题" />
+<meta property="og:description" content="记录使用 Hugo 搭建博客和配置 LoveIt 主题的过程, 利用 GitHub Action 实现自动部署." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lucas-0.github.io/2020-06-30-hugo-and-loveit/" /><meta property="og:image" content="https://lucas-0.github.io/images/island.svg"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-06-30T18:00:00&#43;08:00" />
+<meta property="article:modified_time" content="2021-06-17T00:26:04&#43;08:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://lucas-0.github.io/images/island.svg"/>
+
+<meta name="twitter:title" content="Hugo 博客使用 LoveIt 主题"/>
+<meta name="twitter:description" content="记录使用 Hugo 搭建博客和配置 LoveIt 主题的过程, 利用 GitHub Action 实现自动部署."/>
+<meta name="application-name" content="NeverLand">
+<meta name="apple-mobile-web-app-title" content="NeverLand"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="canonical" href="https://lucas-0.github.io/2020-06-30-hugo-and-loveit/" /><link rel="prev" href="https://lucas-0.github.io/2020-05-05-git-get-started/" /><link rel="next" href="https://lucas-0.github.io/2020-07-03-emoji-support/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><meta name="google-site-verification" content="9OM5mHkN7Rwc3nrCDLMNROsxhw5Cm4Wqj8N2hM_zKcc" /><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Hugo 博客使用 LoveIt 主题",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/lucas-0.github.io\/2020-06-30-hugo-and-loveit\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/lucas-0.github.io\/images\/Apple-Devices-Preview.png",
+                            "width":  3200 ,
+                            "height":  2048 
+                        }],"genre": "posts","keywords": "Hugo, LoveIt, GitHub Pages, GitHub Action","wordcount":  630 ,
+        "url": "https:\/\/lucas-0.github.io\/2020-06-30-hugo-and-loveit\/","datePublished": "2020-06-30T18:00:00+08:00","dateModified": "2021-06-17T00:26:04+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "Lucas","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/lucas-0.github.io\/images\/avatar.png",
+                    "width":  925 ,
+                    "height":  925 
+                }},"author": {
+                "@type": "Person",
+                "name": "Lucas"
+            },"description": "记录使用 Hugo 搭建博客和配置 LoveIt 主题的过程, 利用 GitHub Action 实现自动部署."
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="NeverLand"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/icon.svg"
+        data-srcset="/images/icon.svg, /images/icon.svg 1.5x, /images/icon.svg 2x"
+        data-sizes="auto"
+        alt="/images/icon.svg"
+        title="/images/icon.svg" />NeverLand<span class="header-title-post"><i class='fas fa-palette'></i></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/" title="posts"><i class='far fa-folder-open'></i>&nbsp; 文章 </a><a class="menu-item" href="/tags/" title="tags"><i class='fas fa-tags'></i>&nbsp; 标签 </a><a class="menu-item" href="/categories/" title="categories"><i class='fas fa-grip-horizontal'></i>&nbsp; 分类 </a><a class="menu-item" href="/links/" title="links"><i class='fas fa-archive'></i>&nbsp; 展示 </a><a class="menu-item" href="/about/" title="about"><i class='fas fa-portrait'></i>&nbsp; 关于 </a><a class="menu-item" href="https://github.com/Lucas-0" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="找找好康的?" id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="NeverLand"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/icon.svg"
+        data-srcset="/images/icon.svg, /images/icon.svg 1.5x, /images/icon.svg 2x"
+        data-sizes="auto"
+        alt="/images/icon.svg"
+        title="/images/icon.svg" />NeverLand<span class="header-title-post"><i class='fas fa-palette'></i></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="找找好康的?" id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="posts"><i class='far fa-folder-open'></i>&nbsp;文章</a><a class="menu-item" href="/tags/" title="tags"><i class='fas fa-tags'></i>&nbsp;标签</a><a class="menu-item" href="/categories/" title="categories"><i class='fas fa-grip-horizontal'></i>&nbsp;分类</a><a class="menu-item" href="/links/" title="links"><i class='fas fa-archive'></i>&nbsp;展示</a><a class="menu-item" href="/about/" title="about"><i class='fas fa-portrait'></i>&nbsp;关于</a><a class="menu-item" href="https://github.com/Lucas-0" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Hugo 博客使用 LoveIt 主题</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://lucas-0.github.io/about/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Lucas</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E6%8A%80%E6%9C%AF/"><i class="far fa-folder fa-fw"></i>技术</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-06-30">2020-06-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 630 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#初始化和管理主题">初始化和管理主题</a></li>
+    <li><a href="#github-pages">GitHub Pages</a></li>
+    <li><a href="#github-action">GitHub Action</a></li>
+    <li><a href="#配置-algolia">配置 Algolia</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"></br>
+<p>记录使用 Hugo 搭建博客和配置 LoveIt 主题的过程, 利用 GitHub Action 实现自动部署.</p>
+<div class="details admonition warning open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-exclamation-triangle fa-fw"></i>警告<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content">使用 loveit 主题, 除了要 <code>new site</code> 以外, 还要初始化为 git 仓库, 不然本地构建不了站点.</div>
+        </div>
+    </div>
+<hr>
+</br>
+<h2 id="初始化和管理主题">初始化和管理主题</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">hugo new site BLOG
+<span class="nb">cd</span>  BLOG
+git init
+git submodule add https://github.com/dillonzq/LoveIt themes/LoveIt
+</code></pre></td></tr></table>
+</div>
+</div><p>然后把 examplesite 的文件放到博客目录下, 注意有一篇示例文章的 shortcode 引用了 <i class="fab fa-twitter"></i>&nbsp;twitter 和 <i class="fab fa-instagram"></i>&nbsp;Instagram 的格式, 在强国的网络环境下网站生成会失败, 要删除 post.</p>
+<p>如果下载很慢可以考虑设置代理🏄‍♂️或者转换链接🔗.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">git config --global http.proxy <span class="s1">&#39;socks5://127.0.0.1:1080&#39;</span>
+
+git config --global https.proxy <span class="s1">&#39;socks5://127.0.0.1:1080&#39;</span>
+
+git config --global --unset http.proxy
+
+git config --global --unset https.proxy
+</code></pre></td></tr></table>
+</div>
+</div><p>配置一下博客的 config 文件, 注意 <code>themesDir = &quot;themes&quot;</code> 不要添加斜杠 <code>/</code>, 否则在下一步利用 GitHub Action自动部署会报找不到主题的错误.</p>
+</br>
+<h2 id="github-pages">GitHub Pages</h2>
+<p>然后添加 GitHub Pages 仓库: blog 分支管理源码, master 中为 public 文件夹.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">git remote add origin https://github.com/Lucas-0/Lucas-0.github.io.git
+<span class="c1"># 新建 branch 分支, 也可以使用 checkout</span>
+git branch -b blog
+
+git add .
+git commit -m <span class="s2">&#34;init&#34;</span>
+git push origin blog
+</code></pre></td></tr></table>
+</div>
+</div><p>到这一步, 已经完成了推送的步骤.</p>
+</br>
+<h2 id="github-action">GitHub Action</h2>
+<p>在博客根目录新建 <code>.github/workflows/main.yml</code> 文件, 这是 GitHub Action 读取执行的文件夹, 其中 <code>main.yml</code> 文件名字可以任取.</p>
+<p>内容:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">GitHub Page Deploy</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">push</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span><span class="nt">branches</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span>- <span class="l">blog</span><span class="w">
+</span><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">build-deploy</span><span class="p">:</span><span class="w">
+</span><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-18.04</span><span class="w">
+</span><span class="w">    </span><span class="nt">steps</span><span class="p">:</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Checkout master</span><span class="w">
+</span><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/checkout@v1      </span><span class="w">
+</span><span class="w">        </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span><span class="w">          </span><span class="nt">submodules</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Setup Hugo</span><span class="w">
+</span><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-hugo@v2</span><span class="w">
+</span><span class="w">        </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span><span class="w">          </span><span class="nt">hugo-version</span><span class="p">:</span><span class="w"> </span><span class="l">latest</span><span class="w">
+</span><span class="w">          </span><span class="nt">extended</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Build Hugo</span><span class="w">
+</span><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="p">|</span><span class="sd">
+</span><span class="sd">          </span><span class="w">          </span><span class="l">hugo</span><span class="w">
+</span><span class="w">
+</span><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy Hugo to gh-pages</span><span class="w">
+</span><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-gh-pages@v2</span><span class="w">
+</span><span class="w">        </span><span class="nt">env</span><span class="p">:</span><span class="w">
+</span><span class="w">          </span><span class="nt">ACTIONS_DEPLOY_KEY</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.ACTIONS_DEPLOY_KEY }}</span><span class="w">
+</span><span class="w">          </span><span class="nt">PUBLISH_BRANCH</span><span class="p">:</span><span class="w"> </span><span class="l">master</span><span class="w">
+</span><span class="w">          </span><span class="nt">PUBLISH_DIR</span><span class="p">:</span><span class="w"> </span><span class="l">./public</span><span class="w">
+</span></code></pre></td></tr></table>
+</div>
+</div><p>在仓库新建 <code>Secrets</code>, 名称自定, 可以和上面给定的模板一样叫做 ACTIONS_DEPLOY_KEY, 将 SSH 私钥复制进去.这样 workflow 就有权限对 master 分支进行写操作.</p>
+<p>例如某一次 push 的过程:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">git add .
+git commit -m <span class="s2">&#34;message&#34;</span>
+git push origin blog
+</code></pre></td></tr></table>
+</div>
+</div><p>然后 workflow 会自动生成 public 文件夹 push 到 master 分支.</p>
+<p>​</p>
+<h2 id="配置-algolia">配置 Algolia</h2>
+<p>hugo 使用 aligolia 搜索需要安装 atomic-algolia 生成 index.json, 然后上传到 Algolia, 过于麻烦, 而且我不想在 PC 上装 npm, 所以这部分的工作也交给 Github Action 完成 .</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-yml" data-lang="yml"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Update Algolia Index</span><span class="w">
+</span><span class="w">        </span><span class="nt">env</span><span class="p">:</span><span class="w">
+</span><span class="w">          </span><span class="nt">ALGOLIA_APP_ID</span><span class="p">:</span><span class="w"> </span><span class="l">Your_APP_ID</span><span class="w">
+</span><span class="w">          </span><span class="nt">ALGOLIA_ADMIN_KEY</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.ALGOLIA_ADMIN_KEY }}</span><span class="w">
+</span><span class="w">          </span><span class="nt">ALGOLIA_INDEX_NAME</span><span class="p">:</span><span class="w"> </span><span class="l">Your_INDEX_NAME</span><span class="w">
+</span><span class="w">          </span><span class="nt">ALGOLIA_INDEX_FILE</span><span class="p">:</span><span class="w"> </span><span class="l">public/index.json</span><span class="w">
+</span><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="p">|</span><span class="sd">
+</span><span class="sd">          sudo apt-get -yqq install npm
+</span><span class="sd">          sudo npm install atomic-algolia -g
+</span><span class="sd">          atomic-algolia</span><span class="w">          
+</span></code></pre></td></tr></table>
+</div>
+</div><p>使用时到 Algolia 获取对应的 ID 和 key, 然后新建密钥 <code>ALGOLIA_ADMIN_KEY</code>.</p>
+<p>全文完.</p>
+</br></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2021-06-17&nbsp;<a class="git-hash" href="https://github.com/Lucas-0/Lucas-0.github.io/commit/24b01eca5d18ce3034ee9b89be0083a916d2cef1" target="_blank" title="commit by Lucas(raisingsha@gmail.com) 24b01eca5d18ce3034ee9b89be0083a916d2cef1: adjust">
+                                    <i class="fas fa-hashtag fa-fw"></i>24b01ec</a></span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://lucas-0.github.io/2020-06-30-hugo-and-loveit/" data-title="Hugo 博客使用 LoveIt 主题" data-hashtags="Hugo,LoveIt,GitHub Pages,GitHub Action"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://lucas-0.github.io/2020-06-30-hugo-and-loveit/" data-hashtag="Hugo"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://lucas-0.github.io/2020-06-30-hugo-and-loveit/" data-title="Hugo 博客使用 LoveIt 主题"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://lucas-0.github.io/2020-06-30-hugo-and-loveit/" data-title="Hugo 博客使用 LoveIt 主题"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg"></i></a><a href="javascript:void(0);" title="分享到 Pocket" data-sharer="pocket" data-url="https://lucas-0.github.io/2020-06-30-hugo-and-loveit/"><i class="fab fa-get-pocket fa-fw"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://lucas-0.github.io/2020-06-30-hugo-and-loveit/" data-title="Hugo 博客使用 LoveIt 主题"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://lucas-0.github.io/2020-06-30-hugo-and-loveit/" data-title="Hugo 博客使用 LoveIt 主题"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/hugo/">Hugo</a>,&nbsp;<a href="/tags/loveit/">LoveIt</a>,&nbsp;<a href="/tags/github-pages/">GitHub Pages</a>,&nbsp;<a href="/tags/github-action/">GitHub Action</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/2020-05-05-git-get-started/" class="prev" rel="prev" title="Git 入门及连接多个远程仓库"><i class="fas fa-angle-left fa-fw"></i>Git 入门及连接多个远程仓库</a>
+            <a href="/2020-07-03-emoji-support/" class="next" rel="next" title="Emoji 支持">Emoji 支持<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div id="comments"><div id="utterances"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://utteranc.es/">Utterances</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line"><i class='far fa-smile-wink'></i>&nbsp;有趣之事即是好事</div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2020 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://lucas-0.github.io/about/" target="_blank">Lucas</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span><span class="icp-splitter">&nbsp;|&nbsp;</span><br class="icp-br"/>
+                    <span class="icp">La vita è bella</span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/css/lightgallery.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.2.0/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/js/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lg-thumbnail.js@1.2.0/dist/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lg-zoom.js@1.2.0/dist/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":15},"comment":{"utterances":{"darkTheme":"github-dark","issueTerm":"title","label":"","lightTheme":"github-light","repo":"Lucas-0/comment"}},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"search":{"algoliaAppID":"RA4BOTUVZQ","algoliaIndex":"myBlog","algoliaSearchKey":"42c8139aee413081073e99c2f080227d","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

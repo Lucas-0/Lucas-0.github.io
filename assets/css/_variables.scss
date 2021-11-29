@@ -4,10 +4,10 @@
 
 // ========== Global ========== //
 // Font and Line Height
-$global-font-family: source-han-serif-sc, -apple-system, BlinkMacSystemFont, ui-serif, Georgia, Cambria, "Times New Roman", SimSun, "PingFang SC", "Microsoft YaHei UI", serif;
-$global-font-size: 16px;
-$global-font-weight: 400;
-$global-line-height: 1.5rem;
+$global-font-family: "Roboto Slab", source-han-serif-sc, -apple-system, BlinkMacSystemFont, ui-serif, Georgia, Cambria, "Times New Roman", SimSun, "PingFang SC", "Microsoft YaHei UI", serif;
+$global-font-size: 18px;
+$global-font-weight: 400; //粗细
+$global-line-height: 1.5rem; //文本行的基线间的距离
 
 // Color of the background
 $global-background-color: #fff !default;
