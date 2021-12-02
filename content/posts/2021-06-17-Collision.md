@@ -1,5 +1,5 @@
 ---
-title: "名画缝合"
+title: "给名画加入流行文化"
 subtitle: ""
 date: 2021-06-17T20:28:30+08:00
 weight: 

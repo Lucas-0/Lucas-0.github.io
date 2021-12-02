@@ -3,11 +3,11 @@ title: "Set Her Free"
 subtitle: "评剧场版 紫罗兰永恒花园"
 date: 2021-10-29T23:38:26+08:00
 weight: # 置顶，利于预览
-lastmod: 
+lastmod: 2021-12-01T20:50:26+08:00
 draft: 
 author: "Lucas"
 authorLink: "https://github.com/Lucas-0"
-description: "Smash the cage."
+description: "鸾鸟轩翥而翔飞。"
 summary: ""
 license: ""
 # 移动端网页链接的图片

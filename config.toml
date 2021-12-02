@@ -219,7 +219,7 @@ enableEmoji = true
         XMPP = ""
         Matrix = ""
         Bilibili = "171638438"
-        Email = "raisingsha@gmail.com"
+        Email = ""
         RSS = true
 
 [params]
@@ -680,7 +680,7 @@ enableEmoji = true
 # 作者配置
 [author]
   name = "Lucas"
-  email = "mailto:raisingsha@gmail.com"
+  email = "mailto:blank@gmail.com"
   link = "https://lucas-0.github.io/about/"
 
 # Sitemap config
