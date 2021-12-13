@@ -4,9 +4,18 @@
         <link>https://lucas-0.github.io/</link>
         <description>someone&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mailto:blank@gmail.com (Lucas)</managingEditor>
-            <webMaster>mailto:blank@gmail.com (Lucas)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 11 Nov 2021 21:11:26 &#43;0800</lastBuildDate>
+            <webMaster>mailto:blank@gmail.com (Lucas)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 13 Dec 2021 23:59:59 &#43;0800</lastBuildDate>
             <atom:link href="https://lucas-0.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>悄悄是别离的笙箫</title>
+    <link>https://lucas-0.github.io/2021-12-13-tree-hole/</link>
+    <pubDate>Mon, 13 Dec 2021 23:59:59 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://lucas-0.github.io/2021-12-13-tree-hole/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/202112132322781.png" referrerpolicy="no-referrer">
+            </div><p>Just for the record.</p>]]></description>
+</item><item>
     <title>安全第一条</title>
     <link>https://lucas-0.github.io/2021-11-11-an-accident/</link>
     <pubDate>Thu, 11 Nov 2021 21:11:26 &#43;0800</pubDate>
@@ -73,12 +82,5 @@
     <author>作者</author>
     <guid>https://lucas-0.github.io/2021-03-27-communications-paradis/</guid>
     <description><![CDATA[一些已经不再重要的细节]]></description>
-</item><item>
-    <title>牛顿第一定律与 The Road Not Taken</title>
-    <link>https://lucas-0.github.io/2020-09-28-graduate-interview/</link>
-    <pubDate>Mon, 21 Dec 2020 23:22:26 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://lucas-0.github.io/2020-09-28-graduate-interview/</guid>
-    <description><![CDATA[怀念过去。]]></description>
 </item></channel>
 </rss>
