@@ -68,23 +68,11 @@ seo:
 </br>
 </br>
 毕业旅行是为期8天的青甘环线，旅途一路所见所闻值得一记。
-</br>
-<h2>路线</h2>
-<!DOCTYPE html>
-<html><head><meta charset="utf-8"><title>footprint</title>
-<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+
+### 路线
 <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet">
 <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
-<style>
-body { margin: 0; padding: 0; }
-#map {
-position: absolute;
-height: 200%;
-width: 100%;
-}
-</style>
-</head><body>
-<div id="map"></div>
+<div id='map' style='width: 100%; height: 40rem;'></div>
 <script>
 	// TO MAKE THE MAP APPEAR YOU MUST
 	// ADD YOUR ACCESS TOKEN FROM
@@ -147,10 +135,7 @@ width: 100%;
         });
       });
 </script>
-</body>
-</html>
-
-</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+</br>
 
 ### day0 出发 追太阳的孩子
 坐地铁到大兴机场。飞机在雾中起飞，窗外除了机翼什么也看不见。不久飞机冲破云层，蓝天重新出现。身侧有金色的夕照相伴，旅行的精神终于振作起来。
