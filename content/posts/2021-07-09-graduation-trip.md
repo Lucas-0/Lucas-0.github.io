@@ -22,7 +22,7 @@ categories: ["生活"]
 # 文章顶部照片
 featuredImage: ""
 # 文章在首页的缩略图
-featuredImagePreview: "https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210713171440.png"
+featuredImagePreview: "https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/202112112000229.png"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -68,7 +68,89 @@ seo:
 </br>
 </br>
 毕业旅行是为期8天的青甘环线，旅途一路所见所闻值得一记。
+</br>
+<h2>路线</h2>
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>footprint</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+<style>
+body { margin: 0; padding: 0; }
+#map {
+position: absolute;
+height: 200%;
+width: 100%;
+}
+</style>
+</head><body>
+<div id="map"></div>
+<script>
+	// TO MAKE THE MAP APPEAR YOU MUST
+	// ADD YOUR ACCESS TOKEN FROM
+	// https://account.mapbox.com
+	mapboxgl.accessToken = 'pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ';
+    const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [98.00000, 38.40000],
+        zoom: 6
+    });
+    map.on('load', () => {
+        map.addSource('route', {
+            'type': 'geojson',
+            lineMetrics: true,
+            'data': '../static/july_trip.geojson'//'../static/july_trip.geojson'
+        });
+        map.addLayer({
+            'id': 'line',
+            'type': 'line',
+            'source': 'route',
+            'layout': {
+            'line-join': 'round',
+            'line-cap': 'round'
+            },
+            'paint': {
+            'line-color': '#86C166',
+            'line-width': 5,
+            'line-opacity': 0.8,
+            'line-gradient': [
+                'interpolate',
+                ['linear'],
+                ['line-progress'],
+                0,
+                'blue',
+                0.1,
+                'royalblue',
+                0.3,
+                'cyan',
+                0.5,
+                'lime',
+                0.7,
+                'yellow',
+                1,
+                'red'
+                ]
+            //'line-gap-width':2
+            },
+            'filter': ['==', '$type', 'LineString']
+        });
+        map.addLayer({
+            'id': 'spot',
+            'type': 'circle',
+            'source': 'route',
+            'paint': {
+                'circle-radius': 6,
+                'circle-color': '#C1328E'
+            },
+            'filter': ['==', '$type', 'Point']
+        });
+      });
+</script>
+</body>
+</html>
 
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
 
 ### day0 出发 追太阳的孩子
 坐地铁到大兴机场。飞机在雾中起飞，窗外除了机翼什么也看不见。不久飞机冲破云层，蓝天重新出现。身侧有金色的夕照相伴，旅行的精神终于振作起来。
@@ -131,7 +213,7 @@ seo:
 ### day2 青海长云暗雪山
 睡得很差，起床身体依然不适。注意深呼吸的节律尽量让自己舒服一些，~~练习呼吸法，加入鬼杀队~~。
 
-开车离开茶卡镇，沿着G315前往翡翠湖，3h后进入德令哈市。突然想到，公路旅行的实质就是猴子们利用铁甲壳虫进行高速位移。路过尕海，只能看见细细的一线。一路上我基本在睡觉，感觉好多了。
+开车离开茶卡镇，沿着G315前往翡翠湖，3h后进入德令哈市。突发奇想，公路旅行的实质就是猴子们利用铁甲壳虫的高速位移。路过尕海，只能看见细细的一线。一路上我基本在睡觉，感觉好多了。
 
 之前下过雨，路旁积的雨水蒸干了，留下白色的盐。盐碱地上只能生长矮小的灌木。进入柴达木盆地后，地面确实平整了许多。
 
@@ -453,3 +535,5 @@ G30从敦煌到嘉峪关，路上风光一般，都是些东部寻常景色或�
 5. 行李托运前记得把箱子里的氧气瓶扔掉:collision:。
 
 <!--游记真难写，有草稿还是写了5天，文字工作和挑选处理图片都很费劲-->
+
+
