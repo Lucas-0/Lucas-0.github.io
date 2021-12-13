@@ -10,7 +10,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://lucas-0.github.io/2021-07-09-graduation-trip/" /><meta property="og:image" content="https://lucas-0.github.io/images/island.svg"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-07-13T17:29:39+08:00" />
-<meta property="article:modified_time" content="2021-10-22T12:42:58+08:00" />
+<meta property="article:modified_time" content="2021-12-13T17:45:18+08:00" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://lucas-0.github.io/images/island.svg"/>
@@ -32,8 +32,8 @@
                             "url": "https:\/\/lucas-0.github.io\/images\/Apple-Devices-Preview.png",
                             "width":  3200 ,
                             "height":  2048 
-                        }],"genre": "posts","keywords": "旅行","wordcount":  9047 ,
-        "url": "https:\/\/lucas-0.github.io\/2021-07-09-graduation-trip\/","datePublished": "2021-07-13T17:29:39+08:00","dateModified": "2021-10-22T12:42:58+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+                        }],"genre": "posts","keywords": "旅行","wordcount":  9179 ,
+        "url": "https:\/\/lucas-0.github.io\/2021-07-09-graduation-trip\/","datePublished": "2021-07-13T17:29:39+08:00","dateModified": "2021-12-13T17:45:18+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "Lucas","logo": {
                     "@type": "ImageObject",
@@ -128,7 +128,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">毕业旅记</h1><h2 class="single-subtitle">——远游西北</h2><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://github.com/Lucas-0" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Lucas</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E7%94%9F%E6%B4%BB/"><i class="far fa-folder fa-fw"></i>生活</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-07-13">2021-07-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 9047 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-07-13">2021-07-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 9179 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 19 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
@@ -155,6 +155,88 @@
             </div><div class="content" id="content"></br>
 </br>
 毕业旅行是为期8天的青甘环线，旅途一路所见所闻值得一记。
+</br>
+<h2>路线</h2>
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>footprint</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+<style>
+body { margin: 0; padding: 0; }
+#map {
+position: absolute;
+height: 200%;
+width: 100%;
+}
+</style>
+</head><body>
+<div id="map"></div>
+<script>
+	// TO MAKE THE MAP APPEAR YOU MUST
+	// ADD YOUR ACCESS TOKEN FROM
+	// https://account.mapbox.com
+	mapboxgl.accessToken = 'pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ';
+    const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [98.00000, 38.40000],
+        zoom: 6
+    });
+    map.on('load', () => {
+        map.addSource('route', {
+            'type': 'geojson',
+            lineMetrics: true,
+            'data': '../static/july_trip.geojson'//'../static/july_trip.geojson'
+        });
+        map.addLayer({
+            'id': 'line',
+            'type': 'line',
+            'source': 'route',
+            'layout': {
+            'line-join': 'round',
+            'line-cap': 'round'
+            },
+            'paint': {
+            'line-color': '#86C166',
+            'line-width': 5,
+            'line-opacity': 0.8,
+            'line-gradient': [
+                'interpolate',
+                ['linear'],
+                ['line-progress'],
+                0,
+                'blue',
+                0.1,
+                'royalblue',
+                0.3,
+                'cyan',
+                0.5,
+                'lime',
+                0.7,
+                'yellow',
+                1,
+                'red'
+                ]
+            //'line-gap-width':2
+            },
+            'filter': ['==', '$type', 'LineString']
+        });
+        map.addLayer({
+            'id': 'spot',
+            'type': 'circle',
+            'source': 'route',
+            'paint': {
+                'circle-radius': 6,
+                'circle-color': '#C1328E'
+            },
+            'filter': ['==', '$type', 'Point']
+        });
+      });
+</script>
+</body>
+</html>
+<p></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></p>
 <h3 id="day0-出发-追太阳的孩子">day0 出发 追太阳的孩子</h3>
 <p>坐地铁到大兴机场。飞机在雾中起飞，窗外除了机翼什么也看不见。不久飞机冲破云层，蓝天重新出现。身侧有金色的夕照相伴，旅行的精神终于振作起来。</p>
 <figure><a class="lightgallery" href="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210712214124.jpg" title=" " data-thumbnail="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210712214124.jpg" data-sub-html="<h2>gogogo</h2><p> </p>">
@@ -244,7 +326,7 @@
 <p>促使我下这个判断的主要依据是2，是药三分毒，我看连花清瘟能有七分。反省自己因为近两年没生病过而过于自信，药还是不能乱吃的。小病上猛药就是自己折腾自己，算是教训吧。</p>
 <h3 id="day2-青海长云暗雪山">day2 青海长云暗雪山</h3>
 <p>睡得很差，起床身体依然不适。注意深呼吸的节律尽量让自己舒服一些，<del>练习呼吸法，加入鬼杀队</del>。</p>
-<p>开车离开茶卡镇，沿着G315前往翡翠湖，3h后进入德令哈市。突然想到，公路旅行的实质就是猴子们利用铁甲壳虫进行高速位移。路过尕海，只能看见细细的一线。一路上我基本在睡觉，感觉好多了。</p>
+<p>开车离开茶卡镇，沿着G315前往翡翠湖，3h后进入德令哈市。突发奇想，公路旅行的实质就是猴子们利用铁甲壳虫的高速位移。路过尕海，只能看见细细的一线。一路上我基本在睡觉，感觉好多了。</p>
 <p>之前下过雨，路旁积的雨水蒸干了，留下白色的盐。盐碱地上只能生长矮小的灌木。进入柴达木盆地后，地面确实平整了许多。</p>
 <p>上午十点，到达第二日的第一站可鲁克湖，一个很偏很小的景点，甚是粗糙的开发，仅仅是围了块地，连脚踏船项目都没有。蚊虫之多令人震惊，其次是水鸟的数量，游人稀少，算上我们可能也就不到30人吧。可以说<strong>去了就是上当</strong>，尽管门票卖得不贵。</p>
 <figure><a class="lightgallery" href="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210712222849.jpg" title=" " data-thumbnail="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210712222849.jpg" data-sub-html="<h2>可鲁克湖</h2><p> </p>">
@@ -1139,8 +1221,8 @@
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>更新于 2021-10-22&nbsp;<a class="git-hash" href="https://github.com/Lucas-0/Lucas-0.github.io/commit/cee738ff8c3250a90214c17b918c0698e38aa51a" target="_blank" title="commit by Lucas(raisingsha@gmail.com) cee738ff8c3250a90214c17b918c0698e38aa51a: replace gifs with webp">
-                                    <i class="fas fa-hashtag fa-fw"></i>cee738f</a></span>
+                <span>更新于 2021-12-13&nbsp;<a class="git-hash" href="https://github.com/Lucas-0/Lucas-0.github.io/commit/840f65911e9c47a122b5c570e70e98d73426f5e3" target="_blank" title="commit by Lucas(raisingsha@gmail.com) 840f65911e9c47a122b5c570e70e98d73426f5e3: add map">
+                                    <i class="fas fa-hashtag fa-fw"></i>840f659</a></span>
             </div>
             <div class="post-info-license"></div>
         </div>
