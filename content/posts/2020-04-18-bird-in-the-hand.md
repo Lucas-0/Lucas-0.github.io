@@ -20,11 +20,11 @@ summary: "托妮·莫里森用“掌中之鸟”的隐喻讲述了语言的力�
 
 ---
 
-​    
+    
 
 <div align="center">Toni Morrison Nobel Lecture<br>
   December 7, 1993</div>
-​    
+    
 
 “Once upon a time there was an old woman. Blind but wise.” Or was it an old man? A guru, perhaps. Or a griot soothing restless children. I have heard this story, or one exactly like it, in the lore of several cultures.
 
