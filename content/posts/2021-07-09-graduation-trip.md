@@ -80,7 +80,7 @@ seo:
 	mapboxgl.accessToken = 'pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ';
     const map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v11',
+        style: 'mapbox://styles/mapbox/streets-zh-v1',
         center: [98.00000, 38.40000],
         zoom: 6
     });
@@ -256,7 +256,7 @@ U型公路见面不如闻名，不必抱太大期待。
 
 坐标：北纬37°37′24″  东经93°49′35″
 
-{{< mapbox lng=94.550 lat=37.616 zoom=8 marked=true light-style="mapbox://styles/mapbox/streets-zh-v1" >}}
+{{< mapbox lng=94.550 lat=37.616 zoom=4 marked=true light-style="mapbox://styles/mapbox/streets-zh-v1" dark-style="mapbox://styles/mapbox/dark-v10">}}
 
 继续开车不到一个小时就到了水上雅丹景区，其实就是盐湖+雅丹地貌的组合，我们有些审美疲劳了。在停车场遇到一个穿着P大学士服的哥们（从校徽认出的），不禁腹诽毕业照跑到这么远的地方拍有何意义呢？水上雅丹的售票方式依旧是传统艺能一鱼多吃。我们在景区里玩得最开心的居然是用自带干粮里的瓜子仁喂湖中黑顶红嘴的肥鸟们（PS：后来司机说这是海鸥）。
 
