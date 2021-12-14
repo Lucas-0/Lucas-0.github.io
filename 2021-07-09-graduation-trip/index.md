@@ -20,11 +20,29 @@
         center: [98.00000, 38.40000],
         zoom: 6
     });
-    map.on('load', () => {
+		map.addControl(new mapboxgl.FullscreenControl());
+		// Add zoom and rotation controls to the map.
+		//map.addControl(new mapboxgl.NavigationControl({position: 'top-left'}));
+		const nav = new mapboxgl.NavigationControl();
+		map.addControl(nav, 'bottom-right');
+		map.addControl(
+		new mapboxgl.GeolocateControl({
+		positionOptions: {
+		enableHighAccuracy: true
+		},
+		// When active the map will receive updates to the device's location as it changes.
+		trackUserLocation: true,
+		// Draw an arrow next to the location dot to indicate which direction the device is heading.
+		showUserHeading: true
+		}),'bottom-right'
+		);
+		const scale = new mapboxgl.ScaleControl();
+		map.addControl(scale, 'bottom-left');
+        map.on('load', () => {
         map.addSource('route', {
             'type': 'geojson',
             lineMetrics: true,
-            'data': '../static/july_trip.geojson'//'../static/july_trip.geojson'
+            'data': '../static/july_trip.geojson'//'https://cdn.jsdelivr.net/gh/Lucas-0/Lucas-0.github.io/static/july_trip.geojson'
         });
         map.addLayer({
             'id': 'line',
@@ -67,6 +85,35 @@
                 'circle-radius': 6,
                 'circle-color': '#C1328E'
             },
+            'filter': ['==', '$type', 'Point']
+        });
+		map.addLayer({
+            'id': 'name',
+            'type': 'symbol',
+            'source': 'route',
+            'layout': {
+			// These icons are a part of the Mapbox Light style.
+			// To view all images available in a Mapbox style, open
+			// the style in Mapbox Studio and click the "Images" tab.
+			// To add a new image to the style at runtime see
+			// https://docs.mapbox.com/mapbox-gl-js/example/add-image/
+			//'icon-image':`${symbol}-15`,
+			'icon-allow-overlap': true,
+			'text-field': '{name}',
+			'text-font': [
+			'Open Sans Bold',
+			'Arial Unicode MS Bold'
+			],
+			'text-size': 11,
+			'text-transform': 'uppercase',
+			'text-letter-spacing': 0.05,
+			'text-offset': [0, 1.5]
+			},
+			'paint': {
+			'text-color': '#202',
+			'text-halo-color': '#fff',
+			'text-halo-width': 2
+			},
             'filter': ['==', '$type', 'Point']
         });
       });
