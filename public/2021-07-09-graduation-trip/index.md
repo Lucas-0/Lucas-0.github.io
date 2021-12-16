@@ -5,39 +5,43 @@
 </br>
 毕业旅行是为期8天的青甘环线，旅途一路所见所闻值得一记。
 
-
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>footprint</title>
-<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+### 路线
 <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet">
 <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
-<style>
-body { margin: 0; padding: 0; }
-#map { position: absolute; top: 0; bottom: 0; width: 100%; }
-</style>
-</head>
-<body>
-<canvas id="canvasID" width="400" height="200">Canvas not supported</canvas>
-<div id="map"></div>
+<div id='map' style='width: 100%; height: 40rem;'></div>
+//https://api.mapbox.com/styles/v1/mapbox/streets-zh-v1/sprite?access_token=pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ
+//https://api.mapbox.com/styles/v1/mapbox/streets-zh-v1/sprite.png?access_token=pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ
 <script>
-	// TO MAKE THE MAP APPEAR YOU MUST
-	// ADD YOUR ACCESS TOKEN FROM
-	// https://account.mapbox.com
-	mapboxgl.accessToken = 'pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ';
+  mapboxgl.accessToken = 'pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ';
     const map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/mapbox/outdoors-v11',
-        center: [98.00000, 38.2741],
-        zoom: 6,
-        attributionControl: 'True'
+        style: 'mapbox://styles/mapbox/streets-zh-v1',
+        center: [98.00000, 38.40000],
+        zoom: 6
     });
-    map.on('load', () => {
+    map.addControl(new mapboxgl.FullscreenControl());
+    // Add zoom and rotation controls to the map.
+    //map.addControl(new mapboxgl.NavigationControl({position: 'top-left'}));
+    const nav = new mapboxgl.NavigationControl();
+    map.addControl(nav, 'bottom-right');
+    map.addControl(
+    new mapboxgl.GeolocateControl({
+    positionOptions: {
+    enableHighAccuracy: true
+    },
+    // When active the map will receive updates to the device's location as it changes.
+    trackUserLocation: true,
+    // Draw an arrow next to the location dot to indicate which direction the device is heading.
+    showUserHeading: true
+    }),'bottom-right'
+    );
+    const scale = new mapboxgl.ScaleControl();
+    map.addControl(scale, 'bottom-left');
+        map.on('load', () => {
         map.addSource('route', {
             'type': 'geojson',
-            'data': '../static/july_trip.geojson'
+            lineMetrics: true,
+            'data': '../static/july_trip.geojson'//'https://cdn.jsdelivr.net/gh/Lucas-0/Lucas-0.github.io/static/july_trip.geojson'
         });
         map.addLayer({
             'id': 'line',
@@ -49,7 +53,26 @@ body { margin: 0; padding: 0; }
             },
             'paint': {
             'line-color': '#86C166',
-            'line-width': 5
+            'line-width': 5,
+            'line-opacity': 0.8,
+            'line-gradient': [
+                'interpolate',
+                ['linear'],
+                ['line-progress'],
+                0,
+                'blue',
+                0.1,
+                'royalblue',
+                0.3,
+                'cyan',
+                0.5,
+                'lime',
+                0.7,
+                'yellow',
+                1,
+                'red'
+                ]
+            //'line-gap-width':2
             },
             'filter': ['==', '$type', 'LineString']
         });
@@ -58,16 +81,50 @@ body { margin: 0; padding: 0; }
             'type': 'circle',
             'source': 'route',
             'paint': {
-                'circle-radius': 6,
+                'circle-radius': {
+                'base': 6,
+                'stops': [
+                [12, 6],
+                [22, 40]
+                ]
+                },
                 'circle-color': '#C1328E'
             },
             'filter': ['==', '$type', 'Point']
         });
-    });
+    map.addLayer({
+            'id': 'name',
+            'type': 'symbol',
+            'source': 'route',
+            'layout': {
+          // These icons are a part of the Mapbox Light style.
+          // To view all images available in a Mapbox style, open
+          // the style in Mapbox Studio and click the "Images" tab.
+          // To add a new image to the style at runtime see
+          // https://docs.mapbox.com/mapbox-gl-js/example/add-image/
+          // 'icon-image': 'star-15',
+          // 'icon-size': 1.5,
+            'icon-allow-overlap': true,
+            'text-field': '{name}',
+            'text-font': [
+            'Open Sans Bold',
+            'Arial Unicode MS Bold'
+            ],
+            'text-size': 11,
+            'text-transform': 'uppercase',
+            'text-letter-spacing': 0.05,
+            'text-offset': [0, 1.5]
+            },
+            'paint': {
+            'text-color': '#202',
+            'text-halo-color': '#fff',
+            'text-halo-width': 2
+            },
+            'filter': ['==', '$type', 'Point']
+        });
+      });
 </script>
-</body>
-</html>
-
+</br>
 
 ### day0 出发 追太阳的孩子
 坐地铁到大兴机场。飞机在雾中起飞，窗外除了机翼什么也看不见。不久飞机冲破云层，蓝天重新出现。身侧有金色的夕照相伴，旅行的精神终于振作起来。
@@ -188,7 +245,7 @@ U型公路见面不如闻名，不必抱太大期待。
 
 坐标：北纬37°37′24″  东经93°49′35″
 
-{{< mapbox lng=94.550 lat=37.616 zoom=8 marked=true light-style="mapbox://styles/mapbox/streets-zh-v1" >}}
+{{< mapbox lng=94.550 lat=37.616 zoom=4 marked=true light-style="mapbox://styles/mapbox/streets-zh-v1" dark-style="mapbox://styles/mapbox/dark-v10">}}
 
 继续开车不到一个小时就到了水上雅丹景区，其实就是盐湖+雅丹地貌的组合，我们有些审美疲劳了。在停车场遇到一个穿着P大学士服的哥们（从校徽认出的），不禁腹诽毕业照跑到这么远的地方拍有何意义呢？水上雅丹的售票方式依旧是传统艺能一鱼多吃。我们在景区里玩得最开心的居然是用自带干粮里的瓜子仁喂湖中黑顶红嘴的肥鸟们（PS：后来司机说这是海鸥）。
 
@@ -452,4 +509,6 @@ G30从敦煌到嘉峪关，路上风光一般，都是些东部寻常景色或�
 5. 行李托运前记得把箱子里的氧气瓶扔掉:collision:。
 
 <!--游记真难写，有草稿还是写了5天，文字工作和挑选处理图片都很费劲-->
+
+
 
