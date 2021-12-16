@@ -10,7 +10,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://lucas-0.github.io/2021-07-09-graduation-trip/" /><meta property="og:image" content="https://lucas-0.github.io/images/island.svg"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-07-13T17:29:39+08:00" />
-<meta property="article:modified_time" content="2021-12-14T14:09:50+08:00" />
+<meta property="article:modified_time" content="2021-12-16T14:01:24+08:00" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://lucas-0.github.io/images/island.svg"/>
@@ -32,8 +32,8 @@
                             "url": "https:\/\/lucas-0.github.io\/images\/Apple-Devices-Preview.png",
                             "width":  3200 ,
                             "height":  2048 
-                        }],"genre": "posts","keywords": "旅行","wordcount":  9331 ,
-        "url": "https:\/\/lucas-0.github.io\/2021-07-09-graduation-trip\/","datePublished": "2021-07-13T17:29:39+08:00","dateModified": "2021-12-14T14:09:50+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+                        }],"genre": "posts","keywords": "旅行","wordcount":  9332 ,
+        "url": "https:\/\/lucas-0.github.io\/2021-07-09-graduation-trip\/","datePublished": "2021-07-13T17:29:39+08:00","dateModified": "2021-12-16T14:01:24+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "Lucas","logo": {
                     "@type": "ImageObject",
@@ -128,7 +128,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">毕业旅记</h1><h2 class="single-subtitle">——远游西北</h2><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://github.com/Lucas-0" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Lucas</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E7%94%9F%E6%B4%BB/"><i class="far fa-folder fa-fw"></i>生活</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-07-13">2021-07-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 9331 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-07-13">2021-07-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 9332 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 19 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
@@ -160,35 +160,34 @@
 <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet">
 <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
 <div id='map' style='width: 100%; height: 40rem;'></div>
+//https://api.mapbox.com/styles/v1/mapbox/streets-zh-v1/sprite?access_token=pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ
+//https://api.mapbox.com/styles/v1/mapbox/streets-zh-v1/sprite.png?access_token=pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ
 <script>
-	// TO MAKE THE MAP APPEAR YOU MUST
-	// ADD YOUR ACCESS TOKEN FROM
-	// https://account.mapbox.com
-	mapboxgl.accessToken = 'pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ';
+  mapboxgl.accessToken = 'pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ';
     const map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/streets-zh-v1',
         center: [98.00000, 38.40000],
         zoom: 6
     });
-		map.addControl(new mapboxgl.FullscreenControl());
-		// Add zoom and rotation controls to the map.
-		//map.addControl(new mapboxgl.NavigationControl({position: 'top-left'}));
-		const nav = new mapboxgl.NavigationControl();
-		map.addControl(nav, 'bottom-right');
-		map.addControl(
-		new mapboxgl.GeolocateControl({
-		positionOptions: {
-		enableHighAccuracy: true
-		},
-		// When active the map will receive updates to the device's location as it changes.
-		trackUserLocation: true,
-		// Draw an arrow next to the location dot to indicate which direction the device is heading.
-		showUserHeading: true
-		}),'bottom-right'
-		);
-		const scale = new mapboxgl.ScaleControl();
-		map.addControl(scale, 'bottom-left');
+    map.addControl(new mapboxgl.FullscreenControl());
+    // Add zoom and rotation controls to the map.
+    //map.addControl(new mapboxgl.NavigationControl({position: 'top-left'}));
+    const nav = new mapboxgl.NavigationControl();
+    map.addControl(nav, 'bottom-right');
+    map.addControl(
+    new mapboxgl.GeolocateControl({
+    positionOptions: {
+    enableHighAccuracy: true
+    },
+    // When active the map will receive updates to the device's location as it changes.
+    trackUserLocation: true,
+    // Draw an arrow next to the location dot to indicate which direction the device is heading.
+    showUserHeading: true
+    }),'bottom-right'
+    );
+    const scale = new mapboxgl.ScaleControl();
+    map.addControl(scale, 'bottom-left');
         map.on('load', () => {
         map.addSource('route', {
             'type': 'geojson',
@@ -233,38 +232,45 @@
             'type': 'circle',
             'source': 'route',
             'paint': {
-                'circle-radius': 6,
+                'circle-radius': {
+                'base': 6,
+                'stops': [
+                [12, 6],
+                [22, 40]
+                ]
+                },
                 'circle-color': '#C1328E'
             },
             'filter': ['==', '$type', 'Point']
         });
-		map.addLayer({
+    map.addLayer({
             'id': 'name',
             'type': 'symbol',
             'source': 'route',
             'layout': {
-			// These icons are a part of the Mapbox Light style.
-			// To view all images available in a Mapbox style, open
-			// the style in Mapbox Studio and click the "Images" tab.
-			// To add a new image to the style at runtime see
-			// https://docs.mapbox.com/mapbox-gl-js/example/add-image/
-			//'icon-image':`${symbol}-15`,
-			'icon-allow-overlap': true,
-			'text-field': '{name}',
-			'text-font': [
-			'Open Sans Bold',
-			'Arial Unicode MS Bold'
-			],
-			'text-size': 11,
-			'text-transform': 'uppercase',
-			'text-letter-spacing': 0.05,
-			'text-offset': [0, 1.5]
-			},
-			'paint': {
-			'text-color': '#202',
-			'text-halo-color': '#fff',
-			'text-halo-width': 2
-			},
+          // These icons are a part of the Mapbox Light style.
+          // To view all images available in a Mapbox style, open
+          // the style in Mapbox Studio and click the "Images" tab.
+          // To add a new image to the style at runtime see
+          // https://docs.mapbox.com/mapbox-gl-js/example/add-image/
+          // 'icon-image': 'star-15',
+          // 'icon-size': 1.5,
+            'icon-allow-overlap': true,
+            'text-field': '{name}',
+            'text-font': [
+            'Open Sans Bold',
+            'Arial Unicode MS Bold'
+            ],
+            'text-size': 11,
+            'text-transform': 'uppercase',
+            'text-letter-spacing': 0.05,
+            'text-offset': [0, 1.5]
+            },
+            'paint': {
+            'text-color': '#202',
+            'text-halo-color': '#fff',
+            'text-halo-width': 2
+            },
             'filter': ['==', '$type', 'Point']
         });
       });
@@ -1254,8 +1260,8 @@
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>更新于 2021-12-14&nbsp;<a class="git-hash" href="https://github.com/Lucas-0/Lucas-0.github.io/commit/8988dadb78afed365f2badd4065178c58780b482" target="_blank" title="commit by Lucas(raisingsha@gmail.com) 8988dadb78afed365f2badd4065178c58780b482: update map style &amp; controlUI">
-                                    <i class="fas fa-hashtag fa-fw"></i>8988dad</a></span>
+                <span>更新于 2021-12-16&nbsp;<a class="git-hash" href="https://github.com/Lucas-0/Lucas-0.github.io/commit/29380361c82f19491bafc7b03292bb99fcb9a42a" target="_blank" title="commit by Lucas(raisingsha@gmail.com) 29380361c82f19491bafc7b03292bb99fcb9a42a: n">
+                                    <i class="fas fa-hashtag fa-fw"></i>2938036</a></span>
             </div>
             <div class="post-info-license"></div>
         </div>
