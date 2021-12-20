@@ -4,7 +4,7 @@ comment:
   enable: true
 date: 2020-05-14T15:19:15+08:00
 draft: true
-categories: ["技术"]
+categories: ["Guide"]
 tags: ["aria2","OneDrive"]
 featuredImagePreview: "https://cdn.jsdelivr.net/gh/Lucas-0/Img/img/20200630184152.jpg"
 toc: true

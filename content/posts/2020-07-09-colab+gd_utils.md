@@ -17,7 +17,7 @@ expiryDate: 2021-04-26T09:47:26+08:00
 publishDate: 
 
 tags: ["colab","google drive","rclone"]
-categories: ["技术"]
+categories: ["Guide"]
 # 文章顶部照片
 featuredImage: ""
 # 文章在首页的缩略图
