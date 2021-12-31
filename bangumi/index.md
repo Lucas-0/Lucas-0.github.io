@@ -78,11 +78,15 @@
         <td align="center">★★★★☆</td>
         <td>良好以上的流水线喜剧，基调轻松</td>
    </tr>
-       <tr>
+    <td align="center">怪物事变</td>
+        <td align="center">★★★★☆</td>
+        <td>主角团轻松的日常，沉重的主线，带来一种难以言喻的反差感</td>
+   </tr>
+    <tr>
         <td align="center">waiting···</td>
         <td align="center"></td>
         <td></td>
-   </tr>
+    </tr>
 </table>
 
 
@@ -151,6 +155,16 @@
      <td align="center">咒术回战</td>
      <td align="center">★★★★★</td>
      <td style="text-align:left">一部精致的商业化作品，准确地投观众所好，作者已经掌握了财富密码</td>
+   </tr>
+   <tr>
+    <td align="center">奇蛋物语</td>
+    <td align="center">★★★</td>
+    <td style="text-align:left">顶配的美术，可惜剧情拉了大胯</td>
+   </tr>
+   <tr>
+    <td align="center">SSSS.电光机王</td>
+    <td align="center">★★★★★</td>
+    <td style="text-align:left">恋爱DK太香了</td>
    </tr>
      <tr>
      <td align="center">waiting···</td>
@@ -311,21 +325,26 @@
      <td align="center">★★★★★</td>
      <td style="text-align:left">层层深入魔法少女残酷的世界</td>
    </tr>
-         <tr>
+   <tr>
      <td align="center">强风吹拂</td>
      <td align="center">★★★★★</td>
      <td style="text-align:left">友情与汗水</td>
    </tr>
-         <tr>
+    <tr>
      <td align="center">Odd Taxi</td>
      <td align="center">★★★★★</td>
      <td style="text-align:left">群像，悬疑，配合广播剧风味更佳</td>
-   </tr>
-       <tr>
+    </tr>
+    <tr>
+     <td align="center">无职转生</td>
+     <td align="center">★★★★</td>
+     <td style="text-align:left">故事流畅，观感比较丝滑</td>
+    </tr>
+    <tr>
      <td align="center">waiting···</td>
      <td align="center"></td>
      <td style="text-align:left"></td>
-   </tr>
+    </tr>
 </table>
 
 
