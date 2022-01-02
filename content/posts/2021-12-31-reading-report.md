@@ -1,7 +1,7 @@
 ---
 title: "年度阅读统计"
 subtitle: ""
-date: 2021-12-30T23:59:59+08:00
+date: 2021-12-31T23:59:59+08:00
 weight: 1 # 置顶，利于预览
 lastmod: 
 draft: 
