@@ -1,13 +1,13 @@
 ---
 title: ""
 subtitle: ""
-date: 2021-03-04T15:00:00+08:00
+date: 2022-01-01T15:00:00+08:00
 weight: 1 # 置顶，利于预览
 lastmod: 
 draft: true
 author: "Lucas"
 authorLink: "https://github.com/Lucas-0"
-description: ""
+description: "" # 首页
 summary: ""
 license: ""
 # 移动端网页链接的图片
@@ -35,7 +35,7 @@ linkToMarkdown: false
 rssFullText: false
 
 toc:
-  enable: true
+  enable: false
   auto: true
 code:
   copy: true
