@@ -4,9 +4,16 @@
         <link>https://lucas-0.github.io/</link>
         <description>someone&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mailto:blank@gmail.com (Lucas)</managingEditor>
-            <webMaster>mailto:blank@gmail.com (Lucas)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 31 Dec 2021 23:59:59 &#43;0800</lastBuildDate>
+            <webMaster>mailto:blank@gmail.com (Lucas)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 14 Feb 2022 14:38:00 &#43;0800</lastBuildDate>
             <atom:link href="https://lucas-0.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>孤独的疫区</title>
+    <link>https://lucas-0.github.io/2022-02-14-one-hundred-years-of-solitude/</link>
+    <pubDate>Mon, 14 Feb 2022 14:38:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://lucas-0.github.io/2022-02-14-one-hundred-years-of-solitude/</guid>
+    <description><![CDATA[“也比你强，你是为了一样对谁都没用的东西打仗。”]]></description>
+</item><item>
     <title>年度阅读统计</title>
     <link>https://lucas-0.github.io/2021-12-31-reading-report/</link>
     <pubDate>Fri, 31 Dec 2021 23:59:59 &#43;0800</pubDate>
@@ -73,14 +80,5 @@
     <author>作者</author>
     <guid>https://lucas-0.github.io/2021-05-30-playlist-vol01/</guid>
     <description><![CDATA[摸鱼快乐。]]></description>
-</item><item>
-    <title>溺死的巨人</title>
-    <link>https://lucas-0.github.io/2021-05-15-the-drowned-giant/</link>
-    <pubDate>Sat, 15 May 2021 11:28:26 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://lucas-0.github.io/2021-05-15-the-drowned-giant/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210515111355.png" referrerpolicy="no-referrer">
-            </div>Love, Death & Robots Season 2 Episode 8]]></description>
 </item></channel>
 </rss>
