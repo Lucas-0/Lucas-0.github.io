@@ -20,9 +20,9 @@ publishDate:
 tags: ["阅读","杂谈"]
 categories: ["文化"]
 # 文章顶部照片
-featuredImage: "https://fastly.jsdelivr.net/gh/Lucas-0/IMG/img/202108081730446.PNG"
+featuredImage: "https://raw.githubusercontent.com/Lucas-0/IMG/master/img/202108081730446.PNG"
 # 文章在首页的缩略图
-featuredImagePreview: "https://fastly.jsdelivr.net/gh/Lucas-0/IMG/img/202108081748991.png"
+featuredImagePreview: "https://raw.githubusercontent.com/Lucas-0/IMG/master/img/202108081748991.png"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

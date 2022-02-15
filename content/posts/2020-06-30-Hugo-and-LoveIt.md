@@ -17,7 +17,7 @@ hiddenFromHomePage: true
 hiddenFromSearch: false
 
 featuredImage: ""
-featuredImagePreview: "https://fastly.jsdelivr.net/gh/Lucas-0/Img/20200406212944.jpg"
+featuredImagePreview: "https://raw.githubusercontent.com/Lucas-0/IMG/master/20200406212944.jpg"
 
 toc:
   enable: true

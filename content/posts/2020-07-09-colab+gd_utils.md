@@ -21,7 +21,7 @@ categories: ["Guide"]
 # 文章顶部照片
 featuredImage: ""
 # 文章在首页的缩略图
-featuredImagePreview: "https://fastly.jsdelivr.net/gh/Lucas-0/Img/img/20200709005451.png"
+featuredImagePreview: "https://raw.githubusercontent.com/Lucas-0/IMG/master/img/20200709005451.png"
 
 hiddenFromHomePage: true
 hiddenFromSearch: false
