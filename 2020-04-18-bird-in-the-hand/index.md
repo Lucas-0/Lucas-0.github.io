@@ -95,6 +95,6 @@ It’s quiet again when the children finish speaking, until the woman breaks int
 <details>
 <summary>点击查看翻译</summary>
 <div>
-  <img src="https://fastly.jsdelivr.net/gh/Lucas-0/Img/20200418091052.jpg" width="100%">
+  <img src="https://raw.githubusercontent.com/Lucas-0/IMG/master/20200418091052.jpg" width="100%">
   </div>
 </details>

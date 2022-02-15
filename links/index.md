@@ -12,11 +12,11 @@
 
 ---
 
-<a href="/bangumi/"><img src="https://fastly.jsdelivr.net/gh/Lucas-0/Img/20200406152156.png" title=看番><figcaption><center>[番剧](/bangumi/)</center></figcaption></a>
+<a href="/bangumi/"><img src="https://raw.githubusercontent.com/Lucas-0/IMG/master/20200406152156.png" title=看番><figcaption><center>[番剧](/bangumi/)</center></figcaption></a>
 
 </br>
 
-<a href="/movies/"><img src="https://fastly.jsdelivr.net/gh/Lucas-0/Img/20200406151840.jpg" title=电影><figcaption><center>[电影](/movies/)</center></figcaption></a>
+<a href="/movies/"><img src="https://raw.githubusercontent.com/Lucas-0/IMG/master/20200406151840.jpg" title=电影><figcaption><center>[电影](/movies/)</center></figcaption></a>
 
 </br>
 
