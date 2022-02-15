@@ -10,7 +10,7 @@ description: "情节梳理和分析."
 summary: ""
 license: ""
 # 移动端网页链接的图片
-images: ["https://cdn.jsdelivr.net/gh/Lucas-0/Img/img/20200705223421.png"]
+images: ["https://fastly.jsdelivr.net/gh/Lucas-0/Img/img/20200705223421.png"]
 # 过期时间
 expiryDate: 
 # 发布时间可在未来
@@ -19,9 +19,9 @@ publishDate:
 tags: ["动漫","杂谈"]
 categories: ["文化"]
 # 文章顶部照片
-featuredImage: "https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210713171933.png"
+featuredImage: "https://fastly.jsdelivr.net/gh/Lucas-0/IMG/img/20210713171933.png"
 # 文章在首页的缩略图
-featuredImagePreview: "https://cdn.jsdelivr.net/gh/Lucas-0/Img/img/20200705223421.png"
+featuredImagePreview: "https://fastly.jsdelivr.net/gh/Lucas-0/Img/img/20200705223421.png"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

@@ -368,7 +368,7 @@
   </tr>
    <tr>
      <td width=30% align="center">
-         <img src="https://cdn.jsdelivr.net/gh/Lucas-0/Img/20200408180330.jpg" alt="" max-width:100% max-width:100% "/></td>
+         <img src="https://fastly.jsdelivr.net/gh/Lucas-0/Img/20200408180330.jpg" alt="" max-width:100% max-width:100% "/></td>
      <td width=70% style="text-align:left">钢炼结合了深沉宏大的主题和出色的故事性，节奏紧张简洁，人物立体鲜明，有众多意味深长的隐喻，可以长久回味。另外，富有哲理的故事逻辑，使他超越了少年观众的局限；无情而真实的情节，和圆满自洽的设定都是Lucas非常喜欢的。钢炼涵盖了众多元素，是一部全景式的作品。特别地，就主题深度和故事性两方面而言，还没有出现可与之媲美者。<br/>最重要的是，它第一个向Lucas证明动漫作品能达到的深度，使得Lucas开始严肃看待动漫的文化价值。</td>
    </tr>
    <tr>
@@ -385,7 +385,7 @@
   </tr>
    <tr>
      <td width=30% align="center">
-         <img src="https://cdn.jsdelivr.net/gh/Lucas-0/Img/20200410015218.png" alt="" max-width:100% max-width:100% "/></td>
+         <img src="https://fastly.jsdelivr.net/gh/Lucas-0/Img/20200410015218.png" alt="" max-width:100% max-width:100% "/></td>
      <td width=70% style="text-align:left">一眼就喜欢上的作品，却迷惑了Lucas很久——这部作品优秀在什么地方呢？很长一段时间以为是简单动人的情节，精致的作画和细腻的情感，然而深入考虑下去，Lucas认为本作最大的功臣是出色的音乐。情节本身是难挑大梁的，作画在日渐挑剔的Lucas眼里也有了瑕疵，情感是结果而非原因。<i>紫罗兰永恒花园</i> 的成功之处在于用恰到好处的配乐串联起了一切，起到了画龙点睛的作用。而这最优秀的部分却往往被人忽视。<br/>话说回来，本作的过人之处还在于大胆涉猎冷门题材，展示战争给人和国家带来的创伤，出色地完成了这个艰难的任务。这是Lucas眼中最能代表动漫之美的作品。</td>
    </tr>
    <tr>
@@ -402,7 +402,7 @@
   </tr>
    <tr>
      <td width=30% align="center">
-         <img src="https://cdn.jsdelivr.net/gh/Lucas-0/Img/20200410022348.jpg" alt="" max-width:100% max-width:100% ">
+         <img src="https://fastly.jsdelivr.net/gh/Lucas-0/Img/20200410022348.jpg" alt="" max-width:100% max-width:100% ">
      </td>
      <td width=70% style="text-align:left" ">叠席是房间里供人坐或卧的一种家具。四畳半指的是房间的大小，也就是男主的宿舍大小（原型是京都大学的吉田寮）。</br>本作神在导演汤浅政明的惊人的才华，强烈的个人风格，独特的视角和画面语言，无可置疑的天才。他为本作赋予了难以复制的灵性。这一点尤其表现在他的收放自如的叙事方式，大胆精妙又心领神会的镜头语言，草绳灰线又丝丝入扣的统御全局的能力上。当然也离不开原作森見登美彦堪称完美的剧本。作为一部2010年的作品，独特精致的画面风格使得本作在十年之后依旧显得美丽。想谈的第二点是故事本身在交织中递进，描述的大学生活深刻而具有普遍性。就算重新来过也依然会回到现在的轨迹，但是，良机一直在眼前，也许就是眼前那根晃动的灯绳。故事用丰富的隐喻和混合着现实与虚构的画面，成功营造了一种既真实又隔着玻璃的境界。这种若即若离的氛围，令本作回味无穷。而且这一切是在十一集之内完成的。</br>四叠半证明了，有些东西只有动漫才能表达，才能表达地这样好。
      </td>
@@ -427,7 +427,7 @@
   </tr>
    <tr>
      <td width=30% align="center">
-         <img src="https://cdn.jsdelivr.net/gh/Lucas-0/Img/20200410090331.jpg" alt="" max-width:100% max-width:100% /></td>
+         <img src="https://fastly.jsdelivr.net/gh/Lucas-0/Img/20200410090331.jpg" alt="" max-width:100% max-width:100% /></td>
      <td width=70% style="text-align:left">原作经久不衰的独特魅力，和制作组厨力爆炸的稳定输出，看了会使人产生不可逆变化的作品。</p></td>
    </tr>
    <tr>

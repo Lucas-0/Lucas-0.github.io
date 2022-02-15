@@ -19,9 +19,9 @@ publishDate:
 tags: [“杂谈”]
 categories: ["生活"]
 # 文章顶部照片
-featuredImage: "https://cdn.jsdelivr.net/gh/Lucas-0/Img/img/20200814160813.jpg"
+featuredImage: "https://fastly.jsdelivr.net/gh/Lucas-0/Img/img/20200814160813.jpg"
 # 文章在首页的缩略图
-featuredImagePreview: "https://cdn.jsdelivr.net/gh/Lucas-0/Img/img/20200814160813.jpg"
+featuredImagePreview: "https://fastly.jsdelivr.net/gh/Lucas-0/Img/img/20200814160813.jpg"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

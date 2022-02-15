@@ -22,7 +22,7 @@ categories: ["生活"]
 # 文章顶部照片
 featuredImage: ""
 # 文章在首页的缩略图 550*164px
-# https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/202111112124383.jpeg
+# https://fastly.jsdelivr.net/gh/Lucas-0/IMG/img/202111112124383.jpeg
 featuredImagePreview: ""
 
 hiddenFromHomePage: false

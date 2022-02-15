@@ -22,7 +22,7 @@ categories: ["文化"]
 # 文章顶部照片
 featuredImage: ""
 # 文章在首页的缩略图 550*164px
-featuredImagePreview: "https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/202110292334293.jpg"
+featuredImagePreview: "https://fastly.jsdelivr.net/gh/Lucas-0/IMG/img/202110292334293.jpg"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

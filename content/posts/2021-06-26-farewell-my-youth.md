@@ -71,7 +71,7 @@ seo:
 <!--more-->
 本来对毕业没什么实感，这篇文自草稿始已经有半个月，迟迟没思绪。今天看到各路毕业照终于让我内心生出了许多感慨。大学里，我一度迷惑于人际的距离。
 
-{{< figure src="https://cdn.jsdelivr.net/gh/Lucas-0/IMG/img/20210628001142.png" caption="未曾实现的旧愿" title= " " >}}
+{{< figure src="https://fastly.jsdelivr.net/gh/Lucas-0/IMG/img/20210628001142.png" caption="未曾实现的旧愿" title= " " >}}
 
 现在我想，这个问题有永远的二象性。一边是溶解在人群中失去自我，一边是结晶出可憎的枝条；一边是战战兢兢的小心，一边是举身向清池的恶胆；一边畏惧着人间烟火，一边被世间情义融化……
 
