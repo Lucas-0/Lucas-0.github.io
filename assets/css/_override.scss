@@ -1,0 +1,13 @@
+// ==============================
+// Override Variables
+// 覆盖变量
+// ==============================
+@import url('https://fonts.proxy.ustclug.org/css2?family=Great+Vibes&family=Rock+Salt&family=Lobster&family=Noto+Serif+SC:wght@400;600;700&family=Roboto+Slab:wght@400;600;700&display=swap'); //使用中科大加速
+
+// Font and Line Height
+$global-font-family: "Roboto Slab", "Noto Serif SC", "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", "WenQuanYi Micro Hei", "Segoe UI Emoji", "Segoe UI Symbol", Helvetica, Arial, -apple-system, system-ui, sans-serif;
+$global-font-size: 18px;
+$global-font-weight: 400; //粗细
+$global-line-height: 1.75rem; //文本行的基线间的距离 原始1.5rem会让屏幕宽不够时h1重合
+h1{font-size:1.5em;} //原始为2em，会与行高1.5rem冲突，修改为1.5em
+$header-title-font-family: Rock Salt, $global-font-family;

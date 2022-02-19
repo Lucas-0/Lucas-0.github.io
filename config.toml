@@ -91,7 +91,7 @@ enableEmoji = true
         weight = 6
     [languages.zh-cn.params]
       # 网站描述
-      description = "someone's blog"
+      description = "My insight"
       # 网站关键词
       keywords = ["Blog", "Hugo", "Tech", "Life"]
       # 应用图标配置
@@ -116,7 +116,7 @@ enableEmoji = true
         # 文章内容最长索引长度
         contentLength = 4000
         # 搜索框的占位提示语
-        placeholder = "找找好康的?"
+        placeholder = "What are you looking for?"
         # 最大结果数目
         maxResultLength = 10
         # 结果内容片段长度
@@ -138,8 +138,8 @@ enableEmoji = true
           enable = true
           # Gravatar 邮箱，用于优先在主页显示的头像
           gravatarEmail = ""
-          # 主页显示头像的 URL
-          avatarURL = "https://raw.githubusercontent.com/Lucas-0/IMG/master/img/20210415131207.jpg" # "/images/avatar.jpg"
+          # 主页显示头像的 URL   # "/images/avatar.jpg"
+          avatarURL = "https://raw.githubusercontent.com/Lucas-0/IMG/master/img/20210415131207.jpg" 
           # 主页显示的网站标题 (支持 HTML 格式)
           title = "Lucas"
           # 主页显示的网站副标题
@@ -256,7 +256,7 @@ enableEmoji = true
     [params.header.title]
       # URL of the LOGO
       # LOGO 的 URL
-      logo = "/images/icon.svg"
+      logo = ""
       # title name
       # 标题名称
       name = "NeverLand"
