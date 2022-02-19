@@ -2,7 +2,7 @@
     <channel>
         <title>NeverLand</title>
         <link>https://lucas-0.github.io/</link>
-        <description>someone&#39;s blog</description>
+        <description>My insight</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mailto:blank@gmail.com (Lucas)</managingEditor>
             <webMaster>mailto:blank@gmail.com (Lucas)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 14 Feb 2022 14:38:00 &#43;0800</lastBuildDate>
             <atom:link href="https://lucas-0.github.io/index.xml" rel="self" type="application/rss+xml" />
