@@ -2,4 +2,53 @@
 // Custom style
 // 自定义样式
 // ==============================
-
+@font-face {
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/notoserifsc/v19/H4chBXePl9DZ0Xe7gG9cyOj7oqU.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/notoserifsc/v19/H4c8BXePl9DZ0Xe7gG9cyOj7mn6ySzM.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/notoserifsc/v19/H4c8BXePl9DZ0Xe7gG9cyOj7mhqzSzM.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v22/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISWaw.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v22/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoUoOWaw.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v22/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4OWaw.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'Rock Salt';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/rocksalt/v16/MwQ0bhv11fWD6QsAVOZbsw.woff) format('woff');
+  }
+  
