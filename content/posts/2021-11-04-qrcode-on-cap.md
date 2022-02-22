@@ -24,7 +24,7 @@ featuredImage: ""
 # 文章在首页的缩略图 550*164px
 featuredImagePreview: "https://raw.githubusercontent.com/Lucas-0/IMG/master/img/202111051714703.jpg"
 
-hiddenFromHomePage: false
+hiddenFromHomePage: true
 hiddenFromSearch: false
 twemoji: false
 lightgallery: true

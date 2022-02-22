@@ -149,7 +149,7 @@ enableEmoji = true
           # 是否显示社交账号
           social = true
           # 免责声明 (支持 HTML 格式)
-          disclaimer = "如果运气不行，那就试试勇气。"
+          disclaimer = "一个幸福时代之所以完全不可能，是因为人们只想向往它，却不想拥有它。"
         # 主页文章列表
         [languages.zh-cn.params.home.posts]
           enable = true
@@ -614,8 +614,8 @@ enableEmoji = true
     # 用于 Cookie 许可横幅的文本字符串
     [params.cookieconsent.content]
       message = "投喂小饼干?"
-      dismiss = "吼"
-      link = ""
+      dismiss = "乐意之至"
+      link = "https://gdpr-info.eu"
 
   # CDN config for third-party library files
   # 第三方库文件的 CDN 设置
