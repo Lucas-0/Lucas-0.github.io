@@ -41,7 +41,7 @@ https://api.mapbox.com/styles/v1/mapbox/streets-zh-v1/sprite.png?access_token=pk
         map.addSource('route', {
             'type': 'geojson',
             lineMetrics: true,
-            'data': '../posts/2021-07-09-graduation-trip/july_trip.geojson'//../static/july_trip.geojson
+            'data': '../posts/2021-07-09-graduation-trip/july_trip.geojson' //
         });
         map.addLayer({
             'id': 'line',
