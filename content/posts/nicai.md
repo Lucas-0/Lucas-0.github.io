@@ -4,7 +4,7 @@ subtitle: "人性的，太人性的：一本献给自由精神的书"
 date: 2022-01-01T15:00:00+08:00
 weight: 1 # 置顶，利于预览
 lastmod: 
-# draft: true
+draft: true
 author: "Lucas"
 authorLink: "https://github.com/Lucas-0"
 description: "" # 首页
