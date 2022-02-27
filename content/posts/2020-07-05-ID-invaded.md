@@ -10,7 +10,7 @@ description: "情节梳理和分析."
 summary: ""
 license: ""
 # 移动端网页链接的图片
-images: ["https://raw.githubusercontent.com/Lucas-0/IMG/master/img/20200705223421.png"]
+images: []
 # 过期时间
 expiryDate: 
 # 发布时间可在未来
@@ -18,10 +18,10 @@ publishDate:
 
 tags: ["动漫","杂谈"]
 categories: ["文化"]
-# 文章顶部照片
-featuredImage: "https://raw.githubusercontent.com/Lucas-0/IMG/master/img/20210713171933.png"
-# 文章在首页的缩略图
-featuredImagePreview: "https://raw.githubusercontent.com/Lucas-0/IMG/master/img/20200705223421.png"
+# 文章顶部照片20210713171933.png
+featuredImage: "https://ae04.alicdn.com/kf/H169a8bced00d4d03b12ba5afd0e8d2deC.png"
+# 文章在首页的缩略图20200705223421.png
+featuredImagePreview: "https://ae01.alicdn.com/kf/Habfe7e52daf64249bf4e17b2f348d6d5s.png"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

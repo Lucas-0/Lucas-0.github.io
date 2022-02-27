@@ -20,8 +20,8 @@ tags: ["colab","google drive","rclone"]
 categories: ["Guide"]
 # 文章顶部照片
 featuredImage: ""
-# 文章在首页的缩略图
-featuredImagePreview: "https://raw.githubusercontent.com/Lucas-0/IMG/master/img/20200709005451.png"
+# 文章在首页的缩略图20200709005451.png
+featuredImagePreview: "https://pic.rmb.bdstatic.com/bjh/83e3149419dce143c5a19e46626adc7c.png"
 
 hiddenFromHomePage: true
 hiddenFromSearch: false

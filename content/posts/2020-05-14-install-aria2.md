@@ -6,7 +6,7 @@ date: 2020-05-14T15:19:15+08:00
 draft: true
 categories: ["Guide"]
 tags: ["aria2","OneDrive"]
-featuredImagePreview: "https://raw.githubusercontent.com/Lucas-0/IMG/master/img/20200630184152.jpg"
+featuredImagePreview: "https://ae01.alicdn.com/kf/H4d19504c54fe4ff7917598e3e4c3d92fY.png" #20200630184152.jpg
 toc: true
 expiryDate: 2021-04-26T09:47:26+08:00
 lastmod: 2020-05-14T15:19:15+08:00

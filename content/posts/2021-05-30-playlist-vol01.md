@@ -21,8 +21,8 @@ tags: ["音乐"]
 categories: ["文化"]
 # 文章顶部照片
 featuredImage: ""
-# 文章在首页的缩略图
-featuredImagePreview: "https://raw.githubusercontent.com/Lucas-0/IMG/master/img/20210530003938.png"
+# 文章在首页的缩略图20210530003938.png
+featuredImagePreview: "https://ae03.alicdn.com/kf/H304d50c548324a019b12d78aacc5b679v.png"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

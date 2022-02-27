@@ -24,9 +24,9 @@ featuredImage: ""
 # 文章在首页的缩略图 550*164px
 featuredImagePreview: ""
 
-hiddenFromHomePage: false
+hiddenFromHomePage: true
 hiddenFromSearch: false
-twemoji: false
+twemoji: true
 lightgallery: true
 ruby: true
 fraction: true

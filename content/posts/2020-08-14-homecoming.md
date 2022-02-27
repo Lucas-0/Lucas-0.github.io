@@ -18,12 +18,12 @@ publishDate:
 
 tags: [“杂谈”]
 categories: ["生活"]
-# 文章顶部照片
-featuredImage: "https://raw.githubusercontent.com/Lucas-0/IMG/master/img/20200814160813.jpg"
+# 文章顶部照片20200814160813.jpg
+featuredImage: "https://ae01.alicdn.com/kf/H5e0b8e2a5b1b4c67bad7ad84626270a87.png"
 # 文章在首页的缩略图
-featuredImagePreview: "https://raw.githubusercontent.com/Lucas-0/IMG/master/img/20200814160813.jpg"
+featuredImagePreview: "https://ae01.alicdn.com/kf/H5e0b8e2a5b1b4c67bad7ad84626270a87.png"
 
-hiddenFromHomePage: false
+hiddenFromHomePage: true
 hiddenFromSearch: false
 twemoji: false
 lightgallery: true

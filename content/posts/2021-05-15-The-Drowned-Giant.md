@@ -19,10 +19,10 @@ publishDate:
 
 tags: ["杂谈"]
 categories: ["文化"]
-# 文章顶部照片
-featuredImage: "https://raw.githubusercontent.com/Lucas-0/IMG/master/img/20210515111355.png"
-# 文章在首页的缩略图
-featuredImagePreview: "https://raw.githubusercontent.com/Lucas-0/IMG/master/img/20210515111838.png"
+# 文章顶部照片20210515111355.png
+featuredImage: "https://ae02.alicdn.com/kf/H56605e5ac38c4146af85c2545478bc73T.png"
+# 文章在首页的缩略图20210515111838.png
+featuredImagePreview: "https://ae01.alicdn.com/kf/Hc3e47bdd384944e989a70deab0007d62H.png"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

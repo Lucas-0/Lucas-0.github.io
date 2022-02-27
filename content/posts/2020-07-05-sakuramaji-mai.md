@@ -18,10 +18,10 @@ publishDate:
 
 tags: ["动漫","杂谈"]
 categories: ["文化"]
-# 文章顶部照片
-featuredImage: "https://raw.githubusercontent.com/Lucas-0/IMG/master/img/20200705002307.jpg"
-# 文章在首页的缩略图
-featuredImagePreview: "https://raw.githubusercontent.com/Lucas-0/IMG/master/img/202111051709550.jpg"
+# 文章顶部照片20200705002307.jpg
+featuredImage: "https://ae04.alicdn.com/kf/H2ec64032b8ed410aa7149bbc85deb0aaF.png"
+# 文章在首页的缩略图202111051709550.jpg
+featuredImagePreview: "https://ae02.alicdn.com/kf/He29857ff4f724c9d813d9142936006f8X.png"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

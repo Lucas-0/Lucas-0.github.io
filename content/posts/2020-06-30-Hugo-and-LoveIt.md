@@ -17,7 +17,7 @@ hiddenFromHomePage: true
 hiddenFromSearch: false
 
 featuredImage: ""
-featuredImagePreview: "https://raw.githubusercontent.com/Lucas-0/IMG/master/20200406212944.jpg"
+featuredImagePreview: "https://ae05.alicdn.com/kf/Hd8dd57ccce9e4c22ae507738ff8fba48o.png" #20200406212944.jpg
 
 toc:
   enable: true

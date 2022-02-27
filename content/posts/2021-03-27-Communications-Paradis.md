@@ -20,8 +20,8 @@ tags: ["动漫","杂谈"]
 categories: ["文化"]
 # 文章顶部照片
 featuredImage: ""
-# 文章在首页的缩略图
-featuredImagePreview: "https://raw.githubusercontent.com/Lucas-0/IMG/master/img/20210530225958.jpg"
+# 文章在首页的缩略图20210530225958.jpg
+featuredImagePreview: "https://ae05.alicdn.com/kf/H8d4b9b6d4a2e4812b72810092cf226beb.png"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

@@ -21,8 +21,8 @@ tags: ["推研"]
 categories: ["生活"]
 # 文章顶部照片
 featuredImage: ""
-# 文章在首页的缩略图
-featuredImagePreview: "https://raw.githubusercontent.com/Lucas-0/IMG/master/img/20210530225658.jpg"
+# 文章在首页的缩略图20210530225658.jpg
+featuredImagePreview: "https://ae01.alicdn.com/kf/H6a3dd14352bb4eadb49cefbe668a5f7fE.png"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

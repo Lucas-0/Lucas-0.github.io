@@ -46,7 +46,7 @@ enableEmoji = true
         pre = "<i class='far fa-folder-open'></i>&nbsp;"
         # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
         post = ""
-        name = "文章"
+        name = "归档"
         url = "/posts/"
         title = "posts"
         weight = 1
@@ -60,7 +60,7 @@ enableEmoji = true
         weight = 2
       [[languages.zh-cn.menu.main]]
         identifier = "categories"
-        pre = "<i class='fas fa-grip-horizontal'></i>&nbsp;"
+        pre = "<i class='fas fa-chart-pie'></i>&nbsp;"
         post = ""
         name = "分类"
         url = "/categories/"
@@ -68,14 +68,14 @@ enableEmoji = true
         weight = 3
        [[languages.zh-cn.menu.main]]
          identifier = "documentation"
-         pre = "<i class='fas fa-archive'></i>&nbsp;"
+         pre = "<i class='fas fa-highlighter'></i>&nbsp;"
          name = "展示"
          url = "/links/"
          title = "links"
-         weight = 4 
+         weight = 4
       [[languages.zh-cn.menu.main]]
         identifier = "about"
-        pre = "<i class='fas fa-portrait'></i>&nbsp;"
+        pre = "<i class='fas fa-fw fa-at'></i>&nbsp;"
         post = ""
         name = "关于"
         url = "/about/"
@@ -138,8 +138,8 @@ enableEmoji = true
           enable = true
           # Gravatar 邮箱，用于优先在主页显示的头像
           gravatarEmail = ""
-          # 主页显示头像的 URL   # "/images/avatar.jpg"
-          avatarURL = "https://raw.githubusercontent.com/Lucas-0/IMG/master/img/20210415131207.jpg" 
+          # 主页显示头像的 URL /images/avatar.jpg
+          avatarURL = "https://inews.gtimg.com/newsapp_ls/0/14564569502/0.jiketuchuang.png"
           # 主页显示的网站标题 (支持 HTML 格式)
           title = "Lucas"
           # 主页显示的网站副标题
@@ -261,11 +261,11 @@ enableEmoji = true
       # 标题名称
       name = "NeverLand"
       # you can add extra information before the name (HTML format is supported), such as icons
-      # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = ""
+      # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标fas fa-palette
+      pre = "<i class='fas fa-dragon'></i>"
       # you can add extra information after the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
-      post = "<i class='fas fa-palette'></i>"
+      post = ""
       # whether to use typeit animation for title name
       # 是否为标题显示打字机动画
       typeit = false
@@ -275,8 +275,8 @@ enableEmoji = true
   [params.footer]
     enable = true
     # Custom content (HTML format is supported)
-    # 自定义内容 (支持 HTML 格式)
-    custom = "<i class='far fa-smile-wink'></i>&nbsp;有趣之事即是好事"
+    # 自定义内容 (支持 HTML 格式)far fa-smile-wink
+    custom = "<i class='fas fa-fan fa-spin fa-lg'></i>&nbsp;有趣之事即是好事"
     # whether to show Hugo and theme info
     # 是否显示 Hugo 和主题信息
     hugo = false
@@ -290,8 +290,8 @@ enableEmoji = true
     # 网站创立年份
     since = 2020
     # ICP info only in China (HTML format is supported)
-    # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-    icp = "La vita è bella"
+    # ICP 备案信息，仅在中国使用 (支持 HTML 格式)La vita è bella
+    icp = '<a rel="external nofollow noopener noreffer" href="https://www.imdb.com/title/tt0118799/" target="_blank">La vita è bella</a>'
     # license info (HTML format is supported)
     # 许可协议信息 (支持 HTML 格式)
     license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
@@ -310,7 +310,7 @@ enableEmoji = true
     rss = 10
 
   # List (category or tag) page config
-  # List (目录或标签) 页面配置
+  # List (分类或标签) 页面配置
   [params.list]
     # special amount of posts in each list page
     # list 页面每页显示文章数量
@@ -675,6 +675,7 @@ enableEmoji = true
   [markup.tableOfContents]
     startLevel = 2
     endLevel = 6
+    ordered = false # 编号
 
 # Author config
 # 作者配置

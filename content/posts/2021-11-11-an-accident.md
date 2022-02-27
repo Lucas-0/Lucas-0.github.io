@@ -22,10 +22,9 @@ categories: ["生活"]
 # 文章顶部照片
 featuredImage: ""
 # 文章在首页的缩略图 550*164px
-# https://raw.githubusercontent.com/Lucas-0/IMG/master/img/202111112124383.jpeg
 featuredImagePreview: ""
 
-hiddenFromHomePage: false
+hiddenFromHomePage: true
 hiddenFromSearch: false
 twemoji: false
 lightgallery: true
