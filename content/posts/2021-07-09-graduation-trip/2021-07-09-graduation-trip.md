@@ -219,17 +219,17 @@ https://api.mapbox.com/styles/v1/mapbox/streets-zh-v1/sprite.png?access_token=pk
 
 继续行进到青海湖，湖确实很大，水天相接。
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566054633/0.jiketuchuang.png" alt="20210712215722.jpg" caption="青海湖" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/e04ecb6c9ac7c5bedd7da45051dd6d83.jpeg" alt="20210712215722.jpg" caption="青海湖" title=" ">}}
 
 此时日近正午，阳光很强，眼中万物都似乎在一层白色滤镜之后。去青海旅游，**墨镜是必需品**。我们沿着湖岸漫步，打水漂玩，亦不能免俗，骑牦牛拍了游客照。
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566055912/0.jiketuchuang.png" alt="20210712215813.jpg" caption="打盹的牦牛" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/930665358a427bf711a6d7c0416eaecd.jpeg" alt="20210712215813.jpg" caption="打盹的牦牛" title=" ">}}
 
 午饭司机带我们在景区附近吃的，贵而难吃，我颇不满意。
 
 继续我们的旅途，青海湖的确很大，一直在视野之内。坐在车里看天，云层很厚，积压在远处的山上。时不时会下起一阵小雨，道路两旁能看见小股的羊群和牦牛群。
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566056935/0.jiketuchuang.png" alt="20210712220207.jpg" caption="黑云" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/96530d3d1f60ba051c7f8345c41acab4.jpeg" alt="20210712220207.jpg" caption="黑云" title=" ">}}
 
 我们还看到了溯游而上产卵的黄鱼。离开青海湖后在起伏的丘陵间前进。因为时间尚早，我们决定提前第二天的行程，去往茶卡盐湖。路上没有信号，真正进入了荒野。
 
@@ -239,7 +239,7 @@ https://api.mapbox.com/styles/v1/mapbox/streets-zh-v1/sprite.png?access_token=pk
 
 **个人评价茶卡盐湖是值得去的景点。**
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566059543/0.jiketuchuang.png" alt="20210712220344.jpg" caption="茶卡盐湖" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/e134140a019f3b55b7034c6b30d5ffca.jpeg" alt="20210712220344.jpg" caption="茶卡盐湖" title=" ">}}
 
 从茶卡盐湖返程一直身体不适，脑壳痛。9点吃过晚饭——当地的炕锅，胃口不好没吃多少，10点便躺下睡了。睡着没两个小时，心跳得厉害，不由得醒了。深呼吸调整，心跳逐渐放缓。小伙伴给我送来了氧气瓶备用。起初我怀疑是高原反应，但是一系列证据表明真凶另有其人：
 1. 茶卡海拔3000m左右，之后几天我在更高海拔活动也没感到不适。
@@ -257,13 +257,13 @@ https://api.mapbox.com/styles/v1/mapbox/streets-zh-v1/sprite.png?access_token=pk
 
 上午十点，到达第二日的第一站可鲁克湖，一个很偏很小的景点，甚是粗糙的开发，仅仅是围了块地，连脚踏船项目都没有。蚊虫之多令人震惊，其次是水鸟的数量，游人稀少，算上我们可能也就不到30人吧。可以说**去了就是上当**，尽管门票卖得不贵。
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566061064/0.jiketuchuang.png" alt="20210712222849.jpg" caption="可鲁克湖" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/678d5ccbe784c85f2e1acb207a3c381d.jpe" alt="20210712222849.jpg" caption="可鲁克湖" title=" ">}}
 
 <!--发现iOS的指南针可以显示当前海拔，临近大柴旦海拔3180m，小于之前的日月山，甚至稍高于昨天的茶卡。看来身体的不适不应该是高反的缘故，多半是休息不足+连花清瘟。后者有更大的嫌疑，成年人尚且如此，这药更不该给小孩用了。以后还是备一点好喝好用的金银花。-->
 
 下午三点，到达大柴旦的翡翠湖，这个景点还算不错。巨大的云在天上浮动，向山岭投下连绵的阴影，远山的高处有点点积雪。
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566062032/0.jiketuchuang.png" alt="20210712220551.jpg" caption="翡翠湖" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/86b17748ff63b03083ca43eb710301ee.jpeg" alt="20210712220551.jpg" caption="翡翠湖" title=" ">}}
 
 {{< image src="https://pic.rmb.bdstatic.com/bjh/c66228ba9b04b01de2581f23c922cd37.jpeg" alt="20210712221705.jpg" caption="这个湖很大却不受游人喜爱，大概是颜色不够漂亮" title=" ">}}
 
@@ -296,7 +296,7 @@ https://api.mapbox.com/styles/v1/mapbox/streets-zh-v1/sprite.png?access_token=pk
 
 过了小柴旦湖就上了G315。20分钟后看见一条干枯的河床，通体浅红色，司机说叫做大地之血，已经干涸了两年多。下车拍照，玩了会无人机。如果有水的话这地方可以多看几眼，没水就算了。
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566084273/0.jiketuchuang.png" alt="20210712222004.jpg" caption="大地之血" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/d4e702cc0e0509e9682785fa6a726db7.jpeg" alt="20210712222004.jpg" caption="大地之血" title=" ">}}
 
 10点钟左右到达U型公路，许多人在路旁停车，坐在路中央拍照。一条公路延伸到天地交界之处本是绝景，人味太重就没那种孤寂感了。往来的车很多，还有重型货运卡车，停车拍照并不安全，有交警在驱散和罚款。天很热，配合司机拍了几张游客照就撤退。
 
@@ -304,8 +304,8 @@ U型公路见面不如闻名，不必抱太大期待。
 
 继续前进，12点时在一处不知名的雅丹地貌停下来，登上去望远。岩石表面是细软而滑的沙土，再次展示出一双好鞋子的重要性。
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566085520/0.jiketuchuang.png" alt="20210712222049.jpg" caption="无名雅丹" title=" ">}}
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566088215/0.jiketuchuang.png" alt="20210712223241.jpg" caption="左上拍到了一架无人机" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/30b10ef4ed861004adfeb1560d7470f7.jpeg" alt="20210712222049.jpg" caption="无名雅丹" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/049833d19482137abefba3a1f79be1e8.jpeg" alt="20210712223241.jpg" caption="左上拍到了一架无人机" title=" ">}}
 
 坐标：北纬37°37′24″  东经93°49′35″
 
@@ -315,14 +315,14 @@ U型公路见面不如闻名，不必抱太大期待。
 
 有一只鸟特别坏，占了一片领地，自己吃饱了还不许别的鸟进来吃食，否则就扑腾翅膀驱赶。
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566089673/0.jiketuchuang.png" alt="20210712223322.jpg" caption="疑似海鸥的鸟" title=" ">}}
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566090396/0.jiketuchuang.png" alt="20210712223551.jpg" caption="这里的水也是绿色的" title=" ">}}
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566091244/0.jiketuchuang.png" alt="20210712223619.jpg" caption="禁止攀爬" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/719c46592c624e246000e77398721216.jpeg" alt="20210712223322.jpg" caption="疑似海鸥的鸟" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/f711259d5ceeaeec34aa8babef961e72.jpeg" alt="20210712223551.jpg" caption="这里的水也是绿色的" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/2daca56153eae2dd6ee957d42776abd9.jpeg" alt="20210712223619.jpg" caption="禁止攀爬" title=" ">}}
 
 沿着G215去往南八仙魔鬼城，名字很怪，其实就是一片雅丹地貌群。登上其中一个小山包，耳旁只有风声低诉。当风止的时刻，天地间万籁俱寂，少有的体验。不过魔鬼城的景色千篇一律，远眺一周就足够了。
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566092467/0.jiketuchuang.png" alt="20210712223751.jpg" caption="南八仙魔鬼城：来路" title=" ">}}
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566093571/0.jiketuchuang.png" alt="20210712223811.jpg" caption="南八仙魔鬼城：去路" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/859d6a2472b779d5648276110fa8985f.jpeg" alt="20210712223751.jpg" caption="南八仙魔鬼城：来路" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/e2cf09902c2ccd2326d0d73a115bcf83.jpeg" alt="20210712223811.jpg" caption="南八仙魔鬼城：去路" title=" ">}}
 
 返回大柴旦宿，聚餐吃了羊排，差强人意。
 
@@ -331,18 +331,18 @@ U型公路见面不如闻名，不必抱太大期待。
 
 西北的地平线就像贴图一样，灰白色、黛色的山层层叠叠，总怀疑自己身处于楚门的世界。
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566106136/0.jiketuchuang.png" alt="20210712223848.jpg" caption="山" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/dc80063778ca465bfc8c6d280f41a2cb.jpeg" alt="20210712223848.jpg" caption="山" title=" ">}}
 
 一入甘肃地界是新修的高速，乘车体验瞬间up。晴空正好，向着当金山前进。翻越当金山的路没有修隧道，公路沿着山势蜿蜒向上直到海拔3620m。在巍峨的群山间行进，这段山路**奇险瑰丽**，看得我兴致盎然。我将其评为绝对不能打瞌睡的路段之一。
 
 出了山区就进入酒泉市辖区内，海拔下降到2600m。
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566106927/0.jiketuchuang.png" alt="20210712223953.jpg" caption="在路上" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/40486816f93a0f4cb433a9dd5ca8b539.jpeg" alt="20210712223953.jpg" caption="在路上" title=" ">}}
 
 接近下午一点时，我们到达了石油小镇。平心而论，这个景区就是一个丑陋的建筑工地，不配作为景点。不过那时的天气实在太好，需要一个下车散步的地方，外加学生半价票，个人感觉勉勉强强算不亏吧。
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566107683/0.jiketuchuang.png" alt="20210712224143.jpg" caption="石油小镇" title=" ">}}
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566109485/0.jiketuchuang.png" alt="20210712224210.jpg" caption="烂尾的工地" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/1cb7c79346539477928acc5b96bdbb06.jpeg" alt="20210712224143.jpg" caption="石油小镇" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/992688ac7bd8699e740c2ee5871f3ac0.jpeg" alt="20210712224210.jpg" caption="烂尾的工地" title=" ">}}
 
 离开，到阿克塞吃午饭。路上碰见了野骆驼。还有好几股龙卷风，将尘土吸上高天。西北的云都好大一朵，褐色的山地上有一团团黑色的巨大阴影，那就是云的影子。
 
@@ -350,25 +350,25 @@ U型公路见面不如闻名，不必抱太大期待。
 
 继续向敦煌进发，路上发现空中某处在发白光，高度和角度基本不随车的前进而变化。经过我们的推理，确认为聚光太阳能热发电的发电塔。后来果然看见了从下而上汇聚去的光线。
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566110228/0.jiketuchuang.png" alt="20210712224303.jpg" caption="发电塔（图源维基）" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/4447d73d3e515b4679468b694e4c6283.jpeg" alt="20210712224303.jpg" caption="发电塔（图源维基）" title=" ">}}
 
 一路行驶。海拔持续下降，到了敦煌就只有1000m出头，高原血统不必开启了。我们先去住处避一阵子暑，6点钟去户外露营的场地，今天就在那里过一夜。
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566111426/0.jiketuchuang.png" alt="20210712224355.jpg" caption="户外场所" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/1e9ab2d84deac3cadace5c263c0bbb23.jpeg" alt="20210712224355.jpg" caption="户外场所" title=" ">}}
 
 到了之后先体验了一把沙漠摩托车，然后等到7点左右领滑沙板去沙丘玩滑沙。爬上沙丘的过程着实累人，一脚踩上去下陷加下滑，每一步都很耗体力，有一瞬觉得自己变成了西西弗斯。不建议租鞋套，因为戴了鞋套也没啥用，该进沙子还是进沙子。滑了三趟我便下去了，实在不想再爬沙丘。
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566112831/0.jiketuchuang.png" alt="20210712224434.jpg" caption="沙丘上" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/42123bcbc53c73b0704c876529c2cad5.jpeg" alt="20210712224434.jpg" caption="沙丘上" title=" ">}}
 
 8点40左右开饭，为当地的土火锅，阴差阳错我们真就坐小孩那桌，正合我意。菜品是各种蔬菜丸子，基本见不到肉，味道很差。饮料是差一个月过期的可乐，啤酒是不知名的牌子，我只好接纯净水喝。
 
 这个露营的精华在于其晚会，给我狠狠上了一波土味教育，即便身为有两年经验的鉴土师的我也大受冲击。
 
-<p><center>{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566113795/0.jiketuchuang.png" alt="20210713000857.jpg" caption="" title=" ">}}</center></p>
+<p><center>{{< image src="https://pic.rmb.bdstatic.com/bjh/03d93eab80ce789d235c0fda1a7228a0.jpeg" alt="20210713000857.jpg" caption="" title=" ">}}</center></p>
 
 声波攻击+光污染，农村娱乐的经典路数。开局一只猴，说是拍西游记时六老师的替身，那就叫他六耳老师吧。伴着《云宫迅音》，六耳老师到台下与观众热情互动，国人对猴的热爱令我印象深刻，一群成年人争相与戏服猴子合影，可见大圣的群众基础是极好的。
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566115126/0.jiketuchuang.png" alt="20210712224714.jpg" caption="六耳老师" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/a5afbbf5e3e203ec16325c9637bae054.jpeg" alt="20210712224714.jpg" caption="六耳老师" title=" ">}}
 
 六耳老师在台下转了一圈，上台表演了翻跟头、耍棍子等，完成了暖场任务便下去了。主持人终于登场，居然就是把头套去了的六耳老师，小班子就得个个是复合型人才。六耳老师献歌一曲《夜夜夜漫长》，别的不谈唱歌水平是在我之上的。不知道是不是提前安排好的托儿，有个老哥上去给六耳老师塞钱，还有人往台上放啤酒。台上的酒越来越多，六耳老师乃是酒中豪杰，面上毫无难色，干脆取了个大碗，把放上台的酒都倒了进去。然后伴着吵闹的BGM和台下的起哄声将酒喝完了（期间还有人往碗里倒酒）。这碗酒花了不少时间，六耳老师一边喝一边兼顾维持场上气氛说着骚话。写的简略一是我不喜喝酒，二是不能接受观众们从他人伤害其身体中取乐的习俗，不想喝可以不喝。或许六耳老师喝酒如喝水（那这波表演他在大气层），但是显然观众并不这么认为，正是六耳老师在强行喝下过量的酒这一事实令他们感到兴奋。无聊冰冷的快乐。
 
@@ -376,7 +376,7 @@ U型公路见面不如闻名，不必抱太大期待。
 
 之后六耳老师重新上台，带着观众做游戏，直到最后两名胜者可以乘摩托车去沙漠深处看星空。压轴的活动是大家围着篝火成圈，蹦迪土嗨。
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566116030/0.jiketuchuang.png" alt="20210712224733.jpg" caption="围着篝火起舞，没去是因为不喜欢和陌生人牵手" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/9236ac349a74707ffbb53301b5db5918.jpeg" alt="20210712224733.jpg" caption="围着篝火起舞，没去是因为不喜欢和陌生人牵手" title=" ">}}
 
 两个人竟然撑起了两个小时的晚会，六耳老师和阿豹老师的业务能力属实可以的。节目很接地气，正合我不土不快的口味。
 
@@ -391,13 +391,13 @@ U型公路见面不如闻名，不必抱太大期待。
 
 回到市区用完早餐，九点半到达莫高窟。要乘坐大巴前往景区，入口处是一个写着“石室宝藏”的牌楼。我们购买的是应急票，看了四个洞窟。看的时候觉得绘画挺有意思，转身出门就全部忘记，就当**花钱支持文物保护**了，个人感受（100rmb）不算亏。
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566117076/0.jiketuchuang.png" alt="20210712224807.jpg" caption="院史陈列馆的院子" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/2d3ec4615e8aa2453f99d1b528860ce0.jpeg" alt="20210712224807.jpg" caption="院史陈列馆的院子" title=" ">}}
 
 下午回到住处休息，黄昏时出发步行前往鸣沙山月牙泉。景区很小，作为一个人造景点，我认为它名过其实，真正的月牙湾早就消散在过去的风沙中，现在看到的只是霸占着其尸体的蛊虫。往者不可谏。~~（说人话：不配卖这么贵的门票）~~
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566117864/0.jiketuchuang.png" alt="20210712224910.jpg" caption="仿古的塔" title=" ">}}
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566118805/0.jiketuchuang.png" alt="20210712225018.jpg" caption="再次爬上沙丘，这里有木爬梯会容易一些" title=" ">}}
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566119692/0.jiketuchuang.png" alt="20210712225120.jpg" caption="这个角度勉强能看" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/73b22deeb0259f755860d263f1e77e03.jpeg" alt="20210712224910.jpg" caption="仿古的塔" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/56f08a192cb02709952242a2064dc454.jpeg" alt="20210712225018.jpg" caption="再次爬上沙丘，这里有木爬梯会容易一些" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/90d775413f0f4ad41b0d74a9e6b12134.jpeg" alt="20210712225120.jpg" caption="这个角度勉强能看" title=" ">}}
 
 晚上和另一队聚餐，去沙洲夜市逛了逛。这两天的行程很无聊，想回家了。
 
@@ -474,10 +474,10 @@ G30从敦煌到嘉峪关，路上风光一般，都是些东部寻常景色或�
 {{< image src="https://ae04.alicdn.com/kf/Ha7e2c1d3d0a149e685e4d9308ffcdb960.png" alt="20210712231340.jpg" caption="玻璃门上的虚假太阳" title=" ">}}
 {{< image src="https://ae01.alicdn.com/kf/H391e5b10012349e086ab660d4ab1255eA.png" alt="20210712231404.jpg" caption="" title=" ">}}
 {{< image src="https://ae02.alicdn.com/kf/Hbf92ea66c55340f38f5568c24861f1cdq.png" alt="20210712231423.jpg" caption="美到不真实的绿" title=" ">}}
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566171902/0.jiketuchuang.png" alt="20210712231447.jpg" caption="最喜欢的一张" title=" ">}}
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566173047/0.jiketuchuang.png" alt="20210712231519.jpg" caption="" title=" ">}}
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566174813/0.jiketuchuang.png" alt="20210712231545.jpg" caption="现成的取景框" title=" ">}}
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566175713/0.jiketuchuang.png" alt="20210712231608.jpg" caption="风景画" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/7df47ec4844b8ed4ed8314c21ac6b382.jpeg" alt="20210712231447.jpg" caption="最喜欢的一张" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/51056d1a9fb42743762006f4cc451c7c.jpeg" alt="20210712231519.jpg" caption="" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/6f7d13fe6bfe972b7d099f7e4656cdf0.jpeg" alt="20210712231545.jpg" caption="现成的取景框" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/4ee04a491635d5c713d85e6f84bf2984.jpeg" alt="20210712231608.jpg" caption="风景画" title=" ">}}
 {{< image src="https://pic.rmb.bdstatic.com/bjh/2645d13dcb33ad3a49c090d93edc0410.jpeg" alt="20210712231623.jpg" caption="金色余晖" title=" ">}}
 
 等到日落，天空中有一道火红的晚霞。
@@ -523,19 +523,19 @@ G30从敦煌到嘉峪关，路上风光一般，都是些东部寻常景色或�
 
 上午十点在祁连的一处草原停下，地上有很多兔鼠打的洞。这些老鼠也懂得狡兔三窟的道理，一靠近就躲进洞里，不知道跑到哪个出口了。见到的兔鼠一只只都圆鼓鼓的，看来在草原上吃得很不错。
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566204552/0.jiketuchuang.png" alt="20210713001014.jpg" caption="兔鼠（图源网络）" title="🐇+🐭" >}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/202b00c06261c897328d7495fd3653db.jpeg" alt="20210713001014.jpg" caption="兔鼠（图源网络）" title="🐇+🐭" >}}
 
 十一点半远观了岗什卡雪峰，接着去门源的油菜花田下车走了走。和另一队会合吃了午饭。
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566205513/0.jiketuchuang.png" alt="20210713000833.jpg" caption="茂盛生长" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/706a67a5f878a309a4de9323aeb61f65.jpeg" alt="20210713000833.jpg" caption="茂盛生长" title=" ">}}
 
 五彩斑斓的羊群，显然是各家混养的，为了区分用油漆喷上不同的颜色。牦牛的话可能在耳朵上还会戴着不同的布带。
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566206376/0.jiketuchuang.png" alt="20210713001044.jpg" caption="混养的羊群" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/58fbb0d8622d7aa2408c48368874eb11.jpeg" alt="20210713001044.jpg" caption="混养的羊群" title=" ">}}
 
 翻山越岭九曲十八弯离开门源。G227也是一段景致不错的山路，有水库，草山，树山。道路百转千回，两车道的宽度经常迎面开来重型卡车呼啸而过，惊险刺激。足足90min的车程，然而因为天气太热，我基本在车上睡过去了。
 
-{{< image src="https://inews.gtimg.com/newsapp_ls/0/14566207442/0.jiketuchuang.png" alt="20210713001105.jpg" caption="山路很高" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/dcad2395d8c11f45814a2cab57edc748.jpeg" alt="20210713001105.jpg" caption="山路很高" title=" ">}}
 
 到了宝库乡后才道路和缓起来。继续一路昏倦地去往机场。
 
@@ -552,7 +552,7 @@ G30从敦煌到嘉峪关，路上风光一般，都是些东部寻常景色或�
     后续：在向青海的消协投诉后的几天，店老板打来电话道歉，说当日不在店中。
 
 2. 同学A在滴滴上打车去机场，等了几分钟终于分配了司机，结果司机发来消息说机场路难走不去。此时已经过了免费取消的时间，于是A就和他耗着。同时我开始叫车，过了几分钟A的订单被司机取消，又过了几分钟我分配到了司机，居然和A的是同一个人，依然说不去机场。对话如下：
-    {{< image src="https://inews.gtimg.com/newsapp_ls/0/14566208842/0.jiketuchuang.png" alt="20210713001135.png" caption="" title=" ">}}
+    {{< image src="https://pic.rmb.bdstatic.com/bjh/5aaed1b8dd1299be5e7388a0622f6a10.png" alt="20210713001135.png" caption="" title=" ">}}
 
     最下面还有两句，
     > 司机:“你可以去市委或者消协投诉我，你也知道路有多难走。”</br>

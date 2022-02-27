@@ -139,7 +139,7 @@ enableEmoji = true
           # Gravatar 邮箱，用于优先在主页显示的头像
           gravatarEmail = ""
           # 主页显示头像的 URL /images/avatar.jpg
-          avatarURL = "https://inews.gtimg.com/newsapp_ls/0/14564569502/0.jiketuchuang.png"
+          avatarURL = "https://ae05.alicdn.com/kf/H4ca540d093a148569a5f9bb49f3cc2e3h.png"
           # 主页显示的网站标题 (支持 HTML 格式)
           title = "Lucas"
           # 主页显示的网站副标题
