@@ -257,7 +257,7 @@ https://api.mapbox.com/styles/v1/mapbox/streets-zh-v1/sprite.png?access_token=pk
 
 上午十点，到达第二日的第一站可鲁克湖，一个很偏很小的景点，甚是粗糙的开发，仅仅是围了块地，连脚踏船项目都没有。蚊虫之多令人震惊，其次是水鸟的数量，游人稀少，算上我们可能也就不到30人吧。可以说**去了就是上当**，尽管门票卖得不贵。
 
-{{< image src="https://pic.rmb.bdstatic.com/bjh/678d5ccbe784c85f2e1acb207a3c381d.jpe" alt="20210712222849.jpg" caption="可鲁克湖" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/678d5ccbe784c85f2e1acb207a3c381d.jpeg" alt="20210712222849.jpg" caption="可鲁克湖" title=" ">}}
 
 <!--发现iOS的指南针可以显示当前海拔，临近大柴旦海拔3180m，小于之前的日月山，甚至稍高于昨天的茶卡。看来身体的不适不应该是高反的缘故，多半是休息不足+连花清瘟。后者有更大的嫌疑，成年人尚且如此，这药更不该给小孩用了。以后还是备一点好喝好用的金银花。-->
 
