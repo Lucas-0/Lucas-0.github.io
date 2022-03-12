@@ -4,8 +4,8 @@ subtitle: "——托妮·莫里森"
 date: 2020-04-18T00:15:33+08:00
 categories: ["文化"]
 tags: ["阅读","Nobel Prize"]
-featuredImage: "https://pic.rmb.bdstatic.com/bjh/de85b7b54810dbb75ad1b37e3b347661.jpeg" #20200418105244.jpg
-featuredImagePreview: "https://pic.rmb.bdstatic.com/bjh/de85b7b54810dbb75ad1b37e3b347661.jpeg"
+featuredImage: "https://pic.rmb.bdstatic.com/bjh/e0e03e6cab617639007b43f75218ec3e.jpeg" #20200418105244.jpg
+featuredImagePreview: "https://pic.rmb.bdstatic.com/bjh/e0e03e6cab617639007b43f75218ec3e.jpeg"
 toc: false
 comment:
   enable: true
