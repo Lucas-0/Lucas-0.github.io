@@ -16,7 +16,7 @@ expiryDate:
 # 发布时间可在未来
 publishDate: 
 
-tags: [“杂谈”]
+tags: ["杂谈"]
 categories: ["生活"]
 # 文章顶部照片20200814160813.jpg
 featuredImage: "https://ae01.alicdn.com/kf/H5e0b8e2a5b1b4c67bad7ad84626270a87.png"
