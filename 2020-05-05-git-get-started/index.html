@@ -151,10 +151,10 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">git init <span class="c1">#在当前位置初始化git仓库</span>
-git config user.name <span class="s2">&#34;A&#34;</span> <span class="c1">#设置用户名为A</span>
-git config user.email <span class="s2">&#34;A@example.com&#34;</span> <span class="c1">#设置邮箱为A@example.com</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git init <span class="c1">#在当前位置初始化git仓库</span>
+</span></span><span class="line"><span class="cl">git config user.name <span class="s2">&#34;A&#34;</span> <span class="c1">#设置用户名为A</span>
+</span></span><span class="line"><span class="cl">git config user.email <span class="s2">&#34;A@example.com&#34;</span> <span class="c1">#设置邮箱为A@example.com</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>可以使用 <code>git config --global</code> 命令设置全局的账号，则除非另外声明均使用此账号。</p>
 <h3 id="2-生成ssh密钥对">2. 生成SSH密钥对</h3>
@@ -163,8 +163,8 @@ git config user.email <span class="s2">&#34;A@example.com&#34;</span> <span clas
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">ssh-keygen -t rsa -C <span class="s2">&#34;A@example.com&#34;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh-keygen -t rsa -C <span class="s2">&#34;A@example.com&#34;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>然后选择密钥对存储位置。</p>
 <div class="highlight"><div class="chroma">
@@ -173,9 +173,9 @@ git config user.email <span class="s2">&#34;A@example.com&#34;</span> <span clas
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">Generating public/private rsa key pair.
-Enter file in which to save the key <span class="o">(</span>/c/Users/yourname/.ssh/id_rsa<span class="o">)</span>: <span class="o">[</span>Press enter<span class="o">]</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Generating public/private rsa key pair.
+</span></span><span class="line"><span class="cl">Enter file in which to save the key <span class="o">(</span>/c/Users/yourname/.ssh/id_rsa<span class="o">)</span>: <span class="o">[</span>Press enter<span class="o">]</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>设置密码（optional）。</p>
 <div class="highlight"><div class="chroma">
@@ -184,9 +184,9 @@ Enter file in which to save the key <span class="o">(</span>/c/Users/yourname/.s
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">Enter passphrase <span class="o">(</span>empty <span class="k">for</span> no passphrase<span class="o">)</span>: 
-Enter same passphrase again:
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Enter passphrase <span class="o">(</span>empty <span class="k">for</span> no passphrase<span class="o">)</span>: 
+</span></span><span class="line"><span class="cl">Enter same passphrase again:
+</span></span></code></pre></td></tr></table>
 </div>
 </div><hr>
 <p>  </p>
@@ -212,16 +212,16 @@ Enter same passphrase again:
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">host A  <span class="c1">#自定义别名，用于之后配置地址</span>
-    Hostname github.com <span class="c1">#要连接的服务器</span>
-    User Lucas <span class="c1">#用户名</span>
-    IdentityFile ~/.ssh/id_rsa  <span class="c1">#密钥文件的地址，注意是私钥</span>
-
-host B <span class="c1">#自定义别名，用于之后配置地址</span>
-    Hostname github.com
-    User lucas
-    IdentityFile ~/.ssh/B_id_rsa
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">host A  <span class="c1">#自定义别名，用于之后配置地址</span>
+</span></span><span class="line"><span class="cl">    Hostname github.com <span class="c1">#要连接的服务器</span>
+</span></span><span class="line"><span class="cl">    User Lucas <span class="c1">#用户名</span>
+</span></span><span class="line"><span class="cl">    IdentityFile ~/.ssh/id_rsa  <span class="c1">#密钥文件的地址，注意是私钥</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">host B <span class="c1">#自定义别名，用于之后配置地址</span>
+</span></span><span class="line"><span class="cl">    Hostname github.com
+</span></span><span class="line"><span class="cl">    User lucas
+</span></span><span class="line"><span class="cl">    IdentityFile ~/.ssh/B_id_rsa
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>通过上面的设置，对不同的本地仓库我们可以使用不同的 host 的别名来指定使用哪一对密钥，类似于 CNAME 。</p>
 <h3 id="2-修改本地仓库的设置">2. 修改本地仓库的设置</h3>
@@ -246,23 +246,23 @@ host B <span class="c1">#自定义别名，用于之后配置地址</span>
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="p">[</span><span class="l">core]</span><span class="w">
-</span><span class="w">    </span><span class="l">repositoryformatversion = 0</span><span class="w">
-</span><span class="w">    </span><span class="l">filemode = true</span><span class="w">
-</span><span class="w">    </span><span class="l">bare = false</span><span class="w">
-</span><span class="w">    </span><span class="l">logallrefupdates = true</span><span class="w">
-</span><span class="w">    </span><span class="l">ignorecase = true</span><span class="w">
-</span><span class="w">    </span><span class="l">precomposeunicode = true</span><span class="w">
-</span><span class="w"></span><span class="p">[</span><span class="l">user]</span><span class="w">
-</span><span class="w">    </span><span class="l">email = A@example.com</span><span class="w">
-</span><span class="w">    </span><span class="l">name = Lucas</span><span class="w">
-</span><span class="w"></span><span class="p">[</span><span class="l">remote &#34;origin&#34;]</span><span class="w">
-</span><span class="w">    </span><span class="l">url = git@A:Yourname/example.git</span><span class="w"> </span><span class="c">#使用host的别名A</span><span class="w">
-</span><span class="w">    </span><span class="l">fetch = +refs/heads/*:refs/remotes/origin/*</span><span class="w">
-</span><span class="w"></span><span class="p">[</span><span class="l">branch &#34;master&#34;]</span><span class="w">
-</span><span class="w">    </span><span class="l">remote = origin</span><span class="w">
-</span><span class="w">    </span><span class="l">merge = refs/heads/master</span><span class="w">
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="p">[</span><span class="l">core]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="l">repositoryformatversion = 0</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="l">filemode = true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="l">bare = false</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="l">logallrefupdates = true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="l">ignorecase = true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="l">precomposeunicode = true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">[</span><span class="l">user]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="l">email = A@example.com</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="l">name = Lucas</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">[</span><span class="l">remote &#34;origin&#34;]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="l">url = git@A:Yourname/example.git</span><span class="w"> </span><span class="c">#使用host的别名A</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="l">fetch = +refs/heads/*:refs/remotes/origin/*</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">[</span><span class="l">branch &#34;master&#34;]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="l">remote = origin</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="l">merge = refs/heads/master</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="3-与远程仓库关联">3. 与远程仓库关联</h3>
 <div class="highlight"><div class="chroma">
@@ -270,8 +270,8 @@ host B <span class="c1">#自定义别名，用于之后配置地址</span>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">git remote add origin git@server-name:path/repo-name.git
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git remote add origin git@server-name:path/repo-name.git
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>初始化的仓库在推送之前先拉取远程仓库的文件否则会可能会出错。</p>
 <div class="highlight"><div class="chroma">
@@ -279,8 +279,8 @@ host B <span class="c1">#自定义别名，用于之后配置地址</span>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">git pull origin master
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git pull origin master
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>添加当前目录下的文件。</p>
 <div class="highlight"><div class="chroma">
@@ -290,10 +290,10 @@ host B <span class="c1">#自定义别名，用于之后配置地址</span>
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">git add &lt;filename&gt;
-git add * <span class="c1">#使用缺省符则将当前目录下所有文件添加到git</span>
-git commit -m <span class="s2">&#34;first commit&#34;</span> <span class="c1">#将修改在本地保存并且注释“first commit”</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git add &lt;filename&gt;
+</span></span><span class="line"><span class="cl">git add * <span class="c1">#使用缺省符则将当前目录下所有文件添加到git</span>
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;first commit&#34;</span> <span class="c1">#将修改在本地保存并且注释“first commit”</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>推送到远程仓库。</p>
 <div class="highlight"><div class="chroma">
@@ -301,8 +301,8 @@ git commit -m <span class="s2">&#34;first commit&#34;</span> <span class="c1">#�
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">git push -u origin master
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git push -u origin master
+</span></span></code></pre></td></tr></table>
 </div>
 </div><hr>
 <p>  </p>
