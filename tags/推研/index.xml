@@ -1,15 +1,1 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>推研 - 标签 - NeverLand</title>
-        <link>https://lucas-0.github.io/tags/%E6%8E%A8%E7%A0%94/</link>
-        <description>推研 - 标签 - NeverLand</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mailto:blank@gmail.com (Lucas)</managingEditor>
-            <webMaster>mailto:blank@gmail.com (Lucas)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 21 Dec 2020 23:22:26 &#43;0800</lastBuildDate><atom:link href="https://lucas-0.github.io/tags/%E6%8E%A8%E7%A0%94/" rel="self" type="application/rss+xml" /><item>
-    <title>牛顿第一定律与 The Road Not Taken</title>
-    <link>https://lucas-0.github.io/2020-09-28-graduate-interview/</link>
-    <pubDate>Mon, 21 Dec 2020 23:22:26 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://lucas-0.github.io/2020-09-28-graduate-interview/</guid>
-    <description><![CDATA[怀念过去。]]></description>
-</item></channel>
-</rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>推研 - 标签 - NeverLand</title><link>https://lucas-0.github.io/tags/%E6%8E%A8%E7%A0%94/</link><description>推研 - 标签 - NeverLand</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mailto:blank@gmail.com (Lucas)</managingEditor><webMaster>mailto:blank@gmail.com (Lucas)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 21 Dec 2020 23:22:26 +0800</lastBuildDate><atom:link href="https://lucas-0.github.io/tags/%E6%8E%A8%E7%A0%94/" rel="self" type="application/rss+xml"/><item><title>牛顿第一定律与 The Road Not Taken</title><link>https://lucas-0.github.io/2020-09-28-graduate-interview/</link><pubDate>Mon, 21 Dec 2020 23:22:26 +0800</pubDate><author>作者</author><guid>https://lucas-0.github.io/2020-09-28-graduate-interview/</guid><description>怀念过去。</description></item></channel></rss>
