@@ -9,9 +9,11 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout master
-        uses: actions/checkout@v1      
+        uses: actions/checkout@v2
         with:
-          submodules: true
+          submodules: recursive
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -19,8 +21,7 @@ jobs:
           extended: true
 
       - name: Build Hugo
-        run: |
-          hugo
+        run: hugo --minify
 
       - name: Deploy Hugo to gh-pages
         uses: peaceiris/actions-gh-pages@v2
