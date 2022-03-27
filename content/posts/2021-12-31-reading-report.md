@@ -79,12 +79,19 @@ seo:
 {
     "title": {
     "text": "年度阅读统计",
-    "subtext": "数据来自WeRead",
+    "subtext": "数据来自WeRead，采用对数坐标轴",
     "top": "2%",
     "left": "center"
   },
   "tooltip": {
-    "trigger": "axis"
+    "trigger": "axis",
+    "axisPointer": {
+      "type": "shadow"
+    }
+  },
+  "legend": {
+    "data": ["Duration", "Wordcount"],
+    "top": "12%"
   },
   "grid": {
     "left": "5%",
@@ -96,7 +103,8 @@ seo:
   "toolbox": {
     "feature": {
       "saveAsImage": {
-        "title": "保存为图片"
+        "title": "保存为图片",
+        "pixelRatio": 5
       }
     }
   },
@@ -107,22 +115,24 @@ seo:
   },
   "yAxis": [{
             "name": "时长/h",
-            "type": "value"
+            "type": "log"
         }, {
             "name": "字数/万字",
-            "type": "value"
+            "type": "log"
         }],
   "series": [
     {
       "name": "Duration",
       "type": "bar",
       "stack": "Total",
+      "color": "#fac858",
       "data": [177.97, 81.12, 2.16, 3.87, 10.75, 39.02, 3.3, 3.42, 7.55, 17.0]
     },
     {
       "name": "Wordcount",
       "type": "bar",
       "yAxisIndex": 1,
+      "color": "#70f3ff",
       "data": [393, 179.1, 4.8, 8.5, 23.7, 86.1, 7.3, 7.5, 16.7, 37.6]
     }
   ]

@@ -250,7 +250,7 @@ lastmod: 2020-04-06T12:31:20+08:00
      <td style="text-align:left">狸猫，人类与天狗的故事。展示了日式妖怪传说的魅力。</td>
    </tr>
      <tr>
-     <td  align="center">擅长捉弄的高木同学(S1)</td>
+     <td  align="center">擅长捉弄的高木同学(S1&S2&S3)</td>
      <td align="center">★★★★★</td>
      <td style="text-align:left">表扬作者的想象力，能在两平方米的空间演绎精彩的故事，让人想起失落的纯真~</td>
    </tr>
@@ -348,6 +348,11 @@ lastmod: 2020-04-06T12:31:20+08:00
      <td align="center">无职转生</td>
      <td align="center">★★★★</td>
      <td style="text-align:left">故事流畅，观感比较丝滑</td>
+    </tr>
+    <tr>
+     <td align="center">双城之战</td>
+     <td align="center">★★★★★</td>
+     <td style="text-align:left">吹就完事了</td>
     </tr>
     <tr>
      <td align="center">waiting···</td>
