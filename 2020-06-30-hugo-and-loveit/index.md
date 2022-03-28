@@ -2,8 +2,7 @@
 
 
 <!--more-->
-
-</br>
+---
 
 记录使用 Hugo 搭建博客和配置 LoveIt 主题的过程, 利用 GitHub Action 实现自动部署.
 
