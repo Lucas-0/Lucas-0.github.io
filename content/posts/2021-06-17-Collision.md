@@ -69,10 +69,7 @@ seo:
 ---
 
 <!--more-->
-
-</br>
-
-</br>
+---
 
 {{< admonition abstract >}}
 发现了一个有意思的艺术家:(fab fa-instagram): [Ertan Atay](https://www.instagram.com/failunfailunmefailun/)，将流行文化和名画拼接在一起，有点意思。
