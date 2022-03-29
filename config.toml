@@ -406,7 +406,7 @@ enableEmoji = true
       # 深色主题的地图样式 
       # mapbox://styles/mapbox/dark-v10?optimize=true
       # mapbox://styles/mapbox/dark-v9
-      darkStyle = "mapbox://styles/mapbox/dark-v10?optimize=true"
+      darkStyle = "mapbox://styles/mapbox/dark-zh-v1"
       # whether to add NavigationControl (https://docs.mapbox.com/mapbox-gl-js/api/#navigationcontrol)
       # 是否添加 NavigationControl (https://docs.mapbox.com/mapbox-gl-js/api/#navigationcontrol)
       navigation = true

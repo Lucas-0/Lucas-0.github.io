@@ -43,9 +43,6 @@ code:
 math:
   enable: true
   # ...
-mapbox:
-  accessToken: ""
-  # ...
 share:
   enable: true
   # ...
@@ -63,9 +60,6 @@ library:
     # 位于 "assets/"
     # 或者
     # someJS:"https://cdn.example.com/some.js"
-seo:
-  images: []
-  # ...
 ---
 
 <!--more-->

@@ -78,10 +78,13 @@ seo:
 <!--https://api.mapbox.com/styles/v1/mapbox/streets-zh-v1/sprite?access_token=pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ
 https://api.mapbox.com/styles/v1/mapbox/streets-zh-v1/sprite.png?access_token=pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ -->
 <script>
+  var light = "mapbox://styles/mapbox/streets-zh-v1";
+  var dark = "mapbox://styles/mapbox/dark-zh-v1";
   mapboxgl.accessToken = 'pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ';
-    const map = new mapboxgl.Map({
+    function draw(themecolor) {
+    var map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/mapbox/streets-zh-v1',
+        style: themecolor,
         center: [98.00000, 38.40000],
         zoom: 6
     });
@@ -189,6 +192,17 @@ https://api.mapbox.com/styles/v1/mapbox/streets-zh-v1/sprite.png?access_token=pk
             'filter': ['==', '$type', 'Point']
         });
       });
+}
+var themecolor = "dark" === document.body.getAttribute("theme") ? dark: light;
+draw(themecolor);
+var Target = document.getElementsByClassName("menu-item theme-switch")[0];
+Target.addEventListener('click', function(e) {
+  if (e.target.className === 'menu-item theme-switch' ||e.target.className === 'fas fa-adjust fa-fw' ) {
+    themecolor = "dark" === document.body.getAttribute("theme") ? light: dark;
+    draw(themecolor);
+    // map.setStyle(themecolor);
+  }
+});
 </script>
 </br>
 
@@ -302,7 +316,7 @@ https://api.mapbox.com/styles/v1/mapbox/streets-zh-v1/sprite.png?access_token=pk
 
 过了小柴旦湖就上了G315。20分钟后看见一条干枯的河床，通体浅红色，司机说叫做大地之血，已经干涸了两年多。下车拍照，玩了会无人机。如果有水的话这地方可以多看几眼，没水就算了。
 
-{{< image src="https://pic.rmb.bdstatic.com/bjh/d4e702cc0e0509e9682785fa6a726db7.jpeg" alt="20210712222004.jpg" caption="大地之血" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/18fe8619848eb90ab3ea7b37ab1e6db0.jpeg" alt="20210712222004.jpg" caption="大地之血" title=" ">}}
 
 10点钟左右到达U型公路，许多人在路旁停车，坐在路中央拍照。一条公路延伸到天地交界之处本是绝景，人味太重就没那种孤寂感了。往来的车很多，还有重型货运卡车，停车拍照并不安全，有交警在驱散和罚款。天很热，配合司机拍了几张游客照就撤退。
 
