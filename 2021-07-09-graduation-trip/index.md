@@ -210,11 +210,13 @@ https://api.mapbox.com/styles/v1/mapbox/streets-zh-v1/sprite.png?access_token=pk
 
 我们乘小火车在第一站下车，决定在各个小湖间随意行走直到出口。在龟裂的土地和结晶盐上行走需要一双舒适的鞋子，鞋底最好厚一些，便于趟过浅水处。我们就上演了一出当代小马过河。
 
-{{< image src="https://ae03.alicdn.com/kf/H68a51c1da5484f81aecf62858e63cd98y.png" alt="20210712221840.jpg" caption="" title=" ">}}
+{{< image src="https://ae03.alicdn.com/kf/H68a51c1da5484f81aecf62858e63cd98y.png" alt="20210712221840.jpg" caption="Untitled Picture" title=" ">}}
 
 西北的天气变幻无常，即便是晴天，头顶的云也可能突然下起雨来。
 
 {{< image src="https://ae03.alicdn.com/kf/He8284b799f934461a09a9e5ac2cfc770t.png" alt="20210712221859.jpg" caption="雨云" title=" ">}}
+
+---
 
 {{< image src="https://ae01.alicdn.com/kf/H7fcc0d100c784ea6873c2e3bac80b989S.png" alt="20210712221932.jpg" caption="蓝色湖水" title=" ">}}
 
@@ -242,6 +244,9 @@ U型公路见面不如闻名，不必抱太大期待。
 继续前进，12点时在一处不知名的雅丹地貌停下来，登上去望远。岩石表面是细软而滑的沙土，再次展示出一双好鞋子的重要性。
 
 {{< image src="https://pic.rmb.bdstatic.com/bjh/30b10ef4ed861004adfeb1560d7470f7.jpeg" alt="20210712222049.jpg" caption="无名雅丹" title=" ">}}
+
+---
+
 {{< image src="https://pic.rmb.bdstatic.com/bjh/049833d19482137abefba3a1f79be1e8.jpeg" alt="20210712223241.jpg" caption="左上拍到了一架无人机" title=" ">}}
 
 坐标：北纬37°37′24″  东经93°49′35″
@@ -253,12 +258,21 @@ U型公路见面不如闻名，不必抱太大期待。
 有一只鸟特别坏，占了一片领地，自己吃饱了还不许别的鸟进来吃食，否则就扑腾翅膀驱赶。
 
 {{< image src="https://pic.rmb.bdstatic.com/bjh/719c46592c624e246000e77398721216.jpeg" alt="20210712223322.jpg" caption="疑似海鸥的鸟" title=" ">}}
+
+---
+
 {{< image src="https://pic.rmb.bdstatic.com/bjh/f711259d5ceeaeec34aa8babef961e72.jpeg" alt="20210712223551.jpg" caption="这里的水也是绿色的" title=" ">}}
+
+---
+
 {{< image src="https://pic.rmb.bdstatic.com/bjh/2daca56153eae2dd6ee957d42776abd9.jpeg" alt="20210712223619.jpg" caption="禁止攀爬" title=" ">}}
 
 沿着G215去往南八仙魔鬼城，名字很怪，其实就是一片雅丹地貌群。登上其中一个小山包，耳旁只有风声低诉。当风止的时刻，天地间万籁俱寂，少有的体验。不过魔鬼城的景色千篇一律，远眺一周就足够了。
 
 {{< image src="https://pic.rmb.bdstatic.com/bjh/859d6a2472b779d5648276110fa8985f.jpeg" alt="20210712223751.jpg" caption="南八仙魔鬼城：来路" title=" ">}}
+
+---
+
 {{< image src="https://pic.rmb.bdstatic.com/bjh/e2cf09902c2ccd2326d0d73a115bcf83.jpeg" alt="20210712223811.jpg" caption="南八仙魔鬼城：去路" title=" ">}}
 
 返回大柴旦宿，聚餐吃了羊排，差强人意。
@@ -279,6 +293,9 @@ U型公路见面不如闻名，不必抱太大期待。
 接近下午一点时，我们到达了石油小镇。平心而论，这个景区就是一个丑陋的建筑工地，不配作为景点。不过那时的天气实在太好，需要一个下车散步的地方，外加学生半价票，个人感觉勉勉强强算不亏吧。
 
 {{< image src="https://pic.rmb.bdstatic.com/bjh/1cb7c79346539477928acc5b96bdbb06.jpeg" alt="20210712224143.jpg" caption="石油小镇" title=" ">}}
+
+---
+
 {{< image src="https://pic.rmb.bdstatic.com/bjh/992688ac7bd8699e740c2ee5871f3ac0.jpeg" alt="20210712224210.jpg" caption="烂尾的工地" title=" ">}}
 
 离开，到阿克塞吃午饭。路上碰见了野骆驼。还有好几股龙卷风，将尘土吸上高天。西北的云都好大一朵，褐色的山地上有一团团黑色的巨大阴影，那就是云的影子。
@@ -301,7 +318,7 @@ U型公路见面不如闻名，不必抱太大期待。
 
 这个露营的精华在于其晚会，给我狠狠上了一波土味教育，即便身为有两年经验的鉴土师的我也大受冲击。
 
-<p><center>{{< image src="https://pic.rmb.bdstatic.com/bjh/03d93eab80ce789d235c0fda1a7228a0.jpeg" alt="20210713000857.jpg" caption="" title=" ">}}</center></p>
+<p><center>{{< image src="https://pic.rmb.bdstatic.com/bjh/03d93eab80ce789d235c0fda1a7228a0.jpeg" alt="20210713000857.jpg" caption="Untitled Picture" title=" ">}}</center></p>
 
 声波攻击+光污染，农村娱乐的经典路数。开局一只猴，说是拍西游记时六老师的替身，那就叫他六耳老师吧。伴着《云宫迅音》，六耳老师到台下与观众热情互动，国人对猴的热爱令我印象深刻，一群成年人争相与戏服猴子合影，可见大圣的群众基础是极好的。
 
@@ -360,23 +377,23 @@ G30从敦煌到嘉峪关，路上风光一般，都是些东部寻常景色或�
 
 经过总计6h的车程，终于到了张掖七彩镇。我们住在西侧，价格便宜些。下午6点从西门进入七彩丹霞，先直奔另一侧出入口吃了个k记，再折返参观。虽然山体光秃秃一片稍丑，但总体配得上票价。
 
-{{< image src="https://pic.rmb.bdstatic.com/bjh/83e2b7f66021a13e027c1a7454f01429.jpeg" alt="20210712225210.jpg" caption="" title=" " >}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/83e2b7f66021a13e027c1a7454f01429.jpeg" alt="20210712225210.jpg" caption="Untitled Picture" title=" " >}}
 
 ---
 
-{{< image src="https://ae02.alicdn.com/kf/H83203c9ebd234aa4a5599dffdf9d936bP.png" alt="20210712225254.jpg" caption="" title=" " >}}
+{{< image src="https://ae02.alicdn.com/kf/H83203c9ebd234aa4a5599dffdf9d936bP.png" alt="20210712225254.jpg" caption="Untitled Picture" title=" " >}}
 
 ---
 
-{{< image src="https://ae01.alicdn.com/kf/Hc7db54e78dc345ebb2935b61da5a29c7N.png" alt="20210712225603.jpg" caption="" title=" " >}}
+{{< image src="https://ae01.alicdn.com/kf/Hc7db54e78dc345ebb2935b61da5a29c7N.png" alt="20210712225603.jpg" caption="Untitled Picture" title=" " >}}
 
 ---
 
-{{< image src="https://ae01.alicdn.com/kf/H4f09973347644550b17086e9d8203afax.png" alt="20210712225818.jpg" caption="" title=" " >}}
+{{< image src="https://ae01.alicdn.com/kf/H4f09973347644550b17086e9d8203afax.png" alt="20210712225818.jpg" caption="Untitled Picture" title=" " >}}
 
 落日后离开。
 
-{{< image src="https://ae04.alicdn.com/kf/Hcbdd3b820ce0461884df3e363153a1a0Z.png" alt="20210712225834.jpg" caption="" title=" ">}}
+{{< image src="https://ae04.alicdn.com/kf/Hcbdd3b820ce0461884df3e363153a1a0Z.png" alt="20210712225834.jpg" caption="Untitled Picture" title=" ">}}
 
 ### day7 天青色
 今天要前往祁连县，走227国道先驱车2h至**扁都口**，入口处海拔2820m。地处河西走廊，景色翠绿像是到了南方。
@@ -435,7 +452,7 @@ G30从敦煌到嘉峪关，路上风光一般，都是些东部寻常景色或�
 
 经过这一通折腾，太阳已经全然从云后露出了，阳光普照下，卓尔山显示出惊人的美。绵延的山丘覆盖着一层诱人的绿，斜照的阳光勾勒出错落有致的阴影，湛蓝的天空上浮动着乳白色的流云。
 
-{{< image src="https://ae02.alicdn.com/kf/H9f687180bce34fefb1f3c11bfcf27275Y.png" alt="20210712231225.jpg" caption="" title=" ">}}
+{{< image src="https://ae02.alicdn.com/kf/H9f687180bce34fefb1f3c11bfcf27275Y.png" alt="20210712231225.jpg" caption="Untitled Picture" title=" ">}}
 
 ---
 
@@ -463,7 +480,7 @@ G30从敦煌到嘉峪关，路上风光一般，都是些东部寻常景色或�
 
 ---
 
-{{< image src="https://pic.rmb.bdstatic.com/bjh/51056d1a9fb42743762006f4cc451c7c.jpeg" alt="20210712231519.jpg" caption="" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/51056d1a9fb42743762006f4cc451c7c.jpeg" alt="20210712231519.jpg" caption="Untitled Picture" title=" ">}}
 
 ---
 
@@ -510,15 +527,15 @@ G30从敦煌到嘉峪关，路上风光一般，都是些东部寻常景色或�
 
 朝霞首先照在阿咪东索山的山头，给它染上一层暖橙色。这道橙色渐渐下移，先是到了山腰，再继续向下。
 
-{{< image src="https://pic.rmb.bdstatic.com/bjh/54e67f6928640d42bdb4fdc1c5115f23.jpeg" alt="20210713000049.jpg" caption="" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/54e67f6928640d42bdb4fdc1c5115f23.jpeg" alt="20210713000049.jpg" caption="Untitled Picture" title=" ">}}
 
 ---
 
-{{< image src="https://pic.rmb.bdstatic.com/bjh/ff53870a681b4701dc7b319d60b4f27e.jpeg" alt="20210713000132.jpg" caption="" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/ff53870a681b4701dc7b319d60b4f27e.jpeg" alt="20210713000132.jpg" caption="Untitled Picture" title=" ">}}
 
 ---
 
-{{< image src="https://pic.rmb.bdstatic.com/bjh/d4530f1ae1cec098cbd93c4667e0d618.jpeg" alt="20210713000340.jpg" caption="" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/d4530f1ae1cec098cbd93c4667e0d618.jpeg" alt="20210713000340.jpg" caption="Untitled Picture" title=" ">}}
 
 ---
 
@@ -534,11 +551,11 @@ G30从敦煌到嘉峪关，路上风光一般，都是些东部寻常景色或�
 
 6点57分，太阳终于从东方的山头出现，温暖的朝霞照在身上暖暖的。
 
-{{< image src="https://pic.rmb.bdstatic.com/bjh/1d51af7b76b0c3da83caf8a21fa78c7d.jpeg" alt="20210713000618.jpg" caption="" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/1d51af7b76b0c3da83caf8a21fa78c7d.jpeg" alt="20210713000618.jpg" caption="Untitled Picture" title=" ">}}
 
 ---
 
-{{< image src="https://pic.rmb.bdstatic.com/bjh/789a8568d168fe4814ed7edf08dbdaff.jpeg" alt="20210713000736.jpg" caption="" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/789a8568d168fe4814ed7edf08dbdaff.jpeg" alt="20210713000736.jpg" caption="Untitled Picture" title=" ">}}
 
 心满意足地回到村中，吃过早点离开了这个小而美的县城。这一天没安排什么值得期待的景点，主要内容是走走停停回到西宁赶飞机。
 
@@ -578,7 +595,7 @@ G30从敦煌到嘉峪关，路上风光一般，都是些东部寻常景色或�
 
 2. 同学A在滴滴上打车去机场，等了几分钟终于分配了司机，结果司机发来消息说机场路难走不去。此时已经过了免费取消的时间，于是A就和他耗着。同时我开始叫车，过了几分钟A的订单被司机取消，又过了几分钟我分配到了司机，居然和A的是同一个人，依然说不去机场。对话如下：
 
-    {{< image src="https://pic.rmb.bdstatic.com/bjh/5aaed1b8dd1299be5e7388a0622f6a10.png" alt="20210713001135.png" caption="" title=" ">}}
+    {{< image src="https://pic.rmb.bdstatic.com/bjh/5aaed1b8dd1299be5e7388a0622f6a10.png" alt="20210713001135.png" caption="Untitled Picture" title=" ">}}
 
     最下面还有两句，
     > 司机:“你可以去市委或者消协投诉我，你也知道路有多难走。”</br>
