@@ -28,8 +28,8 @@ hiddenFromHomePage: false
 hiddenFromSearch: false
 twemoji: true
 lightgallery: true
-ruby: true
-fraction: true
+ruby: false
+fraction: false
 fontawesome: true
 linkToMarkdown: false
 rssFullText: false
@@ -54,12 +54,15 @@ library:
     # someCSS = "some.css"
     # 位于 "assets/"
     # 或者
-    # someCSS = "https://cdn.example.com/some.css"
+    someCSS: "https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery-bundle.css"
   js:
     # someJS = "some.js"
     # 位于 "assets/"
-    # 或者
-    # someJS = "https://cdn.example.com/some.js"
+    lazysizesJS: "https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"
+    lightgallery: "https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"
+    # lg-thumbnail: "https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"
+    # a: "https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/lg-pager/lg-pager.min.js"
+    # b: "https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/lg-zoom/lg-zoom.min.js"
 seo:
   images: []
   # ...

@@ -731,5 +731,5 @@ enableEmoji = true
   taxonomy = ["HTML", "RSS"]
   taxonomyTerm = ["HTML"]
 
-[minify]
-  disableSVG = true
+# [minify]
+  # disableSVG = true
