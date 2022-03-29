@@ -58,7 +58,7 @@ library:
   js:
     # someJS = "some.js"
     # 位于 "assets/"
-    lazysizesJS: "https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"
+    # lazysizesJS: "https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"
     lightgallery: "https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"
     # lg-thumbnail: "https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"
     # a: "https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/lg-pager/lg-pager.min.js"
@@ -81,127 +81,115 @@ https://api.mapbox.com/styles/v1/mapbox/streets-zh-v1/sprite.png?access_token=pk
 var light = "mapbox://styles/mapbox/streets-zh-v1";
 var dark = "mapbox://styles/mapbox/dark-zh-v1";
 mapboxgl.accessToken = 'pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ';
-function draw(themecolor) {
-    const map = new mapboxgl.Map({
-        container: 'map',
-        style: themecolor,
-        center: [98.00000, 38.40000],
-        zoom: 6
-    });
-    map.addControl(new mapboxgl.FullscreenControl());
-    // Add zoom and rotation controls to the map.
-    //map.addControl(new mapboxgl.NavigationControl({position: 'top-left'}));
-    const nav = new mapboxgl.NavigationControl();
-    map.addControl(nav, 'bottom-right');
-    map.addControl(
+var themecolor = "dark" === document.body.getAttribute("theme") ? dark: light;
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: themecolor,
+    center: [98.00000, 38.40000],
+    zoom: 6
+});
+map.addControl(new mapboxgl.FullscreenControl());
+  // Add zoom and rotation controls to the map.
+  //map.addControl(new mapboxgl.NavigationControl({position: 'top-left'}));
+const nav = new mapboxgl.NavigationControl();
+map.addControl(nav, 'bottom-right');
+map.addControl(
     new mapboxgl.GeolocateControl({
-    positionOptions: {
-    enableHighAccuracy: true
-    },
-    // When active the map will receive updates to the device's location as it changes.
-    trackUserLocation: true,
-    // Draw an arrow next to the location dot to indicate which direction the device is heading.
-    showUserHeading: true
-    }),'bottom-right'
-    );
-    const scale = new mapboxgl.ScaleControl();
-    map.addControl(scale, 'bottom-left');
-        map.on('load', () => {
-        map.addSource('route', {
-            'type': 'geojson',
-            lineMetrics: true,
-            'data': '../posts/2021-07-09-graduation-trip/july_trip.geojson' //
-        });
-        map.addLayer({
-            'id': 'line',
-            'type': 'line',
-            'source': 'route',
-            'layout': {
+        positionOptions: {
+            enableHighAccuracy: true
+        },
+        // When active the map will receive updates to the device's location as it changes.
+        trackUserLocation: true,
+        // Draw an arrow next to the location dot to indicate which direction the device is heading.
+        showUserHeading: true
+    }), 'bottom-right'
+);
+const scale = new mapboxgl.ScaleControl();
+map.addControl(scale, 'bottom-left');
+map.on('load', () => {
+    map.addSource('route', {
+        'type': 'geojson',
+        lineMetrics: true,
+        'data': '../posts/2021-07-09-graduation-trip/july_trip.geojson' //
+    });
+    map.addLayer({
+        'id': 'line',
+        'type': 'line',
+        'source': 'route',
+        'layout': {
             'line-join': 'round',
             'line-cap': 'round'
-            },
-            'paint': {
+        },
+        'paint': {
             'line-color': '#86C166',
             'line-width': 5,
             'line-opacity': 0.8,
             'line-gradient': [
-                'interpolate',
-                ['linear'],
-                ['line-progress'],
-                0,
-                'blue',
-                0.1,
-                'royalblue',
-                0.3,
-                'cyan',
-                0.5,
-                'lime',
-                0.7,
-                'yellow',
-                1,
-                'red'
+                    'interpolate', ['linear'],
+                    ['line-progress'],
+                    0,
+                    'blue',
+                    0.1,
+                    'royalblue',
+                    0.3,
+                    'cyan',
+                    0.5,
+                    'lime',
+                    0.7,
+                    'yellow',
+                    1,
+                    'red'
                 ]
-            //'line-gap-width':2
-            },
-            'filter': ['==', '$type', 'LineString']
-        });
-        map.addLayer({
-            'id': 'spot',
-            'type': 'circle',
-            'source': 'route',
-            'paint': {
-                'circle-radius': {
+                //'line-gap-width':2
+        },
+        'filter': ['==', '$type', 'LineString']
+    });
+    map.addLayer({
+        'id': 'spot',
+        'type': 'circle',
+        'source': 'route',
+        'paint': {
+            'circle-radius': {
                 'base': 6,
                 'stops': [
-                [12, 6],
-                [22, 40]
+                    [12, 6],
+                    [22, 40]
                 ]
-                },
-                'circle-color': '#C1328E'
             },
-            'filter': ['==', '$type', 'Point']
-        });
+            'circle-color': '#C1328E'
+        },
+        'filter': ['==', '$type', 'Point']
+    });
     map.addLayer({
-            'id': 'name',
-            'type': 'symbol',
-            'source': 'route',
-            'layout': {
-          // These icons are a part of the Mapbox Light style.
-          // To view all images available in a Mapbox style, open
-          // the style in Mapbox Studio and click the "Images" tab.
-          // To add a new image to the style at runtime see
-          // https://docs.mapbox.com/mapbox-gl-js/example/add-image/
-          // 'icon-image': 'star-15',
-          // 'icon-size': 1.5,
+        'id': 'name',
+        'type': 'symbol',
+        'source': 'route',
+        'layout': {
+            // These icons are a part of the Mapbox Light style.
+            // To view all images available in a Mapbox style, open
+            // the style in Mapbox Studio and click the "Images" tab.
+            // To add a new image to the style at runtime see
+            // https://docs.mapbox.com/mapbox-gl-js/example/add-image/
+            // 'icon-image': 'star-15',
+            // 'icon-size': 1.5,
             'icon-allow-overlap': true,
             'text-field': '{name}',
             'text-font': [
-            'Open Sans Bold',
-            'Arial Unicode MS Bold'
+                'Open Sans Bold',
+                'Arial Unicode MS Bold'
             ],
             'text-size': 11,
             'text-transform': 'uppercase',
             'text-letter-spacing': 0.05,
             'text-offset': [0, 1.5]
-            },
-            'paint': {
+        },
+        'paint': {
             'text-color': '#202',
             'text-halo-color': '#fff',
             'text-halo-width': 2
-            },
-            'filter': ['==', '$type', 'Point']
-        });
-      });
-}
-var themecolor = "dark" === document.body.getAttribute("theme") ? dark: light;
-draw(themecolor);
-var Target = document.getElementsByClassName("menu-item theme-switch")[0];
-Target.addEventListener('click', function(e) {
-  if (e.target.className === 'menu-item theme-switch' ||e.target.className === 'fas fa-adjust fa-fw' ) {
-    themecolor = "dark" === document.body.getAttribute("theme") ? light: dark;
-    draw(themecolor);
-    // map.setStyle(themecolor);
-  }
+        },
+        'filter': ['==', '$type', 'Point']
+    });
 });
 </script>
 </br>
@@ -316,7 +304,7 @@ Target.addEventListener('click', function(e) {
 
 过了小柴旦湖就上了G315。20分钟后看见一条干枯的河床，通体浅红色，司机说叫做大地之血，已经干涸了两年多。下车拍照，玩了会无人机。如果有水的话这地方可以多看几眼，没水就算了。
 
-{{< image src="https://pic.rmb.bdstatic.com/bjh/18fe8619848eb90ab3ea7b37ab1e6db0.jpeg" alt="20210712222004.jpg" caption="大地之血" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/18fe8619848eb90ab3ea7b37ab1e6db0.jpeg" alt="20210712222029.jpg" caption="大地之血" title=" ">}}
 
 10点钟左右到达U型公路，许多人在路旁停车，坐在路中央拍照。一条公路延伸到天地交界之处本是绝景，人味太重就没那种孤寂感了。往来的车很多，还有重型货运卡车，停车拍照并不安全，有交警在驱散和罚款。天很热，配合司机拍了几张游客照就撤退。
 

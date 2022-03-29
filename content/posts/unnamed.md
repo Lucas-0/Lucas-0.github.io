@@ -70,7 +70,7 @@ seo:
 
 <!--more-->
 ---
-<div id="container" style='width: 100%; height: 30rem;'></div>
+<div id="container" style='width: 100%; height: 35rem;'></div>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5.3.1/dist/echarts.min.js"></script>
 <script type="text/javascript">
 var dom = document.getElementById("container");
@@ -351,6 +351,9 @@ if (option && typeof option === 'object') {
 var Target = document.getElementsByClassName("menu-item theme-switch")[0];
 Target.addEventListener('click', function(e) {
   if (e.target.className === 'menu-item theme-switch' ||e.target.className === 'fas fa-adjust fa-fw' ) {
+    if (!e.defaultPrevented) {
+          e.preventDefault();
+        }
     // e.preventDefault();
     myChart.dispose();
     var themecolor = 'dark';
