@@ -36,7 +36,7 @@ rssFullText: false
 
 toc:
   enable: true
-  auto: true
+  auto: false
 code:
   copy: true
   # ...
@@ -264,6 +264,8 @@ https://api.mapbox.com/styles/v1/mapbox/streets-zh-v1/sprite.png?access_token=pk
 
 {{< image src="https://pic.rmb.bdstatic.com/bjh/86b17748ff63b03083ca43eb710301ee.jpeg" alt="20210712220551.jpg" caption="翡翠湖" title=" ">}}
 
+---
+
 {{< image src="https://pic.rmb.bdstatic.com/bjh/c66228ba9b04b01de2581f23c922cd37.jpeg" alt="20210712221705.jpg" caption="这个湖很大却不受游人喜爱，大概是颜色不够漂亮" title=" ">}}
 
 翡翠湖是一群星星点点分布的小池塘，湖水多为翠绿色，当然纯正的程度有所区别，有的浑浊，有的清亮。细说起来它和前一天的茶卡盐湖属于同类。
@@ -395,7 +397,13 @@ U型公路见面不如闻名，不必抱太大期待。
 下午回到住处休息，黄昏时出发步行前往鸣沙山月牙泉。景区很小，作为一个人造景点，我认为它名过其实，真正的月牙湾早就消散在过去的风沙中，现在看到的只是霸占着其尸体的蛊虫。往者不可谏。~~（说人话：不配卖这么贵的门票）~~
 
 {{< image src="https://pic.rmb.bdstatic.com/bjh/73b22deeb0259f755860d263f1e77e03.jpeg" alt="20210712224910.jpg" caption="仿古的塔" title=" ">}}
+
+---
+
 {{< image src="https://pic.rmb.bdstatic.com/bjh/56f08a192cb02709952242a2064dc454.jpeg" alt="20210712225018.jpg" caption="再次爬上沙丘，这里有木爬梯会容易一些" title=" ">}}
+
+---
+
 {{< image src="https://pic.rmb.bdstatic.com/bjh/90d775413f0f4ad41b0d74a9e6b12134.jpeg" alt="20210712225120.jpg" caption="这个角度勉强能看" title=" ">}}
 
 晚上和另一队聚餐，去沙洲夜市逛了逛。这两天的行程很无聊，想回家了。
@@ -418,9 +426,15 @@ G30从敦煌到嘉峪关，路上风光一般，都是些东部寻常景色或�
 
 {{< image src="https://pic.rmb.bdstatic.com/bjh/83e2b7f66021a13e027c1a7454f01429.jpeg" alt="20210712225210.jpg" caption="" title=" " >}}
 
+---
+
 {{< image src="https://ae02.alicdn.com/kf/H83203c9ebd234aa4a5599dffdf9d936bP.png" alt="20210712225254.jpg" caption="" title=" " >}}
 
+---
+
 {{< image src="https://ae01.alicdn.com/kf/Hc7db54e78dc345ebb2935b61da5a29c7N.png" alt="20210712225603.jpg" caption="" title=" " >}}
+
+---
 
 {{< image src="https://ae01.alicdn.com/kf/H4f09973347644550b17086e9d8203afax.png" alt="20210712225818.jpg" caption="" title=" " >}}
 
@@ -432,12 +446,21 @@ G30从敦煌到嘉峪关，路上风光一般，都是些东部寻常景色或�
 今天要前往祁连县，走227国道先驱车2h至**扁都口**，入口处海拔2820m。地处河西走廊，景色翠绿像是到了南方。
 
 {{< image src="https://ae04.alicdn.com/kf/Hd2fbe123523841e4a3af970236a1a1eaN.png" alt="20210712225909.jpg" caption="扁都口" title=" ">}}
+
+---
+
 {{< image src="https://ae03.alicdn.com/kf/H6109b378815948bf95312c1be71e9bef1.png" alt="20210712230033.jpg" caption="青山" title=" ">}}
+
+---
+
 {{< image src="https://ae03.alicdn.com/kf/H6e592b5846644b59ab8abd63a8d8de67m.png" alt="20210712230103.jpg" caption="亮晶晶的水洼" title=" ">}}
 
 翻越祁连山脉的公路在海拔3000m以上，足足开了一个多小时。和缓的山间平原是极佳的牧场，有数量极多的牦牛和羊。这段公路景色极美，有绿水青山，和风煦日，我同样将其评为绝对不能打瞌睡的路段。
 
 {{< image src="https://ae04.alicdn.com/kf/H4495f13004f347598f039e8769aa820dp.png" alt="20210712230221.jpg" caption="牧牦牛" title="🐂" >}}
+
+---
+
 {{< image src="https://ae03.alicdn.com/kf/H5c2d8ea5641046c7bdf902ad78a11fe6O.png" alt="20210712230404.jpg" caption="牧羊，橘色油漆是为了标记自家的羊" title="🐐">}}
 
 阿柔大寺——当地一个部落自己修建的寺庙，没啥好看的，不过票价很便宜，买不了吃亏买不了上当，就当支持民族团结了。
@@ -457,26 +480,65 @@ G30从敦煌到嘉峪关，路上风光一般，都是些东部寻常景色或�
 到了山的西侧，天空开始放晴，远望祁连县城。
 
 {{< image src="https://pic.rmb.bdstatic.com/bjh/f9484e3aa730606258224c3a97fbe836.jpeg" alt="20210712230806.jpg" caption="远望祁连县城" title=" ">}}
+
+---
+
 {{< image src="https://ae03.alicdn.com/kf/H9bd1a5790ff248008bd4b76080978e7e2.png" alt="20210712231023.jpg" caption="栈道下全是兔子窝" title=" ">}}
+
+---
+
 {{< image src="https://ae02.alicdn.com/kf/H55e7e44fbcdf42e9bc6f7defa284cd2c3.png" alt="20210712231038.jpg" caption="阿咪东索山" title=" ">}}
 
 照片左侧的是阿咪东索山，相传其与脚下的卓尔山是一对恋人。往回走看见山坡上有一群羊正在吃草。又走几步看见一只野兔，褐色的皮毛，尾巴上有一撮白毛。我想起以前看到一种说法，捉野兔要把它从山上往下赶，因为野兔后腿发力，速度比前腿更快，下山会翻跟头。我忍不住想实践一下，结果一靠近，野兔直接迅捷步伐跑得没影。回头时发现了另一只更肥的野兔，我恍然大悟，恐怕这栈道下面有兔子窝，也就解释了为什么附近的草地上有那么多一粒一粒的黑色的兔子粪便。
 
 {{< image src="https://pic.rmb.bdstatic.com/bjh/ac8ac8481b169da23a6d3c8a61631927.png" alt="202110221241231.webp" caption="野兔" title=" ">}}
+
+---
+
 {{< image src="https://ae04.alicdn.com/kf/H2f138743a31445278a19e1a434b272a14.png" alt="20210712231123.jpg" caption="另一只野兔" title=" ">}}
 
 经过这一通折腾，太阳已经全然从云后露出了，阳光普照下，卓尔山显示出惊人的美。绵延的山丘覆盖着一层诱人的绿，斜照的阳光勾勒出错落有致的阴影，湛蓝的天空上浮动着乳白色的流云。
 
 {{< image src="https://ae02.alicdn.com/kf/H9f687180bce34fefb1f3c11bfcf27275Y.png" alt="20210712231225.jpg" caption="" title=" ">}}
+
+---
+
 {{< image src="https://ae03.alicdn.com/kf/Hab91da79246e45a4ab71e301ad7486ed0.png" alt="20210712231255.jpg" caption="旺盛生长的草" title=" ">}}
+
+---
+
 {{< image src="https://ae04.alicdn.com/kf/Hedfac8ce33df4a679dca82cc7fcd5fdcc.png" alt="20210712231315.jpg" caption="路标" title=" ">}}
+
+---
+
 {{< image src="https://ae04.alicdn.com/kf/Ha7e2c1d3d0a149e685e4d9308ffcdb960.png" alt="20210712231340.jpg" caption="玻璃门上的虚假太阳" title=" ">}}
-{{< image src="https://ae01.alicdn.com/kf/H391e5b10012349e086ab660d4ab1255eA.png" alt="20210712231404.jpg" caption="" title=" ">}}
+
+---
+
+{{< image src="https://ae01.alicdn.com/kf/H391e5b10012349e086ab660d4ab1255eA.png" alt="20210712231404.jpg" caption="远眺" title=" ">}}
+
+---
+
 {{< image src="https://ae02.alicdn.com/kf/Hbf92ea66c55340f38f5568c24861f1cdq.png" alt="20210712231423.jpg" caption="美到不真实的绿" title=" ">}}
+
+---
+
 {{< image src="https://pic.rmb.bdstatic.com/bjh/7df47ec4844b8ed4ed8314c21ac6b382.jpeg" alt="20210712231447.jpg" caption="最喜欢的一张" title=" ">}}
+
+---
+
 {{< image src="https://pic.rmb.bdstatic.com/bjh/51056d1a9fb42743762006f4cc451c7c.jpeg" alt="20210712231519.jpg" caption="" title=" ">}}
+
+---
+
 {{< image src="https://pic.rmb.bdstatic.com/bjh/6f7d13fe6bfe972b7d099f7e4656cdf0.jpeg" alt="20210712231545.jpg" caption="现成的取景框" title=" ">}}
+
+---
+
 {{< image src="https://pic.rmb.bdstatic.com/bjh/4ee04a491635d5c713d85e6f84bf2984.jpeg" alt="20210712231608.jpg" caption="风景画" title=" ">}}
+
+---
+
 {{< image src="https://pic.rmb.bdstatic.com/bjh/2645d13dcb33ad3a49c090d93edc0410.jpeg" alt="20210712231623.jpg" caption="金色余晖" title=" ">}}
 
 等到日落，天空中有一道火红的晚霞。
@@ -492,26 +554,54 @@ G30从敦煌到嘉峪关，路上风光一般，都是些东部寻常景色或�
 沿着乡间小路往山上行，在田地之间信步，云慢慢泛起粉色。
 
 {{< image src="https://pic.rmb.bdstatic.com/bjh/7becd7105423aaf7502ef542d3160cf0.jpeg" alt="20210712235730.jpg" caption="东方" title=" ">}}
+
+---
+
 {{< image src="https://pic.rmb.bdstatic.com/bjh/e96864614661d92dfeddf54ad69404e3.jpeg" alt="20210712231841.jpg" caption="放牛的村民" title=" ">}}
 
 云像天空中的鱼群，往太阳的另一侧迁徙。
 
 {{< image src="https://pic.rmb.bdstatic.com/bjh/25b653e8361bcb67fb3d13584deb3603.jpeg" alt="20210712235924.jpg" caption="鱼一样的云1" title=" ">}}
+
+---
+
 {{< image src="https://pic.rmb.bdstatic.com/bjh/48657ca17b60963304eb6b6388e9757d.jpeg" alt="20210713000552.jpg" caption="鱼一样的云2" title=" ">}}
+
+---
+
 
 {{< image src="https://pic.rmb.bdstatic.com/bjh/e99d5e158c3caa91286c1078a54028bb.jpeg" alt="20210713000003.jpg" caption="麦田" title=" ">}}
 
 朝霞首先照在阿咪东索山的山头，给它染上一层暖橙色。这道橙色渐渐下移，先是到了山腰，再继续向下。
 
 {{< image src="https://pic.rmb.bdstatic.com/bjh/54e67f6928640d42bdb4fdc1c5115f23.jpeg" alt="20210713000049.jpg" caption="" title=" ">}}
+
+---
+
 {{< image src="https://pic.rmb.bdstatic.com/bjh/ff53870a681b4701dc7b319d60b4f27e.jpeg" alt="20210713000132.jpg" caption="" title=" ">}}
+
+---
+
 {{< image src="https://pic.rmb.bdstatic.com/bjh/d4530f1ae1cec098cbd93c4667e0d618.jpeg" alt="20210713000340.jpg" caption="" title=" ">}}
+
+---
+
 {{< image src="https://pic.rmb.bdstatic.com/bjh/a23262353cb6078458bd989de43c2080.jpeg" alt="20210713000435.jpg" caption="露水" title=" ">}}
+
+---
+
 {{< image src="https://pic.rmb.bdstatic.com/bjh/6f8557e6601d6251dde53d3b858383d3.jpeg" alt="20210713000458.jpg" caption="霞光万道" title=" ">}}
+
+---
+
 {{< image src="https://pic.rmb.bdstatic.com/bjh/39912778c1e33f05b598ae69404e4cb3.jpeg" alt="20210713000513.jpg" caption="希望的田野" title=" ">}}
 
 6点57分，太阳终于从东方的山头出现，温暖的朝霞照在身上暖暖的。
+
 {{< image src="https://pic.rmb.bdstatic.com/bjh/1d51af7b76b0c3da83caf8a21fa78c7d.jpeg" alt="20210713000618.jpg" caption="" title=" ">}}
+
+---
+
 {{< image src="https://pic.rmb.bdstatic.com/bjh/789a8568d168fe4814ed7edf08dbdaff.jpeg" alt="20210713000736.jpg" caption="" title=" ">}}
 
 心满意足地回到村中，吃过早点离开了这个小而美的县城。这一天没安排什么值得期待的景点，主要内容是走走停停回到西宁赶飞机。

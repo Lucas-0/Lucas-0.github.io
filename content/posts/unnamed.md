@@ -348,12 +348,13 @@ var myChart = echarts.init(dom, "dark" === document.body.getAttribute("theme") ?
 if (option && typeof option === 'object') {
     myChart.setOption(option);
 }
-document.body.addEventListener('click', function(e) {
-  if (e.target.className === 'fas fa-adjust fa-fw') {
-    e.preventDefault();
+var Target = document.getElementsByClassName("menu-item theme-switch")[0];
+Target.addEventListener('click', function(e) {
+  if (e.target.className === 'menu-item theme-switch' ||e.target.className === 'fas fa-adjust fa-fw' ) {
+    // e.preventDefault();
     myChart.dispose();
     var themecolor = 'dark';
-    themecolor = "dark" === document.body.getAttribute("theme") ? "dark": "macarons";
+    themecolor = "dark" === document.body.getAttribute("theme") ? "macarons": "dark";
     myChart = echarts.init(document.getElementById('container'), themecolor);
     myChart.setOption(option);
   }
