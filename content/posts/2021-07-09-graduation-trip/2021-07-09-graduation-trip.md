@@ -54,15 +54,12 @@ library:
     # someCSS = "some.css"
     # 位于 "assets/"
     # 或者
-    someCSS: "https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery-bundle.css"
+    # someCSS: "https://cdn.jsdelivr.net/combine/npm/lightgallery.js@1.4.0/dist/css/lg-fb-comment-box.min.css,npm/lightgallery.js@1.4.0/dist/css/lg-transitions.min.css,npm/lightgallery.js@1.4.0/dist/css/lightgallery.min.css"
   js:
     # someJS = "some.js"
     # 位于 "assets/"
     # lazysizesJS: "https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"
-    lightgallery: "https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.min.js"
-    # lg-thumbnail: "https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/thumbnail/lg-thumbnail.min.js"
-    # a: "https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/lg-pager/lg-pager.min.js"
-    # b: "https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/plugins/lg-zoom/lg-zoom.min.js"
+    lightgallery: "https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.1-beta.0/dist/js/lightgallery.min.js"
 seo:
   images: []
   # ...
