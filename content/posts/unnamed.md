@@ -133,6 +133,7 @@ option = {
     data: ['2017', '2018', '2019', '2020', '2021']
   },
   toolbox: {
+    orient: "vertical",
     feature: {
       dataZoom: {
         yAxisIndex: 'none'
@@ -148,8 +149,7 @@ option = {
           }
         }
       }
-    },
-    right: "5%"
+    }
   },
   grid: {
     left: '3%',
@@ -172,10 +172,10 @@ option = {
   yAxis: [
     {
       type: 'value',
-      name: 'Amount / Yuan',
+      // name: 'Amount /\n Yuan',
       nameLocation: 'end',
       nameTextStyle: {
-        padding: [10, 10]
+        padding: [0, 4, 20, 4]
       },
       alignTicks: true,
       splitNumber: 6

@@ -54,15 +54,9 @@ comment:
   # ...
 library:
   css:
-    # someCSS = "some.css"
-    # 位于 "assets/"
-    # 或者
-    # someCSS = "https://cdn.example.com/some.css"
+    # someCSS: "https://cdn.example.com/some.css"
   js:
-    # someJS = "some.js"
-    # 位于 "assets/"
-    # 或者
-    # someJS = "https://cdn.example.com/some.js"
+    # someJS: "https://cdn.example.com/some.js"
 seo:
   images: []
   # ...
