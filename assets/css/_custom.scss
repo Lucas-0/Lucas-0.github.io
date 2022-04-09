@@ -4,3 +4,8 @@
 // ==============================
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Noto+Serif+SC&family=Roboto+Slab:wght@100..900&display=swap');
 //看到"PT Serif"西文字体，觉得比我选的差一点
+.page {
+    position: relative;
+    max-width: 1000px; //宽度限制从800->1000
+    margin: 0 auto;
+  }
