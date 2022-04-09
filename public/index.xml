@@ -4,9 +4,16 @@
         <link>https://lucas-0.github.io/</link>
         <description>My insight</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>mailto:blank@gmail.com (Lucas)</managingEditor>
-            <webMaster>mailto:blank@gmail.com (Lucas)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 12 Mar 2022 22:18:00 &#43;0800</lastBuildDate>
+            <webMaster>mailto:blank@gmail.com (Lucas)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 09 Apr 2022 19:56:54 &#43;0800</lastBuildDate>
             <atom:link href="https://lucas-0.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>食堂消费曲线</title>
+    <link>https://lucas-0.github.io/2022-04-09-diet/</link>
+    <pubDate>Sat, 09 Apr 2022 19:56:54 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://lucas-0.github.io/2022-04-09-diet/</guid>
+    <description><![CDATA[显示本科四年在食堂的就餐数据，按天统计。图一乐。]]></description>
+</item><item>
     <title>人性的，太人性的</title>
     <link>https://lucas-0.github.io/2022-03-12-nietzsche/</link>
     <pubDate>Sat, 12 Mar 2022 22:18:00 &#43;0800</pubDate>
@@ -79,12 +86,5 @@
     <author>作者</author>
     <guid>https://lucas-0.github.io/2021-07-09-graduation-trip/</guid>
     <description><![CDATA[四人の旅出。]]></description>
-</item><item>
-    <title>给名画加入流行文化</title>
-    <link>https://lucas-0.github.io/2021-06-17-collision/</link>
-    <pubDate>Thu, 17 Jun 2021 20:28:30 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://lucas-0.github.io/2021-06-17-collision/</guid>
-    <description><![CDATA[发现了一个有意思的艺术家。]]></description>
 </item></channel>
 </rss>
