@@ -4,9 +4,7 @@ subtitle: "——ID:INVADED"
 date: 2020-07-05T22:49:26+08:00
 lastmod: 
 draft: false
-author: "Lucas"
-authorLink: "https://github.com/Lucas-0"
-description: "情节梳理和分析."
+description: "情节梳理和分析。"
 summary: ""
 license: ""
 # 移动端网页链接的图片
@@ -25,26 +23,16 @@ featuredImagePreview: "https://ae01.alicdn.com/kf/Habfe7e52daf64249bf4e17b2f348d
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
+twemoji: true
+lightgallery: false
+ruby: false
+fraction: false
 fontawesome: true
 linkToMarkdown: false
 rssFullText: false
 
 toc:
-  enable: false
-  auto: false
-code:
-  copy: false
-  # ...
-math:
-  enable: false
-  # ...
-mapbox:
-  accessToken: ""
-  # ...
+  enable: true
 share:
   enable: true
   # ...
@@ -53,14 +41,8 @@ comment:
   # ...
 library:
   css:
-    # someCSS = "some.css"
-    # 位于 "assets/"
-    # 或者
     # someCSS = "https://cdn.example.com/some.css"
   js:
-    # someJS = "some.js"
-    # 位于 "assets/"
-    # 或者
     # someJS = "https://cdn.example.com/some.js"
 seo:
   images: []
@@ -75,11 +57,11 @@ seo:
 
 [:(fas fa-photo-video): 异度侵入——fun with numbers](https://www.bilibili.com/read/cv5279127) | [在本页面查看](#chapter-2)
 
-***
+---
 
 ​    
 
-# 异度侵入——剧情全析<a id="chapter-1"></a>
+## 异度侵入——剧情全析<a id="chapter-1"></a>
 
 ---
 
@@ -115,7 +97,7 @@ seo:
 
 ​    
 
-# 异度侵入——fun with numbers<a id="chapter-2"></a>
+## 异度侵入——fun with numbers<a id="chapter-2"></a>
 ---
 
 > 两人回到局长的井里，洞哥说自己不讨厌7，但是讨厌喜欢7的人，暗示讨厌自比神明的傲慢的局长。因为洞哥想再体验一次春哥的杀意，春哥把自己的面具也就是井的入口扔远，此时井波七星也来到了这里，本来打算射杀春哥，但是洞哥挡枪。死前说达成了两个心愿b，我认为，一是用死亡结束数字强迫的痛苦，二是向春哥表白,而第三个则是春哥和他的潜意识一样，能在不完整的东西中看到完整的，把他的洞填补上了。最终实现了三个心愿，而这也是他最喜欢的数字。这一段读者可以细品。

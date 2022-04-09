@@ -5,10 +5,8 @@ date: 2022-01-01T15:00:00+08:00
 weight: 1 # 置顶，利于预览
 lastmod: 
 draft: true
-author: "Lucas"
-authorLink: "https://github.com/Lucas-0"
 description: "" # 首页
-summary: ""
+summary: "" # SEO
 license: ""
 # 移动端网页链接的图片
 images: []
@@ -27,10 +25,10 @@ featuredImagePreview: ""
 hiddenFromHomePage: true
 hiddenFromSearch: false
 twemoji: true
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
+lightgallery: false
+ruby: false
+fraction: false
+fontawesome: false
 linkToMarkdown: false
 rssFullText: false
 
@@ -41,7 +39,8 @@ code:
   copy: true
   # ...
 math:
-  enable: true
+  enable: false
+  mhchem: true
   # ...
 share:
   enable: true
@@ -51,14 +50,8 @@ comment:
   # ...
 library:
   css:
-    # someCSS: "some.css"
-    # 位于 "assets/"
-    # 或者
     # someCSS: "https://cdn.example.com/some.css"
   js:
-    # someJS: "some.js"
-    # 位于 "assets/"
-    # 或者
     # someJS:"https://cdn.example.com/some.js"
 ---
 

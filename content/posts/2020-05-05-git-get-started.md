@@ -1,7 +1,5 @@
 ---
 title: "Git 入门及连接多个远程仓库"
-comment:
-  enable: true
 date: 2020-05-05T21:18:40+08:00
 categories: ["Guide"]
 tags: ["git"]
@@ -12,10 +10,13 @@ hiddenFromHomePage: true
 toc:
   enable: true
   auto: true
-lastmod: 
+code:
+  copy: true
+  maxShownLines: 25
+comment:
+  enable: true
 ---
 ---
-
 最近遇到了如何在电脑上的不同位置连接不同的远程仓库的问题，很多中文的 git 教程并没有涉及到这个问题，故将查阅到的办法整理为此文。
 
 &nbsp;&nbsp;

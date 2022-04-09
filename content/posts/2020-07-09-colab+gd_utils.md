@@ -3,9 +3,6 @@ title: "使用 colab 安装 rclone 以及搭建 gd_utils"
 subtitle: ""
 date: 2020-07-09T00:40:26+08:00
 lastmod: 
-draft: true
-author: "Lucas"
-authorLink: "https://github.com/Lucas-0"
 description: "无需服务器转存谷歌硬盘的分享文件."
 summary: ""
 license: ""
@@ -25,11 +22,11 @@ featuredImagePreview: "https://pic.rmb.bdstatic.com/bjh/83e3149419dce143c5a19e46
 
 hiddenFromHomePage: true
 hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
+twemoji: true
+lightgallery: false
+ruby: false
+fraction: false
+fontawesome: false
 linkToMarkdown: false
 rssFullText: false
 
@@ -53,14 +50,8 @@ comment:
   # ...
 library:
   css:
-    # someCSS = "some.css"
-    # 位于 "assets/"
-    # 或者
     # someCSS = "https://cdn.example.com/some.css"
   js:
-    # someJS = "some.js"
-    # 位于 "assets/"
-    # 或者
     # someJS = "https://cdn.example.com/some.js"
 seo:
   images: []

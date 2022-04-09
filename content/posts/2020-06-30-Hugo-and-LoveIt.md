@@ -4,8 +4,6 @@ subtitle: ""
 date: 2020-06-30T18:00:00+08:00
 lastmod: 
 draft: false
-author: ""
-authorLink: ""
 description: "记录使用 Hugo 搭建博客和配置 LoveIt 主题的过程, 利用 GitHub Action 实现自动部署."
 expiryDate: 
 publishDate: 
@@ -23,8 +21,8 @@ toc:
   enable: true
 math:
   enable: false
-lightgallery: true
-license: ""
+lightgallery: false
+fontawesome: true
 ---
 
 <!--more-->

@@ -5,8 +5,6 @@ date: 2021-10-29T23:38:26+08:00
 weight: # 置顶，利于预览
 lastmod: 2021-12-01T20:50:26+08:00
 draft: 
-author: "Lucas"
-authorLink: "https://github.com/Lucas-0"
 description: "鸾鸟轩翥而翔飞。"
 summary: ""
 license: ""
@@ -26,26 +24,17 @@ featuredImagePreview: "https://ae05.alicdn.com/kf/Ha8572fe31c3f41b188284e9925b86
 
 hiddenFromHomePage: true
 hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
+twemoji: true
+lightgallery: false
+ruby: false
+fraction: false
+fontawesome: false
 linkToMarkdown: false
 rssFullText: false
 
 toc:
   enable: false
   auto: true
-code:
-  copy: true
-  # ...
-math:
-  enable: true
-  # ...
-mapbox:
-  accessToken: ""
-  # ...
 share:
   enable: true
   # ...
@@ -54,14 +43,8 @@ comment:
   # ...
 library:
   css:
-    # someCSS = "some.css"
-    # 位于 "assets/"
-    # 或者
     # someCSS = "https://cdn.example.com/some.css"
   js:
-    # someJS = "some.js"
-    # 位于 "assets/"
-    # 或者
     # someJS = "https://cdn.example.com/some.js"
 seo:
   images: []

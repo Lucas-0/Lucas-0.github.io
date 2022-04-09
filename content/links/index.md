@@ -2,10 +2,7 @@
 title: "番剧,电影和友链"
 subtitle: "--推荐"
 date: 2020-03-04T15:58:26+08:00
-lastmod: 2020-03-04T15:58:26+08:00
 draft: false
-author: "Lucas"
-authorLink: "https://github.com/Lucas-0"
 description: ""
 summary: ""
 license: ""
@@ -16,13 +13,13 @@ categories: []
 featuredImage: ""
 featuredImagePreview: ""
 
-hiddenFromHomePage: false
+hiddenFromHomePage: true
 hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
+twemoji: true
+lightgallery: false
+ruby: false
+fraction: false
+fontawesome: false
 linkToMarkdown: false
 rssFullText: false
 
@@ -33,7 +30,7 @@ code:
   copy: true
   # ...
 math:
-  enable: true
+  enable: false
   # ...
 mapbox:
   accessToken: ""

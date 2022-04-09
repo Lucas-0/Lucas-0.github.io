@@ -4,8 +4,6 @@ subtitle: ""
 date: 2020-08-14T16:06:26+08:00
 lastmod:
 draft: false
-author: "Lucas"
-authorLink: "https://github.com/Lucas-0"
 description: "似曾相识燕归来"
 summary: ""
 license: ""
@@ -25,11 +23,11 @@ featuredImagePreview: "https://ae01.alicdn.com/kf/H5e0b8e2a5b1b4c67bad7ad8462627
 
 hiddenFromHomePage: true
 hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
+twemoji: true
+lightgallery: false
+ruby: false
+fraction: false
+fontawesome: false
 linkToMarkdown: false
 rssFullText: false
 
@@ -37,13 +35,7 @@ toc:
   enable: false
   auto: true
 code:
-  copy: true
-  # ...
-math:
-  enable: true
-  # ...
-mapbox:
-  accessToken: ""
+  copy: false
   # ...
 share:
   enable: true
@@ -53,14 +45,8 @@ comment:
   # ...
 library:
   css:
-    # someCSS = "some.css"
-    # 位于 "assets/"
-    # 或者
     # someCSS = "https://cdn.example.com/some.css"
   js:
-    # someJS = "some.js"
-    # 位于 "assets/"
-    # 或者
     # someJS = "https://cdn.example.com/some.js"
 seo:
   images: []

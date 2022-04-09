@@ -4,8 +4,6 @@ subtitle: "一本献给自由精神的书"
 date: 2022-03-12T22:18:00+08:00
 weight:
 lastmod: 
-author: "Lucas"
-authorLink: "https://github.com/Lucas-0"
 description: "" # 首页
 summary: ""
 license: ""
@@ -25,10 +23,10 @@ featuredImagePreview: ""
 
 hiddenFromHomePage: true
 hiddenFromSearch: false
-twemoji: false
-lightgallery: true
+twemoji: true
+lightgallery: false
 ruby: true
-fraction: true
+fraction: false
 fontawesome: true
 linkToMarkdown: false
 rssFullText: false
@@ -36,15 +34,6 @@ rssFullText: false
 toc:
   enable: true
   auto: true
-code:
-  copy: true
-  # ...
-math:
-  enable: false
-  # ...
-mapbox:
-  accessToken: ""
-  # ...
 share:
   enable: true
   # ...
@@ -53,14 +42,8 @@ comment:
   # ...
 library:
   css:
-    # someCSS = "some.css"
-    # 位于 "assets/"
-    # 或者
     # someCSS = "https://cdn.example.com/some.css"
   js:
-    # someJS = "some.js"
-    # 位于 "assets/"
-    # 或者
     # someJS = "https://cdn.example.com/some.js"
 seo:
   images: []

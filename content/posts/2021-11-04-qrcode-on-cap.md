@@ -5,8 +5,6 @@ date: 2021-11-04T23:10:26+08:00
 weight: 
 lastmod: 
 draft: 
-author: "Lucas"
-authorLink: "https://github.com/Lucas-0"
 description: ""
 summary: ""
 license: ""
@@ -26,26 +24,17 @@ featuredImagePreview: "https://ae04.alicdn.com/kf/Hee932077031b447f8368958020c9b
 
 hiddenFromHomePage: true
 hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
+twemoji: true
+lightgallery: false
+ruby: false
+fraction: false
+fontawesome: false
 linkToMarkdown: false
 rssFullText: false
 
 toc:
   enable: false
   auto: true
-code:
-  copy: true
-  # ...
-math:
-  enable: true
-  # ...
-mapbox:
-  accessToken: ""
-  # ...
 share:
   enable: true
   # ...
@@ -54,14 +43,8 @@ comment:
   # ...
 library:
   css:
-    # someCSS = "some.css"
-    # 位于 "assets/"
-    # 或者
     # someCSS = "https://cdn.example.com/some.css"
   js:
-    # someJS = "some.js"
-    # 位于 "assets/"
-    # 或者
     # someJS = "https://cdn.example.com/some.js"
 seo:
   images: []

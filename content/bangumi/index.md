@@ -7,7 +7,15 @@ toc:
 comment: 
   enable: true
 date: 2020-04-06T12:31:20+08:00
-lastmod: 2020-04-06T12:31:20+08:00
+hiddenFromHomePage: true
+hiddenFromSearch: false
+twemoji: true
+lightgallery: false
+ruby: false
+fraction: false
+fontawesome: false
+linkToMarkdown: false
+rssFullText: false
 ---
 
 <p style="text-align:center"><font size="5">Lucas觉得很赞🔽</font></p>

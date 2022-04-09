@@ -5,8 +5,6 @@ date: 2021-12-31T23:59:59+08:00
 weight: 
 lastmod: 
 draft: 
-author: "Lucas"
-authorLink: "https://github.com/Lucas-0"
 description: "以及《安娜•卡列尼娜》书摘。"
 summary: ""
 license: ""
@@ -26,10 +24,10 @@ featuredImagePreview: ""
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
+twemoji: true
+lightgallery: false
+ruby: false
+fraction: false
 fontawesome: true
 linkToMarkdown: false
 rssFullText: false
@@ -37,15 +35,6 @@ rssFullText: false
 toc:
   enable: false
   auto: true
-code:
-  copy: true
-  # ...
-math:
-  enable: true
-  # ...
-mapbox:
-  accessToken: ""
-  # ...
 share:
   enable: true
   # ...
@@ -54,14 +43,8 @@ comment:
   # ...
 library:
   css:
-    # someCSS = "some.css"
-    # 位于 "assets/"
-    # 或者
     # someCSS = "https://cdn.example.com/some.css"
   js:
-    # someJS = "some.js"
-    # 位于 "assets/"
-    # 或者
     # someJS = "https://cdn.example.com/some.js"
 seo:
   images: []

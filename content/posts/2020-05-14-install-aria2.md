@@ -3,13 +3,11 @@ title: "linux 下安装 aria2 及自动上传到 OneDrive"
 comment:
   enable: true
 date: 2020-05-14T15:19:15+08:00
-draft: true
 categories: ["Guide"]
 tags: ["aria2","OneDrive"]
 featuredImagePreview: "https://ae01.alicdn.com/kf/H4d19504c54fe4ff7917598e3e4c3d92fY.png" #20200630184152.jpg
 toc: true
 expiryDate: 2021-04-26T09:47:26+08:00
-lastmod: 2020-05-14T15:19:15+08:00
 summary: "在 ECS 使用 aria2 下载与没有公网 IP 的 PC 相比有一定优势，但是 Lucas 所用的阿里云的小水管下载有 100 MB ，上传只有 1 MB，取回下好的东西还要漫长的等待。本文即为解决这一问题而写。"
 hiddenFromHomePage: true
 ---
@@ -37,12 +35,8 @@ hiddenFromHomePage: true
 [一个好用的OneDrive网盘上传工具，支持文件和文件夹上传](https://www.moerats.com/archives/1006/)
 
 [使用Aira2下载文件后自动上传到Google Drive网盘](https://www.moerats.com/archives/482/)
-
-&nbsp;&nbsp;
-
-
-&nbsp;&nbsp;
-
+    
+    
 ## 安装 aria2  ##
 
 推荐在宝塔下进行操作。[➡前往宝塔](https://www.bt.cn/)

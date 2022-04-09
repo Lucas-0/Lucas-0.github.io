@@ -3,10 +3,7 @@ title: "溺死的巨人"
 subtitle: ""
 date: 2021-05-15T11:28:26+08:00
 weight: 
-lastmod: # 2020-03-04T15:58:26+08:00
 draft: false
-author: "Lucas"
-authorLink: "https://github.com/Lucas-0"
 description: "Love, Death & Robots Season 2 Episode 8"
 summary: ""
 license: ""
@@ -26,26 +23,17 @@ featuredImagePreview: "https://ae01.alicdn.com/kf/Hc3e47bdd384944e989a70deab0007
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
+twemoji: true
+lightgallery: false
+ruby: false
+fraction: false
+fontawesome: false
 linkToMarkdown: false
 rssFullText: false
 
 toc:
   enable: false
   auto: true
-code:
-  copy: true
-  # ...
-math:
-  enable: true
-  # ...
-mapbox:
-  accessToken: ""
-  # ...
 share:
   enable: true
   # ...
@@ -54,14 +42,8 @@ comment:
   # ...
 library:
   css:
-    # someCSS = "some.css"
-    # 位于 "assets/"
-    # 或者
     # someCSS = "https://cdn.example.com/some.css"
   js:
-    # someJS = "some.js"
-    # 位于 "assets/"
-    # 或者
     # someJS = "https://cdn.example.com/some.js"
 seo:
   images: []

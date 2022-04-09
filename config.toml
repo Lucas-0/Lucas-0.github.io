@@ -138,8 +138,8 @@ enableEmoji = true
           enable = true
           # Gravatar 邮箱，用于优先在主页显示的头像
           gravatarEmail = ""
-          # 主页显示头像的 URL /images/avatar.jpg
-          avatarURL = "https://ae05.alicdn.com/kf/H4ca540d093a148569a5f9bb49f3cc2e3h.png"
+          # 主页显示头像的 URL https://ae05.alicdn.com/kf/H4ca540d093a148569a5f9bb49f3cc2e3h.png
+          avatarURL = "/images/avatar.png"
           # 主页显示的网站标题 (支持 HTML 格式)
           title = "Lucas"
           # 主页显示的网站副标题
@@ -339,13 +339,13 @@ enableEmoji = true
     lightgallery = false
     # whether to enable the ruby extended syntax
     # 是否使用 ruby 扩展语法
-    ruby = true
+    ruby = false
     # whether to enable the fraction extended syntax
     # 是否使用 fraction 扩展语法
-    fraction = true
+    fraction = false
     # whether to enable the fontawesome extended syntax
     # 是否使用 fontawesome 扩展语法
-    fontawesome = true
+    fontawesome = false
     # whether to show link to Raw Markdown content of the content
     # 是否显示原始 Markdown 文档内容的链接
     linkToMarkdown = false
@@ -357,7 +357,7 @@ enableEmoji = true
     [params.page.toc]
       # whether to enable the table of the contents
       # 是否使用目录
-      enable = true
+      enable = false
       # whether to keep the static table of the contents in front of the post
       # 是否保持使用文章前面的静态目录
       keepStatic = false
@@ -369,7 +369,7 @@ enableEmoji = true
     [params.page.code]
       # whether to show the copy button of the code block
       # 是否显示代码块的复制按钮
-      copy = true
+      copy = false
       # the maximum number of lines of displayed code by default
       # 默认展开显示的代码行数
       maxShownLines = 15
@@ -495,7 +495,7 @@ enableEmoji = true
         # 位于 "themes/LoveIt/assets/data/emoji/" 目录
         # 可以在你的项目下相同路径存放你自己的数据文件:
         # "assets/data/emoji/"
-        emoji = ""
+        emoji = "twitter.yml"
       # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
       # Facebook 评论系统设置 (https://developers.facebook.com/docs/plugins/comments)
       [params.page.comment.facebook]

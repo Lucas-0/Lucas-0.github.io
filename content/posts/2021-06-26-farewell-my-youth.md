@@ -5,8 +5,6 @@ date: 2021-06-26T21:04:04+08:00
 weight: 
 lastmod: 
 draft: true
-author: "Lucas"
-authorLink: "https://github.com/Lucas-0"
 description: ""
 summary: ""
 license: ""
@@ -26,26 +24,17 @@ featuredImagePreview: ""
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
+twemoji: true
+lightgallery: false
+ruby: false
+fraction: false
+fontawesome: false
 linkToMarkdown: false
 rssFullText: false
 
 toc:
   enable: true
   auto: true
-code:
-  copy: true
-  # ...
-math:
-  enable: true
-  # ...
-mapbox:
-  accessToken: ""
-  # ...
 share:
   enable: true
   # ...

@@ -2,11 +2,8 @@
 title: "帕岛通讯"
 subtitle: ""
 date: 2021-03-27T14:25:26+08:00
-lastmod: 2021-03-27T14:25:26+08:00
 draft: false
-author: "Lucas"
-authorLink: "https://github.com/Lucas-0"
-description: "一些已经不再重要的细节"
+description: "一些已经不再重要的细节。"
 summary: ""
 license: ""
 # 移动端网页链接的图片
@@ -25,26 +22,17 @@ featuredImagePreview: "https://ae05.alicdn.com/kf/H8d4b9b6d4a2e4812b72810092cf22
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
+twemoji: true
+lightgallery: false
+ruby: false
+fraction: false
+fontawesome: false
 linkToMarkdown: false
 rssFullText: false
 
 toc:
   enable: false
   auto: true
-code:
-  copy: true
-  # ...
-math:
-  enable: true
-  # ...
-mapbox:
-  accessToken: ""
-  # ...
 share:
   enable: true
   # ...
@@ -53,14 +41,8 @@ comment:
   # ...
 library:
   css:
-    # someCSS = "some.css"
-    # 位于 "assets/"
-    # 或者
     # someCSS = "https://cdn.example.com/some.css"
   js:
-    # someJS = "some.js"
-    # 位于 "assets/"
-    # 或者
     # someJS = "https://cdn.example.com/some.js"
 seo:
   images: []

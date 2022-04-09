@@ -5,8 +5,6 @@ date: 2021-11-11T21:11:26+08:00
 weight: 
 lastmod: 
 draft: false
-author: "Lucas"
-authorLink: "https://github.com/Lucas-0"
 description: ""
 summary: ""
 license: ""
@@ -26,11 +24,11 @@ featuredImagePreview: ""
 
 hiddenFromHomePage: true
 hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
+twemoji: true
+lightgallery: false
+ruby: false
+fraction: false
+fontawesome: false
 linkToMarkdown: false
 rssFullText: false
 
@@ -40,13 +38,6 @@ toc:
 code:
   copy: true
   maxShownLines: 150
-  # ...
-math:
-  enable: true
-  # ...
-mapbox:
-  accessToken: ""
-  # ...
 share:
   enable: true
   # ...
@@ -55,14 +46,8 @@ comment:
   # ...
 library:
   css:
-    # someCSS = "some.css"
-    # 位于 "assets/"
-    # 或者
     # someCSS = "https://cdn.example.com/some.css"
   js:
-    # someJS = "some.js"
-    # 位于 "assets/"
-    # 或者
     # someJS = "https://cdn.example.com/some.js"
 seo:
   images: []

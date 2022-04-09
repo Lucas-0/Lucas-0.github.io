@@ -5,8 +5,6 @@ date: 2021-06-17T20:28:30+08:00
 weight: 
 lastmod: 
 draft: false
-author: "Lucas"
-authorLink: "https://github.com/Lucas-0"
 description: "发现了一个有意思的艺术家。"
 summary: ""
 license: ""
@@ -26,10 +24,10 @@ featuredImagePreview: "https://ae05.alicdn.com/kf/H41ab10402956410183edc01371818
 
 hiddenFromHomePage: true
 hiddenFromSearch: false
-twemoji: false
+twemoji: true
 lightgallery: true
-ruby: true
-fraction: true
+ruby: false
+fraction: false
 fontawesome: true
 linkToMarkdown: false
 rssFullText: false
@@ -37,15 +35,6 @@ rssFullText: false
 toc:
   enable: false
   auto: true
-code:
-  copy: true
-  # ...
-math:
-  enable: true
-  # ...
-mapbox:
-  accessToken: ""
-  # ...
 share:
   enable: true
   # ...

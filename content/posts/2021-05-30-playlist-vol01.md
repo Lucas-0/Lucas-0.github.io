@@ -3,10 +3,7 @@ title: "曲中有真意VOL 01"
 subtitle: "Keep on moving."
 date: 2021-05-30T00:22:26+08:00
 weight: 
-lastmod: # 2020-03-04T15:58:26+08V:00
 draft: false
-author: "Lucas"
-authorLink: "https://github.com/Lucas-0"
 description: "摸鱼快乐。"
 summary: ""
 license: ""
@@ -26,26 +23,17 @@ featuredImagePreview: "https://ae04.alicdn.com/kf/H74c497a5093a4a3b8157fd32f2ee6
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
+twemoji: true
+lightgallery: false
+ruby: false
+fraction: false
+fontawesome: false
 linkToMarkdown: false
 rssFullText: false
 
 toc:
   enable: false
   auto: true
-code:
-  copy: true
-  # ...
-math:
-  enable: true
-  # ...
-mapbox:
-  accessToken: ""
-  # ...
 share:
   enable: true
   # ...
@@ -54,14 +42,8 @@ comment:
   # ...
 library:
   css:
-    # someCSS = "some.css"
-    # 位于 "assets/"
-    # 或者
     # someCSS = "https://cdn.example.com/some.css"
   js:
-    # someJS = "some.js"
-    # 位于 "assets/"
-    # 或者
     # someJS = "https://cdn.example.com/some.js"
 seo:
   images: []
@@ -85,7 +67,7 @@ seo:
 
    第一首歌我选择了对己而言具有特殊意义的，麦莉的*The Climb*。这首歌曾在我高中最灰暗的时刻给予我精神上的支持，自己如同歌中的旅者，即便充满了疲惫与失望，即便可能永远登不上那座山峰，依然要不断前行，因为这就是攀登的意义。
 </br></br>
-2. 乙女どもよ。 ——  CHiCO with HoneyWorks
+1. 乙女どもよ。 ——  CHiCO with HoneyWorks
 
    {{< music netease song 1380438579 >}}
 

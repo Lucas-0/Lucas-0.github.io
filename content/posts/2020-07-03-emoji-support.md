@@ -1,7 +1,6 @@
 ---
 title: "Emoji 支持"
 date: 2020-07-03T08:55:28+08:00
-lastmod: 
 draft: false
 description: "Hugo 和 LoveIt 中的 Emoji 的用法指南."
 featuredImagePreview: "https://ae01.alicdn.com/kf/H2df0f844c0da4280b9ef6ac140ddf400v.png" #20200406213005.jpg
@@ -10,16 +9,20 @@ tags: ["emoji"]
 categories: ["Guide"]
 hiddenFromHomePage: true
 
-lightgallery: true
+toc:
+  enable: true
+  auto: true
+lightgallery: false
+twemoji: true
 ---
 
 <!--more-->   
 
-​    
+---
 
 转载自示例文档.
 
-***
+---
 
 ​    
 

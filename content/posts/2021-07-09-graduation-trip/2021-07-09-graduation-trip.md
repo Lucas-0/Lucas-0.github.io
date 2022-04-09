@@ -5,8 +5,6 @@ date: 2021-07-13T17:29:39+08:00
 weight: 
 lastmod: 
 draft: false
-author: "Lucas"
-authorLink: "https://github.com/Lucas-0"
 description: "四人の旅出。"
 summary: ""
 license: ""
@@ -38,10 +36,10 @@ toc:
   enable: true
   auto: false
 code:
-  copy: true
+  copy: false
   # ...
 math:
-  enable: true
+  enable: false
   # ...
 share:
   enable: true
@@ -51,14 +49,8 @@ comment:
   # ...
 library:
   css:
-    # someCSS = "some.css"
-    # 位于 "assets/"
-    # 或者
     # someCSS: "https://cdn.jsdelivr.net/combine/npm/lightgallery.js@1.4.0/dist/css/lg-fb-comment-box.min.css,npm/lightgallery.js@1.4.0/dist/css/lg-transitions.min.css,npm/lightgallery.js@1.4.0/dist/css/lightgallery.min.css"
   js:
-    # someJS = "some.js"
-    # 位于 "assets/"
-    # lazysizesJS: "https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"
     # lightgallery: "https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.1-beta.0/dist/js/lightgallery.min.js"
 seo:
   images: []

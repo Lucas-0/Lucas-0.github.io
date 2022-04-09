@@ -4,8 +4,6 @@ subtitle: "——旧文搬运"
 date: 2020-07-05T00:50:26+08:00
 lastmod: 
 draft: false
-author: "Lucas"
-authorLink: "https://github.com/Lucas-0"
 description: "「只要你还没变得幸福，无论多少次，我都会从各种不同的未来回来帮你。」</br>「所以请你死心，让自己变得幸福吧。」"
 summary: ""
 license: ""
@@ -25,10 +23,10 @@ featuredImagePreview: "https://ae02.alicdn.com/kf/He29857ff4f724c9d813d914293600
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
+twemoji: true
+lightgallery: false
+ruby: false
+fraction: false
 fontawesome: true
 linkToMarkdown: false
 rssFullText: false
