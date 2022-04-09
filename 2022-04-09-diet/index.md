@@ -7,7 +7,7 @@
 如果能知道终端号对应的食堂窗口，统计出我最喜爱的食堂就好了，可惜算不得。
 
 ---
-<div id="container" style='width: 45rem; height: 35rem;'></div>
+<div id="container" style='width: 800px; height: 35rem;'></div>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5.3.1/dist/echarts.min.js"></script>
 <script type="text/javascript">
 var dom = document.getElementById("container");
