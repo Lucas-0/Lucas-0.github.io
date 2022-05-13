@@ -49,9 +49,7 @@ comment:
   # ...
 library:
   css:
-    # someCSS: "https://cdn.jsdelivr.net/combine/npm/lightgallery.js@1.4.0/dist/css/lg-fb-comment-box.min.css,npm/lightgallery.js@1.4.0/dist/css/lg-transitions.min.css,npm/lightgallery.js@1.4.0/dist/css/lightgallery.min.css"
   js:
-    # lightgallery: "https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.1-beta.0/dist/js/lightgallery.min.js"
 seo:
   images: []
   # ...

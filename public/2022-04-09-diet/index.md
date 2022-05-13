@@ -8,7 +8,7 @@
 
 ---
 <div id="container" style='width: 100%; height: 35rem;'></div>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5.3.1/dist/echarts.min.js"></script>
+<script type="text/javascript" src="https://npm.elemecdn.com/echarts@5.3.1/dist/echarts.min.js"></script>
 <script type="text/javascript">
 var dom = document.getElementById("container");
 var app = {};
