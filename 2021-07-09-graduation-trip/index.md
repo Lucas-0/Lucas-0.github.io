@@ -130,7 +130,7 @@ map.on('load', () => {
 ### day0 出发 追太阳的孩子
 坐地铁到大兴机场。飞机在雾中起飞，窗外除了机翼什么也看不见。不久飞机冲破云层，蓝天重新出现。身侧有金色的夕照相伴，旅行的精神终于振作起来。
 
-{{< image src="https://ae02.alicdn.com/kf/H536099bbb4134bf5ae93af24374c78990.png" src_s="https://pic.rmb.bdstatic.com/bjh/b47c3596136653cc490550ff7230d0e1.jpeg" alt="20210712214124.jpg" caption="gogogo" title=" " >}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/07b7a620f376614b3050cf4b7cf95d21.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/b47c3596136653cc490550ff7230d0e1.jpeg" alt="20210712214124.jpg" caption="gogogo" title=" " >}}
 
 
 临落地西宁，天低地远，大地千沟万壑，起伏不定。在机场出口，一行四人会合。在停车场的时候，骤然下起豆大的雨来，这天气的脾气和南方颇为相似。
@@ -212,15 +212,15 @@ map.on('load', () => {
 
 我们乘小火车在第一站下车，决定在各个小湖间随意行走直到出口。在龟裂的土地和结晶盐上行走需要一双舒适的鞋子，鞋底最好厚一些，便于趟过浅水处。我们就上演了一出当代小马过河。
 
-{{< image src="https://ae03.alicdn.com/kf/H68a51c1da5484f81aecf62858e63cd98y.png" src_s="https://pic.rmb.bdstatic.com/bjh/68a97288d4658002320879824686cee2.jpeg" alt="20210712221840.jpg" caption="Untitled Picture" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/a74d9982697d59f71fa7b38370317349.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/68a97288d4658002320879824686cee2.jpeg" alt="20210712221840.jpg" caption="Untitled Picture" title=" ">}}
 
 西北的天气变幻无常，即便是晴天，头顶的云也可能突然下起雨来。
 
-{{< image src="https://ae03.alicdn.com/kf/He8284b799f934461a09a9e5ac2cfc770t.png" src_s="https://pic.rmb.bdstatic.com/bjh/3dc97eb6fd902bbd4defec11b0f6e0c0.jpeg" alt="20210712221859.jpg" caption="雨云" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/43f032a5009f03a9f4d17a5bd363e68e.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/3dc97eb6fd902bbd4defec11b0f6e0c0.jpeg" alt="20210712221859.jpg" caption="雨云" title=" ">}}
 
 ---
 
-{{< image src="https://ae01.alicdn.com/kf/H7fcc0d100c784ea6873c2e3bac80b989S.png" src_s="https://pic.rmb.bdstatic.com/bjh/e07d2e48c639f6647744fc33f1a05efb.jpeg" alt="20210712221932.jpg" caption="蓝色湖水" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/c4fbfd71b08e52431dca8b482692078b.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/e07d2e48c639f6647744fc33f1a05efb.jpeg" alt="20210712221932.jpg" caption="蓝色湖水" title=" ">}}
 
 走走停停，离出口还有1000m时，头顶突然下起大雨，甚至夹杂着小冰雹，瞬间激发了我的高原血统，冲刺怎么说冲刺:running_man:。狼狈到了出口雨就停了，真是来得快去得也快。
 
@@ -233,7 +233,7 @@ map.on('load', () => {
 
 九点多的时候路过小柴旦湖，波光粼粼，芳草萋萋，算是意外之喜。
 
-{{< image src="https://ae04.alicdn.com/kf/H4d1223f8ffd3411894e741176ac07b95P.png" src_s="https://pic.rmb.bdstatic.com/bjh/82288b85e755bed8e4d4f913aafdc133.jpeg" alt="20210712222004.jpg" caption="小柴旦湖" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/d4e702cc0e0509e9682785fa6a726db7.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/82288b85e755bed8e4d4f913aafdc133.jpeg" alt="20210712222004.jpg" caption="小柴旦湖" title=" ">}}
 
 过了小柴旦湖就上了G315。20分钟后看见一条干枯的河床，通体浅红色，司机说叫做大地之血，已经干涸了两年多。下车拍照，玩了会无人机。如果有水的话这地方可以多看几眼，没水就算了。
 
@@ -383,52 +383,52 @@ G30从敦煌到嘉峪关，路上风光一般，都是些东部寻常景色或�
 
 ---
 
-{{< image src="https://ae02.alicdn.com/kf/H83203c9ebd234aa4a5599dffdf9d936bP.png" src_s="https://pic.rmb.bdstatic.com/bjh/8439ce681199fad0495dcac51ea9f334.jpeg" alt="20210712225254.jpg" caption="Untitled Picture" title=" " >}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/da89b51244c2f602b575d6a2fc023af2.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/8439ce681199fad0495dcac51ea9f334.jpeg" alt="20210712225254.jpg" caption="Untitled Picture" title=" " >}}
 
 ---
 
-{{< image src="https://ae01.alicdn.com/kf/Hc7db54e78dc345ebb2935b61da5a29c7N.png" src_s="https://pic.rmb.bdstatic.com/bjh/88aa2f8ae92d5e3d8bffd7668f3589b7.jpeg" alt="20210712225603.jpg" caption="Untitled Picture" title=" " >}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/79712c36fa91d692a2480727cdc35ccb.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/88aa2f8ae92d5e3d8bffd7668f3589b7.jpeg" alt="20210712225603.jpg" caption="Untitled Picture" title=" " >}}
 
 ---
 
-{{< image src="https://ae01.alicdn.com/kf/H4f09973347644550b17086e9d8203afax.png" src_s="https://pic.rmb.bdstatic.com/bjh/35a2e393bc6a02bc4e629ca1150bf024.jpeg" alt="20210712225818.jpg" caption="Untitled Picture" title=" " >}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/621f440e195d6bda2b6ad6b019df7ebb.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/35a2e393bc6a02bc4e629ca1150bf024.jpeg" alt="20210712225818.jpg" caption="Untitled Picture" title=" " >}}
 
 落日后离开。
 
-{{< image src="https://ae04.alicdn.com/kf/Hcbdd3b820ce0461884df3e363153a1a0Z.png" src_s="https://pic.rmb.bdstatic.com/bjh/de109205706cdc763e77feb0fd841a1b.jpeg" alt="20210712225834.jpg" caption="Untitled Picture" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/e4b672564742a2eda0e9dd89892a98a1.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/de109205706cdc763e77feb0fd841a1b.jpeg" alt="20210712225834.jpg" caption="Untitled Picture" title=" ">}}
 
 ### day7 天青色
 今天要前往祁连县，走227国道先驱车2h至**扁都口**，入口处海拔2820m。地处河西走廊，景色翠绿像是到了南方。
 
-{{< image src="https://ae04.alicdn.com/kf/Hd2fbe123523841e4a3af970236a1a1eaN.png" src_s="https://pic.rmb.bdstatic.com/bjh/67e91e8a439bc174aa027d98ae154bbd.jpeg" alt="20210712225909.jpg" caption="扁都口" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/3e953b961ad5063f2ff423d156d35fa0.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/67e91e8a439bc174aa027d98ae154bbd.jpeg" alt="20210712225909.jpg" caption="扁都口" title=" ">}}
 
 ---
 
-{{< image src="https://ae03.alicdn.com/kf/H6109b378815948bf95312c1be71e9bef1.png" src_s="https://pic.rmb.bdstatic.com/bjh/f77c56ae7a1571ee53978ca34d105903.jpeg" alt="20210712230033.jpg" caption="青山" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/8942aabac10b1bf179005983319b51ba.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/f77c56ae7a1571ee53978ca34d105903.jpeg" alt="20210712230033.jpg" caption="青山" title=" ">}}
 
 ---
 
-{{< image src="https://ae03.alicdn.com/kf/H6e592b5846644b59ab8abd63a8d8de67m.png" src_s="https://pic.rmb.bdstatic.com/bjh/297d1400e96c8ff1b3daa91dda601f30.jpeg" alt="20210712230103.jpg" caption="亮晶晶的水洼" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/34a5b3dcbde8fcef7fb0f3617f62d53f.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/297d1400e96c8ff1b3daa91dda601f30.jpeg" alt="20210712230103.jpg" caption="亮晶晶的水洼" title=" ">}}
 
 翻越祁连山脉的公路在海拔3000m以上，足足开了一个多小时。和缓的山间平原是极佳的牧场，有数量极多的牦牛和羊。这段公路景色极美，有绿水青山，和风煦日，我同样将其评为绝对不能打瞌睡的路段。
 
-{{< image src="https://ae04.alicdn.com/kf/H4495f13004f347598f039e8769aa820dp.png" src_s="https://pic.rmb.bdstatic.com/bjh/32aa2eede31aef42ad6a248a00f6d7e8.jpeg" alt="20210712230221.jpg" caption="牧牦牛" title="🐂" >}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/ce73d692adcc688eafc3768ff226dda1.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/32aa2eede31aef42ad6a248a00f6d7e8.jpeg" alt="20210712230221.jpg" caption="牧牦牛" title="🐂" >}}
 
 ---
 
-{{< image src="https://ae03.alicdn.com/kf/H5c2d8ea5641046c7bdf902ad78a11fe6O.png" src_s="https://pic.rmb.bdstatic.com/bjh/644229245c2f0ccc12a438b9e5bda75e.jpeg" alt="20210712230404.jpg" caption="牧羊，橘色油漆是为了标记自家的羊" title="🐐">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/49666d9a007da16ab320b5d66649270b.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/644229245c2f0ccc12a438b9e5bda75e.jpeg" alt="20210712230404.jpg" caption="牧羊，橘色油漆是为了标记自家的羊" title="🐐">}}
 
 阿柔大寺——当地一个部落自己修建的寺庙，没啥好看的，不过票价很便宜，买不了吃亏买不了上当，就当支持民族团结了。
 
 离开阿柔大寺的路也极美，郁郁葱葱的树木极多。回到青海东部以后，景色漂亮多了，相比之下张掖真是不毛之地。
 
-{{< image src="https://ae02.alicdn.com/kf/Hed8d6a160cc446aeb20d9c52d283d69dW.png" src_s="https://pic.rmb.bdstatic.com/bjh/7417434402f596939cb6fd5af5c82d50.jpeg" alt="20210712230600.jpg" caption="一面长树一面长草" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/f3e3cc42e5479dbb3389e1a9619176a5.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/7417434402f596939cb6fd5af5c82d50.jpeg" alt="20210712230600.jpg" caption="一面长树一面长草" title=" ">}}
 
 到了祁连县城，被两山夹住的一个条状小城，一条主干道贯通全县，挺整洁漂亮的小城，我很喜欢。中午吃了当地评分第一的一家土火锅，很赞，厨子终于争气一回。
 
 住在卓尔山下的村子——拉洞台村。在此之前我没有听过卓尔山的名字，它却成为了我此行**最大的惊喜**。山不高，我们打算看完日落去市区吃晚饭，所以特意六点才出发。出门时天空下着蒙蒙细雨，从入口乘小巴车到山上的观景平台，然后步行沿栈道上山。山上风很大，兼之下雨的缘故，很有些冷。
 
-{{< image src="https://ae03.alicdn.com/kf/He72dfcde78e945059e8eca3b0d406cf2C.png" src_s="https://pic.rmb.bdstatic.com/bjh/9cc3fb30c34fe59e0bc774d9a78c3c3a.jpeg" alt="20210712231156.jpg" caption="雨中上山" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/ca3920ff706d98d819f46d590b56acf5.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/9cc3fb30c34fe59e0bc774d9a78c3c3a.jpeg" alt="20210712231156.jpg" caption="雨中上山" title=" ">}}
 
 接近七点钟，到了山顶的烽火台四望，天空仍是灰蒙蒙的，无趣的景象，我想这无名小山便是如此了。为时尚早，我们决定继续往另一侧走走，事实证明这是此行最为正确的决定。
 
@@ -438,11 +438,11 @@ G30从敦煌到嘉峪关，路上风光一般，都是些东部寻常景色或�
 
 ---
 
-{{< image src="https://ae03.alicdn.com/kf/H9bd1a5790ff248008bd4b76080978e7e2.png" src_s="https://pic.rmb.bdstatic.com/bjh/95c6756aaf70834ead0895efac10c236.jpeg" alt="20210712231023.jpg" caption="栈道下全是兔子窝" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/9b90ca7e5c2195d2f8a31dbe375b4deb.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/95c6756aaf70834ead0895efac10c236.jpeg" alt="20210712231023.jpg" caption="栈道下全是兔子窝" title=" ">}}
 
 ---
 
-{{< image src="https://ae02.alicdn.com/kf/H55e7e44fbcdf42e9bc6f7defa284cd2c3.png" src_s="https://pic.rmb.bdstatic.com/bjh/afd97134a708891d42fab55a85007599.jpeg" alt="20210712231038.jpg" caption="阿咪东索山" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/c5b9d93c686f751ce7aec69b78d36b55.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/afd97134a708891d42fab55a85007599.jpeg" alt="20210712231038.jpg" caption="阿咪东索山" title=" ">}}
 
 照片左侧的是阿咪东索山，相传其与脚下的卓尔山是一对恋人。往回走看见山坡上有一群羊正在吃草。又走几步看见一只野兔，褐色的皮毛，尾巴上有一撮白毛。我想起以前看到一种说法，捉野兔要把它从山上往下赶，因为野兔后腿发力，速度比前腿更快，下山会翻跟头。我忍不住想实践一下，结果一靠近，野兔直接迅捷步伐跑得没影。回头时发现了另一只更肥的野兔，我恍然大悟，恐怕这栈道下面有兔子窝，也就解释了为什么附近的草地上有那么多一粒一粒的黑色的兔子粪便。
 
@@ -450,31 +450,31 @@ G30从敦煌到嘉峪关，路上风光一般，都是些东部寻常景色或�
 
 ---
 
-{{< image src="https://ae04.alicdn.com/kf/H2f138743a31445278a19e1a434b272a14.png" src_s="https://pic.rmb.bdstatic.com/bjh/fed88f3cf00dc07bba1bffb6020560ec.jpeg" alt="20210712231123.jpg" caption="另一只野兔" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/0dcdee9a6c53bb83c088219f7b44b9f4.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/fed88f3cf00dc07bba1bffb6020560ec.jpeg" alt="20210712231123.jpg" caption="另一只野兔" title=" ">}}
 
 经过这一通折腾，太阳已经全然从云后露出了，阳光普照下，卓尔山显示出惊人的美。绵延的山丘覆盖着一层诱人的绿，斜照的阳光勾勒出错落有致的阴影，湛蓝的天空上浮动着乳白色的流云。
 
-{{< image src="https://ae02.alicdn.com/kf/H9f687180bce34fefb1f3c11bfcf27275Y.png" src_s="https://pic.rmb.bdstatic.com/bjh/03256a7bbdb634e7e6075f4252e3a17c.jpeg" alt="20210712231225.jpg" caption="Untitled Picture" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/de0f9052bf8268316e87715fed47bad8.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/03256a7bbdb634e7e6075f4252e3a17c.jpeg" alt="20210712231225.jpg" caption="Untitled Picture" title=" ">}}
 
 ---
 
-{{< image src="https://ae03.alicdn.com/kf/Hab91da79246e45a4ab71e301ad7486ed0.png" src_s="https://pic.rmb.bdstatic.com/bjh/24164c7157aa4e04ea1f05d395dda610.jpeg" alt="20210712231255.jpg" caption="旺盛生长的草" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/c30ff5f1bc9a3d9353f855a6b286f838.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/24164c7157aa4e04ea1f05d395dda610.jpeg" alt="20210712231255.jpg" caption="旺盛生长的草" title=" ">}}
 
 ---
 
-{{< image src="https://ae04.alicdn.com/kf/Hedfac8ce33df4a679dca82cc7fcd5fdcc.png" src_s="https://pic.rmb.bdstatic.com/bjh/c048a8cf3c18e56440bec3b7f5fee331.jpeg" alt="20210712231315.jpg" caption="路标" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/86537d92c0b89d48f67f8a7a8d83758f.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/c048a8cf3c18e56440bec3b7f5fee331.jpeg" alt="20210712231315.jpg" caption="路标" title=" ">}}
 
 ---
 
-{{< image src="https://ae04.alicdn.com/kf/Ha7e2c1d3d0a149e685e4d9308ffcdb960.png" src_s="https://pic.rmb.bdstatic.com/bjh/576e6566dc1c9dc5ef479261deee328f.jpeg" alt="20210712231340.jpg" caption="玻璃门上的虚假太阳" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/ab3a462d394001833082338e1c50938b.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/576e6566dc1c9dc5ef479261deee328f.jpeg" alt="20210712231340.jpg" caption="玻璃门上的虚假太阳" title=" ">}}
 
 ---
 
-{{< image src="https://ae01.alicdn.com/kf/H391e5b10012349e086ab660d4ab1255eA.png" src_s="https://pic.rmb.bdstatic.com/bjh/4ed96ba0085b35c9ade5f9e001f02ae5.jpeg" alt="20210712231404.jpg" caption="远眺" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/fa0769896760157cd5e8b212874850ff.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/4ed96ba0085b35c9ade5f9e001f02ae5.jpeg" alt="20210712231404.jpg" caption="远眺" title=" ">}}
 
 ---
 
-{{< image src="https://ae02.alicdn.com/kf/Hbf92ea66c55340f38f5568c24861f1cdq.png" src_s="https://pic.rmb.bdstatic.com/bjh/5d4d95e2b395a17b68ab46dd6064667f.jpeg" alt="20210712231423.jpg" caption="美到不真实的绿" title=" ">}}
+{{< image src="https://pic.rmb.bdstatic.com/bjh/af13126554a328050f66041c184bb6c4.jpeg" src_s="https://pic.rmb.bdstatic.com/bjh/5d4d95e2b395a17b68ab46dd6064667f.jpeg" alt="20210712231423.jpg" caption="美到不真实的绿" title=" ">}}
 
 ---
 
