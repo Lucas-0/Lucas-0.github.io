@@ -15,7 +15,7 @@ hiddenFromHomePage: true
 hiddenFromSearch: false
 
 featuredImage: ""
-featuredImagePreview: "https://ae05.alicdn.com/kf/Hd8dd57ccce9e4c22ae507738ff8fba48o.png" #20200406212944.jpg
+featuredImagePreview: "https://pic.rmb.bdstatic.com/bjh/6fe6465ac4df68b715b3d4be311a2dde.jpeg" #20200406212944.jpg
 
 toc:
   enable: true

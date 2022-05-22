@@ -17,9 +17,9 @@ publishDate:
 tags: ["动漫","杂谈"]
 categories: ["文化"]
 # 文章顶部照片20200705002307.jpg
-featuredImage: "https://ae04.alicdn.com/kf/H2ec64032b8ed410aa7149bbc85deb0aaF.png"
+featuredImage: "https://pic.rmb.bdstatic.com/bjh/3e9e89d70f548ba03a2f036aa99f1d45.jpeg"
 # 文章在首页的缩略图202111051709550.jpg
-featuredImagePreview: "https://ae02.alicdn.com/kf/He29857ff4f724c9d813d9142936006f8X.png"
+featuredImagePreview: "https://pic.rmb.bdstatic.com/bjh/ccc28376d89f5ac8b9d1cf1ad3bf5c7d.jpeg"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

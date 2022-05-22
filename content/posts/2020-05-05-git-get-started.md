@@ -4,7 +4,7 @@ date: 2020-05-05T21:18:40+08:00
 categories: ["Guide"]
 tags: ["git"]
 summary: "最近遇到了如何在电脑上的不同位置连接不同的远程仓库的问题，很多中文的 git 教程并没有涉及到这个问题，故将查阅到的办法整理为此文。"
-featuredImagePreview: "https://ae03.alicdn.com/kf/H4db40bc165e640c499a912c9d428bfd9I.png" #20200505212658.jpg
+featuredImagePreview: "https://pic.rmb.bdstatic.com/bjh/02ff00c5e8681bd8c7e2e07a799fd881.jpeg" #20200505212658.jpg
 
 hiddenFromHomePage: true
 toc:

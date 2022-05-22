@@ -3,7 +3,7 @@ title: "Emoji 支持"
 date: 2020-07-03T08:55:28+08:00
 draft: false
 description: "Hugo 和 LoveIt 中的 Emoji 的用法指南."
-featuredImagePreview: "https://ae01.alicdn.com/kf/H2df0f844c0da4280b9ef6ac140ddf400v.png" #20200406213005.jpg
+featuredImagePreview: "https://pic.rmb.bdstatic.com/bjh/a905c6adcee499865a49b9ffa4d41332.jpeg" #20200406213005.jpg
 
 tags: ["emoji"]
 categories: ["Guide"]

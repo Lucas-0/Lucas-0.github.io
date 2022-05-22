@@ -17,9 +17,9 @@ publishDate:
 tags: ["杂谈"]
 categories: ["文化"]
 # 文章顶部照片20210515111355.png
-featuredImage: "https://ae02.alicdn.com/kf/H56605e5ac38c4146af85c2545478bc73T.png"
+featuredImage: "https://pic.rmb.bdstatic.com/bjh/331ca6775a079c67317c1798840d9c6f.png"
 # 文章在首页的缩略图20210515111838.png
-featuredImagePreview: "https://ae01.alicdn.com/kf/Hc3e47bdd384944e989a70deab0007d62H.png"
+featuredImagePreview: "https://pic.rmb.bdstatic.com/bjh/5351ee7961f212b58504c458dfeccff5.png"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

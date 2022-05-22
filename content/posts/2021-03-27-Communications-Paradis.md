@@ -18,7 +18,7 @@ categories: ["文化"]
 # 文章顶部照片
 featuredImage: ""
 # 文章在首页的缩略图20210530225958.jpg
-featuredImagePreview: "https://ae05.alicdn.com/kf/H8d4b9b6d4a2e4812b72810092cf226beb.png"
+featuredImagePreview: "https://pic.rmb.bdstatic.com/bjh/e3c2129a82e9f521107ced0cbc298d6d.jpeg"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

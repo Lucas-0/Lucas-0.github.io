@@ -19,7 +19,7 @@ categories: ["生活"]
 # 文章顶部照片
 featuredImage: ""
 # 文章在首页的缩略图20210530225658.jpg
-featuredImagePreview: "https://ae01.alicdn.com/kf/H6a3dd14352bb4eadb49cefbe668a5f7fE.png"
+featuredImagePreview: "https://pic.rmb.bdstatic.com/bjh/849cf477f02e5645fdc5f7c62b9e5db9.jpeg"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

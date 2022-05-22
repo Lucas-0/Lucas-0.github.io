@@ -18,9 +18,9 @@ publishDate:
 tags: ["阅读","杂谈"]
 categories: ["文化"]
 # 文章顶部照片202108081730446.PNG
-featuredImage: "https://ae01.alicdn.com/kf/H62a4a75aad4540abab7bc56fbae2f4a6V.png"
+featuredImage: "https://pic.rmb.bdstatic.com/bjh/4e4607bd81ab84752fa80ee9d185c46a.png"
 # 文章在首页的缩略图202108081748991.png
-featuredImagePreview: "https://ae01.alicdn.com/kf/H41c3e20b6a384e9a8daaada5b28ab4004.png"
+featuredImagePreview: "https://pic.rmb.bdstatic.com/bjh/5f8b1c7f731a98fe6dc6447ba9002aa5.png"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
