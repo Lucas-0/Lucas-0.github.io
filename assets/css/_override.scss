@@ -11,6 +11,6 @@ $global-font-size: 18px;
 $global-font-weight: 400; //粗细
 $global-line-height: 1.75rem; //文本行的基线间的距离 原始1.5rem会让屏幕宽不够时h1重合
 h1{font-size:1.5em;} //原始为2em，会与行高1.5rem冲突，修改为1.5em
-$header-title-font-family: "Rock Salt", $global-font-family;
+$header-title-font-family: "Rock Salt", -apple-system, system-ui, sans-serif;
 // Color of the secondary text
 $global-font-secondary-color: #7d7d84;
