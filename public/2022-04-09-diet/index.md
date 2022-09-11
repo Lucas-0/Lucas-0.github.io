@@ -8,7 +8,7 @@
 
 ---
 <div id="container" style='width: 100%; height: 35rem;'></div>
-<script type="text/javascript" src="https://npm.elemecdn.com/echarts@5.3.1/dist/echarts.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.3.3/echarts.min.js"></script>
 <script type="text/javascript">
 var dom = document.getElementById("container");
 var app = {};
@@ -66,13 +66,14 @@ option = {
   },
   legend: {
     top: "5%",
-    left: '5%',
+    left: 'center',
     data: ['2017', '2018', '2019', '2020', '2021']
   },
   toolbox: {
-    orient: "horizontal",
+    orient: "vertical",
+    showTitle: false,
     top: "4%",
-    left: '70%',
+    // left: '70%',
     feature: {
       dataZoom: {
         yAxisIndex: 'none'
@@ -114,7 +115,7 @@ option = {
       // name: 'Amount /\n Yuan',
       nameLocation: 'end',
       nameTextStyle: {
-        padding: [0, 4, 20, 4]
+        padding: [0, 4, 10, 4]
       },
       alignTicks: true,
       splitNumber: 6

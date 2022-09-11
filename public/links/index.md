@@ -12,11 +12,11 @@
 
 ---
 
-<a href="/bangumi/"><img src="https://ae02.alicdn.com/kf/Hf03e0b78ece044c9a0590a6a1db1e01bb.png" title="看番" alt="20200406152156.png"><figcaption><center>[番剧](/bangumi/)</center></figcaption></a>
+<a href="/bangumi/"><img src="https://pic.rmb.bdstatic.com/bjh/94b8e424e313f6351b185f8f572ef271.png" title="看番" alt="20200406152156.png"><figcaption><center>[番剧](/bangumi/)</center></figcaption></a>
 
 </br>
 
-<a href="/movies/"><img src="https://ae02.alicdn.com/kf/Hd623edd19a1e41da956b175c25d24741J.png" title="电影" alt="20200406151840.jpg"><figcaption><center>[电影](/movies/)</center></figcaption></a>
+<a href="/movies/"><img src="https://pic.rmb.bdstatic.com/bjh/103b0b17072b757d090036daf0342271.jpeg" title="电影" alt="20200406151840.jpg"><figcaption><center>[电影](/movies/)</center></figcaption></a>
 
 </br>
 

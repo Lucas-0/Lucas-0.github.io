@@ -8,8 +8,9 @@
     <title>Hugo 博客使用 LoveIt 主题</title>
     <link>https://lucas-0.github.io/2020-06-30-hugo-and-loveit/</link>
     <pubDate>Tue, 30 Jun 2020 18:00:00 &#43;0800</pubDate>
-    <author>作者</author>
+    <author>Lucas</author>
     <guid>https://lucas-0.github.io/2020-06-30-hugo-and-loveit/</guid>
     <description><![CDATA[记录使用 Hugo 搭建博客和配置 LoveIt 主题的过程, 利用 GitHub Action 实现自动部署.]]></description>
-</item></channel>
+</item>
+</channel>
 </rss>
