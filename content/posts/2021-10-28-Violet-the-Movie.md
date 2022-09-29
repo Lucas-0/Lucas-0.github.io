@@ -18,9 +18,9 @@ publishDate:
 tags: ["杂谈","动漫"]
 categories: ["文化"]
 # 文章顶部照片
-featuredImage: "https://pic.rmb.bdstatic.com/bjh/da04ebd74b764cf547f153f91376d0bc.jpeg" #202202221146643.jpg
+featuredImage: "https://img.olook.eu.org/20211028/202202221146643.jpg"
 # 文章在首页的缩略图 550*164px
-featuredImagePreview: "https://pic.rmb.bdstatic.com/bjh/8004631cf76e5fe2dd4e295fd75cd280.jpeg" #202110292334293.jpg
+featuredImagePreview: "https://img.olook.eu.org/20211028/202110292334293.jpg"
 
 hiddenFromHomePage: true
 hiddenFromSearch: false

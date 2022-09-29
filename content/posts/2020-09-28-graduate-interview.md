@@ -18,8 +18,7 @@ tags: ["推研"]
 categories: ["生活"]
 # 文章顶部照片
 featuredImage: ""
-# 文章在首页的缩略图20210530225658.jpg
-featuredImagePreview: "https://pic.rmb.bdstatic.com/bjh/849cf477f02e5645fdc5f7c62b9e5db9.jpeg"
+featuredImagePreview: "https://img.olook.eu.org/20200928/20210530225658.jpg"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

@@ -16,10 +16,10 @@ publishDate:
 
 tags: ["动漫","杂谈"]
 categories: ["文化"]
-# 文章顶部照片20210713171933.png
-featuredImage: "https://pic.rmb.bdstatic.com/bjh/5f5964885d02b1aa55b3d815352dbb7c.png"
-# 文章在首页的缩略图20200705223421.png
-featuredImagePreview: "https://pic.rmb.bdstatic.com/bjh/0ab739b0067788a7b647cff74da15239.png"
+
+featuredImage: "https://img.olook.eu.org/20200705/20210713171933.png"
+
+featuredImagePreview: "https://img.olook.eu.org/20200705/20200705223421.png"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

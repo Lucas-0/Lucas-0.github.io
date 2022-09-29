@@ -18,8 +18,8 @@ tags: ["音乐"]
 categories: ["文化"]
 # 文章顶部照片
 featuredImage: ""
-# 文章在首页的缩略图20210530003938.png
-featuredImagePreview: "https://pic.rmb.bdstatic.com/bjh/051632163c4510f03dc1e9ab15c86561.png"
+# 文章在首页的缩略图
+featuredImagePreview: "https://img.olook.eu.org/20210530/20210530003938.png"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

@@ -14,8 +14,7 @@ categories: ["Guide"]
 hiddenFromHomePage: true
 hiddenFromSearch: false
 
-featuredImage: ""
-featuredImagePreview: "https://pic.rmb.bdstatic.com/bjh/6fe6465ac4df68b715b3d4be311a2dde.jpeg" #20200406212944.jpg
+featuredImage: "https://img.olook.eu.org/20200630/20200406212944.jpg"
 
 toc:
   enable: true

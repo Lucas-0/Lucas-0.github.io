@@ -17,10 +17,10 @@ publishDate:
 
 tags: ["阅读","杂谈"]
 categories: ["文化"]
-# 文章顶部照片202108081730446.PNG
-featuredImage: "https://pic.rmb.bdstatic.com/bjh/4e4607bd81ab84752fa80ee9d185c46a.png"
-# 文章在首页的缩略图202108081748991.png
-featuredImagePreview: "https://pic.rmb.bdstatic.com/bjh/5f8b1c7f731a98fe6dc6447ba9002aa5.png"
+# 文章顶部照片
+featuredImage: "https://img.olook.eu.org/20210808/202108081730446.png"
+# 文章在首页的缩略图
+featuredImagePreview: "https://img.olook.eu.org/20210808/202108081748991.png"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

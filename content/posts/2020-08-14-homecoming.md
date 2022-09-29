@@ -16,10 +16,9 @@ publishDate:
 
 tags: ["杂谈"]
 categories: ["生活"]
-# 文章顶部照片20200814160813.jpg
-featuredImage: "https://pic.rmb.bdstatic.com/bjh/fd46fad1eea6b87fdfe9f0327f2656f0.jpeg"
-# 文章在首页的缩略图
-featuredImagePreview: "https://pic.rmb.bdstatic.com/bjh/fd46fad1eea6b87fdfe9f0327f2656f0.jpeg"
+
+featuredImage: "https://img.olook.eu.org/20200814/20200814160813.jpg"
+
 
 hiddenFromHomePage: true
 hiddenFromSearch: false

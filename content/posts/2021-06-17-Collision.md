@@ -19,8 +19,8 @@ tags: ["杂谈"]
 categories: ["文化"]
 # 文章顶部照片
 featuredImage: ""
-# 文章在首页的缩略图20210617204454.png
-featuredImagePreview: "https://pic.rmb.bdstatic.com/bjh/531f4dd53786cba91710b58a09d78cbc.png"
+# 文章在首页的缩略图
+featuredImagePreview: "https://img.olook.eu.org/20210617/20210617204454.png"
 
 hiddenFromHomePage: true
 hiddenFromSearch: false
@@ -61,15 +61,15 @@ PS：首页图来自[:(fab fa-youtube):](https://www.youtube.com/watch?v=ICxC5ek
 
 {{< /admonition >}}
 
-{{< image src="https://pic.rmb.bdstatic.com/bjh/aa653b76dda4ad7e424adcdb086ada27.jpeg" alt="20210617194806.jpg" caption="Matilda&星空" title=" " >}}
+![Matilda&星空]({{<param imgSrc>}}/20210617/20210617194806.jpg "Matilda&星空")
 
 ---
 
-{{< image src="https://pic.rmb.bdstatic.com/bjh/780d80bc1e74c6e5f828036cf4431ed4.jpeg" alt="20210617194827.jpg" caption="Doctor Strange&自画像" title=" " >}}
+![Doctor Strange&自画像]({{<param imgSrc>}}/20210617/20210617194827.jpg "Doctor Strange&自画像")
 
 ---
 
-{{< image src="https://pic.rmb.bdstatic.com/bjh/d395417a66d79da97d4141145b84d4ff.jpeg" alt="20210617194841.jpg" caption="这幅画值得卖个关子" title=" " >}}
+![这幅画值得卖个关子]({{<param imgSrc>}}/20210617/20210617194841.jpg "这幅画值得卖个关子")
 
 <details>
 <summary>Click</summary>
@@ -80,11 +80,11 @@ PS：首页图来自[:(fab fa-youtube):](https://www.youtube.com/watch?v=ICxC5ek
 
 ---
 
-{{< image src="https://pic.rmb.bdstatic.com/bjh/71ef1eeb02e8649e91a710f96cefb3d4.jpeg" alt="20210617194859.jpg" caption="Lunchtime Atop a Skyscraper&最后的晚餐" title=" " >}}
+![Lunchtime Atop a Skyscraper&最后的晚餐]({{<param imgSrc>}}/20210617/20210617194859.jpg "Lunchtime Atop a Skyscraper&最后的晚餐")
 
 ---
 
-{{< image src="https://pic.rmb.bdstatic.com/bjh/40e943cfd41eab49c6bcd541085a3166.jpeg" alt="20210617194918.jpg" caption="这个呢" title=" " >}}
+![这个呢]({{<param imgSrc>}}/20210617/20210617194918.jpg "这个呢")
 
 <details>
 <summary>Click</summary>
@@ -95,19 +95,19 @@ PS：首页图来自[:(fab fa-youtube):](https://www.youtube.com/watch?v=ICxC5ek
 
 ---
 
-{{< image src="https://pic.rmb.bdstatic.com/bjh/8e2913a05ab126034a16c574acd2fc5a.jpeg" alt="20210617194937.jpg" caption="Leon&曼达洛人" title=" " >}}
+![Leon&曼达洛人]({{<param imgSrc>}}/20210617/20210617194937.jpg "Leon&曼达洛人")
 
 ---
 
-{{< image src="https://pic.rmb.bdstatic.com/bjh/becb16934fb2698e73cafb9ca25bd516.jpeg" alt="20210617194955.jpg" caption="爱乐之城&星空" title=" " >}}
+![爱乐之城&星空]({{<param imgSrc>}}/20210617/20210617194955.jpg "爱乐之城&星空")
 
 ---
 
-{{< image src="https://pic.rmb.bdstatic.com/bjh/8f73c2a3626332fc75eda5ded85febae.jpeg" alt="20210617195011.jpg" caption="龙妈&呐喊" title=" " >}}
+![龙妈&呐喊]({{<param imgSrc>}}/20210617/20210617195011.jpg "龙妈&呐喊")
 
 ---
 
-{{< image src="https://pic.rmb.bdstatic.com/bjh/9bcf63253bf682f807e27088936f641d.jpeg" alt="20210617195035.jpg" caption="需要查一查" title=" " >}}
+![需要查一查]({{<param imgSrc>}}/20210617/20210617195035.jpg "需要查一查")
 
 <details>
 <summary>Click</summary>
@@ -118,7 +118,7 @@ PS：首页图来自[:(fab fa-youtube):](https://www.youtube.com/watch?v=ICxC5ek
 
 ---
 
-{{< image src="https://pic.rmb.bdstatic.com/bjh/afb42794143c2a8cbdbce741422b7c5b.jpeg" alt="20210617195056.jpg" caption="来了来了" title=" " >}}
+![来了来了]({{<param imgSrc>}}/20210617/20210617195056.jpg "来了来了")
 
 <details>
 <summary>Click</summary>
@@ -133,7 +133,7 @@ PS：首页图来自[:(fab fa-youtube):](https://www.youtube.com/watch?v=ICxC5ek
 
 ---
 
-{{< image src="https://pic.rmb.bdstatic.com/bjh/c683972fbd7fb57f61cb2bc2438cc604.jpeg" alt="20210617195116.jpg" caption="触及到我的知识盲区了" title=" " >}}
+![触及到我的知识盲区了]({{<param imgSrc>}}/20210617/20210617195116.jpg "触及到我的知识盲区了")
 
 <details>
 <summary>Click</summary>
@@ -144,7 +144,7 @@ PS：首页图来自[:(fab fa-youtube):](https://www.youtube.com/watch?v=ICxC5ek
 
 ---
 
-{{< image src="https://pic.rmb.bdstatic.com/bjh/69d837e707dbdd1de0cd8f703b2df620.jpeg" alt="20210617195134.jpg" caption="嘿嘿小李子" title=" " >}}
+![嘿嘿小李子]({{<param imgSrc>}}/20210617/20210617195134.jpg "嘿嘿小李子")
 
 
 

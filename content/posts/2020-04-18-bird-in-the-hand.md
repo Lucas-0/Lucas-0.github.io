@@ -4,8 +4,7 @@ subtitle: "——托妮·莫里森"
 date: 2020-04-18T00:15:33+08:00
 categories: ["文化"]
 tags: ["阅读","Nobel Prize"]
-featuredImage: "https://pic.rmb.bdstatic.com/bjh/e0e03e6cab617639007b43f75218ec3e.jpeg" #20200418105244.jpg
-featuredImagePreview: "https://pic.rmb.bdstatic.com/bjh/e0e03e6cab617639007b43f75218ec3e.jpeg"
+featuredImage: "https://img.olook.eu.org/20200418/20200418105244.jpg"
 toc: false
 comment:
   enable: true
@@ -106,6 +105,6 @@ It’s quiet again when the children finish speaking, until the woman breaks int
 <details>
 <summary>点击查看翻译</summary>
 <div>
-  <img src="https://pic.rmb.bdstatic.com/bjh/24f391f403bf3ab9596bfc285b842884.jpeg" alt="20200418091052.jpg" width="100%">
+  <img src="{{<param imgSrc>}}/20200418/20200418091052.jpg" alt="翻译" width="100%">
   </div>
 </details>

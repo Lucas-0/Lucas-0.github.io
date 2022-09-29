@@ -23,6 +23,11 @@ enableGitInfo = true
 # 是否使用 emoji 代码
 enableEmoji = true
 
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.62.0"
+
 [languages]
   [languages.zh-cn]
     weight = 1
@@ -219,13 +224,22 @@ enableEmoji = true
         XMPP = ""
         Matrix = ""
         Bilibili = "171638438"
+        Discord = ""
+        DiscordInvite = ""
+        Lichess = ""
+        ORCID = ""
+        Pleroma = ""
+        Kaggle = ""
+        MediaWiki= ""
+        Plume = ""
+        HackTheBox = ""
+        RootMe= ""
         Email = ""
+        Phone = ""
         RSS = true
 
 [params]
-  # LoveIt theme version
-  # LoveIt 主题版本
-  version = "0.2.X"
+  imgSrc =  "https://img.olook.eu.org"
   # site default theme ("light", "dark", "auto")
   # 网站默认主题 ("light", "dark", "auto")
   defaultTheme = "auto"
@@ -522,26 +536,46 @@ enableEmoji = true
       # Utterances comment config (https://utteranc.es/)
       # Utterances comment 评论系统设置 (https://utteranc.es/)
       [params.page.comment.utterances]
-        enable = true
+        enable = false
         # owner/repo
         repo = "Lucas-0/comment"
         issueTerm = "title"  # 设置每篇文章对应的 issue 的名字，可选 pathname title url
         label = ""
         lightTheme = "github-light"
         darkTheme = "github-dark"
+      # giscus comment config (https://giscus.app/)
+      # giscus comment 评论系统设置 (https://giscus.app/zh-CN)
+      [params.page.comment.giscus]
+        # You can refer to the official documentation of giscus to use the following configuration.
+        # 你可以参考官方文档来使用下列配置
+        enable = true
+        repo = "Lucas-0/comment"
+        repoId = "MDEwOlJlcG9zaXRvcnkyNTM4NTg5NjY="
+        category = "Announcements"
+        categoryId = "DIC_kwDODyGUls4CRqXq"
+        # automatically adapt the current theme i18n configuration when empty
+        # 为空时自动适配当前主题 i18n 配置
+        lang = ""
+        mapping = "title"
+        reactionsEnabled = "1"
+        emitMetadata = "0"
+        inputPosition = "top"
+        lazyLoading = true
+        lightTheme = "light"
+        darkTheme = "dark"
     # Third-party library config
     # 第三方库配置
     [params.page.library]
       [params.page.library.css]
-        # someCSS = "some.css"
+        # someCSS: ["some.css"]
         # located in "assets/" 位于 "assets/"
         # Or 或者
-        # someCSS = "https://cdn.example.com/some.css"
+        # someCSS: ["https://cdn.example.com/some.css"]
       [params.page.library.js]
-        # someJavascript = "some.js"
+        # someJavascript: ["some.js"]
         # located in "assets/" 位于 "assets/"
         # Or 或者
-        # someJavascript = "https://cdn.example.com/some.js"
+        # someJavascript: ["https://cdn.example.com/some.js"]
     # Page SEO config
     # 页面 SEO 配置
     [params.page.seo]
