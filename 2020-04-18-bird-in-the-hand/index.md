@@ -95,6 +95,6 @@ It’s quiet again when the children finish speaking, until the woman breaks int
 <details>
 <summary>点击查看翻译</summary>
 <div>
-  <img src="https://pic.rmb.bdstatic.com/bjh/24f391f403bf3ab9596bfc285b842884.jpeg" alt="20200418091052.jpg" width="100%">
+  <img src="{{<param imgSrc>}}/20200418/20200418091052.jpg" alt="翻译" width="100%">
   </div>
 </details>
