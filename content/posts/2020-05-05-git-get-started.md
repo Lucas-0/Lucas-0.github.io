@@ -127,7 +127,7 @@ git pull origin master
 ```bash
 git add <filename>
 git add * #使用缺省符则将当前目录下所有文件添加到git
-git commit -m "first commit" #将修改在本地保存并且注释“first commit”
+git commit -m "first commit" #将修改在本地保存并且注释「first commit」
 ```
 
 推送到远程仓库。

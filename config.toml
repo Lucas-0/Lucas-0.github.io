@@ -40,7 +40,7 @@ enableEmoji = true
     # 默认每页列表显示的文章数目
     paginate = 8
     # [UA-XXXXXXXX-X] 谷歌分析代号
-    googleAnalytics = "UA-162962364-1"
+    googleAnalytics = ""
     # 版权描述，仅仅用于 SEO
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # 菜单配置
@@ -96,9 +96,9 @@ enableEmoji = true
         weight = 6
     [languages.zh-cn.params]
       # 网站描述
-      description = "My insight"
+      description = "止步于讳莫如深。"
       # 网站关键词
-      keywords = ["Blog", "Hugo", "Tech", "Life"]
+      keywords = ["Blog", "Personal", "Record", "Life"]
       # 应用图标配置
       [languages.zh-cn.params.app]
         # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
@@ -154,7 +154,7 @@ enableEmoji = true
           # 是否显示社交账号
           social = true
           # 免责声明 (支持 HTML 格式)
-          disclaimer = "一个幸福时代之所以完全不可能，是因为人们只想向往它，却不想拥有它。"
+          disclaimer = "有时我们相信一些事情，因为它们让我们在在乎的人面前看起来很好。"
         # 主页文章列表
         [languages.zh-cn.params.home.posts]
           enable = true
@@ -321,7 +321,7 @@ enableEmoji = true
     dateFormat = "01-02"
     # amount of RSS pages
     # RSS 文章数目
-    rss = 10
+    rss = 200
 
   # List (category or tag) page config
   # List (分类或标签) 页面配置
@@ -334,7 +334,7 @@ enableEmoji = true
     dateFormat = "01-02"
     # amount of RSS pages
     # RSS 文章数目
-    rss = 10
+    rss = 200
 
   # Page config
   # 文章页面配置
@@ -607,7 +607,7 @@ enableEmoji = true
   # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
   # 网站验证代码，用于 Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
-    google = "9OM5mHkN7Rwc3nrCDLMNROsxhw5Cm4Wqj8N2hM_zKcc"
+    google = ""
     bing = ""
     yandex = ""
     pinterest = ""
@@ -715,7 +715,7 @@ enableEmoji = true
 # 作者配置
 [author]
   name = "Lucas"
-  email = "mailto:blank@gmail.com"
+  email = "mailto:dontUnlessIknowU@gmail.com"
   link = "https://lucas-0.github.io/about/"
 
 # Sitemap config
