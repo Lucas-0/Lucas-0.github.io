@@ -82,6 +82,11 @@
         <td align="center">★★★★☆</td>
         <td>主角团轻松的日常，沉重的主线，带来一种难以言喻的反差感</td>
    </tr>
+   </tr>
+    <td align="center">摇曳露营△(S1&S2)</td>
+        <td align="center">★★★★★</td>
+        <td>治愈系萌豚番</td>
+   </tr>
     <tr>
         <td align="center">waiting···</td>
         <td align="center"></td>
@@ -122,7 +127,7 @@
      <td style="text-align:left">OP神仙，故事套路，画面不错</td>
    </tr>
      <tr>
-     <td  align="center">鬼灭之刃</td>
+     <td  align="center">鬼灭之刃(S1&S2)</td>
      <td align="center">★★★★☆</td>
      <td style="text-align:left">独具风格的战斗画面</td>
    </tr>
@@ -165,6 +170,21 @@
     <td align="center">SSSS.电光机王</td>
     <td align="center">★★★★★</td>
     <td style="text-align:left">恋爱DK太香了</td>
+   </tr>
+   <tr>
+    <td align="center">间谍过家家</td>
+    <td align="center">★★★★☆</td>
+    <td style="text-align:left">很商业的作品</td>
+   </tr>
+   <tr>
+    <td align="center">夏日重现</td>
+    <td align="center">★★★★☆</td>
+    <td style="text-align:left">大战外星邪神，把大筒木辉夜，有异心的黑绝带入反派，就能明显看到本质上是热血战斗番。影子复制和西部世界中的接待员类似，中后期强力队友下线或者上 ban 位是常见的路数。这样一分解剧情就很好懂了。</td>
+   </tr>
+   <tr>
+    <td align="center">Lycoris recoil</td>
+    <td align="center">★★★★</td>
+    <td style="text-align:left">商业作品，看妹子图一乐</td>
    </tr>
      <tr>
      <td align="center">waiting···</td>
@@ -251,13 +271,13 @@
      <td style="text-align:left">青涩克制的感情最为动人</td>
    </tr>
      <tr>
-     <td align="center">来自深渊</td>
+     <td align="center">来自深渊(S1&S2)</td>
      <td align="center">★★★★★</td>
      <td style="text-align:left">设定宏大奇妙，充满谜题的世界。剧场版黎明表现同样出色</td>
    </tr>
      <tr>
-     <td align="center">辉夜大小姐想让我告白(S1&S2)</td>
-     <td align="center">★★★★☆</td>
+     <td align="center">辉夜大小姐想让我告白(S1&S2&S3)</td>
+     <td align="center">★★★★★</td>
      <td style="text-align:left">画面精美，故事有趣</td>
    </tr>
      <tr>
@@ -344,6 +364,31 @@
      <td align="center">双城之战</td>
      <td align="center">★★★★★</td>
      <td style="text-align:left">吹就完事了</td>
+    </tr>
+    <tr>
+     <td align="center">明日酱的水手服</td>
+     <td align="center">★★★★★</td>
+     <td style="text-align:left">美术优秀的萌妹子日常</td>
+    </tr>
+    <tr>
+     <td align="center">更衣人偶坠入爱河</td>
+     <td align="center">★★★★☆</td>
+     <td style="text-align:left">CloverWorks 本季度超常发挥</td>
+    </tr>
+    <tr>
+     <td align="center">Cyberpunk: Edgerunners</td>
+     <td align="center">★★★★★☆</td>
+     <td style="text-align:left">在自我毁灭的路上狂奔</td>
+    </tr>
+    <tr>
+     <td align="center">灵能百分百(S1&S2&S3)</td>
+     <td align="center">★★★★★</td>
+     <td style="text-align:left">风格独特</td>
+    </tr>
+    <tr>
+     <td align="center">孤独摇滚</td>
+     <td align="center">★★★★★</td>
+     <td style="text-align:left">JK+ 的门类已经有了成熟的套路，既能取巧又能保障质量下限，此类二次元阿斯巴甜添加剂已经证明了有相当数量的观众就好这一口</td>
     </tr>
     <tr>
      <td align="center">waiting···</td>
