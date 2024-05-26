@@ -7,7 +7,7 @@
 
 |                            avatar                            | link                               |    description   |
 | :----------------------------------------------------------: | ---------------------------------- | -------------- |
-| ![Everness](https://q1.qlogo.cn/g?b=qq&k=xzr8yQIojiaV6z78uJYBRfQ&s=100) | [Everness](https://oi-io.me) | Friend of mine |  <!--1666287682-->
+| ![Everness](https://q1.qlogo.cn/g?b=qq&k=xzr8yQIojiaV6z78uJYBRfQ&s=100) | [Everness](https://ioyoi.me) | Friend of mine |  <!--1666287682-->
 | ![Pims](https://q1.qlogo.cn/g?b=qq&k=lI2RGZqxEbzyw8icS7jeiaQw&s=100) | [Pims](https://phimos.github.io/)  | Friend of mine |  <!--392959395-->
 
 ---
